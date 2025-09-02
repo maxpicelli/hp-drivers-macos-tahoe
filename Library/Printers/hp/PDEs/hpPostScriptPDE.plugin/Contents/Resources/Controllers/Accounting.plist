@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEAccountingController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.ps_pde.PDEAccountingController</string>
+		<key>label</key>
+		<string>Accounting</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPDepartmentID</string>
+			<string>HPDepartmentAccessCode</string>
+		</array>
+		<key>supportedNibs</key>
+		<dict>
+			<key>Accounting002</key>
+			<array>
+				<string>HPDepartmentID</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

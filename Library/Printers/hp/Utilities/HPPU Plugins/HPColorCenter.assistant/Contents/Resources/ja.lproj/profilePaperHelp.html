@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Profile Paper Help</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>用紙のプロファイリング</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step1"><strong><font color="#006699">手順1 - プロファイリング操作の選択</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step2"><strong><font color="#006699">手順2 - ICCプロファイル設定の選択</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step3"><strong><font color="#006699">手順3 - プロファイル</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step4"><strong><font color="#006699">手順4 - プロファイルのインストール</font></strong></a>
+								</td>
+							</tr>							
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll">					
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table1">
+							<tr>
+								<td>
+									<h2 id="Step1">手順1 - プロファイリング操作の選択</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>このプリンタには、4つの異なるプロファイリング操作があり、選択した操作に応じてワークフローが変化します。</p>
+									
+									<h4>ICCプロファイルの作成 - ICCプロファイリング チャートの印刷とスキャン、ICCプロファイルの作成</h4>
+									
+									<p>通常の環境条件で定義済みの標準的な用紙の種類を使用する場合は、多くの場合オールインワン処理を使用します。 完了するまでに多少時間がかかりますが、プリンタがすべての必要な操作を正しい順序で処理し、操作間で必要な時間を待機し、インクを乾燥させてからチャートを計測します。</p>
+
+									<p>キャリブレーションおよびプロファイリングに使用するテスト チャートは、プリンタの分光測光器を使用して計測 (スキャン) されます。 分光測光器は、カラー パッチから反射する光の正確な構成を計測できる精密機器です。 ニュートンの有名なプリズムが白色光を虹の7色に分解するように、反射光を異なる波長要素に分解し、各要素の長さを計測します。 すべての精密機器と同様に、最高の精度を実現するために、計測を行う前に分光測光器そのものをキャリブレーションして安定状態とする必要があります。 キャリブレーションは、内蔵の白色基準タイルを使用して自動的に行われます。 安定状態化は、分光測光器の内蔵光源をオンにして、計測を行う前に分光測光器を短時間ウォーム アップすることによって確保されます。 この処理の実行中には、進捗状況バーが表示されます。</p>
+									
+									<p><strong>プリンタ内での処理：</strong><br>まず、テスト チャートを印刷します。 その後、用紙および分光測光器 (プリンタ キャリッジに取り付けられている) の両方を、計測するカラー パッチの上に移動します。 計測はストップ モーションで（センサまたは用紙を動かさずに）行われますが、処理はかなり速く、平均で1秒間に5回計測されます。 暗い色は明るい色よりも長い統合時間 (計測時間) が必要であるため、各パッチの計測時間は、最高の印刷結果を得るために、計測する色に合わせて自動的に変化します。 チャート計測 (スキャニング) の実行中には、進捗状況バーが表示されます。</p>
+
+									<p>計測結果、つまりICCプロファイルは、用紙上でどのように見えるかを正確に反映しており、用紙上でどのように見えるかは、プリンタ、インク、用紙、印刷設定、環境条件などの多くの要素に依存するため、生成されるプロファイルは、印刷条件が「優れている」もしくは標準的であると同程度にしか「優れている」もしくは標準的になりません。 つまり、テスト チャートは、生成されるプロファイルを使用して最終印刷を作成する際に使用する条件と可能な限り同様な条件で印刷する必要があります。</p>
+									
+									<p>チャートの印刷中に、印刷品質の異常、用紙の不具合、またはその他の標準外の条件を検出した場合は、[キャンセル] ボタンを使用して処理を中止し、処理をやり直してください。 これを行わないと、生成されるプロファイルが一般的な印刷条件を反映しなくなり、あまり意味のないものになる可能性があります。</p>
+
+									<p>最後に、HP Color Centerによって、処理を開始したコンピュータにプロファイルが自動的にインストールされます。 別のコンピュータからプリンタを使用している場合は、必ず、続行する前に用紙を同期してください。 これで処理は完了です。</p>
+									
+									<h4>ICCプロファイルの作成 - ICCプロファイリング チャートの印刷</h4>
+
+									<p>このオプションでは、ターゲットの印刷だけを行い、プロファイリング処理を後で実行できます。 さらに、印刷したターゲットは、外部分光測光器でプロファイリングに使用できます。<br> プロファイル作成処理の詳細については、最初のオプションを参照してください。</p>
+									
+									<h4>ICCプロファイルの作成 - ICCプロファイリング チャートのスキャン、ICCプロファイルの作成</h4>
+
+									<p>プリンタでは、既に印刷されているターゲットからICCプロファイルを作成できます。 このオプションを選択する場合は、既に印刷されているターゲットを用意してください。<br> プロファイル作成処理とその後の手順の詳細については、最初のオプションを参照してください。</p>
+									
+									<h4 id="Step4">ICCプロファイルのインストール － インストールするICCプロファイルの選択</h4>
+
+									<p>このオプションでは、プリンタの外部で作成したか、インターネットからダウンロードしたか、または他から購入したICCプロファイルをインストールし、用紙にリンクできます。</p>
+									
+									<p>手順：</p>
+									<ul>
+										<li>[参照] ボタンをクリックして、インストールするICCプロファイルを含むファイルを選択します。</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2 id="Step2">手順2 - ICCプロファイル設定の選択</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>ICC プロファイル名は Adobe Photoshop などのアプリケーションに表示されます。用紙プリセット名は、プリンタ ドライバおよびフロント パネルに表示されます。プロファイル名について、プリンタ モデルおよび用紙プリセット名の組み合わせを使用することをお勧めします。例: <font color = red>"HP Z3200 ファインアートパール紙".</font></p>
+									<p>グロス エンハンサをサポートする用紙については、グロス エンハンサを有効または無効にするかを決める必要もあります。</p>
+								</td>
+							</tr>
+						</table>						
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step3">手順3 - プロファイル</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									お使いのプリンタ、インク、および用紙の組み合わせで正確なカラーを生成するためには、ICC カラー プロファイルが必要です。この ICC カラー プロファイルを使用して、アプリケーション カラーをプリンタ カラーにマッピングします。操作手順では、すべてのインクの組み合わせについてのパッチを印刷および測定します。
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step4">手順4 - プロファイルのインストール</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									インストール操作では、ICC プロファイルが Adobe Photoshop などのアプリケーションに使用できることを確認します。
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

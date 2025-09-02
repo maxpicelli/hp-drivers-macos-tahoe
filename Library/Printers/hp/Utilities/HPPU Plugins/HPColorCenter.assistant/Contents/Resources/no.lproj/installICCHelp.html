@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Installere ICC-profil - Hjelp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Fargesenter</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Installere ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Trinn 1 - Velg ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Trinn 2 - Velg ICC-profilinnstillinger</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Trinn 3 - Installer ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Trinn 4 - Fullført</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Trinn 1 - Velg ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Hvis du har fått en ICC-profil på annen måte enn å bruke skriverens innebygde profilprogramvare, for eksempel via en nedlasting fra Internett eller profilprogramvare fra tredjepart, kan du installere den for bruk med din skriver og ditt papir. </td>
+							</tr>
+							<tr>
+								<td> Skriveren må vite hvilken papirtype profilen hører til, så du må først velge en papirtype fra listen over papir skriveren &quot;kjenner&quot;. Når du velger en type for det nye papiret, må du prøve å velge en som ligner den faktiske papirtypen så mye som mulig. Papirtypen avgjør hvor mye blekk som skal brukes og andre grunnleggende utskriftsparametere, så et godt valg her er grunnleggende viktig for å oppnå gode resultater senere. Hvis papiret du bruker, ikke er oppført, eller du ikke finner noen type som ligner din tilstrekkelig, kan du definere en ny type. Skriveren vil da kalibrere seg selv for bruk med ditt papir. Deretter kan du gå tilbake til installering av ICC-profilen. Hvis du finner at du ikke oppnår tilfredsstillende resultater, kan du eksperimentere med å velge forskjellige papirtyper for nye papirnavn som tilsvarer samme papir, og så bruke den som virker best. </td>
+							</tr>
+							<tr>
+								<td> Når du har valgt papirtype, blar du til filen som inneholder ICC-profilen som skal brukes med skriveren og papiret. Normalt vil filnavnene til ICC-profiler ha filtypen &quot;.icc&quot; (for International Color Consortium) eller &quot;.icm&quot; (for Image Color Matching). </td>
+							</tr>
+							<tr>
+								<td> Du lurer kanskje på hva som er forskjellen mellom egendefinerte fargeprofiler og nedlastede eller &quot;hermetiserte&quot; profiler. Her er noen av forskjellene mellom de to typene profiler: </td>
+							</tr>
+							<tr>
+								<td> - Egendefinerte fargeprofiler er basert på testmål og målinger fra din individuelle skriver, med ditt individuelle blekk og papir, og i ditt individuelle miljø. I prisippet gir dette deg den best mulige fargenøyaktigheten siden alt er tilpasset ditt system. </td>
+							</tr>
+							<tr>
+								<td> - Generiske eller &quot;hermetiserte&quot; fargeprofiler er laget for skrivermodellen, blekket og typen papir du bruker, men ikke for din individuelle skriver, ditt blekk og ditt papir. De er i stedet basert på &quot;typiske&quot; eller gjennomsnittstestmål, og målinger representerer det &quot;typiske&quot; eller gjennomsnittlige systemet. Selv om dette gir gode resultater for et gjennomsnittssystem, kan det være mindre avvik mellom ditt system og gjennomsnittssystemer som disse profilene ikke kan ta med i beregningen. </td>
+							</tr>
+							<tr>
+								<td> - Egendefinerte fargeprofiler er laget med skriverens innebygde programvare, eller med programvare du har kjøpt som tilbehør. Selv om denne programvaren gir utmerkede resultater, må den nødvendigvis foreta visse valg med hensyn til hvordan den lager profiler, spesielt om hvordan den foretar fargespektertilordning for Oppfattet-gjengivelse. Fargespektertilordning oppstår når fargene fra en enhet med et gitt fargespekter (alle fargene en enhet kan fange eller produsere), som et digitalkamera eller en dataskjerm, må oversettes eller tilordnes en enhet med et fargespekter som har annerledes form eller størrelse, som en skriver. Fargespektertilordning er mer kunst enn vitenskap, så derfor finnes det ingen riktige eller gale svar - bare forskjellige. </td>
+							</tr>
+							<tr>
+								<td> - Generiske fargeprofiler, dvs. profilene som leveres av papirprodusenter, kan ha blitt laget med en annen profilprogramvare som foretar andre valg med hensyn til fargespektertilordning og andre profilegenskaper. Selv om disse valgene ikke nødvendigvis er verre eller bedre enn dem som foretas av profilprogramvaren i skriveren, er de sannsynligvis annerledes. </td>
+							</tr>
+							<tr>
+								<td> Her er noen retningslinjer for å hjelpe deg å velge mellom profiltyper: </td>
+							</tr>
+							<tr>
+								<td> - Hvis du i hovedsak er interessert i fargenøyaktigheten på utskrifter, for eksempel for å lage prøvetrykk, vil du sannsynligvis bruke Kolorimetrisk-gjengivelsesformen. Den forsøker å reprodusere farger innenfor skriverens fargespekter med høy nøyaktighet, muligens i disfavør av farger utenfor skriverens fargespekter (som også må skrives ut, på en eller annen måte). Fordi kolorimetrisk reproduksjon er en mer objektiv oppgave enn oppfattet reproduksjon, er det mindre forskjeller mellom profilprogramvare, og en egendefinert profil vil normalt være det beste valget. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du i hovedsak er interessert i &quot;utseendet&quot; på utskriftene og godt samsvar med datamaskinskjermen, for eksempel for fotografisk eller artitisk bruk, vil du sannsynligvis bruke Oppfattet-gjengivelsesformen. Egendefinerte profiler er også et bra sted å starte siden de er bygd med utmerket fargenøyaktighet og en godt utseende Oppfattet-form, men du vil kanskje foretrekke utseendet på enkelte profiler fra tredjepart. </td>
+							</tr>
+							<tr>
+								<td> Som vanlig er det beste rådet å holde seg til som virker best for deg. Noe eksperimentering kan være nødvendig for å finne det ut. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Trinn 2 - Velg ICC-profilinnstillinger</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Her kan du velge et navn for ICC-profilen som skal installeres. Navnet vil bli brukt til to relaterte, men forskjellige, formål: </td>
+							</tr>
+							<tr>
+								<td> 1. Filnavnet du ser når du bruker operativsystemets filleser (Windows Utforsker) til å bla til filen som inneholder ICC-profilen. Programmet vil automatisk legge til filtypen &quot;.icc&quot; etter navnet slik at både du og programvaren kan gjenkjenne ICC-profiler ved å se på filtypen. </td>
+							</tr>
+							<tr>
+								<td> 2. Profilens interne beskrivelsesstreng. Hver ICC-profil har en intern beskrivelsesstreng som brukes av noen (men ikke alle) ICC-oppmerksomme programmer til å identifisere profilen eller til å la deg velge den fra en liste. </td>
+							</tr>
+							<tr>
+								<td> Avhengig av forholdene kan du enten se filnavnet eller den interne deskriptoren, og det er derfor det er lurt å bruke det samme for begge. Selv om du i prinsippet kan velge hvilket som helst navn, er det god praksis å definere en standard navngivingskonvensjon for profiler, og å holde seg til den. Du kan for eksempel bruke følgende navnkomponenter, atskilt av mellomrom, understreker eller et annet symbol som du velger: </td>
+							</tr>
+							<tr>
+								<td> - Skrivertypen eller navnet, for eksempel &quot;HP Designjet Z2100&quot; der &quot;HP&quot; representerer produsenten (Hewlett-Packard), &quot;Designjet&quot; representerer serien og &quot;Z2100&quot; tilsvarer modellnummeret på skriveren din. Siden både filnavn og interne deskriptorer har lengdebegrensninger, må du sannsynligvis forkorte all denne informasjonen til én enkelt streng med relatvt få tegn. Hvis du bruker skrivermodell som første del av profilnavnet, sikrer du at alle profiler for skriveren vil vises som én sammenhengende gruppe i både fillesere og programprofillister. </td>
+							</tr>
+							<tr>
+								<td> - Papirtypen eller navnet, for eksempel &quot;HWT310&quot; for Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. For denne skrivertypen eller dette navnet må du sannsynligvis forkorte papirtypen eller navnet. Pass på at du bruker et unikt navn eller forkortelse for hver forskjellige papirtype du bruker slik at du ikke får problemer med å skille mellom de ulike profilene. </td>
+							</tr>
+							<tr>
+								<td> - Utskriftskvaliteten og andre innstillinger du brukte ved utskrift av testdiagrammet, for eksempel &quot;B&quot; for &quot;Best&quot; utskriftskvalitet eller &quot;BGF&quot; for &quot;Best&quot; utskriftskvalitet og &quot;Glansforbedrer&quot; aktivert (bare for fotopapirtyper). Forenkle og forkort så mye som mulig, men ikke mer. </td>
+							</tr>
+							<tr>
+								<td> - Testdiagrammet som brukes, for eksempel &quot;Liten&quot; eller &quot;Stor&quot;, eller et bestemt testdiagramnavn som &quot;ECI2002&quot; hvis/når de alternativene er tilgjengelig. Forenkle og forkort slik det passer. </td>
+							</tr>
+							<tr>
+								<td> Noen eksempler på profilnavn som er laget i henhold til disse retningslinjene, er &quot;HP Designjet Z2100 HWT310&quot; eller &quot;HP Designjet Z2100, bestrøket papir&quot;. Tilhørende filnavn vil være &quot;HP_Z2100_HWT310.icc&quot; eller &quot;HP_Z2100_BestrøketPapir.icc&quot;. </td>
+							</tr>
+							<tr>
+								<td> Uavhengig av hvilken navngivingsmetode du ender opp med å bruke, må du passe på at du på en utvetydig måte skiller mellom profilene for alle de ulike papirtypene og andre innstillinger du bruker eller kommer til å bruke. </td>
+							</tr>
+							<tr>
+								<td> Som vanlig er det beste rådet å holde seg til som virker best for deg. Noe eksperimentering kan være nødvendig for å finne det ut. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step3">Trinn 3 - Installer ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Installeringsprosessen sikrer at ICC-profilen vil være tilgjengelig for programmer som Adobe Photoshop. </td>
+							</tr>							
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Trinn 4 - Fullført</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Når profilinstalleringen er fullført, kan du bla til listen over alle papir som skriveren &quot;kjenner&quot;. For hvert papir vises papirkategori eller det egendefinerte papirnavnet og det tilsvarende (tilknyttede) profilnavnet. Du er nå klar til å bruke den installerte ICC-profilen (ColorSync) med din skriver og ditt papir. Se <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Trinn 3 - Installere ICC-profil</font></strong></a> for mer informasjon om de forskjellige måtene du kan bruke ICC-profiler og andre fargebehandlingsalternativer på. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

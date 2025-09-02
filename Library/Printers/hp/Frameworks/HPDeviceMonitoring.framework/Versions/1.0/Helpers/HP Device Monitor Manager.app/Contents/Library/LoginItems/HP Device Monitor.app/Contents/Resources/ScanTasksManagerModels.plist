@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>915</string>
+	<string>Deskjet F300 series</string>
+	<string>Deskjet F735</string>
+	<string>Deskjet F2100 series</string>
+	<string>Deskjet F2200 series</string>
+	<string>Deskjet F4100 series</string>
+	<string>Deskjet F4200 series</string>
+	<string>Deskjet F4400 series</string>
+	<string>Deskjet F4500 series</string>
+	<string>Deskjet Ink Advant K209a-z</string>
+	<string>HP LaserJet 200 colorMFP M275nw</string>
+	<string>HP LaserJet 200 colorMFP M275s</string>
+	<string>HP LaserJet 200 colorMFP M275t</string>
+	<string>HP LaserJet 200 colorMFP M275u</string>
+	<string>HP LaserJet 200 colorMFP M276n</string>
+	<string>HP LaserJet 200 colorMFP M276nw</string>
+	<string>HP LaserJet 300 colorMFP M375nw</string>
+	<string>HP LaserJet 400 colorMFP M475dn</string>
+	<string>HP LaserJet 400 colorMFP M475dw</string>
+	<string>HP LaserJet CM1411fn</string>
+	<string>HP LaserJet CM1412fn</string>
+	<string>HP LaserJet CM1413fn</string>
+	<string>HP LaserJet CM1415fn</string>
+	<string>HP LaserJet CM1415fnw</string>
+	<string>HP LaserJet CM1416fnw</string>
+	<string>HP LaserJet CM1417fnw</string>
+	<string>HP LaserJet CM1418fnw</string>
+	<string>HP LaserJet M1536dnf MFP</string>
+	<string>HP LaserJet M1537dnf MFP</string>
+	<string>HP LaserJet M1538dnf MFP</string>
+	<string>HP LaserJet M1539dnf MFP</string>
+	<string>Officejet 4300 series</string>
+	<string>Officejet 4400 K410</string>
+	<string>Officejet 4500 G510a-f</string>
+	<string>Officejet 4500 G510g-m</string>
+	<string>Officejet 4500 G510n-z</string>
+	<string>Officejet 4500 K710</string>
+	<string>Officejet 5600 series</string>
+	<string>Officejet 6000 E609a</string>
+	<string>Officejet 6000 E609n</string>
+	<string>Officejet 6200 series</string>
+	<string>Officejet 6300 series</string>
+	<string>Officejet 6500 E709a</string>
+	<string>Officejet 6500 E709n</string>
+	<string>Officejet 7200 series</string>
+	<string>Officejet 7300 series</string>
+	<string>Officejet 7400 series</string>
+	<string>Officejet J3600 series</string>
+	<string>Officejet J4500 series</string>
+	<string>Officejet J4660 series</string>
+	<string>Officejet J4680 series</string>
+	<string>Officejet J5700 series</string>
+	<string>Officejet J6400 series</string>
+	<string>Officejet Pro 8500 A909a</string>
+	<string>Officejet Pro 8500 A909g</string>
+	<string>Officejet Pro 8500 A909n</string>
+	<string>Officejet Pro L7300</string>
+	<string>OfficeJet Pro L7400</string>
+	<string>Officejet Pro L7500</string>
+	<string>Officejet Pro L7500_BT</string>
+	<string>Officejet Pro L7600</string>
+	<string>Officejet Pro L7600_BT</string>
+	<string>Officejet Pro L7700</string>
+	<string>Officejet Pro L7700_BT</string>
+	<string>Photosmart 2570 series</string>
+	<string>Photosmart 2600 series</string>
+	<string>Photosmart 2700 series</string>
+	<string>Photosmart 3100 series</string>
+	<string>Photosmart 3100 series_BT</string>
+	<string>Photosmart 3200 series</string>
+	<string>Photosmart 3200 series_BT</string>
+	<string>Photosmart 3300 series</string>
+	<string>Photosmart 3300 series_BT</string>
+	<string>Photosmart 8510 series</string>
+	<string>Photosmart 8510 series Japan</string>
+	<string>Photosmart B010 series</string>
+	<string>Photosmart B109a-m</string>
+	<string>Photosmart B110 series</string>
+	<string>Photosmart C309a series</string>
+	<string>Photosmart C3100 series</string>
+	<string>Photosmart C4100 series</string>
+	<string>Photosmart C4200 series</string>
+	<string>Photosmart C4340 series</string>
+	<string>Photosmart C4380 series</string>
+	<string>Photosmart C4400 series</string>
+	<string>Photosmart C4500 series</string>
+	<string>Photosmart C4600 series</string>
+	<string>Photosmart C4700 series</string>
+	<string>Photosmart C5100 series</string>
+	<string>Photosmart C5200 series</string>
+	<string>Photosmart C5300 series</string>
+	<string>Photosmart C5300 series_BT</string>
+	<string>Photosmart C5500 series</string>
+	<string>Photosmart C5500 series_BT</string>
+	<string>Photosmart C6100 series</string>
+	<string>Photosmart C6100 series_BT</string>
+	<string>Photosmart C6200 series</string>
+	<string>Photosmart C6300 series</string>
+	<string>Photosmart C6300 series_BT</string>
+	<string>Photosmart C7100 series</string>
+	<string>Photosmart C7100 series_BT</string>
+	<string>Photosmart C7200 series</string>
+	<string>Photosmart C7200 series_BT</string>
+	<string>Photosmart C8100 series</string>
+	<string>Photosmart C8100 series_BT</string>
+	<string>Photosmart D110 series</string>
+	<string>Photosmart eStn C510 Japan</string>
+	<string>Photosmart eStn C510 series</string>
+	<string>Photosmart Ink Adv K510</string>
+	<string>Photosmart Plus B209a-m</string>
+	<string>Photosmart Prem C310 Japan</string>
+	<string>Photosmart Prem C310 series</string>
+	<string>Photosmart Prem C410 Japan</string>
+	<string>Photosmart Prem C410 series</string>
+	<string>Photosmart Prem-Web C309n-s</string>
+	<string>Photosmart Premium C309g-m</string>
+	<string>Photosmart Wireless B109n-z</string>
+	<string>psc 1400 series</string>
+	<string>PSC 1500 series</string>
+	<string>PSC 1600 series</string>
+	<string>PSC 2350 series</string>
+</array>
+</plist>

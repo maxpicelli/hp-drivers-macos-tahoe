@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Utwórz i zainstaluj profil ICC — pomoc</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Centrum kolorów</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Utwórz i zainstaluj profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Krok 1 — Wybierz papier i operację</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Krok 2 — Dodaj papier niestandardowy</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Krok 3 — Wybierz ustawienia profilu ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Krok 4 — Skalibruj drukarkę</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Krok 5 — Utwórz profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Krok 6 — Zainstaluj profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Krok 7 — Gotowe</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Krok 1 — Wybierz papier i operację</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> W celu zapewnienia najlepszych rezultatów drukarka musi znać sposób konwersji kolorów z monitora komputera lub dokumentów aplikacji na kolory tuszy i papierów, których używa do drukowania. Profil ICC (International Color Consortium) jest opisem kombinacji drukarki, tuszu i papieru, który zawiera wszystkie informacje potrzebne dla tych konwersji kolorów. </td>
+							</tr>
+							<tr>
+								<td> W tym miejscu możesz utworzyć i zainstalować niestandardowy profil ICC, co pozwoli drukować z najwyższą możliwą wiernością barw. Można też użyć przeznaczonego dla tego papieru profilu ICC pochodzącego z innego źródła, np. pobranego z Internetu. Choć gotowe profile ICC, np. pobrane z Internetu, mogą dawać dobre wyniki, najlepsze wyniki zwykle zapewniają samodzielnie wygenerowane profile.; </td>
+							</tr>
+							<tr>
+								<td> Oto kilka różnic między tymi dwoma typami profili: </td>
+							</tr>
+							<tr>
+								<td> — Niestandardowe profile kolorów są oparte na wartościach docelowych testu i pomiarach z konkretnej drukarki z użyciem konkretnych tuszów i papieru i w konkretnych warunkach otoczenia. Zasadniczo daje to najwyższą możliwą wierność kolorów, ponieważ wszystko jest dopasowanego do danego systemu. </td>
+							</tr>
+							<tr>
+								<td> — Standardowe, gotowe profile kolorów są przygotowane dla danego modelu drukarki i tuszów oraz używanego typu papieru, ale nie dla konkretnego egzemplarza drukarki, tuszów i papieru. Są oparte na typowych, średnich wartościach docelowych testów i pomiarach odpowiadających typowemu, przeciętnemu systemowi. Choć daje to dobre wyniki w przypadku przeciętnego systemu, między konkretnym używanym systemem a systemem przeciętnym mogą istnieć pewne różnice, które nie są uwzględnione w tych profilach. </td>
+							</tr>
+							<tr>
+								<td> — Niestandardowe profile kolorów są tworzone przy użyciu oprogramowania profilującego dostarczonego standardowo z drukarką albo oprogramowania profilującego kupionego jako akcesorium. Choć to oprogramowanie zapewnia znakomite wyniki, musi ono dokonać pewnych wyborów dotyczących sposobu tworzenia profili, w szczególności sposobu mapowania gamy barw w celu renderowania percepcyjnego. Mapowanie gamy jest wykonywane, gdy kolory z urządzenia o danej gamie barw (zakresie barw, które urządzenie może rejestrować lub generować), np. aparatu cyfrowego lub monitora komputerowego, muszą zostać przetłumaczone (czyli zamapowane) na urządzenie o gamie mającej inny rozmiar lub kształt, np. drukarkę. Mapowanie gamy barw to bardziej sztuka niż nauka, przez co nie ma tu dobrych ani złych rozwiązań — są jedynie różne odpowiedzi. </td>
+							</tr>
+							<tr>
+								<td> — Standardowe profile kolorów, np. dostarczane przez producentów papieru, mogły zostać wykonane przy użyciu innego oprogramowania profilującego, które dokonuje innych wyborów dotyczących mapowania gamy barw i innych właściwości profilu. Choć nie muszą one być gorsze czy lepsze niż te dokonane przez oprogramowanie profilujące drukarki, są prawdopodobnie inne. </td>
+							</tr>
+							<tr>
+								<td> Oto wskazówki, które pomogą dokonać odpowiedniego wyboru: </td>
+							</tr>
+							<tr>
+								<td> — Gdy najważniejsza jest wierność barw na wydrukach, np. w przypadku wykonywania odbitek próbnych, prawdopodobnie należy użyć celu renderowania kolorymetrycznego. Stanowi on próbę reprodukcji z największą wiernością barw należących do gamy drukarki, co może niekorzystnie wpłynąć na barwy spoza gamy drukarki (które jednak również muszą zostać wydrukowane). Ponieważ reprodukcja kolorymetryczna jest zadaniem bardziej obiektywnym niż reprodukcja percepcyjna, możliwe różnice między oprogramowaniem profilującym są mniejsze, a najlepszym wyborem jest zwykle profil niestandardowy. </td>
+							</tr>
+							<tr>
+								<td> — Gdy najważniejszy jest wygląd wydruków i ich wysokie podobieństwo do obrazu na monitorze komputera, np. w przypadku zastosowań fotograficznych i artystycznych, prawdopodobnie należy użyć celu renderowania percepcyjnego. Profile niestandardowe są dobrym punktem wyjścia, ponieważ są tworzone ze znakomitą wiernością barw i celem percepcyjnym dającym dobry wygląd, ale może okazać się, że lepszy wyda się wygląd zapewniany przez określone profile z innych źródeł. </td>
+							</tr>
+							<tr>
+								<td> Niezależnie od tego, który rodzaj profilu będzie używany, jego reprodukcję barw można „dostroić” w pewnym stopniu przy użyciu opcji regulacji kolorów&apos;sterownika drukarki. </td>
+							</tr>
+							<tr>
+								<td> Proces tworzenia oraz instalacji niestandardowego profilu ICC składa się z następujących kroków: </td>
+							</tr>
+							<tr>
+								<td> 1. Wybierz typ papieru, dla którego chcesz utworzyć profil, lub zdefiniuj nowy typ. </td>
+							</tr>
+							<tr>
+								<td> 2. Wybierz ustawienia nowego profilu, np. jego nazwę. </td>
+							</tr>
+							<tr>
+								<td> 3. Utwórz nowy profil: wydrukuj wzornik testowy, pozwól mu wyschnąć, wykonaj na nim pomiar i oblicz profil. Wszystkie te czynności są wykonywane automatycznie przez drukarkę. </td>
+							</tr>
+							<tr>
+								<td> 4. Zainstaluj nowy profil, aby mogły z niego korzystać drukarka i aplikacje. </td>
+							</tr>
+							<tr>
+								<td> Dla pierwszego kroku możesz wybrać typ papieru z listy znanych papierów lub zdefiniować nowy typ papieru i dodać go do listy. </td>
+							</tr>
+							<tr>
+								<td> Dla wygody użytkownika przygotowano dwa różne sposoby tworzenia profilu: można skorzystać z procesu „kompletnego”, który wykona wszystkie potrzebne czynności podczas jednej, nieprzerwanej sekwencji, lub z procesu „podzielonego przepływu pracy”, w którym najpierw drukowany jest wzornik profilowania, który po odłożeniu jest później ładowany do drukarki w celu wykonania pomiaru i utworzenia profilu. Oto kilka powodów, dla których warto użyć jednego czy drugiego sposobu: </td>
+							</tr>
+							<tr>
+								<td> — W przypadku pracy z predefiniowanymi standardowymi typami papieru w normalnych warunkach środowiskowych prawdopodobnie wybrany zostanie proces kompletny. Jego przeprowadzenie potrwa pewien czas, ale drukarka samodzielnie wykona wszystkie konieczne operacje we właściwej kolejności i z zachowaniem wymaganego czasu schnięcia tuszu przed wykonaniem pomiarów wzornika. Jeśli nie lubisz oglądać procesów (a nic w tym dziwnego), możesz iść na kawę i wrócić, jak wszystko będzie gotowe. </td>
+							</tr>
+							<tr>
+								<td> — W przypadku pracy z niestandardowymi typami papierów lub w niestandardowych warunkach środowiskowych może okazać się, że czas potrzebny na wyschnięcie tuszu i całkowitą stabilizację wydrukowanych barw będzie dłuższy niż normalnie. Ponieważ profil kolorów powinien reprezentować końcowy wydruk po wyschnięciu, przydatne może być użycie w takim przypadku podzielonego przepływu pracy. </td>
+							</tr>
+							<tr>
+								<td> — Warto również użyć metody podzielonego przepływu pracy, gdy wydruki są poddawane pewnym typom przetwarzania, które mogą wpływać na postrzeganie kolorów. Jeśli przykładowo laminujesz wydruki lub pokrywasz je farbą w sprayu, warto je profilować, uwzględniając te czynności, w celu uzyskania największej możliwej wierności barw. Można też porównać wyniki przed i po przetwarzaniu, aby określić, czy różnice są znaczące. </td>
+							</tr>
+							<tr>
+								<td> — Jeśli&apos;uważasz, że pewne typy papierów mogą być przestarzałe, możesz ponownie wykonać pomiar i sprofilować wzornik testowy zmierzony jakiś czas temu, aby określić, czy nastąpiły jakieś znaczące zmiany. W tym oraz poprzednim przypadku całkiem przydatny może okazać się&apos;tryb soft proofingu programu Photoshop. </td>
+							</tr>
+							<tr>
+								<td> Jeśli chcesz skorzystać z kompletnego przepływu pracy, zachowaj ustawienia domyślne opcji „Drukuj wzornik profilowania ICC” oraz „Skanuj wzornik profilowania ICC i utwórz profil ICC”. W przypadku wybrania podzielonego przepływu pracy, są dwa wyjścia. Aby wydrukować wzornik profilowania i odłożyć go na później, wybierz tylko opcję „Drukuj wzornik profilowania ICC”. Aby dokonać pomiaru wcześniej wydrukowanego wzornika profilowania i sprofilować go, wybierz tylko opcję „Skanuj wzornik profilowania ICC i utwórz profil ICC”. </td>
+							</tr>
+							<tr>
+								<td> Jak zwykle, najlepiej stosować rozwiązanie sprawdzające się w danym przypadku. Aby je znaleźć, trzeba trochę poeksperymentować. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Krok 2 — Dodaj papier niestandardowy</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Krok 3 — Wybierz ustawienia profilu ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> W tym miejscu możesz wybrać nazwę tworzonego profilu ICC. Nazwa będzie potrzebna dla dwóch powiązanych ze sobą, ale różnych celów: </td>
+							</tr>
+							<tr>
+								<td> 1. Nazwa pliku, która będzie widoczna w systemie operacyjnym&apos;w przeglądarce plików (Microsoft Explorer) systemu operacyjnego podczas wyszukiwania pliku zawierającego profil ICC. Aplikacja automatycznie doda rozszerzenie nazwy pliku „.icc” do nazwy profilu, więc użytkownik oraz oprogramowanie będą w stanie rozpoznać takie profile ICC, wyszukując odpowiednie rozszerzenie. </td>
+							</tr>
+							<tr>
+								<td> 2. Profil&apos;Wewnętrzny opis profilu. Każdy profil ICC zawiera wewnętrzny opis używany przez niektóre (ale nie wszystkie) programy obsługujące profile ICC w celu identyfikacji profilu lub wyboru profilu z listy. </td>
+							</tr>
+							<tr>
+								<td> W zależności od okoliczności widoczna może być nazwa pliku lub wewnętrzny opis, dlatego dobrym pomysłem jest użycie tej samej nazwy dla obu opcji. Mimo że generalnie możesz użyć dowolnej wybranej przez siebie nazwy, zaleca się zdefiniowanie standardowej konwencji nazewnictwa profili i trzymanie się jej. Możesz np. użyć następujących składników nazw oddzielonych spacjami, znakami podkreślenia lub innymi wybranymi symbolami: </td>
+							</tr>
+							<tr>
+								<td> — Typ lub nazwa drukarki, np. „HP Designjet Z2100”, gdzie „HP” oznacza producenta (Hewlett-Packard), „Designjet” jest nazwą serii, a „Z2100” odnosi się do numeru modelu drukarki. Ponieważ zarówno nazwa pliku, jak i wewnętrzne opisy, mają ograniczenia długości, konieczne może być skrócenie tych informacji do jednego ciągu składającego się z kilku znaków. Użycie jako pierwszej części nazwy profilu modelu drukarki zapewni, że wszystkie profile drukarki będą wyświetlane jako jedna grupa w przeglądarkach plików oraz na listach profili w aplikacji. </td>
+							</tr>
+							<tr>
+								<td> — Typ lub nazwa papieru, np. „HWT310” dla Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Tak jak w przypadku typu lub nazwy drukarki prawdopodobnie konieczne będzie skrócenie typu lub nazwy papieru. Upewnij się, że używasz unikalnej nazwy lub unikalnego skrótu dla różnych używanych typów papieru, tak aby nie było problemu z rozróżnieniem profili. </td>
+							</tr>
+							<tr>
+								<td> — Jakość wydruku lub inne ustawienia używane podczas drukowania wzornika testowego, np. „N” dla „Najlepsza” (jakość wydruku) lub „NZP” dla „Najlepsza, Zwiększający Połysk” (jakość wydruku, używanie środka zwiększającego połysk — tylko dla papierów fotograficznych). Używaj prostych skrótów, skracaj jak najwięcej się da, ale nic więcej. </td>
+							</tr>
+							<tr>
+								<td> — Używany wzornik testowy, np. „Mały” lub „Duży”, albo konkretna nazwa wzornika testowego, np. „ECI2002”, jeśli te opcje są dostępne. Używaj prostych i odpowiednich skrótów. </td>
+							</tr>
+							<tr>
+								<td> Przykładowe nazwy profili utworzone na podstawie tych wskazówek to np.: „HP Designjet Z2100 HWT310” lub „HP Designjet Z2100, papier powlekany”. Odpowiadające im nazwy plików to „HP_Z2100_HWT310.icc” oraz „HP_Z2100_PapierPowlekany.icc”. </td>
+							</tr>
+							<tr>
+								<td> Niezależnie od tego, którą metodę nazewnictwa wybierzesz, upewnij się, że możesz jednoznacznie rozróżnić profile dla wszystkich typów papieru i innych ustawień, których używasz lub będziesz używać. </td>
+							</tr>
+							<tr>
+								<td> Jak zwykle, najlepiej stosować rozwiązanie sprawdzające się w danym przypadku. Aby je znaleźć, trzeba trochę poeksperymentować. </td>
+							</tr>
+							<tr>
+								<td> Przed kontynuowaniem i wydrukowaniem wzornika testowego upewnij się, że do drukarki załadowano odpowiedni rodzaj papieru i że drukarka jest gotowa do drukowania. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Krok 4 — Skalibruj drukarkę</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Krok 5 — Utwórz profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Drukuj tylko plik docelowy. Utwórz profil ICC później.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td> Drukarka w tym momencie drukuje wzornik testowy profilowania, zgodnie z instrukcjami wskazanymi w poprzednim kroku. Podczas trwania drukowania widoczny jest pasek postępu. Oto kilka informacji dotyczących wzorników testowych profilów: </td>
+							</tr>
+							<tr>
+								<td> Wzornik testowy profilu zawiera obszary pokryte różną ilością tuszów używanych przez drukarkę. W przeciwieństwie do wzorników testowych używanych przy linearyzacji czy kalibracji większość obszarów zawiera kombinacje różnych kolorów tuszów. Drukarka po wykonaniu pomiarów przy użyciu wbudowanego w nią spektrofotometru może dokładnie określić, które kolory można uzyskać ze wszystkich możliwych kombinacji tuszów (tzw. postępowy model drukarki, od ilości tuszów do uzyskanych kolorów). Spektrofotometr to precyzyjne narzędzie, które potrafi określić dokładną kompozycję światła odbitego od kolorowego obszaru. Rozdziela odbite światło na składowe o różnej długości fal, tak jak słynny pryzmat Newtona&apos;rozdzielał białe światło na kolory tęczy, oraz mierzy siłę każdej składowej. Postępowe modele drukarek są używane dla soft i hard proofingu, np. w celu symulowania wyglądu wydrukowanego obrazu przez określoną drukarkę na danym typie papieru. Następnie drukarka używa wbudowanego lub oddzielnego oprogramowania profilującego w celu zamiany tego modelu na wsteczny model drukarki, od żądanego koloru do ilości różnych tuszów, z których jest produkowany. Model ten jest używany do &apos;translacji&apos; kolorów z dokumentu aplikacji lub monitora na ilości różnych tuszów, których musi użyć drukarka w celu wytworzenia na papierze odpowiedniego koloru. Drukarka ICC (ColorSync) oraz profil nośnika zawierają model postępowy i wsteczny w trzech różnych celach renderowania: percepcyjnym (dla wydruków fotograficznych), kolorometrycznym (dla logo w kolorze i proofingu) oraz nasycenia (dla grafiki biznesowej). </td>
+							</tr>
+							<tr>
+								<td> Ponieważ pomiary, a co za tym idzie profil ICC, dokładnie odzwierciedlają to, co jest „widoczne”&apos; na papierze, a to z kolei zależy od wielu czynników, np. drukarki, tuszu, papieru, ustawień drukowania i warunków środowiskowych, końcowy profil może być tak „dobry”&apos; lub reprezentatywny, jak „dobre”&apos; lub reprezentatywne są warunki drukowania. Innymi słowy, upewnij się, że wzornik testowy jest drukowany w warunkach jak najbardziej zbliżonych do warunków, w których przy użyciu profili końcowych będą wykonywane finalne wydruki. Jeśli podczas drukowania wzornika zauważysz nieprawidłową jakość wydruku, uszkodzenia papieru lub inne niestandardowe warunki, przerwij proces przy użyciu przycisku „Anuluj”&apos; i rozpocznij ponownie. W przeciwnym przypadku końcowy profil może nie być reprezentatywny dla typowych warunków drukowania i zupełnie nieprzydatny. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Utwórz profil ICC z już wydrukowanego pliku docelowego.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td> Wzorniki testowe używane do kalibracji i profilowania drukarki są mierzone (skanowane) przy użyciu&apos; wbudowanego spektrofotometru drukarki. Spektrofotometr to precyzyjny przyrząd, który może ustalić dokładny skład światła odbijanego od obszaru koloru. Rozdziela światło na składowe o różnej długości fal, tak jak&apos;słynny pryzmat Newtona rozdzielał białe światło na kolory tęczy, oraz mierzy siłę każdego składnika. Jak wszystkie precyzyjne narzędzia, spektrofotometr przed wykonaniem pomiarów w celu zapewnienia największej możliwej dokładności sam musi zostać skalibrowany i ustabilizowany. Kalibracja odbywa się automatycznie przy użyciu wbudowanej, białej płytki referencyjnej. Stabilizację zapewnia włączenie&apos;wbudowanego źródła światła spektrofotometru i zapewnienie mu krótkiego okresu na rozgrzanie przed rozpoczęciem pomiarów. Podczas tej czynności widoczny jest pasek postępu. </td>
+							</tr>
+							<tr>
+								<td> Podczas skanowania wzornika testowego papier i spektrofotometr (umieszczony na karetce drukarki) są przesuwane do pozycji nad ostatnim zestawem kolorów do zmierzenia. Mimo że pomiar jest wykonywany w stanie spoczynku (czujnik i papier nie poruszają się), proces jest dość szybki, obejmuje średnio 5 pomiarów na sekundę. Czas pomiaru jest dla każdego zestawu przystosowywany automatycznie ze względu na mierzony kolor, ponieważ ciemniejsze kolory dla lepszych rezultatów wymagają dłuższego czasu integracji (okresu pomiaru) niż jaśniejsze. Podczas pomiaru wzornika (skanowania) widoczny jest pasek postępu. </td>
+							</tr>
+							<tr>
+								<td> Po zakończeniu pomiaru wzornika rozpoczyna się kalkulacja profilu. Dzięki pomiarom drukarka może dokładnie określić, które kolory można uzyskać ze wszystkich możliwych kombinacji tuszów (tzw. postępowy model drukarki, od ilości tuszów do uzyskanych kolorów). Postępowe modele drukarek są używane dla soft i hard proofingu, np. w celu symulowania wyglądu wydrukowanego obrazu przez określoną drukarkę na danym typie papieru. Następnie drukarka używa wbudowanego lub oddzielnego oprogramowania profilującego w celu zamiany tego modelu na wsteczny model drukarki, od żądanego koloru do ilości różnych tuszów, z których jest produkowany. Model ten jest używany do „translacji”&apos; kolorów z dokumentu aplikacji lub monitora na ilości różnych tuszów, których musi użyć drukarka w celu wytworzenia na papierze odpowiedniego koloru. Drukarka ICC (ColorSync) oraz profil nośnika zawierają model postępowy i wsteczny w trzech różnych celach renderowania: percepcyjnym (dla wydruków fotograficznych), kolorometrycznym (dla logo w kolorze i proofingu) oraz nasycenia (dla grafiki biznesowej). Podczas kalkulacji profilu widoczny jest pasek postępu. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Drukuj plik docelowy i utwórz profil ICC.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Krok 6 — Zainstaluj profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Profil ICC nie przyda się na zbyt wiele, dopóki go nie&apos;użyjesz. Może brzmi to jak truizm (i w rzeczywistości tak jest), ale ma to większe znaczenie, niż się pozornie wydaje. Na początek należy skopiować profil do odpowiedniego folderu systemu operacyjnego na komputerze, aby aplikacje (i użytkownicy) mogły go znaleźć. Oprogramowanie drukarki wykona to automatycznie&apos;za użytkownika. Następnie profil jest też przesyłany do&apos;wewnętrznej bazy danych profili drukarki. </td>
+							</tr>
+							<tr>
+								<td> Sposób, w jaki będą (o ile będą) wykorzystywane profile po ich utworzeniu i instalacji zależy od rozległości konfiguracji aplikacji oraz sterownika drukarki. Generalnie używanie profili kolorów dla konwersji kolorów pomiędzy aplikacjami i urządzeniami jest znane jako zarządzanie kolorem. Rozróżnia się trzy różne przypadki: </td>
+							</tr>
+							<tr>
+								<td> 1. Zarządzanie kolorem aplikacji. Jak sama nazwa wskazuje, w tym przypadku używamy aplikacji, która jest odpowiedzialna za stosowanie wszystkich potrzebnych konwersji kolorów przed wysłaniem dokumentu do drukarki. W praktyce oznacza to, że aplikacja musi zaoferować użytkownikowi pewien sposób wyboru odpowiedniej drukarki i profilu papieru, a następnie użyć go do konwersji kolorów dokumentu. Profile kolorów można znaleźć we wstępnie określonym folderze systemu operacyjnego (/Library/ColorSync/Profiles), do którego oprogramowanie drukarki kopiuje profile po ich utworzeniu. Aby wszystko działało poprawnie, musisz poinformować drukarkę (sterownik), aby nie stosowała własnego zarządzania kolorem, ponieważ efekt takiego podwójnego zarządzania będzie w najlepszym przypadku słaby. Poszukaj opcji „zarządzania kolorem aplikacji” w ustawieniach kolorów sterownika drukarki. </td>
+							</tr>
+							<tr>
+								<td> 2. Zarządzanie kolorem drukarki przy użyciu profili ICC. Jak możesz się domyślać, przeciwieństwem zarządzania kolorem aplikacji jest zarządzanie kolorem drukarki, w tym przypadku przy użyciu profili ICC (ColorSync). Tym razem aplikacja nie dokonuje konwersji kolorów dokumentu na przestrzeń kolorów drukarki i papieru,&apos;ale pozostawia to zadanie drukarce (sterownikowi). Dlatego też aplikacja musi przesłać dokument do drukarki taki, jaki jest, bez wyboru i zastosowania żadnych profilów kolorów drukarki. „Taki, jaki jest” oznacza, że dokumenty pozostają&apos;w tzw. roboczej przestrzeni kolorów aplikacji, zazwyczaj jest to albo sRGB (domyślna przestrzeń, jeśli nie znasz innej) lub Adobe RGB (często używana w aplikacjach fotografii cyfrowej). Oczywiście drukarka musi następnie wybrać i zastosować odpowiedni profil kolorów, aby wszystko działało poprawnie — czyni to automatycznie po wyborze typu papieru. To dlatego profile po ich utworzeniu muszą być powiązane z typami papierów. Poszukaj opcji „zarządzania kolorem drukarki” w ustawieniach kolorów sterownika drukarki. </td>
+							</tr>
+							<tr>
+								<td> 3. Zarządzanie kolorem drukarki przy użyciu własnych map kolorów. Ten przypadek jest bardzo podobny do poprzedniego, w którym to drukarka (sterownik), a nie aplikacja, zajmowała się zarządzaniem kolorem. Różnica polega na użyciu własnych map kolorów zamiast standardowych profili ICC. Mimo że obie metody działają podobnie, istnieją znaczące różnice między nimi. Profile ICC są dwukierunkowe (od żądanych kolorów do ilości tuszu i odwrotnie), a mapy kolorów jednokierunkowe (tylko od żądanych kolorów do ilości tuszu). Ma to swoje konsekwencje podczas proofingu, o czym powiemy później. Profile ICC są używane w parach — jeden dla urządzenia wejściowego, odpowiadający mu drugi dla urządzenia wyjściowego — mapy kolorów są używane pojedynczo. Dzięki nim można dokonać bezpośredniej translacji z danej wejściowej przestrzeni kolorów na przestrzeń kolorów drukarki i papieru. Oznacza to, że można stosować tylko ograniczoną liczbę wejściowych przestrzeni kolorów, zazwyczaj sRGB lub Adobe RGB. Nie przez przypadek są to najczęściej używane robocze przestrzenie kolorów aplikacji. Podczas gdy&apos;oprogramowanie profilujące drukarki tworzy niestandardowe profile ICC (ColorSync), nie tworzy w tym momencie map kolorów, co oznacza, że nie są one dostępne dla niestandardowych typów papieru (lub niestandardowych warunków drukowania) — patrz poniżej. Oczywiście drukarka musi wybrać odpowiednią mapę kolorów, aby wszystko działało poprawnie — czyni to automatycznie po wyborze standardowego typu papieru. Musisz także poinformować aplikację, aby nie stosowała zarządzania kolorem (zazwyczaj poprzez ustawienie „zarządzanie kolorem drukarki” lub podobne), oraz drukarkę, aby stosowała mapy kolorów; poszukaj opcji „zarządzania kolorem drukarki” w ustawieniach kolorów sterownika drukarki. </td>
+							</tr>
+							<tr>
+								<td> Oto kilka dalszych wskazówek pomagających w wyborze różnych opcji zarządzania kolorem. </td>
+							</tr>
+							<tr>
+								<td> — Jeśli chcesz wykorzystywać w aplikacjach tzw. soft proofing, tj. symulować wygląd wydruku na ekranie komputera, musisz użyć zarządzania kolorem aplikacji z profilami ICC. Profile są dwukierunkowe i zawierają informacje niezbędne do konwersji kolorów aplikacji na kolory drukarki (kierunek wsteczny) oraz kolorów drukarki na kolory aplikacji (kierunek postępowy). </td>
+							</tr>
+							<tr>
+								<td> — Jeśli aplikacja nie jest wyposażona w funkcję soft proofingu, ale nadal chcesz symulować wygląd wydruku na ekranie komputera, spróbuj użyć aplikacji HP Print Preview. Możesz ją uruchomić z poziomu sterownika drukarki (menu rozwijane PDF w systemie Mac OS lub opcja wyświetlania podglądu wydruku w systemie Windows). </td>
+							</tr>
+							<tr>
+								<td> — Jeśli oczekujesz dokładnej kontroli nad renderowaniem kolorów w drukarce i na papierze, prawdopodobnie wybierzesz zarządzanie kolorem aplikacji. Aplikacje takie jak Photoshop umożliwiają konwersję oryginalnego obrazu RGB na jego reprezentację zależną od drukarki i papieru (RGB lub CMYK), włączenie funkcji soft proofingu w celu wyświetlenia na ekranie symulacji wydruku oraz skorzystanie z narzędzi edytujących w celu modyfikacji wartości kolorów urządzenia przed wydrukowaniem obrazu. O ile umożliwia to bardzo zaawansowaną kontrolę nad drukowanym kolorem, to nie jest to robota dla ludzi o słabych nerwach i będzie wymagać trochę doświadczenia w celu uzyskania oczekiwanych rezultatów. Jeśli wolisz uzyskać świetne wyniki bez stresu, wypróbuj najpierw zarządzanie kolorem drukarki. </td>
+							</tr>
+							<tr>
+								<td> — Jeśli przepływ pracy jest budowany wokół używania profili ICC, prawdopodobnie wybrane zostanie zarządzanie kolorem aplikacji z profilami ICC (ColorSync) drukarki. Jeśli ICC nic Ci nie mówi&apos;lub nie masz innych powodów, aby używać profili ICC, wypróbuj najpierw zarządzanie kolorem drukarki. </td>
+							</tr>
+							<tr>
+								<td> — Jeśli pracujesz z niestandardowymi typami papieru i/lub w niestandardowych warunkach środowiskowych, najlepszym wyjściem jest wygenerowanie niestandardowych profili ICC przy użyciu&apos;wbudowanego spektrofotometru drukarki oraz oprogramowania profilującego. Ponieważ oprogramowanie profilujące obecnie generuje profile ICC, ale nie generuje własnych map kolorów, prawdopodobnie zostanie wybrane zarządzanie kolorem aplikacji. </td>
+							</tr>
+							<tr>
+								<td> Którejkolwiek opcji użyjesz, upewnij się, że wiesz, której używasz i dlaczego. Sprawdź także, czy aplikacja i sterownik drukarki są prawidłowo skonfigurowane. Sposób utworzenia konfiguracji zarządzania kolorem aplikacji zależy od używanej aplikacji i niestety nie istnieje jedna ogólna, prawidłowa procedura. Pomoc dla tego zadania zawiera <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&amp;os=2"><strong><font color="#006699">Centrum informacji o drukowaniu HP</font></strong></a>. Znajdują się tam szczegóły dotyczące konfiguracji niektórych najpopularniejszych profesjonalnych aplikacji graficznych, a także informacje na temat rozwiązywania problemów i inne. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Krok 7 — Gotowe</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Po zakończeniu procesu profilowania możesz przeszukać listę wszystkich papierów „znanych” przez drukarkę. &apos;posiada&apos; Dla każdego papieru wyświetlona będzie jego kategoria lub niestandardowa nazwa oraz nazwa odpowiedniego (powiązanego) profilu. Możesz teraz skorzystać ze swojego niestandardowego profilu ICC (ColorSync) dla drukarki i papieru. Więcej informacji na temat różnych sposobów korzystania z profili ICC oraz innych opcji zarządzania kolorem zawiera sekcja <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Krok 6 — Zainstaluj profil ICC</font></strong></a>. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

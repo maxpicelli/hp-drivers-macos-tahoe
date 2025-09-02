@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>TypeAndQualityPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDECollapsableController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDECollapsableController</string>
+			<key>label</key>
+			<string>Paper Type/Quality</string>
+		</dict>
+		<key>sub-controllers</key>
+		<array>
+			<dict>
+				<key>class-name</key>
+				<string>PDECompoundController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDECompoundController</string>
+					<key>label</key>
+					<string>Paper</string>
+				</dict>
+				<key>sub-controllers</key>
+				<array>
+					<dict>
+						<key>class-name</key>
+						<string>PDECustomMediaController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala.PDEBasicPaperTypeQualityController</string>
+							<key>label</key>
+							<string>Paper Type/Quality</string>
+							<key>supportedSettingNames</key>
+							<array>
+								<string>HPPaperType</string>
+								<string>HPPrintQuality</string>
+								<string>HPPaperSource</string>
+								<string>HPPaperCategoriesOrder</string>
+							</array>
+						</dict>
+					</dict>
+					<dict>
+						<key>class-name</key>
+						<string>PDESimpleBorderlessController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala.PDESimpleBorderlessController</string>
+							<key>label</key>
+							<string>Borderless Printing</string>
+							<key>supportedSettingNames</key>
+							<array>
+								<string>HPManualBorderless</string>
+								<string>HPOversprayScaling</string>
+							</array>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDEColorOptionsCompoundController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDEColorOptionsCompoundController</string>
+					<key>label</key>
+					<string>Color Options</string>
+				</dict>
+				<key>sub-controllers</key>
+				<array>
+					<dict>
+						<key>class-name</key>
+						<string>PDEBasicColorController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala.PDEBasicColorController</string>
+							<key>label</key>
+							<string>Color Options</string>
+							<key>supportedSettingNames</key>
+							<array>
+								<string>HPColorMode</string>
+								<string>HPSimpleImageEnhancement</string>
+								<string>HPRedEye</string>
+								<string>HPMirrorFlip</string>
+							</array>
+						</dict>
+					</dict>
+					<dict>
+						<key>class-name</key>
+						<string>PDESimpleGrayscaleController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala. PDESimpleGrayscaleController </string>
+							<key>label</key>
+							<string>Color Options</string>
+							<key>supportedSettingNames</key>
+							<array>
+								<string>HPGrayscaleMode</string>
+							</array>
+						</dict>
+					</dict>
+					<dict>
+						<key>class-name</key>
+						<string>PDEExplanationController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala. PDEExplanationController </string>
+							<key>label</key>
+							<string>Explanation</string>
+							<key>requiresSettingNames</key>
+							<false/>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>title</key>
+	<string>Paper Type/Quality</string>
+	<key>orderNumber</key>
+	<real>20</real>
+	<key>summary-order</key>
+	<array>
+		<string>HPPaperType</string>
+		<string>HPPrintQuality</string>
+		<string>HPPaperSource</string>
+		<string>HPAutoWidthSensor</string>
+		<string>HPManualBorderless</string>
+		<string>HPOversprayScaling</string>
+		<string>HPColorMode</string>
+		<string>HPInputKResolution</string>
+		<string>HPInputColorResolution</string>
+		<string>HPOutputResolution</string>
+		<string>HPPrintingResolution</string>
+		<string>HPMirrorFlip</string>
+		<string>HPSimpleImageEnhancement</string>
+		<string>HPRedEye</string>
+		<string>HPSaturation</string>
+		<string>HPBrightness</string>
+		<string>HPColorTone</string>
+		<string>HPImagingModeAutomatic</string>
+		<string>HPCyanAdjustment</string>
+		<string>HPMagentaAdjustment</string>
+		<string>HPYellowAdjustment</string>
+		<string>HPBlackAdjustment</string>
+		<string>HPGrayscaleMode</string>
+		<string>Driver Version</string>
+		<string>Driver Name</string>
+	</array>
+</dict>
+</plist>

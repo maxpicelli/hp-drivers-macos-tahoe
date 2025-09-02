@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>65553</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Supply Type</key>
+			<string>inkcartridge</string>
+			<key>Event: Supply Count</key>
+			<integer>1</integer>
+			<key>Event: Product Status Alert ID</key>
+			<string>singleCartridgeMode</string>
+		</dict>
+	</dict>
+	<key>65587</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65588</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65595</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Supply Support Message Type</key>
+			<array>
+				<string>selectabilityNumberChange</string>
+			</array>
+		</dict>
+	</dict>
+	<key>65596</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Supply Support Message Type</key>
+			<array>
+				<string>limitedInAvailability</string>
+			</array>
+		</dict>
+	</dict>
+	<key>65597</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Supply Support Message Type</key>
+			<array>
+				<string>serviceMessageA</string>
+			</array>
+		</dict>
+	</dict>
+	<key>65618</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65619</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65696</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65697</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65737</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>notConnected</string>
+		</dict>
+	</dict>
+	<key>65738</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>accountProblem</string>
+		</dict>
+	</dict>
+	<key>65739</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>notConnected</string>
+		</dict>
+	</dict>
+	<key>65740</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>accountProblem</string>
+		</dict>
+	</dict>
+	<key>65741</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>notConnected</string>
+		</dict>
+	</dict>
+	<key>65742</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>accountProblem</string>
+		</dict>
+	</dict>
+	<key>65771</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Supply Type</key>
+			<string>inkcartridge</string>
+			<key>Event: Supply Count</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>65777</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>notConnected</string>
+		</dict>
+	</dict>
+	<key>65778</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>notConnected</string>
+		</dict>
+	</dict>
+	<key>65779</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Subscription Error</key>
+			<string>notConnected</string>
+		</dict>
+	</dict>
+	<key>65785</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65786</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>65547</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeNearlyExpired</string>
+		</dict>
+	</dict>
+	<key>65560</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>genuineHP</string>
+		</dict>
+	</dict>
+	<key>65559</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>nonHPSupplyDetected</string>
+		</dict>
+	</dict>
+	<key>65556</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeLow</string>
+		</dict>
+	</dict>
+	<key>65557</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeLow</string>
+		</dict>
+	</dict>
+	<key>65558</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeLow</string>
+		</dict>
+	</dict>
+	<key>65669</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeLow</string>
+		</dict>
+	</dict>
+	<key>65554</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>usedConsumable</string>
+		</dict>
+	</dict>
+	<key>65672</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeVeryLow</string>
+		</dict>
+	</dict>
+	<key>65561</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>genuineHP</string>
+		</dict>
+	</dict>
+	<key>65539</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>replaceCartridgeOut</string>
+		</dict>
+	</dict>
+	<key>65542</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeFailure</string>
+		</dict>
+	</dict>
+	<key>65543</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>incompatibleConsumable</string>
+		</dict>
+	</dict>
+	<key>65546</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeVeryLow</string>
+		</dict>
+	</dict>
+	<key>65589</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeMissing</string>
+		</dict>
+	</dict>
+	<key>65591</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>insertNonSETUPCartridge</string>
+		</dict>
+	</dict>
+	<key>65594</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>cartridgeRefilled</string>
+			<key>Event: ACf Status</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>65617</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: ACf Status</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>65687</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Ink Subscription State</key>
+			<integer>1</integer>
+			<key>Event: ACf Status</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>65603</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>inReserveMode</string>
+		</dict>
+	</dict>
+	<key>65604</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Product Status Alert ID</key>
+			<string>inReserveMode</string>
+		</dict>
+	</dict>
+	<key>65904</key>
+	<dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Event: Overridden Severity</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

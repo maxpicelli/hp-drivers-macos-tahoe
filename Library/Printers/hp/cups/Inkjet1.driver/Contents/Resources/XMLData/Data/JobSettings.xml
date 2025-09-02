@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<js-container xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hp.com/schemas/imaging/con/raster-data/job-settings/2009/08/18/&#10;                Schemas/jobsettings.xsd"><settings name="job-settings"><setting name="HPPaperInfo" user-name="Paper Size" access="read-only" weight="10000" UI-type="list" setting-type="public" used-by-application="true" value-type="APaperSize"><possible-values anchor="capabilities/media-size-pick" values="*[name()!='default']"/><default-value>na-letter otherwise;</default-value></setting><setting name="HPPaperInfoEnabledState" setting-of="HPPaperInfo"><single-valid-value>
+				locked-enabled otherwise;
+			</single-valid-value></setting><setting name="HPPageOrientation" user-name="Orientation" access="read-only" weight="10000" UI-type="list" setting-type="public" used-by-application="true" value-type="enumeration"><possible-values><value name="portrait" user-name="Portrait">0</value><value name="landscape" user-name="Landscape">1</value><value name="reverse-portrait" user-name="Reverse Portrait">2</value><value name="reverse-landscape" user-name="Reverse Landscape">3</value></possible-values><default-value>portrait otherwise;</default-value></setting><setting name="HPPageOrientationEnabledState" setting-of="HPPageOrientation"><single-valid-value>
+				locked-enabled otherwise;
+			</single-valid-value></setting><setting name="HPPaperType" user-name="Paper Type" access="read-write" weight="21" UI-type="list" setting-type="public" value-type="APaperType"><possible-values anchor="capabilities/media-type-pick" values="*"/><valid-values>
+				*: /* Check if the paper type exists in paper size's allowed/disallowed lists */
+					(
+						(not HPPhysicalPaperSize has attribute "allowed-media-types" and not HPPhysicalPaperSize has attribute "disallowed-media-types") or
+						(HPPhysicalPaperSize has attribute "allowed-media-types/reference[@name='%*%']") or
+						(not HPPhysicalPaperSize has attribute "allowed-media-types" and HPPhysicalPaperSize has attribute "disallowed-media-types" and HPPhysicalPaperSize not has attribute "$Root/capabilities/constrained-media-types/disallowed-media-types[@name=$Self/disallowed-media-types/@ref-name]/reference[@name='%*%']")
+					) and
+					/* Check if the paper type exists in paper source's allowed/disallowed lists */
+					(
+						(not HPPaperSource has attribute "allowed-media-types" and not HPPaperSource has attribute "disallowed-media-types") or
+						(HPPaperSource has attribute "allowed-media-types/reference[@name='%*%']") or
+						(not HPPaperSource has attribute "allowed-media-types" and HPPaperSource has attribute "disallowed-media-types" and HPPaperSource not has attribute "$Root/capabilities/constrained-media-types/disallowed-media-types[@name=$Self/disallowed-media-types/@ref-name]/reference[@name='%*%']")
+					) and
+					(not HPPenConfig in {black} or * has attribute "media-type-info/@black-only[.='true']");
+			</valid-values><default-value>
+				* if (HPPhysicalPaperSize has attribute "default-media-type[.='%*%']") or
+						((not HPPhysicalPaperSize has attribute "default-media-type") and 
+						 (Printer has attribute "capabilities/media-type-pick/@default[.='%*%']"));
+				plain-paper otherwise;
+			</default-value><heuristics><heuristic name="d4e121" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPhysicalPaperSize"/><heuristic name="d4e126" heuristic-type="CurrentValueChange" class="CurrentValueChangeColorSyncAMCAutomaticHeuristic" source="HPColorMode"/></heuristics></setting><setting name="HPPhysicalPaperSize" user-name="Print On:" access="read-only" weight="10000" UI-type="list" setting-type="private" used-by-application="true" value-type="APaperSize"><possible-values anchor="capabilities/media-size-pick" values="*[name()!='default']"/><default-value>na-letter otherwise;</default-value><heuristics><heuristic name="d4e156" heuristic-type="CurrentValue" class="CurrentValueBorderlessMediaSizeHeuristic"/></heuristics></setting><setting name="HPPhysicalPaperSizeEnabledState" setting-of="HPPhysicalPaperSize"><single-valid-value>
+				locked-enabled otherwise;
+			</single-valid-value></setting><setting name="HPPaperSource" user-name="Source" access="read-write" UI-type="list" setting-type="public" value-type="APaperSource"><possible-values anchor="capabilities/media-source-pick" values="*"/><valid-values>
+				Roll: ((not * has attribute "allowed-media-types" and not * has attribute "disallowed-media-types") or
+					(* has attribute "allowed-media-types/reference[@name='%HPPaperType%']") or
+					(not * has attribute "allowed-media-types" and * has attribute "disallowed-media-types" and * not has attribute "disallowed-media-types/reference[@name='%HPPaperType%']")) and
+					((not * has attribute "allowed-media-sizes" and not * has attribute "disallowed-media-sizes") or
+					(* has attribute "allowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']") or
+					(not * has attribute "allowed-media-sizes" and * has attribute "disallowed-media-sizes" and * not has attribute "disallowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']"));
+				Tray2,UpperThenLower,LowerThenUpper,Autoselect: ((not * has attribute "allowed-media-types" and not * has attribute "disallowed-media-types") or
+					(* has attribute "allowed-media-types/reference[@name='%HPPaperType%']") or
+					(not * has attribute "allowed-media-types" and * has attribute "disallowed-media-types" and * not has attribute "disallowed-media-types/reference[@name='%HPPaperType%']")) and
+					((not * has attribute "allowed-media-sizes" and not * has attribute "disallowed-media-sizes") or
+					(* has attribute "allowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']") or
+					(not * has attribute "allowed-media-sizes" and * has attribute "disallowed-media-sizes" and * not has attribute "disallowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']")) and
+					(not Printer has attribute "capabilities/media-source-pick/media-source[@name='Tray2']" or HPLowerTrayInstalled in {true});
+				Automatic: 
+					/*	SW Automatic paper source	*/
+					* not has attribute "@pdl-key" and HPIsAutomaticAllowed in {true} or
+					/*	FW Automatic PaperSource - duplicate the standard paper source rule*/
+					* has attribute "@pdl-key" and
+					(((not * has attribute "allowed-media-types" and not * has attribute "disallowed-media-types") or
+					(* has attribute "allowed-media-types/reference[@name='%HPPaperType%']") or
+					(not * has attribute "allowed-media-types" and * has attribute "disallowed-media-types" and * not has attribute "disallowed-media-types/reference[@name='%HPPaperType%']")) and
+					((not * has attribute "allowed-media-sizes" and not * has attribute "disallowed-media-sizes") or
+					(* has attribute "allowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']") or
+					(not * has attribute "allowed-media-sizes" and * has attribute "disallowed-media-sizes" and * not has attribute "disallowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']")));
+				*: ((not * has attribute "allowed-media-types" and not * has attribute "disallowed-media-types") or
+					(* has attribute "allowed-media-types/reference[@name='%HPPaperType%']") or
+					(not * has attribute "allowed-media-types" and * has attribute "disallowed-media-types" and * not has attribute "disallowed-media-types/reference[@name='%HPPaperType%']")) and
+					((not * has attribute "allowed-media-sizes" and not * has attribute "disallowed-media-sizes") or
+					(* has attribute "allowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']") or
+					(not * has attribute "allowed-media-sizes" and * has attribute "disallowed-media-sizes" and * not has attribute "disallowed-media-sizes/reference[@name='%HPPhysicalPaperSize%']"));
+			</valid-values><default-value>
+				/* If driver supports SW autimatic selection, default should be Automatic or standard snap-to
+				value depending on HPIsAutomaticAllowed setting that is used as a trigger; Use only standard
+				snap-to default otherwise	*/
+				Automatic if * not has attribute "@pdl-key" and HPIsAutomaticAllowed in {true};
+				* if (HPPhysicalPaperSize has attribute "default-media-source[.='%*%']") or
+					((not HPPhysicalPaperSize has attribute "default-media-source") and 
+					(Printer has attribute "capabilities/media-source-pick/@default[.='%*%']"));
+			</default-value><heuristics><heuristic name="d4e181" heuristic-type="ValidValues" class="ValidValuesMediaSourceHeuristic"/><heuristic name="d4e184" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPhysicalPaperSize"/></heuristics></setting><setting name="HPDestinationPaperSource" link="Data/JobSettings.xml#/js-container/settings/setting[@name='HPPaperSource']" user-name="Destination Paper Source" access="no-access"><valid-values used="false"/><single-valid-value>
+				/* FW Automatic */
+				Automatic if Printer has attribute
+					"capabilities/media-source-pick/media-source[@name='Automatic']/@pdl-key"
+					and HPPaperSource in {Automatic};
+				/* SW Automatic mapping to physical source */
+				* if HPPaperSource in {Automatic} and
+					((HPPhysicalPaperSize has attribute "default-media-source[.='%*%']") or
+					((not HPPhysicalPaperSize has attribute "default-media-source") and 
+					(Printer has attribute "capabilities/media-source-pick/@default[.='%*%']"))) or
+					not HPPaperSource in {Automatic} and HPPaperSource in {*};
+			</single-valid-value><heuristics used="false"/></setting><setting name="HPDestinationPaperSourceEnabledState" setting-of="HPDestinationPaperSource"><single-valid-value>
+				mutable-enabled if Printer has attribute "capabilities/media-source-pick/media-source[@name='Automatic']" and
+					not	Printer has attribute "capabilities/media-source-pick/media-source[@name='Automatic']/@pdl-key";
+				mutable-hidden otherwise;
+			</single-valid-value></setting><setting name="HPOutputBin" user-name="Output Bin" access="read-write" setting-type="private" value-type="ordinal"><possible-values anchor="capabilities/output-bins" values="*"/></setting><setting name="HPPrintQuality" user-name="Quality" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values anchor="capabilities/print-qualities" values="*"/><valid-values>
+				best: (HPPaperType has attribute "print-quality-pick/reference[@name='best']");
+				highest: (HPPaperType has attribute "print-quality-pick/reference[@name='highest']");
+				*: (HPPaperType has attribute "print-quality-pick/reference[@name='%*%']") and
+					(not HPColorMode in {application-managed});
+			</valid-values><default-value>
+				best if ((HPColorMode in {AdobeRGB,colorsync}) or (HPPaperType has attribute "print-quality-pick[@default='best']"));
+				* if HPPaperType has attribute "print-quality-pick[@default='%*%']";
+			</default-value><heuristics><heuristic name="d4e230" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPaperType"/><heuristic name="d4e235" heuristic-type="CurrentValueChange" class="CurrentValueChangeDefaultRGBHeuristic" source="HPColorMode"/></heuristics></setting><setting name="HPDuplexSubstitute" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Duplex Substitute Setting" access="no-access" setting-type="private"><single-valid-value>
+				true if HPPhysicalPaperSizeIsAutoDuplexable in {true} and
+					Printer has attribute "product/features/feature[@name='supports-auto-duplex' and .='true']" and
+					HPAutoDuplexerInstalled in {true} and 
+					not HPPaperSource in {Roll};
+				false otherwise;
+			</single-valid-value></setting><setting name="HPBindingMode" user-name="Binding" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values><value name="booklet" user-name="booklet" order="0"/><value name="tablet" user-name="tablet" order="1"/></possible-values><valid-values>
+				booklet:	(HPSystemDuplexing in {true} and HPDuplex in {true} and HPTumbleMode in {duplex}) or
+					(HPSystemDuplexing in {false} and HPDuplex in {true}) or 
+					(HPDuplex in {false});
+				
+				tablet:	(HPSystemDuplexing in {true} and HPDuplex in {true} and HPTumbleMode in {duplex-tumble}) or
+					(HPSystemDuplexing in {false} and HPDuplex in {true}) or
+					(HPDuplex in {false});
+			</valid-values><default-value>
+				booklet otherwise;
+			</default-value></setting><setting name="HPBindingModeEnabledState" setting-of="HPBindingMode"><single-valid-value>
+				notapplicable-hidden if HPDuplexEnabledState in {notapplicable-hidden};
+				mutable-hidden if HPDuplexEnabledState in {mutable-hidden};
+				mutable-disabled if HPDuplex in {false};
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPTumbleMode" user-name="Two-Sided Printing Tumble Mode" access="read-write" UI-type="list" setting-type="public" used-by-application="false" value-type="enumeration"><possible-values><value name="simplex">1</value><value name="simplex-tumble">4</value><value name="duplex">2</value><value name="duplex-tumble">3</value></possible-values><valid-values>
+				duplex:			((HPSystemDuplexing in {false} and HPDuplex in {true} and HPBindingMode in {booklet}) or
+					(HPSystemDuplexing in {true} and HPDuplex in {true}))
+					and not HPTumbleModeEnabledState in {notapplicable-hidden};
+				duplex-tumble:	((HPSystemDuplexing in {false} and HPDuplex in {true} and HPBindingMode in {tablet}) or
+					(HPSystemDuplexing in {true} and HPDuplex in {true}))
+					and not HPTumbleModeEnabledState in {notapplicable-hidden};
+				simplex:			HPDuplex in {false} or HPTumbleModeEnabledState in {notapplicable-hidden};
+			</valid-values><default-value>
+				duplex-tumble if HPDuplex in {true};
+				simplex otherwise;
+			</default-value><heuristics><heuristic name="d4e306" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPDuplex"/></heuristics></setting><setting name="HPTumbleModeEnabledState" setting-of="HPTumbleMode"><single-valid-value>
+				notapplicable-hidden if HPDuplexEnabledState in {notapplicable-hidden};
+				mutable-hidden if HPDuplexEnabledState in {mutable-hidden} or
+				HPSystemDuplexing in {false};
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPDryTime" user-name="Dry Time" access="read-write" UI-type="range" setting-type="public" value-type="integer"><possible-values><value name="i-15">-15</value><value name="i-10">-10</value><value name="i-5">-5</value><value name="i0">0</value><value name="i5">5</value><value name="i10">10</value><value name="i15">15</value><value name="i20">20</value><value name="i25">25</value><value name="i30">30</value></possible-values><valid-values>
+				*: HPDryTimeEnabledState in {mutable-enabled};
+				i0: ;
+			</valid-values><default-value>i0 otherwise;</default-value></setting><setting name="HPDryTimeEnabledState" setting-of="HPDryTime"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-auto-duplex' and .='true']" and
+					not Printer has attribute "product/features/feature[@name='persistent-drytime']";
+				mutable-hidden if not (Printer has attribute "product/features/feature[@name='supports-drytime']" and HPAutoDuplexerInstalled in {true}) and
+					not Printer has attribute "product/features/feature[@name='persistent-drytime']";
+				mutable-disabled if Printer has attribute "product/features/feature[@name='supports-drytime']" and
+					not Printer has attribute "product/features/feature[@name='persistent-drytime']" and
+					HPDuplex in {false};
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPAMCColorModeType" user-name="AMC Color Mode Type" access="read-write" setting-type="private" value-type="string"><possible-values><value name="unknown">unknown</value><value name="genericRGB">genericRGB</value><value name="e2c2">e2c2</value></possible-values><valid-values>
+				unknown:		not HPColorMode in {application-managed} or
+								HPSystemColorMatching in {AP_UnconstrainingColorMatching};
+				genericRGB:	HPColorMode in {application-managed} and
+								HPSystemColorMatching in {AP_VendorColorMatching, AP_UnconstrainingColorMatching};
+				e2c2:			HPColorMode in {application-managed} and
+								HPSystemColorMatching in {AP_ApplicationColorMatching, AP_UnconstrainingColorMatching};
+			</valid-values><default-value>unknown otherwise;</default-value></setting><setting name="HPColorMode" user-name="Color" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values anchor="capabilities/color-mode-pick" values="*"/><valid-values>
+				/* sRGB, AdobeRGB and Grayscale are available in VendorColorMatching mode or no color matching mode specified */
+				colorsmart,grayscale,AdobeRGB,application-managed: HPSystemColorMatching in {AP_VendorColorMatching, AP_UnconstrainingColorMatching};
+				/* ColorSync mode is available in ApplicationColorMatching mode */
+				colorsync:	HPSystemColorMatching in {AP_ApplicationColorMatching, AP_UnconstrainingColorMatching};
+			</valid-values><default-value>
+				colorsmart if HPSystemColorMatching in {AP_VendorColorMatching, AP_UnconstrainingColorMatching};
+				colorsync otherwise;
+			</default-value><heuristics><heuristic name="d4e396" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSystemColorMatching"/></heuristics></setting><setting name="HPPenConfig" user-name="Pen Configuration" access="read-write" setting-type="private" value-type="ordinal"><possible-values anchor="capabilities/pen-configuration-pick" values="*"/><default-value>
+				* if  ((Printer has attribute "capabilities/pen-configuration-pick-optional") and (HPPenConfigOptions in {*} )) or 
+						((not Printer has attribute "capabilities/pen-configuration-pick-optional") and
+						(Printer has attribute "capabilities/pen-configuration-pick/@default[.='%*%']"));
+				black-and-color otherwise;
+			</default-value><heuristics><heuristic name="d4e414" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPenConfigOptions"/></heuristics></setting><setting name="HPPenConfigEnabledState" setting-of="HPPenConfig"><single-valid-value>
+				mutable-hidden otherwise;
+			</single-valid-value></setting><setting name="HPPenConfigOptions" user-name="Installed Pen" access="read-only" weight="10000" UI-type="list" setting-type="private" value-type="ordinal"><possible-values anchor="capabilities/pen-configuration-pick" values="*"/><valid-values>
+				/* The pen config UI is only shown if HPPenConfigOptions is defined and has more than 1 valid option; */
+				/* If HPPenConfigOptions is not defined then we assume all HPPenConfigurations are valid; */
+				*: (Printer has attribute "capabilities/pen-configuration-pick-optional/pen-configuration[@name='%*%']") or
+					( (not Printer has attribute "capabilities/pen-configuration-pick-optional") and 
+						(Printer has attribute "capabilities/pen-configuration-pick/pen-configuration[@name='%*%']"));
+				/* Assume black-and-color as a catch all; */
+				black-and-color: ;
+			</valid-values><default-value>
+				/* If HPPenConfigOptions is not defined then we'll assume the HPPenConfigurations Default is reasonable; */
+				* if (Printer has attribute "capabilities/pen-configuration-pick-optional/@default[.='%*%']") or
+					(not (Printer has attribute "capabilities/pen-configuration-pick-optional") and
+						(Printer has attribute "capabilities/pen-configuration-pick/@default[.='%*%']"));
+				/* Assume black-and-color as a catch all; */
+				black-and-color otherwise;
+			</default-value></setting><setting name="HPPenConfigOptionsEnabledState" setting-of="HPPenConfigOptions"><single-valid-value>
+				mutable-enabled if (Printer has attribute "capabilities/pen-configuration-pick-optional") and
+					(Printer has attribute "product/features/feature[@name='supports-pen-config-ui' and .='true']") and
+					(Printer has attribute ".//installable-option[@name='HPPenConfigOptions']");
+				mutable-hidden otherwise;
+			</single-valid-value></setting><setting name="HPGrayscaleMode" user-name="Grayscale Mode" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values anchor="capabilities/grayscale-mode-pick" values="*"/><valid-values>
+				high-quality: not Printer has attribute "capabilities/grayscale-mode-pick/grayscale-mode[@name='black-only']" or
+									not HPPenConfig in {black};
+				black-only: not HPPenConfig in {colorCMY} and
+								HPPaperTypeSupportsBlackInk in {true};
+				photocopy-fax: (not Printer has attribute "capabilities/grayscale-mode-pick/grayscale-mode[@name='black-only']" or
+									not HPPenConfig in {black}) and HPPhysicalPaperSizeIsBorderless in {false};
+			</valid-values><default-value>* if Printer has attribute "capabilities/grayscale-mode-pick/@default[.='%*%']";</default-value></setting><setting name="HPGrayscaleModeEnabledState" setting-of="HPGrayscaleMode"><single-valid-value>
+				notapplicable-hidden if ((not Printer has attribute "capabilities/color-mode-pick/color-mode[@name='grayscale']") or 
+												 (Printer has attribute "capabilities/grayscale-mode-pick/grayscale-mode[@name='high-quality']" and
+												  not Printer has attribute "capabilities/grayscale-mode-pick/grayscale-mode[@name='photocopy-fax']" and
+												  not Printer has attribute "capabilities/grayscale-mode-pick/grayscale-mode[@name='black-only']"));
+				mutable-disabled if not HPColorMode in {grayscale};
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPSaturation" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Saturation"><valid-values>
+				i0: ;
+				*: HPSaturationEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPSaturationEnabledState" setting-of="HPSaturation"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='color-sliders-constraints']//value[@name='saturation']"/></setting><setting name="HPBrightness" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Brightness"><valid-values>
+				i0: ;
+				*: HPBrightnessEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPBrightnessEnabledState" setting-of="HPBrightness"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='color-sliders-constraints']//value[@name='brightness']"/></setting><setting name="HPColorTone" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Color Tone"><valid-values>
+				i0: ;
+				*: HPColorToneEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPColorToneEnabledState" setting-of="HPColorTone"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='color-sliders-constraints']//value[@name='color-tone']"/></setting><setting name="HPImagingModeAutomatic" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Automatic Image Enhancement" access="no-access" setting-type="private"><single-valid-value>
+				true if not HPColorMode in {grayscale,AdobeRGB,application-managed}
+					and not HPPrintQuality in {high-speed-draft, draft, fast-normal, normal, frontpanel};
+				false otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e510" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPColorMode"/><heuristic name="d4e515" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPImagingModeAutomaticEnabledState" setting-of="HPImagingModeAutomatic"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info/auto[.='true']";
+				mutable-disabled if HPColorMode in {grayscale};
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPDigitalFlash" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementSettingData']" user-name="Adaptive Lighting" access="read-write" UI-type="range" setting-type="public"><valid-values>
+				off: ;
+				*: HPColorMatchingIsACM in {false} and HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']";
+			</valid-values><default-value>off otherwise;</default-value></setting><setting name="HPDigitalFlashEnabledState" setting-of="HPDigitalFlash"><single-valid-value>
+				notapplicable-hidden if 
+					(not Printer has attribute "capabilities/digital-photo-info//setting[@name='digital-flash' and .='true']") or
+					(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and not Printer has attribute "capabilities/digital-photo-info/manual[.='true']");
+				mutable-disabled if
+					HPColorMatchingIsACM in {true} or
+					HPImagingModeAutomaticEnabledState not in {notapplicable-hidden} or
+					(Printer has attribute "capabilities/digital-photo-info/manual[.='true']" and
+						(HPPrintQuality has attribute "./@image-enhancement[.='false']"));
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e561" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPDigitalFlashImage" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementImageSettingData']" user-name="Digital Flash Image" access="read-write" setting-type="public"><default-value>
+				low if HPDigitalFlash in {low};
+				medium if HPDigitalFlash in {medium} or
+					(HPDigitalFlash in {automatic} and HPPrintQuality in {best, highest} and HPColorMode in {colorsmart,grayscale});
+				high if HPDigitalFlash in {high};
+				off otherwise;
+			</default-value><heuristics><heuristic name="d4e576" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPDigitalFlash"/><heuristic name="d4e581" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPDigitalFlashImageEnabledState" link="Data/JobSettings.xml#/js-container/settings/setting[@name='HPDigitalFlashEnabledState']" setting-of="HPDigitalFlashImage"/><setting name="HPContrastEnhance" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementSettingData']" user-name="Photo Brightening" access="read-write" UI-type="range" setting-type="public"><valid-values>
+				off: ;
+				*: HPColorMatchingIsACM in {false} and HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']";
+			</valid-values></setting><setting name="HPContrastEnhanceEnabledState" setting-of="HPContrastEnhance"><single-valid-value>
+				notapplicable-hidden if 
+					(not Printer has attribute "capabilities/digital-photo-info//setting[@name='contrast-enhance' and .='true']") or
+					(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and not Printer has attribute "capabilities/digital-photo-info/manual[.='true']");
+				mutable-disabled if
+					HPColorMatchingIsACM in {true} or
+					HPImagingModeAutomaticEnabledState not in {notapplicable-hidden} or
+					(Printer has attribute "capabilities/digital-photo-info/manual[.='true']" and
+						(HPPrintQuality has attribute "./@image-enhancement[.='false']"));
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e606" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPContrastImage" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementImageSettingData']" user-name="Constrast Image" access="read-write" setting-type="public"><default-value> 
+				low if HPContrastEnhance in {low};
+				medium if HPContrastEnhance in {medium};
+				high if HPContrastEnhance in {high};
+				off otherwise;
+			</default-value><heuristics><heuristic name="d4e622" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPContrastEnhance"/><heuristic name="d4e627" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPContrastImageEnabledState" link="Data/JobSettings.xml#/js-container/settings/setting[@name='HPContrastEnhanceEnabledState']" setting-of="HPContrastImage"/><setting name="HPRedEye" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementSettingData']" user-name="Auto Red-eye Removal" access="read-write" UI-type="boolean" setting-type="public" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="automatic" user-name="On" order="1"/></possible-values><valid-values>
+				off: ;
+				*: HPColorMatchingIsACM in {false} and HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']";
+			</valid-values><default-value>off otherwise;</default-value></setting><setting name="HPRedEyeEnabledState" setting-of="HPRedEye"><single-valid-value>
+				notapplicable-hidden if 
+					(not Printer has attribute "capabilities/digital-photo-info//setting[@name='red-eye' and .='true']") or
+					(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and not Printer has attribute "capabilities/digital-photo-info/manual[.='true']");
+				mutable-disabled if
+					HPColorMatchingIsACM in {true} or
+					HPImagingModeAutomaticEnabledState not in {notapplicable-hidden} or
+					(Printer has attribute "capabilities/digital-photo-info/manual[.='true']" and
+						(HPPrintQuality has attribute "./@image-enhancement[.='false']"));
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e666" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPSmartFocus" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementSettingData']" user-name="SmartFocus" access="read-write" UI-type="boolean" setting-type="public" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="automatic" user-name="On" order="1"/></possible-values></setting><setting name="HPSmartFocusEnabledState" setting-of="HPSmartFocus"><single-valid-value>
+				notapplicable-hidden if 
+					(not Printer has attribute "capabilities/digital-photo-info//setting[@name='smart-focus' and .='true']") or
+					(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and not Printer has attribute "capabilities/digital-photo-info/manual[.='true']");
+				mutable-disabled if
+					HPColorMatchingIsACM in {true} or
+					HPImagingModeAutomaticEnabledState not in {notapplicable-hidden} or
+					(Printer has attribute "capabilities/digital-photo-info/manual[.='true']" and
+						(HPPrintQuality has attribute "./@image-enhancement[.='false']"));
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e698" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPSmoothing" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementSettingData']" user-name="Smoothing" access="read-write" UI-type="range" setting-type="public"><valid-values>
+				off: ;
+				*: HPColorMatchingIsACM in {false} and HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']";
+			</valid-values></setting><setting name="HPSmoothingEnabledState" setting-of="HPSmoothing"><single-valid-value>
+				notapplicable-hidden if 
+					(not Printer has attribute "capabilities/digital-photo-info//setting[@name='smoothing' and .='true']") or
+					(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and not Printer has attribute "capabilities/digital-photo-info/manual[.='true']");
+				mutable-disabled if
+					HPColorMatchingIsACM in {true} or
+					HPImagingModeAutomaticEnabledState not in {notapplicable-hidden} or
+					(Printer has attribute "capabilities/digital-photo-info/manual[.='true']" and
+						(HPPrintQuality has attribute "./@image-enhancement[.='false']"));
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e720" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPSmoothingImage" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementImageSettingData']" user-name="Smoothing Image" access="read-write" setting-type="public"><default-value>
+				low if HPSmoothing in {low};
+				medium if HPSmoothing in {medium};
+				high if HPSmoothing in {high};
+				off otherwise;
+			</default-value><heuristics><heuristic name="d4e735" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSmoothing"/><heuristic name="d4e740" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPSmoothingImageEnabledState" link="Data/JobSettings.xml#/js-container/settings/setting[@name='HPSmoothingEnabledState']" setting-of="HPSmoothingImage"/><setting name="HPSharpness" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementSettingData']" user-name="Sharpness" access="read-write" UI-type="range" setting-type="public"><valid-values>
+				off: ;
+				*: HPColorMatchingIsACM in {false} and HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']";
+			</valid-values></setting><setting name="HPSharpnessEnabledState" setting-of="HPSharpness"><single-valid-value>
+				notapplicable-hidden if 
+					(not Printer has attribute "capabilities/digital-photo-info//setting[@name='sharpness' and .='true']") or
+					(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and not Printer has attribute "capabilities/digital-photo-info/manual[.='true']");
+				mutable-disabled if
+					HPColorMatchingIsACM in {true} or
+					HPImagingModeAutomaticEnabledState not in {notapplicable-hidden} or
+					(Printer has attribute "capabilities/digital-photo-info/manual[.='true']" and
+						(HPPrintQuality has attribute "./@image-enhancement[.='false']"));
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e766" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPSharpnessImage" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ImageEnhancementImageSettingData']" user-name="Sharpness Image" access="read-write" setting-type="public"><default-value>
+				low if HPSharpness in {low};
+				medium if HPSharpness in {medium} or 
+					(HPSharpness in {automatic} and HPPrintQuality in {best, highest} and HPColorMode in {colorsmart,grayscale});
+				high if HPSharpness in {high};
+				off otherwise;
+			</default-value><heuristics><heuristic name="d4e781" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSharpness"/><heuristic name="d4e786" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPSharpnessImageEnabledState" link="Data/JobSettings.xml#/js-container/settings/setting[@name='HPSharpnessEnabledState']" setting-of="HPSharpnessImage"/><setting name="HPInkDensity" user-name="Ink Volume" access="read-write" UI-type="range" setting-type="public" value-type="integer"><possible-values><value name="i-2">-2</value><value name="i-1">-1</value><value name="i0">0</value><value name="i1">1</value><value name="i2">2</value></possible-values><default-value>i0 otherwise;</default-value></setting><setting name="HPInkDensityEnabledState" setting-of="HPInkDensity"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-ink-density']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPEdgeControl" user-name="Edge Control" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values><value name="maximum" user-name="Maximum" order="0"/><value name="normal" user-name="Normal" order="1"/><value name="light" user-name="Light" order="2"/><value name="off" user-name="Off" order="3"/></possible-values><default-value>off otherwise;</default-value></setting><setting name="HPEdgeControlEnabledState" setting-of="HPEdgeControl"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-edge-control']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPResolutionEnhancement" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Resolution Enhancement (REt)" access="read-write" UI-type="boolean" setting-type="public"><default-value>
+				true if Printer has attribute "product/features/feature[@name='supports-resolution-enhancement']";
+				false otherwise;
+			</default-value></setting><setting name="HPResolutionEnhancementEnabledState" setting-of="HPResolutionEnhancement"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-resolution-enhancement']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPEconoMode" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="EconoMode (may save print cartridges)" access="read-write" UI-type="boolean" setting-type="public"><default-value>false otherwise;</default-value></setting><setting name="HPEconoModeEnabledState" setting-of="HPEconoMode"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-economode']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPLosslessCompression" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Lossless Compression" access="read-write" setting-type="private"><valid-values>
+				true: Printer has attribute "product/features/feature[@name='supports-lossless']" and 
+						(not Printer has attribute "product/features/feature[@name='supports-compression-modes']" or
+							HPCompression in {Best-Quality-Compression});
+				false: not Printer has attribute "product/features/feature[@name='supports-lossless']" or 
+						 not Printer has attribute "product/features/feature[@name='supports-compression-modes']" or
+						 not HPCompression in {Best-Quality-Compression};
+			</valid-values><default-value>false otherwise;</default-value></setting><setting name="HPLosslessCompressionEnabledState" setting-of="HPLosslessCompression"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-lossless']";
+				mutable-hidden if Printer has attribute "product/features/feature[@name='supports-compression-modes']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPCyanAdjustment" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Cyan"><valid-values>
+				i0: ;
+				*: HPCyanAdjustmentEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPCyanAdjustmentEnabledState" setting-of="HPCyanAdjustment"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='cmyk-sliders-constraints']//value[@name='general']"/></setting><setting name="HPMagentaAdjustment" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Magenta"><valid-values>
+				i0: ;
+				*: HPMagentaAdjustmentEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPMagentaAdjustmentEnabledState" setting-of="HPMagentaAdjustment"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='cmyk-sliders-constraints']//value[@name='general']"/></setting><setting name="HPYellowAdjustment" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Yellow"><valid-values>
+				i0: ;
+				*: HPYellowAdjustmentEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPYellowAdjustmentEnabledState" setting-of="HPYellowAdjustment"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='cmyk-sliders-constraints']//value[@name='general']"/></setting><setting name="HPBlackAdjustment" link="Data/JobSettings.xml#/js-container/presets//preset[@name='ColorAdjustmentSettingData']" user-name="Black"><valid-values>
+				i0: ;
+				*: HPBlackAdjustmentEnabledState in {mutable-enabled};
+			</valid-values></setting><setting name="HPBlackAdjustmentEnabledState" setting-of="HPBlackAdjustment"><single-valid-value link="Data/JobSettings.xml#/js-container/presets/presets[@name='cmyk-sliders-constraints']//value[@name='general']"/></setting><setting name="HPAutoWidthSensor" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Auto Media Width Sensor" access="read-write" UI-type="boolean" setting-type="public"><valid-values>
+				true: Printer has attribute "product/features/feature[@name='supports-auto-width-sensor' and .='true']" and
+						HPPhysicalPaperSize has attribute "@width-sensored[.='true']";
+				false: ;
+		</valid-values><default-value>
+				true if not HPAutoWidthSensorEnabledState in {notapplicable-hidden};
+				false otherwise;
+		</default-value><heuristics><heuristic name="d4e959" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPhysicalPaperSize"/></heuristics></setting><setting name="HPAutoWidthSensorEnabledState" setting-of="HPAutoWidthSensor"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-auto-width-sensor' and .='true']";
+				mutable-enabled if HPPhysicalPaperSize has attribute "@width-sensored[.='true']";
+				mutable-disabled otherwise;
+			</single-valid-value></setting><setting name="HPColorSyncProfile" user-name="ColorSync profile" access="read-write" UI-type="list" setting-type="public" value-type="AColorSyncProfile"><matrix-values anchor=".//matrix" selector="resolveMatrixValuesForAnchor:"/><heuristics><heuristic name="d4e984" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPColorMode"/><heuristic name="d4e989" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPenConfig"/><heuristic name="d4e994" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPaperType"/><heuristic name="d4e999" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPColorSyncProfileEnabledState" setting-of="HPColorSyncProfile"><single-valid-value>
+				mutable-disabled if (HPColorMode in {application-managed});
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPSystemColorMatching" user-name="System Color Matching" access="read-only" weight="10000" setting-type="private" used-by-application="true" value-type="string"><possible-values><value name="AP_VendorColorMatching">AP_VendorColorMatching</value><value name="AP_ApplicationColorMatching">AP_ApplicationColorMatching</value><value name="AP_UnconstrainingColorMatching">AP_UnconstrainingColorMatching</value></possible-values><default-value>AP_VendorColorMatching otherwise;</default-value></setting><setting name="HPColorMatchingIsACM" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="System Color Matching is Application Color Matching" access="no-access" setting-type="private" used-by-application="true"><single-valid-value>
+				true if HPSystemColorMatching in {AP_ApplicationColorMatching};
+				false otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e1048" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSystemColorMatching"/></heuristics></setting><setting name="HPCompression" user-name="Compression" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values><value name="Automatic-Compression" user-name="Automatic-Compression" order="0"/><value name="Best-Quality-Compression" user-name="Best-Quality-Compression" order="1"/><value name="Maximum-Compression" user-name="Maximum-Compression" order="2"/></possible-values><default-value>Automatic-Compression otherwise;</default-value></setting><setting name="HPCompressionEnabledState" setting-of="HPCompression"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-compression-modes']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPTotalSidesImaged" user-name="Total Sides Imaged" access="read-write" setting-type="private" initial-value="0" value-type="integer"/><setting name="HPInputKResolution" user-name="Black render dpi" initialization-function="AJSResolutionInitFunction"/><setting name="HPInputColorResolution" user-name="Color input dpi" initialization-function="AJSResolutionInitFunction"/><setting name="HPOutputResolution" user-name="Color output" initialization-function="AJSResolutionInitFunction"/><setting name="HPDocumentName" user-name="Document Name:" access="read-write" setting-type="private" initial-value="" value-type="string"/><setting name="HPPrintToDisk" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Save PCL to file" access="read-write" UI-type="boolean" setting-type="public"><default-value>false otherwise;</default-value></setting><setting name="HPPrintToDiskEnabledState" setting-of="HPPrintToDisk"><single-valid-value>
+				mutable-hidden if not Printer has attribute "product/features/feature[@name='supports-printtodisk']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPDontSendPCL" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Do not send PCL" access="read-write" UI-type="boolean" setting-type="public"><default-value>false otherwise;</default-value></setting><setting name="HPDontSendPCLEnabledState" setting-of="HPDontSendPCL"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-dontsendpcl']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPDumpRawImage" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Dump raw image" access="read-write" UI-type="boolean" setting-type="public"><default-value>false otherwise;</default-value></setting><setting name="HPDumpRawImageEnabledState" setting-of="HPDumpRawImage"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-dumprawimage']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPSpeedMechEnabled" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="SpeedMechEnabled" access="no-access" setting-type="public"><single-valid-value>true otherwise;</single-valid-value></setting><setting name="HPPhysicalPaperSizeIsBanner" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Physical Paper Size Is Banner" access="no-access" setting-type="private"><single-valid-value>
+				true if HPPhysicalPaperSize has attribute "@banner[.='true']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPPhysicalPaperSizeIsAutoDuplexable" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Physical Paper Size Is Auto Duplexable" access="no-access" setting-type="private"><single-valid-value>
+				true if HPPhysicalPaperSize has attribute "@duplex[.='true']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPPhysicalPaperSizeIsBorderless" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Physical Paper Size Is Borderless" access="no-access" setting-type="private"><single-valid-value>
+				true if HPPhysicalPaperSize has attribute "@full-bleed[.='true']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPPhysicalPaperSizeIsManualBorderless" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Physical Paper Size Is Manual Borderless" access="no-access" setting-type="private"><single-valid-value>
+				false if not HPSelectedPhysicalPaperSize has attribute "@tabbed[.='true']"
+						and Printer has attribute "product/features/feature[@name='supports-34-borderless-printing' and .='true']";
+				true otherwise;
+			</single-valid-value></setting><setting name="HPPaperTypeSupportsBlackInk" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Paper Type Supports Black Ink" access="no-access" setting-type="private"><single-valid-value>
+				true if HPPaperType has attribute "media-type-info/@black-only[.='true']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPIsPenConfigWithBlackPenRequired" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Black PensConfiguration Required" access="no-access" setting-type="public"><single-valid-value>
+				true if Printer has attribute "capabilities/adjust-required-pen-config" and
+					HPColorMode in {grayscale} and HPGrayscaleMode in {black-only} and
+					(not Printer has attribute "capabilities/adjust-required-pen-config/@check-media-type-supports-black-only[.='true']" or
+						HPPaperType has attribute "media-type-info/@black-only[.='true']") and
+					(not Printer has attribute "capabilities/adjust-required-pen-config[@check-KCMY-media-type-supports-black-only='true']" or
+						not HPPaperType has attribute "media-type-info/@csl-media-type[.='kHPHomer' or .='kHPGossimer' or .='kHPArchie' or .='kHPVanGogh' or .='kHPCosmo' or .='kHPZircon']");
+				false otherwise;
+		</single-valid-value></setting><setting name="HPIsPenConfigWithBlackPenRequiredEnabledState" setting-of="HPIsPenConfigWithBlackPenRequired"><single-valid-value>
+			notapplicable-hidden if not Printer has attribute "capabilities/adjust-required-pen-config";
+			mutable-enabled otherwise;
+		</single-valid-value></setting><setting name="HPManualBorderlessStatus" user-name="Manual Borderless Status" access="read-write" setting-type="private" used-by-application="true" value-type="string"><possible-values><value name="disallowed">disallowed</value><value name="already">already</value><value name="allowed">allowed</value></possible-values><heuristics><heuristic name="d4e1265" heuristic-type="CurrentValue" class="CurrentValueManualBorderlessStatusHeuristic"/></heuristics></setting><setting name="HPManualBorderless" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Print Borderless" access="read-write" UI-type="boolean" setting-type="public"><valid-values>
+				false: not HPManualBorderlessStatus in {already};
+				true: HPManualBorderlessStatus in {allowed} and not (HPSystemDuplexing in {true} and HPDuplex in {true}) or HPManualBorderlessStatus in {already};
+			</valid-values><default-value>false otherwise;</default-value><heuristics><heuristic name="d4e1282" heuristic-type="CurrentValueChange" class="CurrentValueChangeDefaultIfBorderlessHeuristic" source="HPSelectedPhysicalPaperSize"/></heuristics></setting><setting name="HPManualBorderlessEnabledState" setting-of="HPManualBorderless"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-manual-borderless']";
+				mutable-disabled if HPSelectedPaperSizeIsBorderless in {true} or
+					HPPhysicalPaperSizeHasBorderlessAnalog in {false} or
+					HPInvalidPaperSize in {true} or
+					HPPhysicalPaperSizeIsBanner in {true} or
+					(HPSelectedPaperSizeIsBorderless in {false} and HPPhysicalPaperSizeIsManualBorderless in {false}) or
+					(HPSystemDuplexing in {true} and HPDuplex in {true});
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPOversprayScaling" user-name="Borderless Overspray" access="read-write" UI-type="range" setting-type="public" value-type="enumeration"><possible-values><value name="i0" user-name="0%">0</value><value name="i1" user-name="25%">1</value><value name="i2" user-name="50%">2</value><value name="i3" user-name="75%">3</value><value name="i4" user-name="100%">4</value></possible-values><valid-values>
+				i0: HPOversprayScalingEnabledState in {notapplicable-hidden};
+				i4: ;
+				i1,i2,i3: HPManualBorderlessStatus in {allowed, already};
+			</valid-values><default-value>
+				i0 if HPOversprayScalingEnabledState in {notapplicable-hidden};
+				i4 otherwise;
+			</default-value></setting><setting name="HPOversprayScalingEnabledState" setting-of="HPOversprayScaling"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-overspray-scaling']";
+				mutable-enabled if HPPhysicalPaperSizeIsBorderless in {true};
+				mutable-disabled otherwise;
+			</single-valid-value></setting><setting name="HPOversprayScalingMultiplier" user-name="Borderless Overspray Multiplier" access="no-access" UI-type="range" setting-type="private" value-type="rect"><possible-values anchor="capabilities/overspray-scales" values="*"/><single-valid-value>
+				least if HPOversprayScaling in {i1} and Printer has attribute "product/features/feature[@name='supports-overspray-scaling']";
+				less if HPOversprayScaling in {i2} and Printer has attribute "product/features/feature[@name='supports-overspray-scaling']";
+				slightly-less if HPOversprayScaling in {i3} and Printer has attribute "product/features/feature[@name='supports-overspray-scaling']";
+				full otherwise;
+			</single-valid-value></setting><setting name="HPSelectedPhysicalPaperSize" user-name="Print On:" access="read-only" weight="10000" setting-type="private" used-by-application="true" value-type="APaperSize"><possible-values anchor="capabilities/media-size-pick" values="*[name()!='default']"/><default-value>na-letter otherwise;</default-value><heuristics><heuristic name="d4e1360" heuristic-type="CurrentValue" class="CurrentValuePhysicalMediaSizeHeuristic"/></heuristics></setting><setting name="HPPhysicalPaperSizeHasBorderlessAnalog" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Physical Paper Size has Borderless Analog" access="no-access" setting-type="private"><default-value>false otherwise;</default-value><heuristics><heuristic name="d4e1373" heuristic-type="CurrentValue" class="CurrentValueHasBorderlessAnalogHeuristic"/></heuristics></setting><setting name="HPSelectedPaperSizeIsBorderless" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Selected Paper Size Is Borderless" access="no-access" setting-type="private"><single-valid-value>
+				true if HPSelectedPhysicalPaperSize has attribute "@full-bleed[.='true']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPPaperTypeSupportsBorderless" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Paper type supports borderless printing" access="no-access" setting-type="private"><single-valid-value>
+				true if not Printer has attribute "$Root/capabilities/constrained-media-types/disallowed-media-types[@name='disallowed-media-borderless-types']/reference[@name='%HPPaperType%']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPInvalidPaperSize" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Valid paper size" access="read-write" setting-type="private" used-by-application="true"><default-value>false otherwise;</default-value></setting><setting name="HPPaperCategoriesOrder" user-name="UI categories order" access="no-access" setting-type="public" used-by-application="true" value-type="ordinal"><possible-values anchor="capabilities/media-type-categories-order" values="*"/></setting><setting name="HPPenConfigSupportsInColorsync" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Pen config in colorsync" access="no-access" setting-type="private"><single-valid-value>
+				true if	Printer has attribute "product/features/feature[@name='supports-penconfig-in-colorsync-ui' and .='true']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPFullSailIsActive" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="FullSail mode is active" access="no-access" setting-type="private"><single-valid-value>
+				true if	Printer has attribute "product/features/feature[@name='supports-fullsail-mode' and .='true']" and
+						Printer has attribute "job/full-sail-description/media-type-references/reference[@name='%HPPaperType%']" and
+						Printer has attribute "job/full-sail-description/quality-references/reference[@name='%HPPrintQuality%']" and
+						Printer has attribute "job/full-sail-description/pen-configuration-references/reference[@name='%HPPenConfig%']";
+				false otherwise;
+			</single-valid-value></setting><setting name="HPAdjustedPrintQuality" user-name="Adjusted Print Quality:" access="no-access" setting-type="private" value-type="ordinal"><possible-values anchor="capabilities/print-qualities" values="*"/><single-valid-value>
+				best if HPPrintQuality in {best, highest};
+				* if HPPrintQuality in {*};
+			</single-valid-value></setting><setting name="HPQuietMode" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Quiet Printing" access="read-write" UI-type="boolean" setting-type="public"><valid-values>
+			   true: HPQuietModeEnabledState in {mutable-enabled};
+			   false: ;
+			</valid-values><default-value>false otherwise;</default-value></setting><setting name="HPQuietModeEnabledState" setting-of="HPQuietMode"><single-valid-value>
+				mutable-enabled if Printer has attribute "product/features/feature[@name='supports-quiet-mode']";
+				notapplicable-hidden otherwise;
+			</single-valid-value></setting><setting name="HPMirrorFlip" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Mirror Image" access="read-write" UI-type="boolean" setting-type="public"><valid-values>
+			   true: HPMirrorFlipEnabledState in {mutable-enabled};
+			   false: ;
+			</valid-values><default-value>
+				false otherwise;
+			</default-value><heuristics><heuristic name="d4e1475" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPaperType"/></heuristics></setting><setting name="HPMirrorFlipEnabledState" setting-of="HPMirrorFlip"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-mirror-flip']";
+				mutable-enabled if HPPageOrientation in {portrait,reverse-portrait};
+				mutable-disabled otherwise;
+			</single-valid-value></setting><setting name="HPSizeInfoReadingLocked" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Lock size info reading" access="no-access" setting-type="private" used-by-application="true"><default-value>
+				false otherwise;
+			</default-value></setting><setting name="HPSizeInfoReadingLockedEnabledState" setting-of="HPSizeInfoReadingLocked"><single-valid-value>
+				notapplicable-hidden otherwise;
+			</single-valid-value></setting><setting name="HPSimpleImageEnhancement" user-name="Photo Fix" access="read-write" UI-type="list" setting-type="public" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="basic" user-name="Basic" order="1"/><value name="full" user-name="Full" order="2"/></possible-values><default-value>
+				off if HPPrintQuality has attribute "./@image-enhancement[.='false']" or not HPColorMode in {colorsmart,grayscale};
+				basic otherwise;
+			</default-value><valid-values>
+				*: (HPSimpleImageEnhancementEnabledState in {mutable-enabled});
+				off: ;
+			</valid-values><heuristics><heuristic name="d4e1530" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPColorMode"/><heuristic name="d4e1535" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/><heuristic name="d4e1535" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancementEnabledState"/></heuristics></setting><setting name="HPSimpleImageEnhancementEnabledState" setting-of="HPSimpleImageEnhancement"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='simplified-image-enhancement']";
+				mutable-disabled if HPPrintQuality has attribute "./@image-enhancement[.='false']" or HPColorMatchingIsACM in {true};
+				mutable-enabled otherwise;
+			</single-valid-value><heuristics><heuristic name="d4e1536" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></setting><setting name="HPMinimizeBottomMargin" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Minimize Bottom Margin" access="no-access" setting-type="private"><single-valid-value>
+				true if HPMinimizeBottomMarginEnabledState in {mutable-enabled};
+				false otherwise;
+			</single-valid-value></setting><setting name="HPMinimizeBottomMarginEnabledState" setting-of="HPMinimizeBottomMargin"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-minimize-bottom-margin']";
+				mutable-disabled if HPPhysicalPaperSizeIsBorderless in {true} or
+							HPPhysicalPaperSize has attribute "@minimize-bottom-margin[.='false']";
+				mutable-enabled otherwise;
+			</single-valid-value></setting><setting name="HPIsAutomaticAllowed" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Automatic values trigger" access="no-access" setting-type="private" used-by-application="true"><default-value>true otherwise;</default-value></setting><setting name="HPIsPDEContext" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Running in PDE context" access="read-only" setting-type="private" used-by-application="true"><default-value>false otherwise;</default-value></setting><setting name="HPIsPDEContextEnabledState" setting-of="HPIsPDEContext"><single-valid-value>locked-hidden otherwise;</single-valid-value></setting><setting name="HPDuplex" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Print Both Sides" access="read-only" UI-type="boolean" setting-type="public"><valid-values>
+				true: HPDuplexEnabledState in {mutable-enabled};
+				false: ;
+			</valid-values><default-value>false otherwise;</default-value></setting><setting name="HPDuplexEnabledState" setting-of="HPDuplex"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-auto-duplex' and .='true']";
+				mutable-hidden if HPAutoDuplexerInstalled in {false};
+				mutable-enabled if (HPDuplexSubstitute in {true} and HPPaperType has attribute "media-type-info/@duplex[.='true']") or
+				 							(HPSystemDuplexing in {true} and HPIsPDEContext in {true});
+				mutable-disabled otherwise; 
+			</single-valid-value><heuristics><heuristic name="d4e1626" heuristic-type="ValidValues" class="ValidValuesDuplexEnabledHeuristic"/></heuristics></setting><setting name="HPSystemDuplexing" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="HPSystemDuplexing" access="read-write" weight="10000" UI-type="boolean" setting-type="public"><default-value>true otherwise;</default-value></setting><setting name="HPLowerTrayInstalled" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="Lower Tray Installed" access="read-only" weight="10000" UI-type="boolean" setting-type="private" used-by-application="true"><valid-values>
+				true: not HPLowerTrayInstalledEnabledState in {notapplicable-hidden};
+				false: not HPLowerTrayInstalledEnabledState in {locked-hidden};
+			</valid-values><default-value>
+				true if Printer has attribute "product/features/feature[@name='ships-with-lower-tray' and .='true']";
+				false otherwise;
+			</default-value></setting><setting name="HPLowerTrayInstalledEnabledState" setting-of="HPLowerTrayInstalled"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "capabilities/media-source-pick/media-source[@name='Tray2']"; /* Device doesn't support lower tray */
+				locked-hidden if not Printer has attribute ".//installable-option[@name='HPLowerTrayInstalled']"; /* Device supports lower tray but doesn't support installable option */
+				mutable-enabled otherwise; /* Device supports installable option */
+			</single-valid-value></setting><setting name="HPAutoDuplexerInstalled" link="Data/JobSettings.xml#/js-container/presets//preset[@name='BooleanSettingData']" user-name="HP Two-sided Printing Accessory (Duplexer)" access="read-only" weight="10000" UI-type="boolean" setting-type="private" used-by-application="true"><valid-values>
+				true: not HPAutoDuplexerInstalledEnabledState in {notapplicable-hidden};
+				false: not HPAutoDuplexerInstalledEnabledState in {locked-hidden};
+			</valid-values><default-value>
+				true if Printer has attribute "product/features/feature[@name='ships-with-auto-duplexer' and .='true']";
+				false otherwise;
+			</default-value></setting><setting name="HPAutoDuplexerInstalledEnabledState" setting-of="HPAutoDuplexerInstalled"><single-valid-value>
+				notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-auto-duplex' and .='true']"; /* Device doesn't support autoduplex */
+				locked-hidden if not Printer has attribute ".//installable-option[@name='HPAutoDuplexerInstalled']"; /* Device supports autoduplex but doesn't support installable option */
+				mutable-enabled otherwise; /* Device supports installable option */
+			</single-valid-value></setting></settings><presets name="job-settings-data"><presets name="simplified-manual-image-enhancement"><preset name="HPDigitalFlash" user-name="Adaptive Lighting" access="no-access" setting-type="private" value-type="ordinal"><possible-values><value name="off" user-name="Off">0</value><value name="automatic" user-name="Automatic">4</value></possible-values><single-valid-value>
+					automatic if HPSimpleImageEnhancementEnabledState in {mutable-enabled} and HPSimpleImageEnhancement in {full};
+					off otherwise;
+				</single-valid-value><heuristics><heuristic name="d4e1715" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancement"/></heuristics></preset><preset name="HPDigitalFlashEnabledState" setting-of="HPDigitalFlash"><single-valid-value>
+					notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info//setting[@name='digital-flash' and .='true']";
+					mutable-enabled otherwise;
+				</single-valid-value></preset><preset name="HPContrastEnhance" user-name="Photo Brightening" access="no-access" setting-type="private" value-type="ordinal"><possible-values><value name="off" user-name="Off">0</value><value name="automatic" user-name="Automatic">4</value></possible-values><single-valid-value>
+					automatic if HPSimpleImageEnhancementEnabledState in {mutable-enabled} and HPSimpleImageEnhancement in {full};
+					off otherwise;
+				</single-valid-value><heuristics><heuristic name="d4e1747" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancement"/></heuristics></preset><preset name="HPContrastEnhanceEnabledState" setting-of="HPContrastEnhance"><single-valid-value>
+					notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info//setting[@name='contrast-enhance' and .='true']";
+					mutable-enabled otherwise;
+				</single-valid-value></preset><preset name="HPRedEye" user-name="Remove Red Eye" access="read-write" UI-type="boolean" setting-type="public" value-type="ordinal"><possible-values><value name="off" user-name="Off">0</value><value name="automatic" user-name="On">1</value></possible-values><valid-values>
+					automatic: HPSimpleImageEnhancementEnabledState in {mutable-enabled} and
+								(Printer has attribute "product/features/feature[@name='support-simplified-red-eye-removal' and .='true']" or
+								HPSimpleImageEnhancement in {full});
+					off: not HPSimpleImageEnhancementEnabledState in {mutable-enabled} or
+								Printer has attribute "product/features/feature[@name='support-simplified-red-eye-removal' and .='true']" or
+								not HPSimpleImageEnhancement in {full};
+				</valid-values><default-value>
+					automatic if HPSimpleImageEnhancement in {full};
+					off otherwise;
+				</default-value><heuristics><heuristic name="d4e1783" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancement"/></heuristics></preset><preset name="HPRedEyeEnabledState" setting-of="HPRedEye"><single-valid-value>
+					notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info//setting[@name='red-eye' and .='true']";				
+					mutable-hidden if not Printer has attribute "product/features/feature[@name='support-simplified-red-eye-removal' and .='true']";
+					mutable-disabled if HPSimpleImageEnhancementEnabledState in {mutable-disabled}; 
+					mutable-enabled otherwise;
+				</single-valid-value></preset><preset name="HPSmartFocus" user-name="SmartFocus" access="no-access" setting-type="private" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="automatic" user-name="On" order="1"/></possible-values><single-valid-value>
+					automatic if HPSimpleImageEnhancementEnabledState in {mutable-enabled} and HPSimpleImageEnhancement in {full, basic};
+					off otherwise;
+				</single-valid-value><heuristics><heuristic name="d4e1815" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancement"/></heuristics></preset><preset name="HPSmartFocusEnabledState" setting-of="HPSmartFocus"><single-valid-value>
+					notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info//setting[@name='smart-focus' and .='true']";
+					mutable-enabled otherwise;
+				</single-valid-value></preset><preset name="HPSmoothing" user-name="Smoothing" access="no-access" setting-type="private" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/></possible-values><heuristics><heuristic name="d4e1840" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancement"/></heuristics></preset><preset name="HPSmoothingEnabledState" setting-of="HPSmoothing"><single-valid-value>
+					notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info//setting[@name='smoothing' and .='true']";
+					mutable-enabled otherwise;
+				</single-valid-value></preset><preset name="HPSharpness" user-name="Sharpness" access="no-access" setting-type="private" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="low" user-name="Low" order="1"/><value name="automatic" user-name="Automatic" order="4"/></possible-values><single-valid-value>
+					automatic if HPSimpleImageEnhancementEnabledState in {mutable-enabled} and HPSimpleImageEnhancement in {full};
+					low if HPSimpleImageEnhancementEnabledState in {mutable-enabled} and HPSimpleImageEnhancement in {basic};
+					off otherwise;
+				</single-valid-value><heuristics><heuristic name="d4e1877" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPSimpleImageEnhancement"/></heuristics></preset><preset name="HPSharpnessEnabledState" setting-of="HPSharpness"><single-valid-value>
+					notapplicable-hidden if not Printer has attribute "capabilities/digital-photo-info//setting[@name='sharpness' and .='true']";
+					mutable-enabled otherwise;
+				</single-valid-value></preset></presets><preset name="BooleanSettingData" value-type="bool"><possible-values><value name="true">Y</value><value name="false">N</value></possible-values></preset><preset name="ImageEnhancementSettingData" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="low" user-name="Low" order="1"/><value name="medium" user-name="Medium" order="2"/><value name="high" user-name="High" order="3"/><value name="automatic" user-name="Automatic" order="4"/></possible-values><valid-values>
+				off: HPColorMatchingIsACM in {true} or not (HPImagingModeAutomatic in {true} and HPImagingModeAutomaticEnabledState in {mutable-enabled} and HPPrintQuality in {best, highest});
+				automatic: HPColorMatchingIsACM in {false} and 
+						((HPImagingModeAutomatic in {true} and HPImagingModeAutomaticEnabledState in {mutable-enabled} and HPPrintQuality in {best, highest}) or
+						(HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']"));
+				*: HPColorMatchingIsACM in {false} and HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality has attribute "./@image-enhancement[.='true']";
+			</valid-values><default-value>
+				automatic if HPImagingModeAutomaticEnabledState in {notapplicable-hidden} and HPPrintQuality in {best, highest} and HPColorMode in {colorsmart,grayscale};
+				off otherwise;
+			</default-value><heuristics><heuristic name="d4e1930" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPColorMode"/><heuristic name="d4e1935" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPPrintQuality"/></heuristics></preset><preset name="ImageEnhancementImageSettingData" value-type="ordinal"><possible-values><value name="off" user-name="Off" order="0"/><value name="low" user-name="Low" order="1"/><value name="medium" user-name="Medium" order="2"/><value name="high" user-name="High" order="3"/></possible-values></preset><preset name="ColorAdjustmentSettingData" access="read-write" UI-type="range" setting-type="public" value-type="integer"><possible-values><value name="i-50">-50</value><value name="i-49">-49</value><value name="i-48">-48</value><value name="i-47">-47</value><value name="i-46">-46</value><value name="i-45">-45</value><value name="i-44">-44</value><value name="i-43">-43</value><value name="i-42">-42</value><value name="i-41">-41</value><value name="i-40">-40</value><value name="i-39">-39</value><value name="i-38">-38</value><value name="i-37">-37</value><value name="i-36">-36</value><value name="i-35">-35</value><value name="i-34">-34</value><value name="i-33">-33</value><value name="i-32">-32</value><value name="i-31">-31</value><value name="i-30">-30</value><value name="i-29">-29</value><value name="i-28">-28</value><value name="i-27">-27</value><value name="i-26">-26</value><value name="i-25">-25</value><value name="i-24">-24</value><value name="i-23">-23</value><value name="i-22">-22</value><value name="i-21">-21</value><value name="i-20">-20</value><value name="i-19">-19</value><value name="i-18">-18</value><value name="i-17">-17</value><value name="i-16">-16</value><value name="i-15">-15</value><value name="i-14">-14</value><value name="i-13">-13</value><value name="i-12">-12</value><value name="i-11">-11</value><value name="i-10">-10</value><value name="i-9">-9</value><value name="i-8">-8</value><value name="i-7">-7</value><value name="i-6">-6</value><value name="i-5">-5</value><value name="i-4">-4</value><value name="i-3">-3</value><value name="i-2">-2</value><value name="i-1">-1</value><value name="i0">0</value><value name="i1">1</value><value name="i2">2</value><value name="i3">3</value><value name="i4">4</value><value name="i5">5</value><value name="i6">6</value><value name="i7">7</value><value name="i8">8</value><value name="i9">9</value><value name="i10">10</value><value name="i11">11</value><value name="i12">12</value><value name="i13">13</value><value name="i14">14</value><value name="i15">15</value><value name="i16">16</value><value name="i17">17</value><value name="i18">18</value><value name="i19">19</value><value name="i20">20</value><value name="i21">21</value><value name="i22">22</value><value name="i23">23</value><value name="i24">24</value><value name="i25">25</value><value name="i26">26</value><value name="i27">27</value><value name="i28">28</value><value name="i29">29</value><value name="i30">30</value><value name="i31">31</value><value name="i32">32</value><value name="i33">33</value><value name="i34">34</value><value name="i35">35</value><value name="i36">36</value><value name="i37">37</value><value name="i38">38</value><value name="i39">39</value><value name="i40">40</value><value name="i41">41</value><value name="i42">42</value><value name="i43">43</value><value name="i44">44</value><value name="i45">45</value><value name="i46">46</value><value name="i47">47</value><value name="i48">48</value><value name="i49">49</value><value name="i50">50</value></possible-values><default-value>i0 otherwise;</default-value><heuristics><heuristic name="d4e2189" heuristic-type="CurrentValueChange" class="CurrentValueChangeSetDefaultHeuristic" source="HPColorMode"/></heuristics></preset><presets name="color-sliders-constraints"><preset name="grayscale-only"><possible-values><value name="saturation">
+					notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-saturation' and .='true']";
+					mutable-disabled if HPColorMode in {grayscale} or HPColorMatchingIsACM in {true};
+					mutable-enabled otherwise;
+				</value><value name="brightness">
+					notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-brightness' and .='true']";
+					mutable-enabled if (HPColorMode in {colorsmart, AdobeRGB} or
+												(HPColorMode in {grayscale} and HPGrayscaleMode in {high-quality} and
+												Printer has attribute "product/features/feature[@name='supports-grayscale-brightness' and .='true']")) and
+												HPColorMatchingIsACM in {false};
+					mutable-disabled otherwise;
+				</value><value name="color-tone">
+					notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-colortone' and .='true']";
+					mutable-disabled if HPColorMode in {grayscale} or HPColorMatchingIsACM in {true};
+					mutable-enabled otherwise;
+				</value></possible-values></preset></presets><presets name="cmyk-sliders-constraints"><preset name="grayscale-only"><possible-values><value name="general">
+					notapplicable-hidden if not Printer has attribute "product/features/feature[@name='supports-cmyk-adjustments']";
+					mutable-disabled if HPColorMode in {grayscale} or HPColorMatchingIsACM in {true};
+					mutable-enabled otherwise;
+				</value></possible-values></preset></presets></presets></js-container>

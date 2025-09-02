@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Opret profil for papir - hjælp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Farvecenter</h1></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Opret profil for papir</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step1"><strong><font color="#006699">Trin 1 - Vælg handling for profiloprettelse</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step2"><strong><font color="#006699">Trin 2 - Vælg ICC-profilindstillinger</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step3"><strong><font color="#006699">Trin 3 - Opret profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step4"><strong><font color="#006699">Trin 4 - Installer profil</font></strong></a>
+								</td>
+							</tr>							
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll">					
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table1">
+							<tr>
+								<td>
+									<h2 id="Step1">Trin 1 - Vælg handling for profiloprettelse</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Printeren har fire forskellige funktioner i forbindelse med oprettelse af en profil, og arbejdsgangen afhænger af den valgte funktion.</p>
+									
+									<h4>Opret ICC-profil/Udskriv og scan ICC-profilkort, og opret ICC-profil</h4>
+									
+									<p>Hvis du arbejder med prædefinerede standardpapirtyper under normale miljøforhold, kan du bruge alt-i-et processen. Det tager lidt tid at gennemføre den, men printeren vil sørge for det hele i den korrekte rækkefølge samt sikre, at blækket får lov at tørre helt, før kortet måles.</p>
+
+									<p>Testkort, der benyttes til printerkalibrering og oprettelse af profil, måles (scannes) vha. printerens indbyggede spektrofotometer.  Et spektrofotometer er et præcisionsinstrument, der kan fastsætte den nøjagtige sammensætning af det lys, der kastes tilbage fra en farveplet. Den deler lyset op i komponenter med forskellig bølgelængde, på samme måde som Newtons berømte prisme deler det hvide lys ind i regnbuens farver, og måler de enkelte komponenters styrke. Som alle andre præcisionsinstrumenter skal spektrofotometeret selv også kalibreres og stabiliseres, før der kan foretages målinger, så man får den bedst mulige præcision. Kalibreringen foregår automatisk vha. en indbygget hvid &quot;referenceflise&quot;. Stabiliseringen sikres ved at tænde spektrofotometerets indbyggede lyskilde og lade den varme op i en kort periode, før målingerne foretages. Der vises en statuslinje, mens dette sker.</p>
+									
+									<p><strong>Hvad sker der i printeren?</strong><br>Først udskrives testkortet. Herefter flyttes både papiret og spektrofotometeret (der er monteret på printervognen), så spektrofotometeret placeres over de farvepletter, der skal måles. Selvom målingen foregår, uden at sensoren eller papiret bevæges, er processen ret hurtig og foretager i snit 5 målinger pr. sekund. Måletiden for hver plet tilpasses automatisk til den farve, der måles, da mørke farver har brug for længere integrationstid (måleperiode) end lyse farver. Der vises en statuslinje under målingen (scanningen) af kortet.</p>
+
+									<p>Da målingerne - og som følge heraf - ICC-profilen afspejler nøjagtigt, hvad de &quot;ser&quot; på papiret, og det, der ses på papiret, afhænger af mange faktorer som printeren, blæk, papir, udskriftsindstillinger og miljømæssige forhold, er den endelige profil kun så &quot;god&quot; eller repræsentativ, som udskrivningsforholdene er. Det betyder med andre ord, at testkortet skal udskrives under forhold, der er så tæt på de forhold, hvorunder du siden hen skal udskrive vha. profilen.</p>
+									
+									<p>Hvis du opdager problemer med udskriftskvaliteten, papirdefekter eller andet, mens kortet udskrives, skal du afbryde processen vha. knappen 'Annuller' og starte forfra. I modsat fald vil den færdige profil måske ikke være repræsentativ for de typiske udskrivningsforhold og vil måske slet ikke kunne bruges.</p>
+
+									<p>Til sidst installerer HP Farvecenter automatisk profilen i den computer, der startede processen. Hvis du bruger din printer fra en anden computer, skal du derfor huske at synkronisere. Processen er nu færdig.</p>
+									
+									<h4>Opret ICC-profil/Udskriv ICC-profilkort</h4>
+
+									<p>Denne funktion giver dig mulighed for at udskrive kortet og udføre profileringsprocessen senere. Du kan f.eks. også bruge det udskrevne kort til profilering på et ekstern spektrofotometer.<br>Der findes en detaljeret beskrivelse af oprettelse af profilen under den første funktion.</p>
+									
+									<h4>Opret ICC-profil/Scan ICC-profilkort, og opret ICC-profil</h4>
+
+									<p>Printeren kan oprette en ICC-profil fra et kort, der allerede er udskrevet. Hav en sådant kort klar, når du vælger denne mulighed.<br>Der findes en detaljeret beskrivelse af oprettelse af profilen under den første mulighed.</p>
+									
+									<h4 id="Step4">Installer ICC-profil/Vælg den ICC-profil, der skal installeres</h4>
+
+									<p>Her kan du installere og knytte en ICC-profil, som du har hentet på nettet eller købt et andet sted, til dit papir.</p>
+									
+									<p>Gør følgende:</p>
+									<ul>
+										<li>Klik på knappen Gennemse for at vælge det arkiv, der indeholder den ICC-profil, der skal installeres</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2 id="Step2">Trin 2 - Vælg ICC-profilindstillinger</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>ICC-profilnavnet vises i programmer som Adobe Photoshop. Navnet på det forudindstillede papir vises i printerdriveren og på frontpanelet. Det anbefales at benytte en kombination af printermodellen og papirnavnet, f.eks: <font color=red>&quot;HP Z3200 Fine Art Pearl&quot;.</font>, som profilnavn.</p>
+									<p>I forbindelse med papir, der kan benytte glansforstærker, skal du endvidere beslutte, om det skal aktiveres eller deaktiveres.</p>
+								</td>
+							</tr>
+						</table>						
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step3">Trin 3 - Opret profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>Der skal bruges en ICC-profil til at frembringe nøjagtige farver ved brug af din printer-, blæk- og papirkombination. Den bruges til at mappe programfarver til printerfarver. Processen består af udskrivning og måling af blækpletter for alle blækkombinationer.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step4">Trin 4 - Installer profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>Installationsprocessen sørger for, at ICC-profilen bliver tilgængelig for programmer som f.eks. Adobe Photoshop. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

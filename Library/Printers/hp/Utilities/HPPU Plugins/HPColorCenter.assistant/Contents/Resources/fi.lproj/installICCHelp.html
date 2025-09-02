@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>ICC-profiilin asennusohje</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Värikeskus</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Asenna ICC-profiili</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Vaihe 1 - Valitse ICC-profiili</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Vaihe 2 - Valitse ICC-profiiliasetukset</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Vaihe 3 - Asenna ICC-profiili</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Vaihe 4 - Valmis</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Vaihe 1 - Valitse ICC-profiili</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Vaikka ICC-profiili olisikin hankittu muulla tavalla kuin luomalla se tulostimen sisäisellä profilointiohjelmalla (se voi olla esim. ladattu internetistä tai tullut jonkin muun valmistajan profilointiohjelmiston mukana), se voidaan silti asentaa ja sitä voidaan käyttää tulostimen ja paperin kanssa.</td>
+							</tr>
+							<tr>
+								<td> Tulostimen on tiedettävä, mihin paperityyppiin profiili liittyy, joten ensin on valittava paperityyppi tulostimeen ohjelmoitujen paperien luettelosta. Yritä paperityyppiä valitessasi valita sellainen, joka vastaa mahdollisimman tarkkaan todellisuudessa käytettyä paperia. Paperityyppi määrittää käytettävän musteen määrän ja muita perustulostusasetuksia, joten oikean valinnan tekeminen tässä vaiheessa on olennaisen tärkeää hyvien tulosten saavuttamiseksi myöhemmin. Jos luettelossa ei ole käyttämääsi paperityyppiä tai et löydä sellaista tyyppiä, joka on tarpeeksi lähellä omaasi, voit määrittää uuden paperityypin. Tulostin kalibroi sitten itsensä paperiasi varten, minkä jälkeen voit jatkaa ICC-profiilin asentamista. Jos valitsemasi profiilin ja paperityypin tuottama jälki ei tyydytä, voit määrittää kokeeksi eri tyyppejä samalle paperille antamillesi uusiin nimiin ja käyttää sitä, joka tuottaa parhaan tuloksen.</td>
+							</tr>
+							<tr>
+								<td> Kun olet valinnut paperityypin, selaa tiedostoon, joka sisältää tulostimen ja paperin kanssa käytettävän ICC-profiilin. Tavallisesti ICC-profiilitiedostojen nimet päättyvät tunnukseen &quot;.icc&quot; (International Color Consortium) tai &quot;.icm&quot; (Image Color Matching).</td>
+							</tr>
+							<tr>
+								<td> Haluat ehkä tietää, mitä eroa mukautetuilla väriprofiileilla ja ladatuilla valmisprofiileilla on. Seuraavassa on kuvattu joitakin näiden kahden profiilityypin välisiä eroja:</td>
+							</tr>
+							<tr>
+								<td> - Mukautetut väriprofiilit perustuvat omasta tulostimesta omissa ympäristöoloissa omia musteita käyttäen saatuihin testituloksiin. Tällainen profiili takaa periaatteessa parhaan mahdollisen väritarkkuuden, sillä se on mukautettu täysin käytössä olevaan järjestelmään.</td>
+							</tr>
+							<tr>
+								<td>- Valmiit yleisväriprofiilit on luotu käytössä olevaa tulostinmallia, mustemerkkiä ja paperityyppiä varten, mutta ei nimenomaan sinun tulostintasi, musteitasi ja paperiasi varten. Ne perustuvat &quot;tyypillisiin&quot; eli keskimääräisiin testituloksiin ja mittauksiin, jotka edustavat &quot;tyypillistä&quot; eli keskimääräistä järjestelmää. Keskimääräisessä järjestelmässä nämä profiilit tuottavat hyviä tuloksia. Jos käytössä oleva järjestelmä kuitenkin poikkeaa jonkin verran keskimääräisestä, valmis profiili ei vastaa tarkoitustaan.</td>
+							</tr>
+							<tr>
+								<td> - Mukautetut väriprofiilit on luotu tulostimen sisäisellä profilointiohjelmalla tai lisävarusteena hankitulla ohjelmalla. Tämä ohjelmisto tuottaa erinomaisia tuloksia, mutta sen on profiileja luodessaan kuitenkin välttämättä tehtävä tiettyjä valintoja, erityisesti mitä tulee toistoavaruuden sovittamiseen havainnollista näköistystapaa varten. Toistoavaruuden sovittaminen suoritetaan silloin, kun tietyllä toistoavaruudella (värisävyt, jotka laite pystyy vangitsemaan tai toistamaan) varustetusta laitteesta (esim. digitaalikamera tai tietokonenäyttö) siirretyt värit muunnetaan tai sovitetaan laitteeseen, jonka toistoavaruus on erikokoinen tai -muotoinen (esim. tulostin). Toistoavaruuden sovittaminen on paremminkin taidetta kuin tiedettä, joten siinä ei varsinaisesti tunneta oikeita ja vääriä ratkaisuja - mutta ne kaikki poikkeavat toisistaan.</td>
+							</tr>
+							<tr>
+								<td> - Esim. paperivalmistajien tarjoamat yleisväriprofiilit on saatettu luoda eri profilointiohjelmilla, jotka tekevät eri valintoja toistoavaruuden sovittamista ja muita profiilin ominaisuuksia määritettäessä. Vaikka nämä valinnat eivät välttämättä ole parempia tai huonompia kuin tulostimen profilointiohjelmistonkaan tekemät valinnat, ne todennäköisesti poikkeavat näistä.</td>
+							</tr>
+							<tr>
+								<td> Seuraavassa on joitakin ohjeita profiilityypin valitsemiseen:</td>
+							</tr>
+							<tr>
+								<td> - Jos olet pääasiassa kiinnostunut tulosteiden (esim. vedostulosteiden) väritarkkuudesta, käytät todennäköisesti kolorimetristä näköistystapaa. Tässä tulostimen toistoavaruuden värit yritetään tuottaa suurimmalla mahdollisella tarkkuudella, mikä saattaa heikentää toistoavaruuden ulkopuolelle jäävien värien tuottamista (vaikka nekin joka tapauksessa on tulostettava tavalla tai toisella). Koska kolorimetrinen tuottaminen on havainnollista näköistystä objektiivisempaa, profilointiohjelmien erot jäävät pieniksi. Mukautettu profiili on tavallisesti paras valinta.</td>
+							</tr>
+							<tr>
+								<td>- Jos olet kiinnostunut ennen kaikkea tulosteiden silmään näkyvästä ulkoasusta ja vastaavuudesta tietokoneen näytössä näkyvän kuvan kanssa (esim. valokuvia ja taidekuvia käsiteltäessä), käytät todennäköisesti havainnollista näköistystapaa. Aluksi on järkevää käyttää mukautettuja profiileja, sillä niiden väritarkkuus on loistava ja havainnollinen näköistys tuottaa kauniin jäljen. Joidenkin ulkopuolisten valmistajien profiilit saattavat kuitenkin käytössä osoittautua tyydyttävämmiksi.</td>
+							</tr>
+							<tr>
+								<td> Kuten aina, kannattaa kokeilla useita eri vaihtoehtoja ja käyttää sitä, joka parhaiten vastaa kulloisiakin tarpeita.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Vaihe 2 - Valitse ICC-profiilin asetukset</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Tässä voit valita asennettavalle ICC-profiilille nimen. Nimeä tarvitaan kahteen erilliseen mutta toisiinsa liittyvään tarkoitukseen:</td>
+							</tr>
+							<tr>
+								<td> 1. Tiedostonimi, joka näkyy käyttöjärjestelmän tiedostoselaimessa (Windowsin Resurssienhallinta), kun selaat ICC-profiilin sisältävään tiedostoon. Sovellus liittää profiilin nimeen automaattisesti tiedostotunnisteen &quot;.icc&quot;, jotta sekä käyttäjä että ohjelmisto osaavat tunnistaa ICC-profiilitiedostot.</td>
+							</tr>
+							<tr>
+								<td> 2. Profiilin sisäinen kuvausmerkkijono. Jokaisella ICC-profiililla on sisäinen kuvausmerkkijono, jota jotkin (eivät kuitenkaan kaikki) ICC-yhteensopivat ohjelmistot käyttävät profiilin tunnistamiseen tai jonka perusteella nämä ohjelmistot sisällyttävät profiilin valittavien kohteiden luetteloon.</td>
+							</tr>
+							<tr>
+								<td> Tilanteesta riippuen näkyvissä saattaa olla joko tiedoston nimi tai sisäinen kuvaus, minkä vuoksi on järkevää nimetä kumpikin samalla tavalla. Vaikka periaatteessa voit valita minkä tahansa nimen, on hyvä käytäntö valita profiileille tietty nimeämistapa ja pysyä siinä. Nimissä voi käyttää esimerkiksi seuraavia osia ja erottaa ne toisistaan väleillä, alaviivoilla tai muilla merkeillä:</td>
+							</tr>
+							<tr>
+								<td>- Tulostimen tyyppi tai nimi, esimerkiksi &quot;HP Designjet Z2100&quot;, jossa &quot;HP&quot; kertoo tulostimen merkin (Hewlett-Packard), &quot;Designjet&quot; laitesarjan nimen ja &quot;Z2100&quot; laitteen mallinumeron. Koska sekä tiedostonimien että sisäisten kuvauksien pituus on rajoitettu, nämä tiedot on todennäköisesti tiivistettävä yhdeksi verrattain lyhyeksi merkkijonoksi. Tulostinmallin nimen käyttäminen profiilin nimen ensimmäisenä osana takaa, että kaikki tulostinta varten luodut profiilit näkyvät yhtenäisenä ryhmänä sekä tiedostoselaimissa että sovellusten profiililuetteloissa.</td>
+							</tr>
+							<tr>
+								<td> - Paperin tyyppi tai nimi, esimerkiksi &quot;HWT310&quot; (Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm). Samoin kuin tulostimen tyyppi tai nimi, myös paperin tyyppi tai nimi on todennäköisesti lyhennettävä. Varmista, että käytät jokaisesta käyttämästäsi paperityypistä yksilöivää nimeä tai lyhennettä, jotta pystyt erottamaan eri profiilit toisistaan.</td>
+							</tr>
+							<tr>
+								<td> - Tulostuslaatu ja muut testikaavion tulostuksessa käytetyt asetukset, esimerkiksi &quot;P&quot; eli &quot;paras tulostuslaatu&quot; tai &quot;PKL&quot; eli &quot;paras&quot; laatu ja &quot;kiillon lisääjä&quot; käytössä (vain valokuvapaperit). Yksinkertaista ja lyhennä niin paljon kuin mahdollista, mutta älä enempää.</td>
+							</tr>
+							<tr>
+								<td> - Käytetty testikaavio, esimerkiksi &quot;pieni&quot; tai &quot;suuri&quot;, tai tietyn testikaavion nimi, vaikkapa &quot;ECI2002&quot;, jos nämä vaihtoehdot ovat käytettävissä. Lyhennä ja yksinkertaista tarpeen mukaan.</td>
+							</tr>
+							<tr>
+								<td> Esimerkkejä näiden ohjeiden mukaan luoduista profiilien nimistä ovat esimerkiksi &quot;HP Designjet Z2100 HWT310&quot; ja &quot;HP Designjet Z2100, päällystetty paperi&quot;. Vastaavat tiedostonimet ovat &quot;HP_Z2100_HWT310.icc&quot; ja &quot;HP_Z2100_päällystettypaperi.icc&quot;.</td>
+							</tr>
+							<tr>
+								<td> Minkä hyvänsä nimeämistavan valitsetkin, varmista, että kaikki profiilit on mahdollista erottaa muista käyttämistäsi paperityypeistä ja asetuksista.</td>
+							</tr>
+							<tr>
+								<td> Kuten aina, kannattaa kokeilla useita eri vaihtoehtoja ja käyttää sitä, joka parhaiten vastaa kulloisiakin tarpeita.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step3">Vaihe 3 - Asenna ICC-profiili</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Asennus varmistaa, että ICC-profiili on sovellusten (esim. Adobe Photoshopin) käytettävissä.</td>
+							</tr>							
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Vaihe 4 - Valmis</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Kun profiilin luonti on valmis, voit selata tulostimeen ohjelmoitujen papereiden luetteloa. Luettelo sisältää kunkin paperin luokan tai mukautetun paperin nimen ja siihen liittyvän profiilin nimen. Voit nyt käyttää mukautettua ICC (ColorSync) -profiilia tulostimen ja paperin kanssa. Katso lisätietoa ICC-profiilien käytöstä ja muista värinhallintavaihtoehdoista kohdasta <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Vaihe 3 - Asenna ICC-profiili</font></strong></a>.</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

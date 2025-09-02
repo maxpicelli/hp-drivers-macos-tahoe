@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>MarginsLayoutPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEExpandingController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDEExpandingController</string>
+			<key>label</key>
+			<string>Margins/Layout</string>
+			<key>supportedSettingNames</key>
+			<array/>
+		</dict>
+		<key>topController</key>
+		<dict>
+			<key>ppd-attribute</key>
+			<string>ImageLayout</string>
+		</dict>
+		<key>bottomController</key>
+		<dict>
+			<key>file-name</key>
+			<string>StatusAlerts</string>
+		</dict>
+	</dict>
+	<key>title</key>
+	<string>Margins/Layout</string>
+	<key>orderNumber</key>
+	<real>50</real>
+	<key>summary-order</key>
+	<array>
+		<string>HPImageLayout</string>
+	</array>
+</dict>
+</plist>

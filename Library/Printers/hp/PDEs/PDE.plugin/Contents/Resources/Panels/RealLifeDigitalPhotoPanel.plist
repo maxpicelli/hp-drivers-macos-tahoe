@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>RealLifePanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEDigitalPhotoController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDEDigitalPhotoController</string>
+			<key>label</key>
+			<string>Real Life Digital Photography</string>
+		</dict>
+		<key>sub-controllers</key>
+		<array>
+			<dict>
+				<key>class-name</key>
+				<string>PDEDigitalPhotoFilterController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDEDigitalPhotoFilterController</string>
+					<key>label</key>
+					<string>Adaptive Lighting</string>
+					<key>supportedSettingNames</key>
+					<array>
+						<string>HPDigitalFlash</string>
+						<string>HPDigitalFlashImage</string>
+					</array>
+					<key>totalSettingControllerName</key>
+					<string>HPDigitalFlash</string>
+					<key>imageSettingControllerName</key>
+					<string>HPDigitalFlashImage</string>
+					<key>informationText</key>
+					<string>This feature fills in dark areas of your photographs, similar to a flash on a camera.</string>
+					<key>imageNames</key>
+					<dict>
+						<key>Off</key>
+						<string>FlashOff</string>
+						<key>Low</key>
+						<string>FlashLow</string>
+						<key>Medium</key>
+						<string>FlashMed</string>
+						<key>High</key>
+						<string>FlashHigh</string>
+					</dict>
+					<key>panelToolTip</key>
+					<string>This panel allows you to adjust the amount of digital flash applied to your images.</string>
+					<key>selectedPanelToolTip</key>
+					<string>This panel allows you to adjust the amount of digital flash applied to your images. This is the current selection.</string>
+					<key>imageToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>This enhancement has no digital flash applied to the preview image.</string>
+						<key>Low</key>
+						<string>This enhancement has the lowest amount of digital flash applied to the preview image.</string>
+						<key>Medium</key>
+						<string>This enhancement has a medium amount of digital flash applied to the preview image.</string>
+						<key>High</key>
+						<string>This enhancement has the highest amount of digital flash applied to the preview image.</string>
+					</dict>
+					<key>sliderToolTip</key>
+					<string>This controls the amount of digital flash applied to your images.</string>
+					<key>radioGroupToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>Deactivate enhancement feature.</string>
+						<key>On</key>
+						<string>Activate manual control of enhancement feature.</string>
+						<key>Auto</key>
+						<string>Printer driver software automatically determines the amount of enhancement to apply.</string>
+					</dict>
+				</dict>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDEDigitalPhotoFilterController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDEDigitalPhotoFilterController</string>
+					<key>label</key>
+					<string>Photo Brightening</string>
+					<key>supportedSettingNames</key>
+					<array>
+						<string>HPContrastEnhance</string>
+						<string>HPContrastImage</string>
+					</array>
+					<key>totalSettingControllerName</key>
+					<string>HPContrastEnhance</string>
+					<key>imageSettingControllerName</key>
+					<string>HPContrastImage</string>
+					<key>informationText</key>
+					<string>This feature will enhance the contrast of your photographs.</string>
+					<key>imageNames</key>
+					<dict>
+						<key>Off</key>
+						<string>ContrOff</string>
+						<key>Low</key>
+						<string>ContrLow</string>
+						<key>Medium</key>
+						<string>ContrMed</string>
+						<key>High</key>
+						<string>ContrHigh</string>
+					</dict>
+					<key>panelToolTip</key>
+					<string>This panel allows you to adjust the amount of contrast enhancement applied to your images.</string>
+					<key>selectedPanelToolTip</key>
+					<string>This panel allows you to adjust the amount of contrast enhancement applied to your images. This is the current selection.</string>
+					<key>imageToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>This enhancement has no contrast enhancement applied to the preview image.</string>
+						<key>Low</key>
+						<string>This enhancement has the lowest amount of contrast enhancement applied to the preview image.</string>
+						<key>Medium</key>
+						<string>This enhancement has a medium amount of contrast enhancement applied to the preview image.</string>
+						<key>High</key>
+						<string>This enhancement has the highest amount of contrast enhancement applied to the preview image.</string>
+					</dict>
+					<key>sliderToolTip</key>
+					<string>This controls the amount of contrast enhancement applied to your images.</string>
+					<key>radioGroupToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>Deactivate enhancement feature.</string>
+						<key>On</key>
+						<string>Activate manual control of enhancement feature.</string>
+						<key>Auto</key>
+						<string>Printer driver software automatically determines the amount of enhancement to apply.</string>
+					</dict>
+				</dict>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDEBasicImageEnhancementController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDESmartFocusController</string>
+					<key>label</key>
+					<string>Smart Focus</string>
+					<key>informationText</key>
+					<string>This feature will enhance the appearance of low-resolution photographs.</string>
+					<key>supportedSettingNames</key>
+					<array>
+						<string>HPSmartFocus</string>
+					</array>
+					<key>imageNames</key>
+					<dict>
+						<key>Off</key>
+						<string>SmartOff</string>
+						<key>Automatic</key>
+						<string>SmartOn</string>
+					</dict>
+					<key>panelToolTip</key>
+					<string>This panel allows you to adjust whether the SmartFocus enhancement is applied to your images.</string>
+					<key>selectedPanelToolTip</key>
+					<string>This panel allows you to adjust whether the SmartFocus enhancement is applied to your images. This is the current selection.</string>
+					<key>imageToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>This enhancement has no SmartFocus applied to the preview image.</string>
+						<key>Automatic</key>
+						<string>This preview gives you an idea of what the SmartFocus enhancement does.</string>
+					</dict>
+					<key>radioGroupToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>Use this control to turn off the SmartFocus enhancement.</string>
+						<key>On</key>
+						<string>Use this control to turn on the SmartFocus enhancement.</string>
+					</dict>
+				</dict>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDEDigitalPhotoFilterController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDEDigitalPhotoFilterController</string>
+					<key>label</key>
+					<string>Smoothing</string>
+					<key>supportedSettingNames</key>
+					<array>
+						<string>HPSmoothing</string>
+						<string>HPSmoothingImage</string>
+					</array>
+					<key>totalSettingControllerName</key>
+					<string>HPSmoothing</string>
+					<key>imageSettingControllerName</key>
+					<string>HPSmoothingImage</string>
+					<key>informationText</key>
+					<string>This feature will smooth, or reduce noise in your photographs.</string>
+					<key>imageNames</key>
+					<dict>
+						<key>Off</key>
+						<string>SmoothOff</string>
+						<key>Low</key>
+						<string>SmoothLow</string>
+						<key>Medium</key>
+						<string>SmoothMed</string>
+						<key>High</key>
+						<string>SmoothHigh</string>
+					</dict>
+					<key>panelToolTip</key>
+					<string>This panel allows you to adjust the amount of smoothing applied to your images.</string>
+					<key>selectedPanelToolTip</key>
+					<string>This panel allows you to adjust the amount of smoothing applied to your images. This is the current selection.</string>
+					<key>imageToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>This enhancement has no smoothing applied to the preview image.</string>
+						<key>Low</key>
+						<string>This enhancement has the lowest amount of smoothing applied to the preview image.</string>
+						<key>Medium</key>
+						<string>This enhancement has a medium amount of smoothing applied to the preview image.</string>
+						<key>High</key>
+						<string>This enhancement has the highest amount of smoothing applied to the preview image.</string>
+					</dict>
+					<key>sliderToolTip</key>
+					<string>This controls the amount of smoothing applied to your images.</string>
+					<key>radioGroupToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>Deactivate enhancement feature.</string>
+						<key>On</key>
+						<string>Activate manual control of enhancement feature.</string>
+						<key>Auto</key>
+						<string>Printer driver software automatically determines the amount of enhancement to apply.</string>
+					</dict>
+				</dict>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDEDigitalPhotoFilterController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDEDigitalPhotoFilterController</string>
+					<key>label</key>
+					<string>Sharpness</string>
+					<key>supportedSettingNames</key>
+					<array>
+						<string>HPSharpness</string>
+						<string>HPSharpnessImage</string>
+					</array>
+					<key>totalSettingControllerName</key>
+					<string>HPSharpness</string>
+					<key>imageSettingControllerName</key>
+					<string>HPSharpnessImage</string>
+					<key>informationText</key>
+					<string>This feature will enhance the sharpness of your photographs.</string>
+					<key>imageNames</key>
+					<dict>
+						<key>Off</key>
+						<string>SharpOff</string>
+						<key>Low</key>
+						<string>SharpLow</string>
+						<key>Medium</key>
+						<string>SharpMed</string>
+						<key>High</key>
+						<string>SharpHigh</string>
+					</dict>
+					<key>panelToolTip</key>
+					<string>This panel allows you to adjust the amount of sharpening applied to your images.</string>
+					<key>selectedPanelToolTip</key>
+					<string>This panel allows you to adjust the amount of sharpening applied to your images. This is the current selection.</string>
+					<key>imageToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>This enhancement has no sharpness applied to the preview image.</string>
+						<key>Low</key>
+						<string>This enhancement has the lowest amount of sharpness applied to the preview image.</string>
+						<key>Medium</key>
+						<string>This enhancement has a medium amount of sharpness applied to the preview image.</string>
+						<key>High</key>
+						<string>This enhancement has the highest amount of sharpness applied to the preview image.</string>
+					</dict>
+					<key>sliderToolTip</key>
+					<string>This controls the amount of sharpening applied to your images.</string>
+					<key>radioGroupToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>Deactivate enhancement feature.</string>
+						<key>On</key>
+						<string>Activate manual control of enhancement feature.</string>
+						<key>Auto</key>
+						<string>Printer driver software automatically determines the amount of enhancement to apply.</string>
+					</dict>
+				</dict>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDEBasicImageEnhancementController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDERedEyeController</string>
+					<key>label</key>
+					<string>Auto Red-eye Removal</string>
+					<key>informationText</key>
+					<string>This feature will remove red eye from your photographs.</string>
+					<key>supportedSettingNames</key>
+					<array>
+						<string>HPRedEye</string>
+					</array>
+					<key>imageNames</key>
+					<dict>
+						<key>Off</key>
+						<string>RedEyeOff</string>
+						<key>Automatic</key>
+						<string>RedEyeOn</string>
+					</dict>
+					<key>panelToolTip</key>
+					<string>This panel allows you to adjust whether red-eye removal is applied to photographs.</string>
+					<key>selectedPanelToolTip</key>
+					<string>This panel allows you to adjust whether red-eye removal is applied to photographs. This is the current selection.</string>
+					<key>imageToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>This enhancement has no Red Eye applied to the preview image.</string>
+						<key>Automatic</key>
+						<string>This preview gives you an idea of what the Red Eye enhancement does.</string>
+					</dict>
+					<key>radioGroupToolTips</key>
+					<dict>
+						<key>Off</key>
+						<string>Use this control to turn off the Red Eye enhancement.</string>
+						<key>On</key>
+						<string>Use this control to turn on the Red Eye enhancement.</string>
+					</dict>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<key>orderNumber</key>
+	<real>30</real>
+	<key>summary-order</key>
+	<array>
+		<string>HPDigitalFlash</string>
+		<string>HPContrastEnhance</string>
+		<string>HPSmartFocus</string>
+		<string>HPSmoothing</string>
+		<string>HPSharpness</string>
+		<string>HPRedEye</string>
+	</array>
+</dict>
+</plist>

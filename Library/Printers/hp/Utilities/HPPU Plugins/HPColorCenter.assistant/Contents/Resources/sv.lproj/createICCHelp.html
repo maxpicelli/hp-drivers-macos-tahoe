@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Skapa och installera ICC-profil - Hjälp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Skapa och installera ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Steg 1 - Välj papper och åtgärd</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Steg 2 - Lägg till en egen papperstyp</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Steg 3 - Välj ICC-profilinställningar</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Steg 4 - Kalibrera skrivaren</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Steg 5 - Skapa ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Steg 6 - Installera ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Steg 7 - Klart</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Steg 1 - Välj papper och åtgärd</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> För att du ska få bästa möjliga resultat måste skrivaren veta hur den ska omvandla färger från datorns skärm eller dokument i program till de bläck och papperstyper som den skriver ut med. En ICC (International Color Consortium)-profil är en beskrivning av en kombination av skrivare, bläck och papper som innehåller all information som behövs för dessa färgomvandlingar. </td>
+							</tr>
+							<tr>
+								<td> Här kan du skapa och installera en anpassad ICC-profil, som gör att du kan skriva ut med bästa möjliga färgnoggrannhet. Om du har en ICC-profil för ditt papper från en annan källa, t. ex. internet, kan den också användas. Färdiga ICC-profiler, t. ex. sådana som du laddar ned från webben, kan ge bra resultat, men bästa möjliga resultat får man normalt genom att skapa en anpassad profil. </td>
+							</tr>
+							<tr>
+								<td> Det här är några av skillnaderna mellan de två profiltyperna: </td>
+							</tr>
+							<tr>
+								<td> - Anpassade färgprofiler är baserade på testkartor och mätningar från din individuella skrivare, med dina specifika bläck, papper och omgivningsförhållanden. Detta ger dig i princip bästa möjliga färgnoggranhet, eftersom allt är anpassat till ditt system. </td>
+							</tr>
+							<tr>
+								<td> - Generiska eller &quot;färdigpaketerade&quot; färgprofiler är gjorda för din skrivarmodell och de bläck och den papperstyp som du använder, men inte för individuella skrivare och dina specifika bläck och papper. De är istället baserade på  &quot;typiska&quot; eller genomsnittliga testkartor och mätningar som representerar det &quot;typiska&quot; eller genomsnittliga systemet. Detta ger bra resultat för ett genomsnittligt system, men det kan finnas smärre avvikelser mellan ditt system och ett genomsnittligt system som dessa profiler inte kan ta hänsyn till. </td>
+							</tr>
+							<tr>
+								<td> - Anpassade färgprofiler skapas med den profileringsprogramvara som medföljde skrivaren som standard, eller med en profileringsprogramvara som du köpt som tillbehör. Denna programvara ger utmärkta resultat, men den måste göra vissa val när den skapar profiler, särskilt angående omvandling av färgskala för perceptuell återgivning. Omvandling av färgskala görs när färger från en enhet med en viss färgskala (samtliga färger som en enhet kan registera eller producera), t.ex. en digitalkamera eller datorbildskärm, måste översättas, eller omvandlas, till en enhet där färgskalan har en annan storlek eller utformning, t.ex. en skrivare. Färgskaleomvandling är mer att betrakta som en konst än en vetenskap och det finns inga korrekta eller felaktiga svar - bara olika svar. </td>
+							</tr>
+							<tr>
+								<td> - Generiska färgprofiler, t.ex. sådana som tillhandahålls av papperstillverkare, kan ha skapats med annan profileringsprogramvara som gör andra val för färgskaleomvandling och andra profilgegenskaper. Dessa val kanske inte är bättre eller sämre än dem som din skrivares profileringsprogramvara gör, men de är sannolikt annorlunda. </td>
+							</tr>
+							<tr>
+								<td> Här följer några riktliner som hjälper dig att välja mellan dem: </td>
+							</tr>
+							<tr>
+								<td> - Om du huvudsaklingen är intresserad av färgnoggrannheten i dina utskrifter, t.ex. för provtryck, kommer du förmodligen att använda kolorimetrisk färgåtergivning. Den kolorimetriska färgåtergivningen försöker reproducera färger inom skrivarens färgskala med största möjliga noggrannhet, vilket kan vara till nackdel för färger utanför färgskalan (som också måste skrivas ut på ett eller annat sätt). Eftersom kolorimetrisk återgivning är mer objektiv än perceptuell återgivning, är mindre skillnad möjlig mellan profileringsprogrammen och en anpassad profil är i normala fall det bästa. </td>
+							</tr>
+							<tr>
+								<td> - Om du huvudsakligen är intresserad av utskrifternas &quot;utseende&quot; och att de ska stämma väl överens med datorns skärm, t.ex. för fotografiska och konstnärliga tillämpningar, kommer du sannolikt att använda den perceptuella återgivningsmetoden. Anpassade profiler är en bra utgångspunkt eftersom de har utmärkt färgnoggranhet och bra perceptuell återgivning, men du kanske upptäcker att du föredrar utseendet hos vissa tredjepartsprofiler. </td>
+							</tr>
+							<tr>
+								<td>Oavsett vilken typ av profil du använder, kom ihåg att du i viss mån kan påverka färgåterviningen med hjälp av färgjusteringsreglagen i skrivardrivrutinen. </td>
+							</tr>
+							<tr>
+								<td> Proceduren för att skapa och installera en anpassad ICC-profil består av följande steg: </td>
+							</tr>
+							<tr>
+								<td> 1. Välj den papperstyp du vill profilera eller definiera en ny. </td>
+							</tr>
+							<tr>
+								<td> 2. Välj vissa inställningar för den nya profilen, inklusive det namn du vill ge profilen. </td>
+							</tr>
+							<tr>
+								<td> 3. Skapa den nya profilen: skriv ut testkartan, låt den torka, utför mätningar av den och beräkna profilen. Allt detta görs automatiskt av din skrivare. </td>
+							</tr>
+							<tr>
+								<td> 4. Installera den nya profilen så att du kan använda den med dina program och skrivaren. </td>
+							</tr>
+							<tr>
+								<td> För det första steget kan du antingen välja en papperstyp i listan med kända papper, eller så kan du definiera en ny papperstyp och lägga till den i listan. </td>
+							</tr>
+							<tr>
+								<td> För att göra det bekvämt för dig finns det två olika sätt att skapa en profil: du kan använda en &quot;allt-i-ett&quot;-process som utför alla nödvändiga operationer i en oavbruten sekvens, eller så kan du använda en process med &quot;delat arbetsflöde&quot;. Med det senare kan du skriva ut profileringskartan först, lägga den åt sidan och senare placera den i skrivaren för att mäta den och skapa profilen. Här följer några anledningar till att du kan vilja använda antingen det ena eller det andra alternativet: </td>
+							</tr>
+							<tr>
+								<td> - Om du arbetar med fördefinierade standardpapperstyper vid normala omgivningsförhållanden kommer du förmodligen att vilja använda allt-i-ett-processen. Den tar en stund att gå igenom, men skrivaren går automatiskt igenom alla nödvändiga operationer i rätt ordning och med den väntetid som krävs för att bläcket ska hinna torka innan mätningen av testkartan utförs. Om du inte finner nöje i att se på när processen utförs (vilket inte är ovanligt) kan du gå och ta en kopp kaffe och komma tillbaka senare när allt klart. </td>
+							</tr>
+							<tr>
+								<td> - Om du arbetar med icke-standardpapperstyper eller vid onormala omgivningsförhållanden kanske bläcket behöver längre torktid än normalt innan den utskrivna färgen stabiliseras. Eftersom en färgprofil bör återspegla det slutliga utskriftsresultatet efter torkning är det kanske bäst att använda det delade arbetsflödet under dessa förhållanden. </td>
+							</tr>
+							<tr>
+								<td> - Om du normalt tillämpar en viss typ av efterbehandling på dina utskrifter som kan påverka hur färgen uppfattas, kanske det delade arbetsflödet är lämpligast för dig. Om du t.ex. brukar laminera eller spraya ytbeläggning på dina utskrifter kanske du vill profilera dem i efterbehandlat skick för att få bästa möjliga färgnoggrannhet. Du kan även jämföra resultaten före och efter efterbehandling för att fastställa om skillnaderna är relevanta. </td>
+							</tr>
+							<tr>
+								<td> - Om du bekymrar dig över arkiveringsegenskaperna hos vissa papperstyper kan du gör en ny mätning och profilering av en testkarta som du tidigare gjort en mätning av för att fastställa om det uppstått betydande förändringar. Både i detta fall och i det föregående fallet kan Photoshops skärmkorrekturläge vara användbart. </td>
+							</tr>
+							<tr>
+								<td> Om du vill använda allt-i-ett-arbetsflödet behåller du standardvalet av &quot;Skriv ut ICC-profileringskarta&quot; och&quot;Skanna ICC-profileringskarta och skapa ICC-profil&quot;. Om du vill använda det delade arbetsflödet har du två alternativ. Om du vill skriva ut profileringskartan och lägga den åt sidan för senare användning, väljer du endast &quot;Skriv ut ICC-profileringskarta&quot;. Om du vill mäta och profilera en tidigare utskriven profileringskarta väljer du &quot;Skanna ICC-profileringskarta och skapa ICC-profil&quot;. </td>
+							</tr>
+							<tr>
+								<td> Som vanligt är det bästa rådet att du ska använda det som fungerar bäst för dig. Det kan behövas en del experimenterande för att komma fram till vad detta är. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Steg 2 - Lägg till en egen papperstyp</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Steg 3 - Välj ICC-profilinställningar</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Här kan du välja ett namn för den ICC-profil som kommer att skapas. Namnet kommer att användas för två syften, som är olika trots att de hör ihop:</td>
+							</tr>
+							<tr>
+								<td> 1. Det filnamn som du kommer att se när du använder operativsystemets filhanterare (Utforskaren) för att bläddra till den fil som innehåller ICC-profilen. Filnamnstillägget &quot;.icc&quot; läggs till automatiskt i profilnamnet för att både du och programvaran ska kunna känna igen ICC-profilerna med hjälp av filnamnstillägget. </td>
+							</tr>
+							<tr>
+								<td> 2. Profilens interna beskrivningssträng. Varje ICC-profil har en intern beskrivningssträng som används av en del (men inte alla) ICC-medvetna program för att identifiera profilen, eller för att låta dig välja den i en lista. </td>
+							</tr>
+							<tr>
+								<td> Beroende på omständigheterna kan antingen filnamnet eller den interna beskrivningssträngen visas. Därför är det en bra idé att använda samma namn för båda. Även om du princip kan välja vilket namn du vill, är det god praxis att definiera en standardmodell för namngivning av profiler och hålla sig till den. Du kan t.ex. använda följande namnkomponenter, åtskiljda av blanksteg, understreck eller andra symboler: </td>
+							</tr>
+							<tr>
+								<td> - Skrivartypen eller skrivarnamnet, t.ex. &quot;HP Designjet Z2100&quot;, där &quot;HP&quot; representerar tillverkaren (Hewlett-Packard), &quot;Designjet&quot; representerar serien och &quot;Z2100&quot; motsvarar skrivarens modellnummer. Eftersom både filnamn och interna beskrivningar har begränsad längd, kommer du förmodligen att behöva förkorta all denna information till en sträng med relativt få tecken. Om du använder skrivarmodellen som den första delen av profilnamnet kan du vara säker på att alla profiler för skrivaren visas som en ordnad grupp både i filhanterare och i programmens profillistor. </td>
+							</tr>
+							<tr>
+								<td> - Papperstypen eller namnet, t.ex. &quot;HWT310&quot; för Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Precis som med skrivartypen eller skrivarnamnet måste du förmodligen förkorta papperstypen eller -namnet. Se till att du använder ett unikt namn eller en unik förkortning för alla olika papperstyper som du använder, så att du inte får problem med att skilja de olika profilerna åt. </td>
+							</tr>
+							<tr>
+								<td> - Utskriftskvaliteten och andra inställningar som du använde för att skriva ut testkartan, t.ex. &quot;B&quot; för &quot;Bästa&quot; utskriftskvalitet eller &quot;BGE&quot; för &quot;Bästa&quot; utskriftskvalitet och &quot;Glansförstärkare&quot; aktiverad (endast för fotopapper). Förenkla och förkorta så mycket som möjligt, men inte mer. </td>
+							</tr>
+							<tr>
+								<td> - Den testkarta som används, t.ex. &quot;Liten&quot; eller &quot;Stor&quot; eller en testkarta med ett visst namn, t.ex. &quot;ECI2002&quot;, om/när dessa alternativ är tillgängliga. Förenkla och förkorta på lämpligt sätt. </td>
+							</tr>
+							<tr>
+								<td> Några exempel på profilnamn som konstruerats enligt dessa riktlinjer är &quot;HP Designjet Z2100 HWT310&quot; eller &quot;HP Designjet Z2100, bestruket papper&quot;. De motsvarande filnamnen är &quot;HP_Z2100_HWT310.icc&quot; eller &quot;HP_Z2100_CoatedPaper.icc&quot;. </td>
+							</tr>
+							<tr>
+								<td> Oavsett vilken namngivningsmetod du använder ska du se till att du utan risk för förväxling kan skilja mellan profilerna för alla olika papperstyper och andra inställningar som du använder eller kommer att använda. </td>
+							</tr>
+							<tr>
+								<td> Som vanligt är det bästa rådet att du ska använda det som fungerar bäst för dig. Det kan behövas en del experimenterande för att komma fram till vad detta är. </td>
+							</tr>
+							<tr>
+								<td> Innan du fortsätter med att skriva ut testkartan ska du se till att lämplig papperstyp har fyllts på i skrivaren och att skrivaren är redo för utskrift. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Steg 4 - Kalibrera skrivaren</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Steg 5 - Skapa ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Skriv ut endast ut mål. Skapa ICC-profil senare.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td> Skrivaren skriver nu ut profileringstestkartan enligt de instruktioner som du gav den i det föregående steget. En förloppsindikator visas under utskriften. Här följer några saker som du bör ha i åtanke när det gäller profileringstestkartor: </td>
+							</tr>
+							<tr>
+								<td>En profileringstestkarta innehåller fält med varierande mängder av de olika bläck som används i skrivaren. I motsats till ett lineariserings- eller kalibreringstestkartor innehåller de flesta fälten kombinationer av olika bläckfärger. Efter mätning med den inbyggda fotospektrometern kan skrivaren exakt avgöra vilka färger som är ett resultat av alla tänkbara bläckkombinationer. Denna metod utgår från bläckmängderna för att omvandla dem till de resulterande färgerna. En spektrofotometer är ett precisionsinstrument som kan fastställa den exakta sammansättningen av ljus som reflekteras från ett färgfält. Spektrofotometern delar upp det reflekterade ljuset i komponenter med olika kurvlängd, precis som Newtons berömda prisma delar upp vitt ljus i regnbågens färger och mäter styrkan hos varje komponent. Den här metoden används t.ex. för skärmkorrektur och provtyck för att simulera hur en bild skulle se ut om den skrevs ut på en viss skrivare och papperstyp. Skrivaren kan sedan använda ett profileringsprogram - det inbyggda eller ett tillbehörsprogram - för att göra en omvänd omvandling som går från önskad färg till mängderna av de olika bläck som producerar dem. Denna modell används för att &quot;översätta&quot; färger från ett dokument i ett program eller bildskärmen till de mängder av olika bläck som skrivaren behöver för applicera på papperet för att procudera den motsvarande färgen. En ICC (ColorSync)-skrivare och en ICC-medieprofil innehåller båda dessa omvandlingsmodeller med tre olika återgivningsmetoder: perceptuell (för fotoutskrifter), kolorimetrisk (för logotypfärg eller korrektur) och mättnad (för affärsgrafik). </td>
+							</tr>
+							<tr>
+								<td> Eftersom mätningarna och följaktligen även ICC-profilen exakt återger vad som &quot;syns&quot; på papperet och detta i sin tur är beroende av många faktorer såsom skrivare, papper, utskriftsinställningar och omgivande förhållanden, kan den resulterande profilen bara bli lika &quot;bra&quot; eller representativ som utskriftsförhållandena är &quot;bra&quot; eller representativa. Med andra ord ska du se till att testkartan skrivs ut under förhållanden som i största möjliga mån liknar de verkliga förhållandena när du gör slutgiltiga utskrifter med profilen. Om du upptäcker avvikelser i utskriftskvaliteten, pappersdefekter eller onormala förhållanden när kartan skrivs ut, avbryter du processen med knappen Avbryt och börjar om. Annars är kanske den resulterande profilen inte blir representativ för dina typiska utskriftsförhållanden och därmed inte kan användas. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Skapa ICC-profil från en karta som redan har skrivits ut.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td> Testkartor för skrivarkalibrering och profilering mäts (skannas) med skrivarens inbyggda spektrofotometern. En spektrofotometer är ett precisionsinstrument som kan fastställa den exakta sammansättningen av ljus som reflekteras från ett färgfält. Spektrofotometern delar upp det reflekterade ljuset i komponenter med olika våglängd, precis som Newtons berömda prisma delar upp vitt ljus i regnbågens färger, och mäter styrkan hos varje komponent. Precis som alla andra precisionsinstrument måste spektrofotometern kalibreras och stabiliseras innan mätningar utförs, för att största möjliga noggrannhet ska säkerställas. Kalibreringen görs automatiskt med en inbyggd vit referensplatta. Stabilisering sker genom att spektrofotometerns inbyggda ljuskälla slås på och värms upp en kort stund innan mätningarna utförs. En förloppsindikator visas medan processen pågår. </td>
+							</tr>
+							<tr>
+								<td> Vid skanning av testkartan flyttas både papperet och spektrofotometern (monterad på skrivarvagnen) så att spektrofotometern placeras över de färgfält som ska mätas. Trots att mätningen görs i en fångad rörelse (utan att sensorn eller papperet rör sig) går processen ganska snabbt, med i genomsnitt 5 mätningar per sekund. Mätningstiden för varje fält anpassas automatiskt till den färg som mäts, eftersom mörka färger behöver längre integrationstid (mätperiod) än ljusa färger, för bästa resultat. En förloppsindikator visas medan mätningen (skanningen) av kartan pågår. </td>
+							</tr>
+							<tr>
+								<td> När mätningen av kartan är klar startar profilberäkningen. Genom mätningen kan skrivaren fastställa exakt vilka färger som blir resultatet av alla möjliga bläckkombinationer. Denna metod utgår från bläckmängderna för att omvandla dem till de resulterande färgerna. Den används t.ex. för skärmkorrektur och provtyck för att simulera hur en bild skulle se ut om den skrevs ut på en viss skrivare och papperstyp. Skrivaren använder sedan det inbyggda profileringsprogrammet för att göra en omvänd omvandling som går från önskad färg till mängderna av de olika bläck som producerar dem. Denna metod används för att &quot;översätta&quot; färger från dokument i ett program eller på bildskärmen till de mängder av olika bläck som skrivaren behöver applicera på papperet för att producera motsvarande färg. En ICC (ColorSync)-skrivare och en ICC-medieprofil innehåller båda dessa omvandlingsmodeller med tre olika återgivningsmetoder: perceptuell (för fotoutskrifter), kolorimetrisk (för logotypfärg eller provtryck) och mättnad (för affärsgrafik). En förloppsindikator visas under profilberäkningen. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Skriv ut karta och skapa ICC-profil.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Steg 6 - Installera ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> En ICC-profil gör ingen nytta så länge den inte används. Det kan låta som en självklarhet (och det är det också), men det är inte så enkelt som det låter. Först av allt måste profilen kopieras till rätt operativsystemmapp på datorn så att program (och användare) kan hitta den. Detta görs automatiskt av skrivarens programvara. Därefter måste profilen också överföras till skrivarens interna profildatabas. </td>
+							</tr>
+							<tr>
+								<td> Hur och om profilerna används när de har skapats och installerats beror i stor utsträckning på hur dina program och skrivardrivrutinen är konfigurerade. Användningen av färgprofiler för att konvertera färger mellan program och enheter brukar kallas färghantering och man bör skilja på tre olika fall: </td>
+							</tr>
+							<tr>
+								<td> 1. Programstyrd färghantering. Som namnet antyder är det programmet som ansvarar för att alla nödvändliga färgomvandlingar utförs innan ett dokument skickas till skrivaren. I praktiken innebär detta att programmet måste ha en metod med vilken användaren kan välja rätt skrivare och pappersprofil och använda den för att omvandla dokumentfärger. Färgprofilerna är placerade i en fördefinierad operativsystemmapp (/Bibliotek/ColorSync/Profiles). Det är hit som skrivarprogrammet kopierar profilerna efter att du skapat dem. För att allt ska fungera korrekt måste du tala om för skrivaren (drivrutinen) att den inte ska tillämpa sin egen färghantering, eftersom resultatet av sådan dubbel färghantering blir allt annat än tillfredsställande. Leta rätt på inställningen för &quot;programstyrd färghantering&quot; i skrivardrivrutinens färgfunktioner. </td>
+							</tr>
+							<tr>
+								<td> 2. Skrivarstyrd färghantering, med ICC-profiler. Motsatsen till programstyrd färghantering är inte helt oväntat skrivarstyrd färghantering, i det här fallet med ICC (ColorSync)-profiler. I det här scenariot omvandlar inte programmet färger i skrivarens och pappertets färgrymd, utan denna uppgift överlåts på skrivaren (drivrutinen). Det innebär att programmet måste överföra dokumentet till skrivaren i oförändrat skick  utan att välja eller tillämpa någon av skrivarens färgprofiler. &quot;I oförändrat skick&quot; betyder att dokumenten lämnas kvar i det som kallas för programmets arbetsfärgrymd, vanligtvis sRGB (standard, såvida inget annat valts) eller Adobe RGB (används ofta i digitalfotoprogram). Naturligtvis måste skrivaren sedan välja och tillämpa rätt färgprofil för att allt ska fungera korrekt, vilket sker automatiskt när man väljer papperstyp. Det är därför som profilerna måste associeras med papperstyper efter att de skapats. Leta rätt på inställningen för &quot;skrivarstyrd färghantering&quot; i skrivardrivrutinens färgfunktioner. </td>
+							</tr>
+							<tr>
+								<td> 3. Skrivarstyrd färghantering, med proprietära färgkartor. Detta fall påminner mycket om det föregående där skrivaren (drivrutinen) och inte programmet tar hand om färghanteringen. Skillnaden är att proprietära färgkartor används istället för ICC-profiler med öppna standarder. Trots att de fungerar på ett liknande sätt finns det några viktiga skillnader. ICC-profilerna är dubbelriktade (de går från önskad färg till bläckmängder och från bläckmängder till resulterande färg), medan färgkartor är enkelriktade (de går endast från önskad färg till bläckmängder). Detta har vissa konsekvenser vid korrektur (se nedan). ICC-profiler används parvis - den ena motsvarar inmatningsenheten och den andra motsvarar utmatningsenheten - medan färgkartor används en och en och översätter direkt från en given inmatningsfärgrymd till skrivarens och papperets färgrymd. Detta förutsätter att endast ett begränsat antal inmatningsfärgrymder kan stödjas, vanligtvis sRGB eller Adobe RGB. Det är ingen slump att dessa är de vanligaste arbetsfärgrymderna i program. När skrivarens profileringsprogramvara skapar anpassade ICC (ColorSync)-profiler, skapar den för närvarande inga färgkartor, vilket innebär att sådana inte är tillgängliga för icke-standardpapperstyper (eller utskriftsförhållanden utöver det normala), se nedan. Skrivaren måste naturligtvis välja lämplig färgkarta för att allt ska fungera. Detta sker automatiskt när du väljer en standardpapperstyp. Du måste också tala om för programmet att det inte ska tillämpa färghantering (vanligtvis via inställningen &quot;Skrivarstyrd färg&quot; eller liknande) och att skrivaren ska tillämpa färgkartor. Leta rätt på inställningen för &quot;Skrivarstyrd färg&quot; i skrivardrivrutinens färgfunktioner. </td>
+							</tr>
+							<tr>
+								<td> Här följer ytterligare några fakta som kan hjälpa dig att välja bland de olika färghanteringsalternativen. </td>
+							</tr>
+							<tr>
+								<td> - Om du vill använda skärmkorrektur i dina program, dvs. simulera utskriftsresultatet på skärmen, bör du använda programstyrd färghantering med ICC-profiler. Profilerna är dubbelriktade och innehåller den information som krävs för omvandling från programfärger till skrivarfärger (bakåtriktat) och från skrivarfärger till programfärger (framåtriktat). </td>
+							</tr>
+							<tr>
+								<td> - Om ditt program inte har funktioner för skärmkorrektur, men du ändå vill simulera utskriftsresultatet på skärmen, kan du prova att använda programmet HP Förhandsgranska utskrift. Du kan starta det från skrivardrivrutinen (rullgardinsmenyn PDF under Mac OS eller &quot;visa förhandsgranskning av utskrift&quot; under Windows). </td>
+							</tr>
+							<tr>
+								<td> - Om du vill finjustera färgåtergivningen på skrivaren och papperet kommer du förmodligen att vilja använda programbaserad färghantering. Program som t.ex.  Photoshop låter dig omvandla en original-RGB-bild till skrivar- och pappersberoende återgivning (oavsett om den är RGB eller CMYK), aktivera skärmkorrektur för att simulera utskriftsresultatet på skärmen och använda en mängd redigeringsverktyg för att ändra färgvärdena innan bilden skrivs ut. Detta möjliggör mycket avancerad kontroll över de utskrivna färgerna, men det är inget för personer med svaga nerver. Det krävs en hel del övning för att få önskade resultat. Om du vill få jättefina resultat utan krångel, prova med skrivarbaserad färghantering först. </td>
+							</tr>
+							<tr>
+								<td> - Om ditt arbetsflöde är uppbyggt kring ICC-profiler, kommer du förmodligen att vilja använda programstyrd färghantering med skrivarens ICC (ColorSync)-profiler. Om ICC inte säger dig något eller om du inte har någon annan användning för  ICC-profiler, ska du prova med skrivarstyrd färghantering först. </td>
+							</tr>
+							<tr>
+								<td> - Om du arbetar med icke-standardpapperstyper och/eller omgivande förhållanden utöver det normala, är det bäst att skapa anpassade ICC-profiler med skrivarens inbyggda spektrofotometer och profileringsprogramvara. Eftersom profileringsprogramvaran för närvarande genererar ICC-profiler men inte proprietära färgkartor, kommer du förmodligen att vilja använda programstyrd färghantering. </td>
+							</tr>
+							<tr>
+								<td> Oavsett vilket alternativ du väljer, se till att du vet vilket du använder och varför du använder det. Se även till att programmet och skrivardrivrutinen är korrekt konfigurerade. Sättet att konfigurera programstyrd färghantering beror på vilket eller vilka program du använder och tyvärr finns det inga patentlösningar. Du kan ha nytta av <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong>HP Kunskapscenter för utskrift</font></strong></a> för att lösa denna uppgift. Där hittar du detaljerad information om hur du konfigurerar några av de vanligaste grafikprogrammen, hur du utför felsökning samt annan information. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Steg 7 - Klart</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> När profileringsprocessen är klar kan du bläddra i listan över alla papperstyper som din skrivare &quot;känner till&quot;. För varje papperstyp anges papperskategori eller eget pappersnamn och det motsvarande (associerade) profilnamnet. Du kan nu använda din anpassade ICC (ColorSync)-profil med skrivaren och papperet. Se <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Steg 6 - Installera ICC-profil</font></strong></a> för ytterligare information om olika sätt att använda ICC-profiler och andra färghanteringsalternativ. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Paperin profilointiohje</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Värikeskus</h1></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Profiloi paperi</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step1"><strong><font color="#006699">Vaihe 1 - Valitse profilointitoimi</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step2"><strong><font color="#006699">Vaihe 2 - Valitse ICC-profiilin asetukset</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step3"><strong><font color="#006699">Vaihe 3 - Luo profiili</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step4"><strong><font color="#006699">Vaihe 4 - Asenna profiili</font></strong></a>
+								</td>
+							</tr>							
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll">					
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table1">
+							<tr>
+								<td>
+									<h2 id="Step1">Vaihe 1 - Valitse profilointitoimi</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Tulostimessa on valittavana neljä eri profilointitointa. Työnkulku vaihtelee valitun toimen mukaan.</p>
+									
+									<h4>Luo ICC-profiili/Tulosta ja skannaa ICC-profilointikaavio ja luo ICC-profiili</h4>
+									
+									<p>Jos käytössä on esimääritetty vakiopaperityyppi ja ympäristöolot ovat normaalit, kannattaa todennäköisesti käyttää kaikenkattavaa prosessia. Sen valmistuminen kestää aikansa, mutta tulostin suorittaa kaikki tarvittavat vaiheet oikeassa järjestyksessä ja pitää niiden välissä vaadittavat tauot, jotta muste ehtii kuivua ennen kaavion mittaamista.</p>
+
+									<p>Tulostimen kalibroinnissa ja profiilin luonnissa käytettävät testikaaviot mitataan (skannataan) tulostimen sisäisellä spektrofotometrillä. Spektrofotometri on tarkkuusinstrumentti, jolla voidaan määrittää väriläikästä heijastuvan valon tarkka koostumus. Se jakaa heijastuneen valon aallonpituuden perusteella komponentteihin - samoin kuin prisma jakaa valkoisen valon sateenkaaren väreihin - ja mittaa kunkin komponentin vahvuuden. Kuten kaikki tarkkuusinstrumentit, myös spektrofotometri itse pitää kalibroida ja stabilisoida ennen käyttöä mahdollisimman suuren tarkkuuden varmistamiseksi. Kalibrointi tapahtuu automaattisesti sisäänrakennettua, valkoista vertailuruutua käyttäen. Stabilisointi suoritetaan kytkemällä spektrofotometrin sisäinen valonlähde käyttöön ja antamalla sen lämmetä hetken ennen mittauksen aloittamista. Lämpenemisen ajaksi näkyviin tulee tilannepalkki.</p>
+									
+									<p><strong>Mitä tulostimessa tapahtuu?</strong><br> Aluksi tulostetaan testikaavio. Tämän jälkeen paperia ja spektrofotometriä (kiinnitettynä tulostimen kelkkaan) siirretään niin, että laite sijaitsee mitattavien väriläiskien yllä. Vaikka mittausta ei suoritetakaan liikkeessä (anturi ja paperi ovat paikallaan), koko prosessi etenee nopeasti, noin viiden mittauksen sekuntivauhdilla. Mittauksen kesto vaihtelee automaattisesti mitattavan värin mukaan, sillä tummat värit vaativat vaaleita pitemmän integroitumisajan (mittauksen kesto) parhaan mahdollisen tuloksen saamiseksi. Kaavion mittauksen (skannaamisen) ajaksi näkyviin tulee tilannepalkki.</p>
+
+									<p>Koska mittaustulokset ja siksi myös ICC-profiili heijastavat täsmälleen sitä, mitä paperilla näkyy, ja koska se, mitä paperilla näkyy, riippuu monista seikoista (esim. tulostimesta, musteista, paperista, tulostusasetuksista ja ympäristöoloista), luodun profiilin &quot;hyvyys&quot; tai edustavuus riippuu täysin siitä, kuinka &quot;hyvät&quot; tai edustavat tulostusolot ovat. Kannattaa siis varmistaa, että testikaavion tulostusolot vastaavat mahdollisimman tarkkaan oloja, joissa myöhemmin tulostetaan luotua profiilia käyttäen.</p>
+									
+									<p>Jos huomaat poikkeavuuksia tulostuslaadussa, paperivikoja tai muita epätavallisia ilmiöitä tulostaessasi kaaviota, keskeytä prosessi Peruuta-painikkeella ja aloita uudelleen. Muuten tuloksena oleva profiili ei välttämättä vastaa tyypillisiä tulostusoloja ja saattaa olla käyttökelvoton.</p>
+
+									<p>Lopuksi HP:n värikeskus asentaa profiilin automaattisesti tietokoneeseen, josta prosessi käynnistettiin. Jos käytät tulostinta toiselta tietokoneelta, muista synkronoida paperit ennen kuin jatkat. Prosessi on nyt valmis.</p>
+									
+									<h4>Luo ICC-profiili/Tulosta ICC-profilointikaavio</h4>
+
+									<p>Tämä valinnan avulla voit tulostaa kaavion, mutta jättää profiilin luonnin myöhemmäksi. Voit myös käyttää ulkoista spektrofotometriä tulostetun kaavion mittaamiseen ja profiilin luomiseen.<br> Katso ensimmäisestä vaihtoehdosta tarkka kuvaus profiilin luontiprosessin kulusta.</p>
+									
+									<h4>Luo ICC-profiili/Skannaa ICC-profilointikaavio ja luo ICC-profiili</h4>
+
+									<p>Tulostin voi luoda ICC-profiilin aiemmin tulostetusta kohdekaaviosta. Ota tulostettu kaavio valmiiksi esiin, ennen kuin valitset tämän vaihtoehdon.<br> Katso ensimmäisestä vaihtoehdosta tarkka kuvaus profiilin luontiprosessin kulusta ja siitä, miten toimia.</p>
+									
+									<h4 id="Step4">Asenna ICC-profiili/Valitse asennettava ICC-profiili</h4>
+
+									<p>Tämän vaihtoehdon avulla voit asentaa ja määrittää paperiin ICC-profiilin, joka on luotu tulostimen ulkopuolella, ladattu internetistä tai ostettu muualta.</p>
+									
+									<p>Toimi seuraavasti:</p>
+									<ul>
+										<li>Napsauta Selaa-painiketta ja valitse asennettava ICC-profiilitiedosto.</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2 id="Step2">Vaihe 2 - Valitse ICC-profiilin asetukset</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>ICC-profiilin nimi tulee näkyviin sovelluksissa (esim. Adobe Photoshopissa). Paperiesiasetustiedoston nimi tulee näkyviin tulostinohjaimessa ja etupaneelissa. Profiili kannattaa nimetä tulostinmallin ja paperiesiasetuksen mukaan. Esimerkki:<font color=red>&quot;HP Z3200 Fine Art Pearl&quot;.</font></p>
+									<p>Jos paperi tukee kiillon lisääjän käyttöä, päätä otetaanko se käyttöön vai ei.</p>
+								</td>
+							</tr>
+						</table>						
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step3">Vaihe 3 - Luo profiili</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> ICC-väriprofiili takaa, että tulostin, muste ja paperi tuottavat yhdessä tarkat värit. Profiilin luonnissa sovelluksen värit määritetään tulostimen väreihin. Luontiprosessissa musteista tulostetaan yhdistelmiä ja ne mitataan.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step4">Vaihe 4 - Asenna profiili</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Asennus varmistaa, että ICC-profiili on sovellusten (esim. Adobe Photoshopin) käytettävissä.</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

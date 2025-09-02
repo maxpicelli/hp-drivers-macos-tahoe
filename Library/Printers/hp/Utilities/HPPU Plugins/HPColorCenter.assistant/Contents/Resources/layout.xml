@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layouts>
+	<layout name="HSDSelectProfileLayout">
+		<view name="_view">
+			<layout type="GridBag"/>
+		</view>
+		<view name="_titleField">
+			<constraint type="GridBag" gridx="0" gridy="0" anchor="west" weightx="1" fill="horizontal" insets="20, 20, 20, 8"/>
+			<localize/>
+		</view>
+		<view name="_profileField">
+			<constraint type="GridBag" gridx="0" gridy="1" anchor="west" weightx="1" fill="horizontal" insets="20, 20, 0, 8"/>
+		</view>
+		<view name="_chooseButton">
+			<constraint type="GridBag" gridx="0" gridy="2" anchor="northeast" weightx="1" weighty="1" fill="none" insets="20, 20, 12, 8"/>
+			<localize/>
+		</view>
+	</layout>
+	
+	<layout name="HSDSelectProfileActionLayout">
+		<view name="_view">
+			<layout type="GridBag"/>
+		</view>
+		<view name="_title">
+			<constraint type="GridBag" gridx="0" gridy="0" anchor="west" weightx="1" fill="horizontal" insets="20, 20, 20, 8"/>
+			<localize/>
+		</view>
+		<view name="_printCheck">
+			<constraint type="GridBag" gridx="0" gridy="1" anchor="west" weightx="1" fill="horizontal" insets="32, 20, 0, 6"/>
+			<localize/>
+		</view>
+		<view name="_scanCheck">
+			<constraint type="GridBag" gridx="0" gridy="2" anchor="west" weightx="1" fill="horizontal" insets="32, 20, 0, 6"/>
+			<localize/>
+		</view>
+		<view name="_image">
+			<constraint type="GridBag" gridx="0" gridy="3" anchor="center" weightx="1" weighty="1" fill="none" insets="20, 20, 12, 8"/>
+			<currentSizeIsPreferred/>	
+		</view>
+	</layout>
+	
+	<layout name="HSDProfileSettingsLayout">
+		<view name="_view">
+			<layout type="GridBag"/>
+		</view>
+		<view name="_titleField">
+			<constraint type="GridBag" gridx="0" gridy="0" gridwidth="2" anchor="west" fill="horizontal" insets="20, 20, 20, 8"/>
+		</view>
+		<view name="_profileLabel">
+			<constraint type="GridBag" gridx="0" gridy="1" anchor="east" insets="20, 8, 0, 8"/>
+			<localize/>
+		</view>
+		<view name="_profileNameField">
+			<constraint type="GridBag" gridx="1" gridy="1" anchor="west" weightx="1" fill="horizontal" insets="20, 20, 0, 8"/>
+		</view>
+		<view name="_glossEnhancerCheck">
+			<constraint type="GridBag" gridx="1" gridy="2" anchor="west" weightx="1" insets="20, 20, 0, 8"/>
+			<localize/>	
+		</view>
+		<view name="_noteField">
+			<constraint type="GridBag" gridx="0" gridy="3" gridwidth="2" anchor="southwest" weighty="1" fill="horizontal" insets="20, 20, 0, 8"/>
+		</view>
+	</layout>
+	
+	<layout name="HSDCreatePaperLayout">
+		<view name="_view">
+			<layout type="GridBag"/>
+		</view>
+		<view name="_topText">
+			<constraint type="GridBag" gridx="0" gridy="0" gridwidth="3" anchor="west" fill="horizontal" insets="20, 20, 20, 20"/>
+			<localize/>
+		</view>
+		<view name="_paperNameLabel">
+			<constraint type="GridBag" gridx="0" gridy="1" anchor="east" insets="20, 8, 0, 20"/>
+			<localize/>
+		</view>
+		<view name="_paperCategoryLabel">
+			<constraint type="GridBag" gridx="0" gridy="2" anchor="east" insets="20, 8, 0, 20"/>
+			<localize/>
+		</view>
+		<view name="_paperNameField">
+			<constraint type="GridBag" gridx="1" gridy="1" gridwidth="2" weightx="1" fill="horizontal" anchor="west" insets="20, 20, 0, 20"/>
+		</view>
+		<view name="_paperCategoryPopup">
+			<constraint type="GridBag" gridx="1" gridy="2" weightx="1" fill="horizontal" anchor="west" insets="20, 20, 0, 20"/>
+		</view>
+		<view name="_paperCategoryResetButton">
+			<constraint type="GridBag" gridx="2" gridy="2" anchor="center" insets="20, 20, 0, 20"/>
+			<currentSizeIsPreferred/>
+		</view>
+		<view name="_printingPropertiesButton">
+			<constraint type="GridBag" gridx="1" gridy="3" gridwidth="2" weighty="1" anchor="northwest" insets="20, 20, 0, 20"/>
+			<localize/>
+		</view>
+	</layout>	
+</layouts>

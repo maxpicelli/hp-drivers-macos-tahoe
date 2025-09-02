@@ -1,0 +1,6 @@
+
+The following open source software is used in some or all of the HP software provided:
+
+libjpeg:
+
+This software is based in part on the work of the Independent JPEG Group.

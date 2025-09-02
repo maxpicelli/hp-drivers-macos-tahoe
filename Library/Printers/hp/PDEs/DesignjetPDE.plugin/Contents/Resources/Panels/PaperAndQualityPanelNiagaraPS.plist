@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>PaperAndQualityPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEExpandingController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDEExpandingController</string>
+			<key>label</key>
+			<string>Paper/Quality</string>
+			<key>supportedSettingNames</key>
+			<array/>
+		</dict>
+		<key>topController</key>
+		<dict>
+			<key>class-name</key>
+			<string>PDELayeredController</string>
+			<key>label-for-specific-set-of-controllers</key>
+			<dict>
+				<key>Image Quality</key>
+				<array>
+					<string>PaperSource</string>
+					<string>Quality</string>
+					<string>MaximumDetail</string>
+					<string>Optimization</string>
+				</array>
+			</dict>
+			<key>keyed-values</key>
+			<dict>
+				<key>identifier</key>
+				<string>com.hp.impala.PDELayeredController</string>
+				<key>label</key>
+				<string>Layered</string>
+			</dict>
+			<key>sub-controllers</key>
+			<array>
+				<dict>
+					<key>file-name</key>
+					<string>PaperSource</string>
+				</dict>
+				<dict>
+					<key>file-name</key>
+					<string>PaperType</string>
+				</dict>
+				<dict>
+					<key>file-name</key>
+					<string>LoadedPaper</string>
+				</dict>
+				<dict>
+					<key>file-name</key>
+					<string>Quality</string>
+				</dict>
+				<dict>
+					<key>file-name</key>
+					<string>MaximumDetail</string>
+				</dict>
+			</array>
+		</dict>
+		<key>bottomController</key>
+		<dict>
+			<key>file-name</key>
+			<string>StatusAlerts</string>
+		</dict>
+	</dict>
+	<key>title</key>
+	<string>Paper/Quality</string>
+	<key>orderNumber</key>
+	<real>30</real>
+	<key>summary-order</key>
+	<array>
+		<string>HPPaperSource</string>
+		<string>HPPaperType</string>
+		<string>HPPrintQuality</string>
+		<string>HPGlossEnhancer</string>
+		<string>HPMaximumDetail</string>
+		<string>HPMorePasses</string>
+		<string>HPEconoMode</string>
+		<string>HPUnidirectional</string>
+		<string>HPInputKResolution</string>
+		<string>HPInputColorResolution</string>
+		<string>HPOutputResolution</string>
+		<string>HPPrintingResolution</string>
+		<string>Driver Name</string>
+		<string>Driver Version</string>
+		<string>Driver Support Version</string>
+	</array>
+</dict>
+</plist>

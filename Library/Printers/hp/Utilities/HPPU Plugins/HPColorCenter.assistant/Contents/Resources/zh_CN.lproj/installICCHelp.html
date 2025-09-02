@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>安装 ICC 配置文件帮助</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>安装 ICC 配置文件</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">步骤 1 - 选择 ICC 配置文件</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">步骤 2 - 检查 ICC 配置文件设置</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">步骤 3 - 安装配置文件</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">步骤 4 - 完成</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">步骤 1 - 选择 ICC 配置文件</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									此外，如果您从不同于使用打印机的内置配置文件软件来源（例如通过互联网下载或第三方配置文件软件包）上获得了一个 ICC 配置文件，也可以安装它以配合打印机和纸张使用。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									打印机需要了解配置文件对应的纸张类型，因此必须先从它"了解"的纸张列表中选择一种纸张类型。在选择一种纸张类型时，请尝试选择和实际纸张类型尽可能接近的那种。纸张类型决定所使用的油墨量及其他基本打印参数，因而此时进行正确的选择是今后获得良好打印效果的基础。如果没有列出正在使用的纸张，或找不到和您的类型足够接近的纸张类型，则可定义一种新类型。然后打印机进行自校准以使用您的纸张，之后您可以返回安装 ICC 配置文件。如果发现不能通过选择的配置文件和纸张类型来获得满意的效果，则可通过为和相同纸张对应的新纸张名称选择不同的纸张类型来进行试验，并使用效果最好的那种。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									选定纸张类型后，浏览到包含 ICC 配置文件的文件以配合打印机和纸张使用。一般来讲，ICC 配置文件的文件名以".icc"（代表国际色彩联盟）或".icm"（代表图像颜色匹配）扩展名结束。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									您可能想知道自定义生成颜色配置文件和下载的或"千篇一律"的配置文件之间的差异。这两种配置文件之间的差别在于：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 自定义颜色配置文件基于您特定打印机的测试目标和测量结果，使用特定的油墨和纸张，并处于特定环境条件中。从原则上来说，你将会获得最佳颜色精度，因为所有内容都为您的系统量身定制。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 通用或现成的颜色配置文件是根据打印机型号、所使用的油墨和纸张类型制作的，而并非是针对您的特定打印机、油墨和纸张制作的。它们以"典型"或一般测试目标为基础，代表"典型"或一般系统的测量结果。尽管它们能为一般的系统提供良好的效果，但您的系统与一般系统之间可能存在这些配置文件所无法解决的细微差别。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 自定义颜色配置文件由打印机的内置配置文件软件生成，或由购买的配套软件生成。尽管此软件能够提供很好的效果，但在它创建配置文件时进行某些选择也很有必要，特别是选择该软件如何为"感知"着色意图进行色域映射等。如果来自带给定色域（设备可以捕获或产生的全部颜色范围）的一台设备（例如数码相机或计算机监视器）的颜色，必须转换或映射到带有不同大小或形状色域的一台设备（例如打印机）上，此时就会产生色域映射。色域映射偏重于艺术性，而非科学性，因此这里没有对错之分，有的只是差异。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 通用颜色配置文件，例如纸张厂商所提供的配置文件，可能已用不同的配置文件软件生成，并可能对色域映射和其他配置文件属性进行了不同的选择。尽管这些选择不一定比您的打印机配置文件软件进行的选择更好或更坏，但总是存在一定的差别。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									以下原则可以帮助您正确选择两种不同类型的配置文件：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 如果您主要对打印的颜色精度感兴趣，例如进行校样打印，则需要使用"比色"着色意图。后者尝试以最大精度在打印机色域内再现颜色，因此可能会造成颜色超出打印机色区的缺点（无论如何这也是必须打印的内容）。由于比色再现是比感性再现更为客观的任务，因此配置文件生成软件可能会有细微的差异，而自定义配置文件通常是最好的方法。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 如果主要对打印件的"外观"以及与计算机监视器的良好一致性感兴趣，例如照相和艺术应用等，则需要使用"感性"着色意图。自定义配置文件是不错的入手点，因为它们以具有卓越颜色精度与良好外观的"感性"意图建立，但您可能会发现自己更青睐某些第三方配置文件的外观。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									和往常一样，最好的建议就是坚持最适合您的方法。可能需要进行一些试验才能找到最佳方法。
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">步骤 2 - 检查 ICC 配置文件设置</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									此处可以为将要安装的 ICC 配置文件选择一个名称。名称将用于两种相关但不同的目的：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	使用操作系统的文件浏览器（Microsoft 资源管理器）浏览到包含 ICC 配置文件的文件时所看到的文件名。应用程序会自动将文件扩展名".icc"附加到配置文件名上，以便您和软件通过查看扩展名来识别类似的 ICC 配置文件。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	配置文件的内部说明字符串。每个 ICC 配置文件都有一个内部说明字符串，某些（并非全部）ICC 了解的软件用它来表示配置文件，或允许您从一个列表中选择它。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									根据可能看到文件名或内部描述符的环境，这是对二者使用相同名称的一个不错的理由。尽管原则上可选择您喜欢的任何名称，不过为配置文件定义一个标准的命名规范并加以遵守不失为一个好的做法。例如，可用下面的名称成分，并用空格、下划线或其他您选择的符号来进行分隔：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 打印机类型或名称，例如"HP Designjet Z2100"，其中"HP"代表制造商 (Hewlett-Packard)，"Designjet"代表系列，而"Z2100"则对应打印机的型号。由于文件名和内部描述符的长度受到限制，因此可能需要将所有这些信息缩写为一个字符数相对较少的单个字符串。使用打印机型号做为配置文件名称的第一部分，可以确保您打印机的所有配置在文件浏览器和应用配置文件列表中均显示为一个单独的连续组。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 纸张类型或名称，例如"HWT310"代表 Hahnemühle Digital FineArt、ArtLine、Mould Made William Turner 310 gsm。对于打印机类型或名称，可能必须缩写纸张类型或名称。确保为使用的每种不同纸张类型使用唯一的名称或缩写，这样在区分不同配置文件时就不会出现问题。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 用于表示打印测试图表的打印质量和其他设置，例如"B"代表"最佳打印质量"或"BGE"代表"最佳"打印质量并启用了"光亮剂"（只用于相片类型的纸张）。尽可能简化和缩写，但不要太多。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 用于所使用的测试图表，例如"Small"或"Large"，或特定的测试图表名称，例如"ECI2002"（如果/当这些选项可用时）。适当地简化和缩写。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									根据这些原则建立的某些配置文件名称举例，如"HP Designjet Z2100 HWT310"或"HP Designjet Z2100, Coated Paper"。对应的文件名应该是"HP_Z2100_HWT310.icc"或"HP_Z2100_CoatedPaper.icc"。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									无论最终使用哪种特定命名方法，都要确保能明确区分所有不同纸张类型的配置文件，以及您正在或将要使用的其他设置。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									和往常一样，最好的建议就是坚持最适合您的方法。可能需要进行一些试验才能找到最佳方法。
+								</td>
+							</tr>
+						</table><table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">步骤 3 - 安装配置文件</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									安装过程可确保应用程序（如 Adobe Photoshop）可以使用该 ICC 配置文件。
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">步骤 4 - 完成</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									配置文件安装过程完成后，即可浏览您的打印机"所了解"的所有纸张列表。对于每种纸张，它列出纸张类别或自定义纸张名称以及对应（相关的）配置文件名称。现在可以配合您的打印机和纸张来使用安装的 ICC (ColorSync) 配置文件。请参见 <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">步骤 3 - 安装 ICC 配置文件</font></strong></a> 了解有关使用 ICC 配置文件和其他颜色管理选项的不同方式的详细信息。
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>HPImageShiftPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEImageShiftController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.ps_pde.PDEImageShiftController</string>
+			<key>label</key>
+			<string>Image Shift</string>
+			<key>supportedSettingNames</key>
+			<array>
+				<string>HPImageShiftFrontX</string>
+				<string>HPImageShiftFrontY</string>
+				<string>HPImageShiftBackX</string>
+				<string>HPImageShiftBackY</string>
+				<string>HPImageShiftUseInches</string>
+				<string>HPImageShiftMirrorToFrontSide</string>
+				<string>HPImageShiftReduceToFit</string>
+				<string>HPImageShiftBack</string>
+				<string>HPImageShiftFront</string>
+			</array>
+			<key>nibName</key>
+			<string>ImageShift001</string>
+		</dict>
+	</dict>
+	<key>summary-order</key>
+	<array>
+		<string>HPImageShiftFront</string>
+		<string>HPImageShiftFrontX</string>
+		<string>HPImageShiftFrontY</string>
+		<string>HPImageShiftBack</string>
+		<string>HPImageShiftBackX</string>
+		<string>HPImageShiftBackY</string>
+		<string>HPImageShiftMirrorToFrontSide</string>
+		<string>HPImageShiftReduceToFit</string>
+		<string>HPImageShiftUseInches</string>
+	</array>
+</dict>
+</plist>

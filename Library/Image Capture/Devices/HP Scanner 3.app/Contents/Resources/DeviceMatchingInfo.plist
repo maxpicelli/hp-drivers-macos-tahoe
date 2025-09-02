@@ -1,0 +1,5013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BonjourNetwork</key>
+	<dict>
+		<key>_scanner._tcp.</key>
+		<array>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 6830</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6800-6830.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6800</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6800-6830.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 8660</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8660.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 8650</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8650.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 8640</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8640.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 8630</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8630.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 8620</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8620.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 8610</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8610.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 4630 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 4630 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 4640 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 4640 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 8500 A910</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8500 A910.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 7500 E910</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 7500 E910.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6500 E710n-z</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6500 E710n-z.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6500 E710a-f</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6500 E710a-f.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet M1536dnf MFP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet M1537dnf MFP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet M1538dnf MFP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet M1539dnf MFP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1411fn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1412fn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1413fn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1415fn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1415fnw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1416fnw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1417fnw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet CM1418fnw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 100 colorMFP M175nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 100 colorMFP M175p</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 100 colorMFP M175q</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 100 colorMFP M175r</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Plus B210 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Plus B210 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 3050 J610 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 3050 J610 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Envy 100 D410 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Envy 100 D410 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 3050A J611 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 3050A J611 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 3070 B611 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 3070 B611 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 5510 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 5510 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 5510d series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 5510d series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 6510 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 6510 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6700</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6700.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 8600</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8600.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 300 colorMFP M375nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LJ300-400 color MFP M375-M475 Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 400 colorMFP M475dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LJ300-400 color MFP M375-M475 Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 400 colorMFP M475dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LJ300-400 color MFP M375-M475 Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6600</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6600.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 7510 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 7510 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 110 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 110 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M275nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M275s</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M275t</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M275u</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 400 MFP M425dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 400 MFP M425.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 400 MFP M425dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 400 MFP M425.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276n</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276b</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276e</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276g</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276j</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276k</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276p</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276q</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276r</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276u</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 200 colorMFP M276v</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 4620 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 4620 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 4620 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 4620 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 5520 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 5520 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 5520 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 5520 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 3520 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 3520 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 3510 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 3510 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 6520 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 6520 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 6520 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 6520 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart 7520 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 7520 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 120 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 120 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 500 colorMFP M570dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 500 colorMFP M570.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet 500 colorMFP M570dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet 500 colorMFP M570.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 7610 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 7610 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro X476dn MFP</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro X476 MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro X476dw MFP</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro X476 MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro X576dw MFP</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro X576 MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>HP Officejet Pro 276dw MFP</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 276dw MFP.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 3610</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 3610.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 3620</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 3620.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M521dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M521dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M521dx</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M521dz</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 2540 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 2540 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 4500 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 4500 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 3540 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 3540 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 5530 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 5530 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet 4510 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet 4510 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176n</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176nb</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176nr</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176ns</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176ny</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176nx</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M176nz</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fb</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fr</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fs</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fy</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fx</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet Pro MFP M177fz</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M125nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M125rnw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M126nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M126.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M126nz</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M126.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M127fn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M127fp</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M127fw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M127fs</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M127fx</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M128fn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M128fp</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M128fw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M128fr</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M128fy</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M128fz</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP LaserJet Pro MFP M435nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M435nw.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet MFP M476nw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M476.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet MFP M476dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M476.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>ty</key>
+					<string>HP Color LaserJet MFP M476dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M476.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225dn</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225rdn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225rdn</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c1</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c1</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c2</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c2</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c3</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c3</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c4</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c4</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c5</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c5</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c6</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c6</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c7</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c7</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225c8</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c8</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M225dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225dw</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M226dn</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M226dn</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>Pro MFP M226dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M226dw</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 5640 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 5640 series.icns</string>
+				<key>Product Identification</key>
+				<string>HP ENVY 5640 series</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 5660 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 5660 series.icns</string>
+				<key>Product Identification</key>
+				<string>HP ENVY 5660 series</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 8040 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 8040 series.icns</string>
+				<key>Product Identification</key>
+				<string>HP Officejet 8040 series</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 5740 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 5740 series.icns</string>
+				<key>Product Identification</key>
+				<string>HP Officejet 5740 series</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>ENVY 7640 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/ENVY 7640 series.icns</string>
+				<key>Product Identification</key>
+				<string>HP ENVY 7640 series</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277n</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277n</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c1</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c1</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c2</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c2</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c3</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c3</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c4</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c4</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c5</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c5</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277dw</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277dw</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c6</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c6</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c7</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c7</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c8</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c8</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c9</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c9</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mfg</key>
+					<string>Hewlett Packard</string>
+					<key>mdl</key>
+					<string>MFP M277c10</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c10</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>usb</key>
+	<dict>
+		<key>IOUSBDevice</key>
+		<array>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 6830</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7212</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6800</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7412</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8660</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7612</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8650</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7812</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8640</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7712</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8630</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6f12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8620</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7012</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8610</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7112</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4630 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 4640 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc811</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 2620 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc911</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 2640 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xca11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 1050 J410 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8911</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 2050 J510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8500 A910</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5312</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet M1536dnf MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x012a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet M1537dnf MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x012a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet M1538dnf MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x012a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet M1539dnf MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x012a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1411fn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1412fn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1413fn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1415fn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1415fnw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1416fnw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1417fnw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet CM1418fnw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x072a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175a</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175b</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175c</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175e</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175p</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175q</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 100 colorMFP M175r</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x062a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6500 E710a-f</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5512</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6500 E710n-z</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5412</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 7500 E910</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4812</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Plus B210 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8e11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 3050 J610 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9311</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 150 Mobile L511</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5012</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Envy 100 D410 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9911</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet Ink Adv 2060 K110</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 3050A J611 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xa011</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 3070 B611 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xa211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 5510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xa111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 5510d series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xb411</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 6510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xa511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6700</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5c12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8600</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5912</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 300 colorMFP M375nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x082a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 400 colorMFP M475dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x082a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 400 colorMFP M475dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x082a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6600</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5d12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 7510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xa611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 110 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xa711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M275nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x0c2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M275s</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x0c2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M275t</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x0c2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M275u</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x0c2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 400 MFP M425dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x142a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 400 MFP M425dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x142a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276n</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276b</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276e</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276g</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276j</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276k</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276p</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276q</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276r</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276u</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 200 colorMFP M276v</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x122a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4610 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5812</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 4610 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6512</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4620 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6412</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 4620 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6612</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 2510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xac11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 5520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xb111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 5520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xb611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 3520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xb011</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 3510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xad11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 2520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xbe11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 6520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xaf11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 6520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xba11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 7520 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xbc11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 120 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xbb11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 500 colorMFP M570dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x252a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet 500 colorMFP M570dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x252a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 7610 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6e12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro X476dn MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xbf11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro X476dw MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc011</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro X576dw MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xab11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 276dw MFP</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6212</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 3610</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6812</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 3620</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6d12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M521dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x272a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M521dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x272a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M521dx</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x272a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M521dz</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x272a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 1510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 2540 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 4500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 3540 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 5530 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc311</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet 4510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xc411</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176n</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176nb</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176nr</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176ns</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176ny</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176nx</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M176nz</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x242a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fb</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fr</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fs</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fy</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fx</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet Pro MFP M177fz</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x332a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M125a</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M125nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M125ra</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M125r</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M125rnw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M126a</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M126nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M126ny</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M126nz</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x222a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M127fn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M127fp</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M127fw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M128fn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M128fp</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M128fw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M127fs</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M127fx</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M128fr</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M128fy</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M128fz</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x322a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M435nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2e2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M476nw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x342a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M476dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x342a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M476dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x342a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225rdn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c1</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c2</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c3</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c4</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c5</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c6</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c7</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M225c8</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M226dn</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Pro MFP M226dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 5640 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xcc11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 5660 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xdd11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 8040 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xde11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 5740 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xcd11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP ENVY 7640 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0xdc11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277n</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c1</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c2</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c3</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c4</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c5</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c6</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c7</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c8</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c9</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277c10</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Color LaserJet MFP M277dw</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Северная Америка</key>
+	<dict>
+		<key>Ангилья</key>
+		<integer>1</integer>
+		<key>Антигуа и Барбуда</key>
+		<integer>1</integer>
+		<key>Аруба</key>
+		<integer>1</integer>
+		<key>Багамы</key>
+		<integer>1</integer>
+		<key>Барбадос</key>
+		<integer>1</integer>
+		<key>Белиз</key>
+		<integer>1</integer>
+		<key>Бермуды</key>
+		<integer>1</integer>
+		<key>Британские Виргинские острова</key>
+		<integer>1</integer>
+		<key>Канада</key>
+		<integer>1</integer>
+		<key>Острова Кайман</key>
+		<integer>1</integer>
+		<key>Коста-Рика</key>
+		<integer>1</integer>
+		<key>Куба</key>
+		<integer>1</integer>
+		<key>Кюрасао</key>
+		<integer>2</integer>
+		<key>Доминика</key>
+		<integer>1</integer>
+		<key>Доминиканская республика</key>
+		<integer>1</integer>
+		<key>Эль-Сальвадор</key>
+		<integer>1</integer>
+		<key>Французские Антильские острова</key>
+		<integer>2</integer>
+		<key>Гренландия</key>
+		<integer>2</integer>
+		<key>Гренада</key>
+		<integer>1</integer>
+		<key>Гваделупа</key>
+		<integer>2</integer>
+		<key>Гватемала</key>
+		<integer>1</integer>
+		<key>Гаити</key>
+		<integer>1</integer>
+		<key>Гондурас</key>
+		<integer>1</integer>
+		<key>Ямайка</key>
+		<integer>1</integer>
+		<key>Мартиника</key>
+		<integer>2</integer>
+		<key>Мексика</key>
+		<integer>1</integer>
+		<key>Монтсеррат</key>
+		<integer>2</integer>
+		<key>Нидерландские Антилы</key>
+		<integer>1</integer>
+		<key>Никарагуа</key>
+		<integer>1</integer>
+		<key>Панама</key>
+		<integer>1</integer>
+		<key>Пуэрто-Рико</key>
+		<integer>1</integer>
+		<key>Сен-Мартен</key>
+		<integer>2</integer>
+		<key>Сент-Китс и Невис</key>
+		<integer>1</integer>
+		<key>Сент-Люсия</key>
+		<integer>1</integer>
+		<key>Сен-Пьер и Микелон</key>
+		<integer>2</integer>
+		<key>Сент-Винсент и Гренадины</key>
+		<integer>1</integer>
+		<key>Тринидад и Тобаго</key>
+		<integer>1</integer>
+		<key>Острова Теркс и Кайкос</key>
+		<integer>1</integer>
+		<key>Виргинские острова, США</key>
+		<integer>1</integer>
+		<key>Соединенные Штаты</key>
+		<integer>1</integer>
+	</dict>
+	<key>Южная Америка</key>
+	<dict>
+		<key>Аргентина</key>
+		<integer>1</integer>
+		<key>Боливия</key>
+		<integer>1</integer>
+		<key>Бразилия</key>
+		<integer>1</integer>
+		<key>Чили</key>
+		<integer>1</integer>
+		<key>Колумбия</key>
+		<integer>1</integer>
+		<key>Эквадор</key>
+		<integer>1</integer>
+		<key>Фолклендские острова</key>
+		<integer>2</integer>
+		<key>Французская Гвиана</key>
+		<integer>2</integer>
+		<key>Гайана</key>
+		<integer>1</integer>
+		<key>Парагвай</key>
+		<integer>1</integer>
+		<key>Перу</key>
+		<integer>1</integer>
+		<key>Суринам</key>
+		<integer>1</integer>
+		<key>Уругвай</key>
+		<integer>1</integer>
+		<key>Венесуэла</key>
+		<integer>1</integer>
+	</dict>
+	<key>Африка</key>
+	<dict>
+		<key>Алжир</key>
+		<integer>3</integer>
+		<key>Ангола</key>
+		<integer>3</integer>
+		<key>Бенин</key>
+		<integer>3</integer>
+		<key>Ботсвана</key>
+		<integer>3</integer>
+		<key>Буркина-Фасо</key>
+		<integer>3</integer>
+		<key>Бурунди</key>
+		<integer>3</integer>
+		<key>Камерун</key>
+		<integer>3</integer>
+		<key>Кабо-Верде</key>
+		<integer>3</integer>
+		<key>Центрально-Африканская Республика</key>
+		<integer>3</integer>
+		<key>Чад</key>
+		<integer>3</integer>
+		<key>Коморы</key>
+		<integer>3</integer>
+		<key>Конго</key>
+		<integer>3</integer>
+		<key>Конго, Демократическая Республика</key>
+		<integer>3</integer>
+		<key>Кот д&apos;Ивуар</key>
+		<integer>3</integer>
+		<key>Джибути</key>
+		<integer>3</integer>
+		<key>Египет</key>
+		<integer>3</integer>
+		<key>Экваториальная Гвинея</key>
+		<integer>3</integer>
+		<key>Эритрея</key>
+		<integer>3</integer>
+		<key>Эфиопия</key>
+		<integer>3</integer>
+		<key>Габон</key>
+		<integer>3</integer>
+		<key>Гамбия</key>
+		<integer>3</integer>
+		<key>Гана</key>
+		<integer>3</integer>
+		<key>Гвинея</key>
+		<integer>3</integer>
+		<key>Гвинея-Бисау</key>
+		<integer>3</integer>
+		<key>Кения</key>
+		<integer>3</integer>
+		<key>Лесото</key>
+		<integer>3</integer>
+		<key>Либерия</key>
+		<integer>3</integer>
+		<key>Ливия</key>
+		<integer>3</integer>
+		<key>Мадагаскар</key>
+		<integer>3</integer>
+		<key>Малави</key>
+		<integer>3</integer>
+		<key>Мали</key>
+		<integer>3</integer>
+		<key>Мавритания</key>
+		<integer>3</integer>
+		<key>Маврикий</key>
+		<integer>3</integer>
+		<key>Майотта</key>
+		<integer>2</integer>
+		<key>Марокко</key>
+		<integer>3</integer>
+		<key>Мозамбик</key>
+		<integer>3</integer>
+		<key>Намибия</key>
+		<integer>3</integer>
+		<key>Нигер</key>
+		<integer>3</integer>
+		<key>Нигерия</key>
+		<integer>3</integer>
+		<key>Реюньон</key>
+		<integer>2</integer>
+		<key>Руанда</key>
+		<integer>3</integer>
+		<key>Сан-Томе и Принсипи</key>
+		<integer>3</integer>
+		<key>Сенегал</key>
+		<integer>3</integer>
+		<key>Сейшельские острова</key>
+		<integer>3</integer>
+		<key>Сьерра-Леоне</key>
+		<integer>3</integer>
+		<key>Сомали</key>
+		<integer>3</integer>
+		<key>Южная Африка</key>
+		<integer>3</integer>
+		<key>Остров Святой Елены</key>
+		<integer>2</integer>
+		<key>Судан</key>
+		<integer>3</integer>
+		<key>Свазиленд</key>
+		<integer>3</integer>
+		<key>Танзания</key>
+		<integer>3</integer>
+		<key>Того</key>
+		<integer>3</integer>
+		<key>Тунис</key>
+		<integer>3</integer>
+		<key>Уганда</key>
+		<integer>3</integer>
+		<key>Замбия</key>
+		<integer>3</integer>
+		<key>Зимбабве</key>
+		<integer>3</integer>
+	</dict>
+	<key>Европа</key>
+	<dict>
+		<key>Албания</key>
+		<integer>2</integer>
+		<key>Андорра</key>
+		<integer>2</integer>
+		<key>Австрия</key>
+		<integer>2</integer>
+		<key>Беларусь</key>
+		<integer>3</integer>
+		<key>Бельгия</key>
+		<integer>2</integer>
+		<key>Босния и Герцеговина</key>
+		<integer>2</integer>
+		<key>Болгария</key>
+		<integer>2</integer>
+		<key>Нормандские острова</key>
+		<integer>2</integer>
+		<key>Хорватия</key>
+		<integer>2</integer>
+		<key>Чешская Республика</key>
+		<integer>2</integer>
+		<key>Дания</key>
+		<integer>2</integer>
+		<key>Эстония</key>
+		<integer>2</integer>
+		<key>Фарерские острова</key>
+		<integer>2</integer>
+		<key>Финляндия</key>
+		<integer>2</integer>
+		<key>Франция</key>
+		<integer>2</integer>
+		<key>Германия</key>
+		<integer>2</integer>
+		<key>Гибралтар</key>
+		<integer>2</integer>
+		<key>Греция</key>
+		<integer>2</integer>
+		<key>Венгрия</key>
+		<integer>2</integer>
+		<key>Исландия</key>
+		<integer>2</integer>
+		<key>Ирландия</key>
+		<integer>2</integer>
+		<key>Остров Мэн</key>
+		<integer>2</integer>
+		<key>Италия</key>
+		<integer>2</integer>
+		<key>Латвия</key>
+		<integer>2</integer>
+		<key>Лихтенштейн</key>
+		<integer>2</integer>
+		<key>Литва</key>
+		<integer>2</integer>
+		<key>Люксембург</key>
+		<integer>2</integer>
+		<key>Македония</key>
+		<integer>2</integer>
+		<key>Мальта</key>
+		<integer>2</integer>
+		<key>Молдова</key>
+		<integer>2</integer>
+		<key>Монако</key>
+		<integer>2</integer>
+		<key>Нидерланды</key>
+		<integer>2</integer>
+		<key>Норвегия</key>
+		<integer>2</integer>
+		<key>Польша</key>
+		<integer>2</integer>
+		<key>Португалия</key>
+		<integer>2</integer>
+		<key>Румыния</key>
+		<integer>2</integer>
+		<key>Россия</key>
+		<integer>3</integer>
+		<key>Сан-Марино</key>
+		<integer>2</integer>
+		<key>Сербия и Черногория</key>
+		<integer>2</integer>
+		<key>Словакия</key>
+		<integer>2</integer>
+		<key>Словения</key>
+		<integer>2</integer>
+		<key>Испания</key>
+		<integer>2</integer>
+		<key>Швеция</key>
+		<integer>2</integer>
+		<key>Швейцария</key>
+		<integer>2</integer>
+		<key>Турция</key>
+		<integer>2</integer>
+		<key>Украина</key>
+		<integer>3</integer>
+		<key>Соединенное Королевство</key>
+		<integer>2</integer>
+		<key>Ватикан</key>
+		<integer>2</integer>
+	</dict>
+	<key>Азия</key>
+	<dict>
+		<key>Афганистан</key>
+		<integer>1</integer>
+		<key>Армения</key>
+		<integer>3</integer>
+		<key>Азербайджан</key>
+		<integer>3</integer>
+		<key>Бахрейн</key>
+		<integer>3</integer>
+		<key>Бангладеш</key>
+		<integer>1</integer>
+		<key>Бутан</key>
+		<integer>1</integer>
+		<key>Бруней</key>
+		<integer>1</integer>
+		<key>Камбоджа</key>
+		<integer>1</integer>
+		<key>Китай</key>
+		<integer>4</integer>
+		<key>Кипр</key>
+		<integer>2</integer>
+		<key>Восточный Тимор</key>
+		<integer>1</integer>
+		<key>Грузия</key>
+		<integer>3</integer>
+		<key>Гонконг</key>
+		<integer>1</integer>
+		<key>Индия</key>
+		<integer>4</integer>
+		<key>Индонезия</key>
+		<integer>1</integer>
+		<key>Иран</key>
+		<integer>3</integer>
+		<key>Ирак</key>
+		<integer>3</integer>
+		<key>Израиль</key>
+		<integer>3</integer>
+		<key>Япония</key>
+		<integer>3</integer>
+		<key>Иордания</key>
+		<integer>3</integer>
+		<key>Казахстан</key>
+		<integer>3</integer>
+		<key>Северная Корея</key>
+		<integer>1</integer>
+		<key>Южная Корея</key>
+		<integer>1</integer>
+		<key>Кувейт</key>
+		<integer>3</integer>
+		<key>Киргизия</key>
+		<integer>3</integer>
+		<key>Лаос</key>
+		<integer>1</integer>
+		<key>Ливан</key>
+		<integer>3</integer>
+		<key>Макао</key>
+		<integer>1</integer>
+		<key>Малайзия</key>
+		<integer>1</integer>
+		<key>Мальдивы</key>
+		<integer>1</integer>
+		<key>Монголия</key>
+		<integer>3</integer>
+		<key>Мьянма</key>
+		<integer>1</integer>
+		<key>Непал</key>
+		<integer>1</integer>
+		<key>Оман</key>
+		<integer>3</integer>
+		<key>Пакистан</key>
+		<integer>1</integer>
+		<key>Филиппины</key>
+		<integer>1</integer>
+		<key>Катар</key>
+		<integer>3</integer>
+		<key>Россия</key>
+		<integer>3</integer>
+		<key>Саудовская Аравия</key>
+		<integer>3</integer>
+		<key>Сингапур</key>
+		<integer>1</integer>
+		<key>Шри-Ланка</key>
+		<integer>1</integer>
+		<key>Сирия</key>
+		<integer>3</integer>
+		<key>Тайвань, Китай</key>
+		<integer>1</integer>
+		<key>Таджикистан</key>
+		<integer>3</integer>
+		<key>Таиланд</key>
+		<integer>1</integer>
+		<key>Турция</key>
+		<integer>2</integer>
+		<key>Туркмения</key>
+		<integer>3</integer>
+		<key>Объединенные Арабские Эмираты</key>
+		<integer>3</integer>
+		<key>Узбекистан</key>
+		<integer>3</integer>
+		<key>Вьетнам</key>
+		<integer>1</integer>
+		<key>Западный берег и Сектор Газа</key>
+		<integer>3</integer>
+		<key>Йемен</key>
+		<integer>3</integer>
+	</dict>
+	<key>Океания</key>
+	<dict>
+		<key>Американское Самоа</key>
+		<integer>1</integer>
+		<key>Австралия</key>
+		<integer>1</integer>
+		<key>Острова Кука</key>
+		<integer>1</integer>
+		<key>Фиджи</key>
+		<integer>1</integer>
+		<key>Французская Полинезия</key>
+		<integer>2</integer>
+		<key>Гуам</key>
+		<integer>1</integer>
+		<key>Кирибати</key>
+		<integer>1</integer>
+		<key>Маршалловы Острова</key>
+		<integer>1</integer>
+		<key>Микронезия</key>
+		<integer>1</integer>
+		<key>Науру</key>
+		<integer>1</integer>
+		<key>Новая Каледония</key>
+		<integer>2</integer>
+		<key>Новая Зеландия</key>
+		<integer>1</integer>
+		<key>Ниуэ</key>
+		<integer>1</integer>
+		<key>Северные Марианские острова</key>
+		<integer>1</integer>
+		<key>Палау</key>
+		<integer>1</integer>
+		<key>Папуа-Новая Гвинея</key>
+		<integer>1</integer>
+		<key>Остров Питкэрн</key>
+		<integer>1</integer>
+		<key>Самоа</key>
+		<integer>1</integer>
+		<key>Соломоновы Острова</key>
+		<integer>1</integer>
+		<key>Токелау</key>
+		<integer>1</integer>
+		<key>Тонга</key>
+		<integer>1</integer>
+		<key>Тувалу</key>
+		<integer>1</integer>
+		<key>Вануату</key>
+		<integer>1</integer>
+		<key>Уоллис и Футуна</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

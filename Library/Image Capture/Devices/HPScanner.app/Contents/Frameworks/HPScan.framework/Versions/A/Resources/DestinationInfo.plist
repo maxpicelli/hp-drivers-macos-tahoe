@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>CFBundleGetInfoString</key>
+	<string>0.0.1, © Copyright 2007-2016 HP Development Company, L.P.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.hp.scanner.scan_destination</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>HPScanDestinationIconNames</key>
+	<dict>
+		<key>D</key>
+		<string>Icon90Documents</string>
+		<key>N</key>
+		<string>Icon90FilmNegatives</string>
+		<key>P</key>
+		<string>Icon90Pictures</string>
+		<key>S</key>
+		<string>Icon90FilmSlides</string>
+	</dict>
+	<key>HPScanDestinationName</key>
+	<string>Info.plist</string>
+	<key>HPScanDefaultDestinationName</key>
+	<string>DefaultInfo.plist</string>
+	<key>HPScanDestinationSearchPaths</key>
+	<array>
+		<string>~/Library/Application Support/Hewlett-Packard/HPScan.destinations</string>
+		<string>/Library/Application Support/Hewlett-Packard/HPScan.destinations</string>
+	</array>
+	<key>HPScanDestionationPrefs</key>
+	<array>
+		<string>~/Documents/BUILDS/CVS_Projects/scanner-solutions/src/installer-build/output/DevUserPrefsInstall/Library/Preferences/com.hp.scanner.prefs</string>
+		<string>~/Library/Preferences/com.hp.scanner.prefs</string>
+		<string>/Library/Preferences/com.hp.scanner.prefs</string>
+	</array>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Copyright 2007-2016 HP Development Company, L.P.</string>
+</dict>
+</plist>

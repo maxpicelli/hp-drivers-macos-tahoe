@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>previewDescription</key>
+	<array>
+		<!-- 2 Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{16, 40}</string>
+					<string>{16, 70}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Right; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{94, 40}</string>
+					<string>{94, 70}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{43, 106}</string>
+					<string>{67, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Bottom; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{43, 3}</string>
+					<string>{67, 3}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchBottom</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left/Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<!-- <string>{16, 40}</string> -->
+					<!-- <string>{16, 70}</string> -->
+					<string>{43, 106}</string>
+					<string>{67, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{16, 10}</string>
+					<string>{16, 55}</string>
+					<string>{16, 100}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Right; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{94, 10}</string>
+					<string>{94, 55}</string>
+					<string>{94, 100}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{21, 106}</string>
+					<string>{55, 106}</string>
+					<string>{89, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Left/Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<!-- <string>{16, 10}</string> -->
+					<!-- <string>{16, 55}</string> -->
+					<!-- <string>{16, 100}</string> -->
+					<string>{21, 106}</string>
+					<string>{55, 106}</string>
+					<string>{89, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{16, 10}</string>
+					<string>{16, 40}</string>
+					<string>{16, 70}</string>
+					<string>{16, 100}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Right; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{94, 10}</string>
+					<string>{94, 40}</string>
+					<string>{94, 70}</string>
+					<string>{94, 100}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{21, 106}</string>
+					<string>{43, 106}</string>
+					<string>{67, 106}</string>
+					<string>{89, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Left/Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<!-- <string>{16, 10}</string> -->
+					<!-- <string>{16, 40}</string> -->
+					<!-- <string>{16, 70}</string> -->
+					<!-- <string>{16, 100}</string> -->
+					<string>{21, 106}</string>
+					<string>{43, 106}</string>
+					<string>{67, 106}</string>
+					<string>{89, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{16, 35}</string>
+					<string>{16, 42}</string>
+					<string>{16, 68}</string>
+					<string>{16, 75}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Right; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{94, 35}</string>
+					<string>{94, 42}</string>
+					<string>{94, 68}</string>
+					<string>{94, 75}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{35, 106}</string>
+					<string>{42, 106}</string>
+					<string>{68, 106}</string>
+					<string>{75, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Left/Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<!-- <string>{16, 20}</string> -->
+					<!-- <string>{16, 30}</string> -->
+					<!-- <string>{16, 80}</string> -->
+					<!-- <string>{16, 90}</string> -->
+					<string>{35, 106}</string>
+					<string>{42, 106}</string>
+					<string>{68, 106}</string>
+					<string>{75, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 43}</string>
+					<string>{3, 67}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Right; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{106, 43}</string>
+					<string>{106, 67}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{40, 94}</string>
+					<string>{70, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Bottom; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{40, 16}</string>
+					<string>{70, 16}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchBottom</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left/Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 43}</string>
+					<string>{3, 67}</string>
+					<!-- <string>{40, 94}</string> -->
+					<!-- <string>{70, 94}</string> -->
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>2HolePunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Left; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 21}</string>
+					<string>{3, 55}</string>
+					<string>{3, 89}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Right; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{106, 21}</string>
+					<string>{106, 55}</string>
+					<string>{106, 89}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{10, 94}</string>
+					<string>{55, 94}</string>
+					<string>{100, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Left/Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 21}</string>
+					<string>{3, 55}</string>
+					<string>{3, 89}</string>
+					<!-- <string>{10, 94}</string> -->
+					<!-- <string>{55, 94}</string> -->
+					<!-- <string>{100, 94}</string> -->
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>3HolePunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Left; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 21}</string>
+					<string>{3, 43}</string>
+					<string>{3, 67}</string>
+					<string>{3, 89}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Right; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{106, 21}</string>
+					<string>{106, 43}</string>
+					<string>{106, 67}</string>
+					<string>{106, 89}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{10, 94}</string>
+					<string>{40, 94}</string>
+					<string>{70, 94}</string>
+					<string>{100, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 4 Left/Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 21}</string>
+					<string>{3, 43}</string>
+					<string>{3, 67}</string>
+					<string>{3, 89}</string>
+					<!-- <string>{10, 94}</string> -->
+					<!-- <string>{40, 94}</string> -->
+					<!-- <string>{70, 94}</string> -->
+					<!-- <string>{100, 94}</string> -->
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>4HolePunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Left; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 35}</string>
+					<string>{3, 42}</string>
+					<string>{3, 68}</string>
+					<string>{3, 75}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Right; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{106, 35}</string>
+					<string>{106, 42}</string>
+					<string>{106, 68}</string>
+					<string>{106, 75}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{35, 94}</string>
+					<string>{42, 94}</string>
+					<string>{68, 94}</string>
+					<string>{75, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Swedish Left/Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Hole</key>
+				<array>
+					<string>{3, 35}</string>
+					<string>{3, 42}</string>
+					<string>{3, 68}</string>
+					<string>{3, 75}</string>
+					<!-- <string>{20, 94}</string> -->
+					<!-- <string>{30, 94}</string> -->
+					<!-- <string>{80, 94}</string> -->
+					<!-- <string>{90, 94}</string> -->
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPPunchingOptions</key>
+				<array>
+					<string>SwedishPunchLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

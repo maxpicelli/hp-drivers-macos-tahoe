@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Installera ICC-profil - Hjälp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Installera ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Steg 1 - Välj ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Steg 2 - Välj ICC-profilinställningar</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Steg 3 - Installera ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Steg 4 - Klart</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Steg 1 - Välj ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Om du har fått en ICC-profil på annat sätt än genom att använda skrivarens inbyggda profileringsprogramvara, t.ex. genom nedladdning från internet eller i ett profileringsprogram från tredje part, kan du installera den för användning med din skrivare och ditt papper. </td>
+							</tr>
+							<tr>
+								<td> Skrivaren behöver veta vilken papperstyp profilen motsvarar, så du måste först välja en papperstyp från listan med papper som skrivaren &quot;känner till&quot;.  När du väljer en papperstyp ska du försöka välja en som liknar den papperstyp som du faktiskt använder så nära som möjligt. Papperstypen fastställer hur mycket bläck som används och andra grundläggande utskriftsparametrar. Därför är det mycket viktigt att du gör ett bra val här för att kunna uppnå bra resultat senare. Om den papperstyp du använder inte finns med i listan, eller om du inte kan hitta en papperstyp som är tillräckligt lik det papper du använder, kan du definiera en ny typ. Skrivaren kommer sedan att kalibreras för användning med ditt papper och därefter kan du återgå till att installera ICC-profilen. Om du märker att du inte får tillräckligt bra resultat med den profil och det papper du valt, kan du experimentera med att välja olika typer för nya pappersnamn som motsvarar samma papper och använda det som fungerar bäst. </td>
+							</tr>
+							<tr>
+								<td> När du har valt papperstyp bläddrar du till den fil som innehåller den ICC-profil som ska användas med skrivaren och papperet. I normala fall avslutas ICC-profilnamn med tillägget &quot;.icc&quot; (för International Color Consortium) eller &quot;.icm&quot; (för Image Color Matching). </td>
+							</tr>
+							<tr>
+								<td> Du kanske undrar vad det är för skillnad mellan kundgenererade färgprofiler och nedladdade eller &quot;färdiga&quot; profiler. Här följer några av skillnaderna mellan de två profiltyperna: </td>
+							</tr>
+							<tr>
+								<td> - Anpassade färgprofiler är baserade på testkartor och mätningar från just din skrivare med dina specifika bläck, papper och omgivningsförhållanden. I princip ger detta bästa möjliga färgnoggrannhet eftersom allt är anpassat till ditt system. </td>
+							</tr>
+							<tr>
+								<td> - Generiska eller &quot;färdigpaketerade&quot; färgprofiler är gjorda för din skrivarmodell och de bläck och den papperstyp som du använder, men inte för individuella skrivare och dina specifika bläck och papper. De är istället baserade på  &quot;typiska&quot; eller genomsnittliga testkartor och mätningar som representerar det &quot;typiska&quot; eller genomsnittliga systemet. Detta ger bra resultat för ett genomsnittligt system, men det kan finnas smärre avvikelser mellan ditt system och ett genomsnittligt system som dessa profiler inte kan ta hänsyn till. </td>
+							</tr>
+							<tr>
+								<td> - Anpassade färgprofiler skapas med skrivarens inbyggda profileringsprogramvara  eller med en profileringsprogramvara som du köpt som tillbehör. Denna programvara ger utmärkta resultat, men den måste göra vissa val när den skapar profiler, särskilt angående omvandling av färgskala för perceptuell återgivning. Omvandling av färgskala görs när färger från en enhet med en viss färgskala (samtliga färger som en enhet kan registera eller producera), t.ex. en digitalkamera eller datorbildskärm, måste översättas, eller omvandlas, till en enhet där färgskalan har en annan storlek eller utformning, t.ex. en skrivare. Färgskaleomvandling är mer att betrakta som en konst än en vetenskap och det finns inga korrekta eller felaktiga svar - bara olika svar.  </td>
+							</tr>
+							<tr>
+								<td> - Generiska färgprofiler, t.ex. sådana som tillhandahålls av papperstillverkare, kan ha skapats med annan profileringsprogramvara som gör andra val för färgskaleomvandling och andra profilgegenskaper. Dessa val kanske inte är bättre eller sämre än dem som din skrivares profileringsprogramvara gör, men de är sannolikt annorlunda. </td>
+							</tr>
+							<tr>
+								<td> Här följer några riktlinjer som hjälper dig att välja mellan profiltyper: </td>
+							</tr>
+							<tr>
+								<td> - Om du huvudsakligen är intresserad av färgnoggrannheten i dina utskrifter, t.ex. för provtryck, kommer du förmodligen att använda kolorimetriska återgivning. Den försöker reproducera färger inom skrivarens färgskala med största möjliga noggrannhet, vilket kan vara till nackdel för färger utanför skrivarens färgskala (som också måste skrivas ut på ett eller annat sätt). Eftersom kolorimetrisk återgivning är mer objektiv än perceptuell återgivning, är mindre skillnad möjlig mellan profileringsprogrammen och en anpassad profil är i normala fall det bästa alternativet. </td>
+							</tr>
+							<tr>
+								<td> - Om du huvudsakligen är intresserad av utskrifternas &quot;utseende&quot; och att de ska stämma väl överens med datorns skärm, t.ex. för fotografiska och konstnärliga tillämpningar, kommer du sannolikt att använda den perceptuella återgivningsmetoden. Anpassade profiler är en bra utgångspunkt eftersom de har utmärkt färgnoggranhet och bra perceptuell återgivning, men du kanske upptäcker att du föredrar utseendet hos vissa tredjepartsprofiler. </td>
+							</tr>
+							<tr>
+								<td> Som vanligt är det bästa rådet att du ska använda det som fungerar bäst för dig. Det kan behövas en del experimenterande för att komma fram till vad detta är. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Steg 2 - Välj ICC-profilinställningar</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Här kan du välja ett namn för den ICC-profil som ska installeras. Namnet kommer att användas för två syften, som är olika trots att de hör ihop:</td>
+							</tr>
+							<tr>
+								<td> 1. Det filnamn som du kommer att se när du använder operativsystemets filhanterare (Utforskaren) för att bläddra till den fil som innehåller ICC-profilen. Filnamnstillägget &quot;.icc&quot; läggs till automatiskt i profilnamnet för att både du och programvaran ska kunna känna igen ICC-profilerna med hjälp av filnamnstillägget. </td>
+							</tr>
+							<tr>
+								<td> 2. Profilens interna beskrivningssträng. Varje ICC-profil har en intern beskrivningssträng som används av en del (men inte alla) ICC-medvetna program för att identifiera profilen, eller för att låta dig välja den i en lista. </td>
+							</tr>
+							<tr>
+								<td> Beroende på omständigheterna kan antingen filnamnet eller den interna beskrivningssträngen visas. Därför är det en bra idé att använda samma namn för båda. Även om du princip kan välja vilket namn du vill, är det god praxis att definiera en standardmodell för namngivning av profiler och hålla sig till den. Du kan t.ex. använda följande namnkomponenter, åtskiljda av blanksteg, understreck eller andra symboler: </td>
+							</tr>
+							<tr>
+								<td> - Skrivartypen eller skrivarnamnet, t.ex. &quot;HP Designjet Z2100&quot;, där &quot;HP&quot; representerar tillverkaren (Hewlett-Packard), &quot;Designjet&quot; representerar serien och &quot;Z2100&quot; motsvarar skrivarens modellnummer. Eftersom både filnamn och interna beskrivningar har begränsad längd, kommer du förmodligen att behöva förkorta all denna information till en sträng med relativt få tecken. Om du använder skrivarmodellen som den första delen av profilnamnet kan du vara säker på att alla profiler för skrivaren visas som en ordnad grupp både i filhanterare och i programmens profillistor. </td>
+							</tr>
+							<tr>
+								<td> - Papperstypen eller namnet, t.ex. &quot;HWT310&quot; för Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Precis som med skrivartypen eller skrivarnamnet måste du förmodligen förkorta papperstypen eller -namnet. Se till att du använder ett unikt namn eller en unik förkortning för alla olika papperstyper som du använder, så att du inte får problem med att skilja de olika profilerna åt. </td>
+							</tr>
+							<tr>
+								<td> - Utskriftskvaliteten och andra inställningar som du använde för att skriva ut testkartan, t.ex. &quot;B&quot; för &quot;Bästa&quot; utskriftskvalitet eller &quot;BGE&quot; för &quot;Bästa&quot; utskriftskvalitet och &quot;Glansförstärkare&quot; aktiverad (endast för fotopapper). Förenkla och förkorta så mycket som möjligt, men inte mer. </td>
+							</tr>
+							<tr>
+								<td> - Den testkarta som används, t.ex. &quot;Liten&quot; eller &quot;Stor&quot; eller en testkarta med ett visst namn, t.ex. &quot;ECI2002&quot;, om/när dessa alternativ är tillgängliga. Förenkla och förkorta på lämpligt sätt. </td>
+							</tr>
+							<tr>
+								<td> Några exempel på profilnamn som konstruerats enligt dessa riktlinjer är &quot;HP Designjet Z2100 HWT310&quot; eller &quot;HP Designjet Z2100, bestruket papper&quot;. De motsvarande filnamnen är &quot;HP_Z2100_HWT310.icc&quot; eller &quot;HP_Z2100_CoatedPaper.icc&quot;. </td>
+							</tr>
+							<tr>
+								<td> Oavsett vilken namngivningsmetod du använder ska du se till att du utan risk för förväxling kan skilja mellan profilerna för alla olika papperstyper och andra inställningar som du använder eller kommer att använda. </td>
+							</tr>
+							<tr>
+								<td> Som vanligt är det bästa rådet att du ska använda det som fungerar bäst för dig. Det kan behövas en del experimenterande för att komma fram till vad detta är. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step3">Steg 3 - Installera ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Installationprocessen säkerställer att ICC-profilen kommer att vara tillgänglig för program som t.ex. Adobe Photoshop. </td>
+							</tr>							
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Steg 4 - Klart
+								</td>
+							</tr>
+							<tr>
+								<td> När profilinstallationen är klar kan du bläddra i listan med alla papper som din skrivare  &quot;känner till&quot;. För varje papper anges papperskategori eller eget pappersnamn och det motsvarande (associerade) profilnamnet. Den installerade ICC (ColorSync)-profilen är nu redo att användas med skrivaren och papperet. Se <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Steg 3 - Installera ICC-profil</font></strong></a> för mer information om olika sätt att använda ICC-profiler och andra färghanteringsalternativ. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Opprett og installer ICC-profil - Hjelp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Fargesenter</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Opprett og installer ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Trinn 1 - Velg papir og handling</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Trinn 2 - Legg til egendefinert papir</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Trinn 3 - Velg ICC-profilinnstillinger</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Trinn 4 - Kalibrer skriveren</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Trinn 5 - Opprett ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Trinn 6 - Installer ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Trinn 7 - Fullført</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Trinn 1 - Velg papir og handling</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> For å sikre best mulig resultater må skriveren vite hvordan fargene fra datamaskinskjermen eller programdokumentet skal konverteres til blekket og papiret de skal skrives ut på. En ICC-profil (International Color Consortium) er en beskrivelse av en kombinasjon av skriver, blekk og papir, og inneholder all nødvendig informasjon for disse fargekonverteringene. </td>
+							</tr>
+							<tr>
+								<td> Her kan du opprette og installere en egendefinert ICC-profil, som vil la deg skrive ut med best mulig fargenøyaktighet. Hvis du har en ICC-profil for bruk med papiret fra en annen kilde, som en Internett-nedlasting, kan du bruke den også. Selv om &quot;hermetiserte&quot; ICC-profiler som dem du kan laste ned fra Internett, kan gi gode resultater, får du normalt de beste resultatene med en tilpasset profil. </td>
+							</tr>
+							<tr>
+								<td> Her er noen av forskjellene mellom de to profiltypene: </td>
+							</tr>
+							<tr>
+								<td> - Egendefinerte fargeprofiler er basert på testmål og målinger fra din individuelle skriver, med ditt individuelle blekk og papir, og i ditt individuelle miljø. I prisippet gir dette deg den best mulige fargenøyaktigheten siden alt er tilpasset ditt system. </td>
+							</tr>
+							<tr>
+								<td> - Generiske eller &quot;hermetiserte&quot; fargeprofiler er laget for skrivermodellen, blekket og typen papir du bruker, men ikke for din individuelle skriver, ditt blekk og ditt papir. De er i stedet basert på &quot;typiske&quot; eller gjennomsnittstestmål, og målinger representerer det &quot;typiske&quot; eller gjennomsnittlige systemet. Selv om dette gir gode resultater for et gjennomsnittssystem, kan det være mindre avvik mellom ditt system og gjennomsnittssystemer som disse profilene ikke kan ta med i beregningen. </td>
+							</tr>
+							<tr>
+								<td> - Tilpassede fargeprofiler lages med profileringsprogramvaren som følger med skriveren som standard, eller med programvare som du kjøper i tillegg. Selv om denne programvaren gir utmerkede resultater, må den nødvendigvis foreta valg med hensyn til hvordan den oppretter profiler, nærmere bestemt hvordan den foretar fargespektertilordning for Oppfattet-gjengivelsesformen. Fargespektertilordning skjer når farger fra en enhet med et gitt fargespekter (området med alle fargene en enhet kan fange opp eller produsere), som et digitalkamera eller en datamaskinskjerm, må oversettes eller tilordnes til en enhet med et fargespekter med annen størrelse eller form, som en skriver. Fargespektertilordning er mer kunst enn vitenskap, og det finnes ingen feil eller riktige svar – bare forskjellige. </td>
+							</tr>
+							<tr>
+								<td> - Generiske fargeprofiler, dvs. profilene som leveres av papirprodusenter, kan ha blitt laget med en annen profilprogramvare som foretar andre valg med hensyn til fargespektertilordning og andre profilegenskaper. Selv om disse valgene ikke nødvendigvis er verre eller bedre enn dem som foretas av profilprogramvaren i skriveren, er de sannsynligvis annerledes. </td>
+							</tr>
+							<tr>
+								<td> Her er noen retningslinjer som kan hjelpe deg med å velge mellom dem: </td>
+							</tr>
+							<tr>
+								<td> - Hvis du i hovedsak er interessert i fargenøyaktigheten på utskrifter, for eksempel for å lage prøvetrykk, vil du sannsynligvis bruke Kolorimetrisk-gjengivelsesformen. Den forsøker å reprodusere farger innenfor skriverens fargespekter med høy nøyaktighet, muligens i disfavør av farger utenfor skriverens fargespekter (som også må skrives ut, på en eller annen måte). Fordi kolorimetrisk reproduksjon er en mer objektiv oppgave enn oppfattet reproduksjon, er det mindre forskjeller mellom profilprogramvare, og en egendefinert profil vil normalt være det beste valget. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du i hovedsak er interessert i &quot;utseendet&quot; på utskriftene og godt samsvar med datamaskinskjermen, for eksempel for fotografisk eller artitisk bruk, vil du sannsynligvis bruke Oppfattet-gjengivelsesformen. Egendefinerte profiler er også et bra sted å starte siden de er bygd med utmerket fargenøyaktighet og en godt utseende Oppfattet-form, men du vil kanskje foretrekke utseendet på enkelte profiler fra tredjepart. </td>
+							</tr>
+							<tr>
+								<td> Uavhengig av hvilken profiltype du ender opp med å bruke, må du huske at du kan &quot;tilpasse&quot; profilens reproduksjon av farge til en viss grad ved å bruke skriverdriverens fargejusteringskontroller. </td>
+							</tr>
+							<tr>
+								<td> Prosessen med å opprette og installere en egendefinert ICC-profil består av følgende trinn: </td>
+							</tr>
+							<tr>
+								<td> 1. Velg papirtypen du vil profilere, eller definer en ny. </td>
+							</tr>
+							<tr>
+								<td> 2. Velg noen innstillinger for den nye profilen, inkludert navnet du vil gi profilen. </td>
+							</tr>
+							<tr>
+								<td> 3. Opprett den nye profilen: Skriv ut testdiagrammet, la det tørke, mål det og beregn profilen. Alt dette gjøres automatisk av skriveren. </td>
+							</tr>
+							<tr>
+								<td> 4. Installer den nye profilen slik at du kan bruke den med programmene dine og skriveren. </td>
+							</tr>
+							<tr>
+								<td> For det første trinnet kan du enten velge en papirtype fra listen over kjente papir, eller du kan definere en ny papirtype og legge den til listen. </td>
+							</tr>
+							<tr>
+								<td> For å gjøre det enklere for deg kan du opprette en profil på to forskjellige måter: Du kan bruke en &quot;alt-i-ett&quot;-prosess som utfører alle nødvendige operasjoner i én, uavbrutt sekvens, eller du kan bruke en &quot;delt arbeidsflyt&quot;-prosess som lar deg skrive ut profileringsdiagrammet først, legge det til side og så mate det inn i skriveren for å måle diagrammet og opprette profilen. Her er noen punkter som hjelper deg med å velge den ene eller den andre: </td>
+							</tr>
+							<tr>
+								<td> - Hvis du arbeider med forhåndsdefinerte standardpapirtyper i et normalt driftsmiljø, vil du sannsynligvis bruke alt-i-ett-prosessen. Den tar litt tid å fullføre, men skriveren vil ta hånd om alle nødvendige operasjoner i riktig rekkefølge og med nødvendig ventetid mellom slik at blekket tørker før diagrammet måles. Med mindre du liker å se på prosessen (noe som ikke er uvanlig), kan du gå og ta en kopp kaffe og komme tilbake senere når alt er klart. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du arbeider med ikke-standard papirtyper eller i ikke-standard omgivelser, kan det hende at blekket trenger lengre tid på å tørke enn normalt før den utskrevne fargen stabiliseres helt. Fordi en fargeprofil skal representere det endelige resultatet etter tørking, kan du i slike tilfeller bruke den delte arbeidsflyten. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du vanligvis bruker en bestemt type etterbehandling på utskrifter, som kan påvirke den oppfattede fargen, bør du også vurdere å bruke den delte arbeidsflyten. Hvis du for eksempel vanligvis laminerer eller sprayer utskriftene, bør du vurdere å profilere dem med laminering eller bestrykning for å få best mulig fargenøyaktighet. Du kan også sammenligne resultatene før og etter etterbehandling for å finne ut om forskjellen er relevant. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du bekymrer deg for arkivegenskapene til visse papirtyper, kan du måle og profilere på nytt et testdiagram som du målte for en stund siden, for å finne ut om det har oppstått noen betydelige endringer. Både i dette og det forrige tilfellet kan Photoshops prøvetrykksmodus være ganske nyttig. </td>
+							</tr>
+							<tr>
+								<td> Hvis du vil bruke alt-i-ett-arbeidsflyten, beholder du standardinnstillingen &quot;Skriv ut ICC-profildiagram&quot; og &quot;Skann ICC-profildiagram og opprett ICC-profil&quot;. Hvis du vil bruke den delte arbeidsflyten, har du to valg. Hvis du bare vil skrive ut profildiagrammet og legge det side til senere, velger du bare &quot;Skriv ut ICC-profildiagram&quot;. Hvis du vil måle og lage profil av et tidligere utskrevet profildiagram, velger du bare &quot;Skann ICC-profildiagram og opprett ICC-profil&quot;. </td>
+							</tr>
+							<tr>
+								<td> Som vanlig er det beste rådet å holde seg til som virker best for deg. Noe eksperimentering kan være nødvendig for å finne det ut. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Trinn 2 - Legg til egendefinert papir</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Trinn 3 - Velg ICC-profilinnstillinger</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Her kan du velge et navn for ICC-profilen som skal opprettes. Navnet vil bli brukt til to relaterte, men forskjellige, formål: </td>
+							</tr>
+							<tr>
+								<td> 1. Filnavnet du ser når du bruker operativsystemets filleser (Windows Utforsker) til å bla til filen som inneholder ICC-profilen. Programmet vil automatisk legge til filtypen &quot;.icc&quot; etter navnet slik at både du og programvaren kan gjenkjenne ICC-profiler ved å se på filtypen. </td>
+							</tr>
+							<tr>
+								<td> 2. Profilens interne beskrivelsesstreng. Hver ICC-profil har en intern beskrivelsesstreng som brukes av noen (men ikke alle) ICC-oppmerksomme programmer til å identifisere profilen eller til å la deg velge den fra en liste. </td>
+							</tr>
+							<tr>
+								<td> Avhengig av forholdene kan du enten se filnavnet eller den interne deskriptoren, og det er derfor det er lurt å bruke det samme for begge. Selv om du i prinsippet kan velge hvilket som helst navn, er det god praksis å definere en standard navngivingskonvensjon for profiler, og å holde seg til den. Du kan for eksempel bruke følgende navnkomponenter, atskilt av mellomrom, understreker eller et annet symbol som du velger: </td>
+							</tr>
+							<tr>
+								<td> - Skrivertypen eller navnet, for eksempel &quot;HP Designjet Z2100&quot; der &quot;HP&quot; representerer produsenten (Hewlett-Packard), &quot;Designjet&quot; representerer serien og &quot;Z2100&quot; tilsvarer modellnummeret på skriveren din. Siden både filnavn og interne deskriptorer har lengdebegrensninger, må du sannsynligvis forkorte all denne informasjonen til én enkelt streng med relatvt få tegn. Hvis du bruker skrivermodell som første del av profilnavnet, sikrer du at alle profiler for skriveren vil vises som én sammenhengende gruppe i både fillesere og programprofillister. </td>
+							</tr>
+							<tr>
+								<td> - Papirtypen eller navnet, for eksempel &quot;HWT310&quot; for Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. For denne skrivertypen eller dette navnet må du sannsynligvis forkorte papirtypen eller navnet. Pass på at du bruker et unikt navn eller forkortelse for hver forskjellige papirtype du bruker slik at du ikke får problemer med å skille mellom de ulike profilene. </td>
+							</tr>
+							<tr>
+								<td> - Utskriftskvaliteten og andre innstillinger du brukte ved utskrift av testdiagrammet, for eksempel &quot;B&quot; for &quot;Best&quot; utskriftskvalitet eller &quot;BGF&quot; for &quot;Best&quot; utskriftskvalitet og &quot;Glansforbedrer&quot; aktivert (bare for fotopapirtyper). Forenkle og forkort så mye som mulig, men ikke mer. </td>
+							</tr>
+							<tr>
+								<td> - Testdiagrammet som brukes, for eksempel &quot;Liten&quot; eller &quot;Stor&quot;, eller et bestemt testdiagramnavn som &quot;ECI2002&quot; hvis/når de alternativene er tilgjengelig. Forenkle og forkort slik det passer. </td>
+							</tr>
+							<tr>
+								<td> Noen eksempler på profilnavn som er laget i henhold til disse retningslinjene, er &quot;HP Designjet Z2100 HWT310&quot; eller &quot;HP Designjet Z2100, bestrøket papir&quot;. Tilhørende filnavn vil være &quot;HP_Z2100_HWT310.icc&quot; eller &quot;HP_Z2100_BestrøketPapir.icc&quot;. </td>
+							</tr>
+							<tr>
+								<td> Uavhengig av hvilken navngivingsmetode du ender opp med å bruke, må du passe på at du på en utvetydig måte skiller mellom profilene for alle de ulike papirtypene og andre innstillinger du bruker eller kommer til å bruke. </td>
+							</tr>
+							<tr>
+								<td> Som vanlig er det beste rådet å holde seg til som virker best for deg. Noe eksperimentering kan være nødvendig for å finne det ut. </td>
+							</tr>
+							<tr>
+								<td> Før du fortsetter til utskrift av testdiagram, må du kontrollere at du har riktig type papir i skriveren og at skriveren er klar til å skrive ut. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Trinn 4 - Kalibrer skriveren</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Trinn 5 - Opprett ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Skriv ut bare mål. Opprett ICC-profil senere.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td> Skriveren skriver nå ut testdiagrammet i samsvar med instruksjonene du ga i forrige trinn. En fremdriftslinje vises mens utskriften pågår. Her er noen ting du bør vite om profiltestdiagrammer: </td>
+							</tr>
+							<tr>
+								<td> Et profiltestdiagram inneholder prøver med forskjellige mengder av de ulike blekkfargene som brukes i skriveren. I motsetning til et lineariserings- eller kalibreringstestdiagram inneholder de fleste prøvene kombinasjoner av forskjellige blekkfarger. Etter måling med det innebygde spektrofotometeret kan skriveren bestemme nøyaktig hvilke farger som blir resultatet av alle mulige kombinasjoner av blekkfarger, noe som kalles en &quot;fra skriver&quot;-modell, som går fra mengder med blekk til resultatfarger. Et spektrofotometer er et presisjonsinstrument som kan fastslå den nøyaktige sammensetningen av lys som reflekteres fra en fargeprøve. Det deler det reflekterte lyset inn i ulike bølgelengdekomponenter, akkurat som Newtons berømte prisme deler hvitt lys inn i farger i regnbuen, og måler styrken på hver komponent. &quot;Fra skriver&quot;-modeller brukes for eksempel ved prøvetrykk, både i programvare og utskrift, for å simulere hvordan et bilde vil se ut når det skrives ut på en bestemt skriver og papirtype. Skriveren bruker deretter den innebygde programvaren eller tilleggsprogramvare til å invertere denne modellen i en omvendt skrivermodell, fra ønsket farge til mengdene med forskjellige blekk som laget den. Det siste brukes ved &quot;oversetting&quot; av farger fra programdokumenter eller skjermen til mengdene med forskjellige blekkfarger som skriveren trenger å plassere på papiret for å produsere tilsvarende farge. En ICC-skriver (ColorSync) og medieprofil inneholder både &quot;fra skriver&quot; og omvendte modeller i tre forskjellige gjengivelsesformer: Oppfattet (for fotografiske utskrifter), Kolorimetrisk (for logofarge eller prøvetrykk) og Metning (for forretningsgrafikk).  </td>
+							</tr>
+							<tr>
+								<td> Siden målingene og derved ICC-profilen reflekterer nøyaktig det som &quot;sees&quot; på papiret, og det som sees på papiret avhenger av mange faktorer som skriver, blekk, papir, utskriftsinnstillinger og omgivelser, kan resultatprofilen bare bli så bra eller representativ som utskriftsforholdene er bra eller representative. Du må med andre ord passe på at testdiagrammet skrives ut under forhold som er så like som mulig forholdene du vil bruke når du skriver ut ved bruk av resultatprofilen. Hvis du skulle oppdage uregelmessigheter i utskriftskvalitet, papirdefekter eller andre forhold mens diagrammet skrives ut, avbryter du prosessen ved å bruke Avbryt-knappen. Deretter starter du på nytt. Ellers er det ikke sikkert at resultatprofilen blir representativ for dine normale utskriftsforhold, og kanskje ikke være nyttig i det hele tatt. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Opprett ICC-profil fra et mål som allerede er skrevet ut.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td> Testdiagrammer som brukes til skriverkalibrering og profilering måles (skannes) med skriverens innebygde spektrofotometer. Et spektrofotometer er et presisjonsinstrument som kan bestemme den nøyaktige sammensetningen av lys som reflekteres fra en fargeprøve. Det deler det reflekterte lyset inn i forskjellige bølgelengdekomponenter, akkurat slik Newtons berømte prisme deler hvitt lys inn i fargene i regnbuen, og måler styrken på hver komponent. I likhet med alle presisjonsinstrumenter må også spektrofotometeret selv kalibreres og stabiliseres før måling for å sikre maksimal nøyaktighet. Kalibrering skjer automatisk ved bruk av en innebygd hvit referanseprøve. Stabilisering sikres ved å slå på spektrofotometerets innebygde lyskilde og la den varmes opp en kort stund før målingene foretas. Det vises en fremdriftslinje når dette skjer. </td>
+							</tr>
+							<tr>
+								<td> For å skanne testdiagrammet blir både papiret og spektrofotometeret (montert på skrivervognen) flyttet slik spektrofotometeret plasseres over fargeprøvene som skal måles. Selv om målingen utføres ved full stopp (uten at sensoren eller papiret flyttes), er prosessen ganske rask og foretar i snitt 5 målinger per sekund. Målingstiden for hver prøve tilpasses automatisk til fargen som måles, siden mørke farger trenger lengre integreringstid (målingsperiode) enn lyse farger for å gi best resultat. Det vises en fremdriftslinje under målingen (skanningen). </td>
+							</tr>
+							<tr>
+								<td> Når diagrammet er målt, starter profilberegningen. Målingene gjør at skriveren kan fastsette nøyaktig hvilke farger som blir resultatet av alle mulige kombinasjoner av blekk, som som kalles en &quot;fra skriver&quot;-modell, som går fra blekkmengder til resultatfarger. &quot;Fra skriver&quot;-modeller brukes for eksempel ved prøvetrykk, både i programvare og utskrift, for å simulere hvordan et bilde vil se ut når det skrives ut på en bestemt skriver og papirtype. Skriveren bruker deretter den innebygde prøvetrykkprogramvaren til å invertere denne modellen i en omvendt skrivermodell, fra ønsket farge til mengdene med forskjellige blekk som laget den. Det siste brukes ved &quot;oversetting&quot; av farger fra programdokumenter eller skjermen til mengdene med forskjellige blekkfarger som skriveren trenger å plassere på papiret for å produsere tilsvarende farge. En ICC-skriver (ColorSync) og medieprofil inneholder både &quot;fra skriver&quot; og omvendte modeller i tre forskjellige gjengivelsesformer: Oppfattet (for fotografiske utskrifter), Kolorimetrisk (for logofarge eller prøvetrykk) og Metning (for forretningsgrafikk). Det vises en fremdriftslinje under profilberegningen. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Skriv ut og opprett ICC-profil.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Trinn 6 - Installer ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Du får ikke særlig nytte av en ICC-profil hvis den ikke blir brukt. Selv om det kan høres ut som en banalitet (og det er faktisk det), involverer det mer enn det som er innlysende. Først av alt må profilen kopieres til riktig operativsystemmappe på datamaskinen slik at programmer (og brukere) finner den. Dette gjøres automatisk av skriverens programvare. Deretter lastes profilen også opp til skriverens interne profildatabase. </td>
+							</tr>
+							<tr>
+								<td> Hvordan og om profiler brukes etter oppretting og installering, avhenger i stor grad av konfigurasjonen av programmet/programmene og skriverdriveren. Generelt sett blir bruken av fargeprofiler til konvertering av farger mellom programmer og enheter, kalt fargebehandling, og det bør skilles mellom tre forskjellige tilfeller: </td>
+							</tr>
+							<tr>
+								<td> 1. Programfargebehandling. Som navnet tilsier er det programmet som styrer og er ansvarlig for å bruke alle nødvendige fargekonverteringer før dokumentet sendes til skriveren. I praksis betyr det at programmet må tilby brukeren en metode for å velge riktig skriver og papirprofil, og bruke den til å konvertere dokumentfarger. Fargeprofiler er lagret i en forhåndsspesifisert operativsystemmappe (/Library/ColorSync/Profiles), som er mappen skriveren kopierer profiler til når de er opprettet. For at alt skal virke riktig må du fortelle skriveren (driveren) at den ikke skal bruke fargebehandling. Resultatet av en slik dobbel fargebehandling vil i beste fall bli dårlig. Se etter innstillingen &quot;programfargebehandling&quot; i skriverdriverens fargekontroller. </td>
+							</tr>
+							<tr>
+								<td> 2. Skriverfargebehandling med ICC-profiler. Som forventet er skriverfargebehandling det motsatte av programfargebehandling, i dette tilfellet ved bruk av ICC-profiler (ColorSync). I dette scenariet konverterer ikke programmet dokumentfarger til skriverens og papirets fargeområde, men overlater denne oppgaven til skriveren (driveren). Derfor må programmet sende dokumentet slik det er til skriveren, uten å velge eller bruke noen skriverfargeprofiler. &quot;Slik det er&quot; betyr at dokumenter forblir i det som kalles programmets arbeidsfargeområde, vanligvis enten sRGB (standarden, hvis du ikke har fått angitt noe annet) eller Adobe RGB (ofte brukt i programmer for digital fotografering). Skriveren må da selvførlgelig velge og bruke riktig fargeprofil for at alt skal virke riktig, noe som skjer automatisk når papirtypen velges. Det er derfor profiler må knyttes til papirtyper etter at de er laget. Se etter innstillingen &quot;Fargebehandling i skriver&quot; i skriverdriverens fargekontroller. </td>
+							</tr>
+							<tr>
+								<td> 3. Skriverfargebehandling, som bruker egendefinerte fargekart. Dette tilfellet er svært likt det forrige ved at skriveren (driveren) og ikke programmet tar seg av fargebehandling. Forskjellen ligger i bruken av egendefinerte fargekart i stedet for åpen-standard ICC-profiler. Selv om de to er like i funksjonalitet, er det noen betydelige forskjeller. Der ICC-profiler er toveis (går fra ønsket farge til blekkmengder og fra blekkmengder til resultatfarge), er fargekart énveis (går bare fra ønsket farge til blekkmengder). Dette har noen konsekvenser for prøvetrykk, som forklart nedenfor. Mens ICC-profiler brukes i par der den ene tilsvarer innenheten og den andre tilsvarer utenheten, brukes fargekart alene og oversetter direkte fra et gitt innfargeområde til skriveren og papirfargeområdet. Dette medfører at bare et begrenset antall innfargeområder kan støttes, vanligvis enten sRGB eller Adobe RGB. Ikke tilfeldig er de to de vanligste fargeområdene for programmer. Selv om skriverens profileringsprogramvare oppretter tilpassede ICC-profiler (ColorSync), oppretter den i øyeblikket ikke fargekart, som betyr at de ikke er tilgjengelig for ikke-standard papirtyper (ikke ikke-standard utskriftsforhold), se nedenfor. Skriveren må selvfølgelig velge det riktige fargekartet for at alt skal virke, og det skjer automatisk når det velges en standard papirtype. Du må også fortelle programmet at det ikke skal bruke fargebehandling (vanligvis via en innstilling som &quot;Fargebehandling i skriver&quot; eller lignende), og fortelle skriveren at den skal bruke fargekart. Se etter innstillingen &quot;Fargebehandling i skriver&quot; i skriverdriveren. </td>
+							</tr>
+							<tr>
+								<td> Her er flere betraktninger som kan hjelpe deg med å velge mellom de ulike fargebehandlingsalternativene. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du vil bruke prøvetrykk i programmene dine for å simulere på skjermen hvordan utskriften vil se ut, bør du bruke programfargebehandling med ICC-profiler. Profiler er toveis og inneholder informasjonen som er nødvendig for å konverte programfarger til skriverfarger (omvendt retning) og skriverfarger til programfarger (fremoverretning). </td>
+							</tr>
+							<tr>
+								<td> - Hvis programmet du bruker ikke har funksjonalitet for prøvetrykk, men du likevel ønsker å simulere på skjermen hvordan utskriften vil se ut, kan du prøve HP Forhåndsvisning-programmet. Du kan starte det fra skriverdriveren (PDF-nedtrekksmenyen under Mac OS, eller &quot;forhåndsvis utskrift&quot; under Windows). </td>
+							</tr>
+							<tr>
+								<td> - Hvis du ønsker detaljert kontroll over hvordan farger gjengis på skriveren og papiret, vil du sannsynligvis bruke programfargebehandling. Programmer som Photoshop lar deg konvertere et opprinnelig RGB-bilde til dets skriver- og papiravhengige representasjon (RGB eller CMYK), bruke prøvetrykkfunksjoner for å simulere det utskrevne resultatet på skjermen, og bruke en rekke redigeringsverktøy til å endre enhetens fargeverdier før bildet skrives ut. Selv om dette gir svært sofistikert kontroll over utskrevne farger, er det ikke noe for den skvetne og krever en del øvelse. Hvis du ønsker flotte resultater uten alt arbeidet, prøver du skriverfargebehandling først. </td>
+							</tr>
+							<tr>
+								<td> - Hvis din arbeidsflyt er bygd rundt bruken av ICC-profiler, ønsker du sannsynligvis å bruke programfargebehandling med skriverens ICC-profiler (ColorSync). Hvis ICC ikke betyr noe for deg, eller hvis du ikke har noen annen bruk for ICC-profiler, prøver du skriverfargebehandling først. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du arbeider med papirtyper og/eller i miljøer som ikke er standard, er det beste alternativet å generere egendefinerte ICC-profiler ved å bruke skriverens innebygde spektrofotometer og profilprogramvare. Fordi profilprogramvaren i øyeblikket genererer ICC-profiler men ikke egne fargekart, vil du sannsynligvis bruke programfargebehandling. </td>
+							</tr>
+							<tr>
+								<td> Uansett hvilket alternativ du ender opp med å bruke, må du passe på at du vet hvilket du bruker og hvorfor. Kontroller også at programmet og skriverdriveren er konfigurert riktig. Måten å konfigurere fargebehandling i programmet på avhenger av programmet du bruker, og det er dessverre ingen generelle oppskrifter. Du vil kanskje finne at <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color=#006699>HP Kunnskapssenter</font></strong></a> for utskrift er nyttig til denne oppgaven. Det inneholder detaljert informasjon om hvordan du konfigurerer noen av de vanligste profesjonelle grafikkprogrammene, samt informasjon om problemløsing og annet. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Trinn 7 - Fullført</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Når profilinstalleringen er fullført, kan du bla til listen over alle papir som skriveren &quot;kjenner&quot;. For hvert papir vises papirkategori eller det egendefinerte papirnavnet og det tilsvarende (tilknyttede) profilnavnet. Du er nå klar til å bruke den installerte ICC-profilen (ColorSync) med din skriver og ditt papir. Se <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Trinn 6 - Installere ICC-profil</font></strong></a> for mer informasjon om de forskjellige måtene du kan bruke ICC-profiler og andre fargebehandlingsalternativer på. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

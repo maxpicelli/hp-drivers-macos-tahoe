@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>ICC 프로파일 설치 도움말</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>ICC 프로파일 설치</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">1단계 - ICC 프로파일 선택</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">2단계 - ICC 프로파일 설정 확인</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">3단계 - 프로파일 설치</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">4단계 - 완료</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">1단계 - ICC 프로파일 선택</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									프린터에 내장된 프로파일링 소프트웨어를 사용하지 않고 인터넷 다운로드나 타사 프로파일링 소프트웨어 패키지 등 다른 경로를 통해 ICC 프로파일을 입수한 경우에도 프린터와 용지에 사용하기 위해 설치할 수 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									프린터에서 프로파일이 어떤 용지 종류에 해당하는지 알아야 하므로 사용자는 먼저 용지 목록에서 프린터가 '인지하는' 용지 종류를 선택해야 합니다. 용지 종류를 선택할 때는 되도록 실제 용지 종류에 가까운 종류를 선택하십시오. 용지 종류에 따라 사용되는 잉크량과 기타 기본적인 인쇄 매개변수가 결정되므로 적절한 용지 종류를 선택하는 것은 좋은 인쇄 품질을 얻는 데 매우 중요한 역할을 합니다. 사용하려는 용지가 목록에 없거나 비슷한 용지 종류가 없는 경우 새 용지 종류를 정의할 수 있습니다. 그러면 프린터가 해당 용지를 사용하기 위해 자체 보정을 수행하고 보정이 끝나면 ICC 프로파일 설치로 돌아갈 수 있습니다. 선택한 프로파일과 용지 종류에서 만족스러운 결과를 얻지 못할 경우 새 용지 이름에 동일한 용지에 해당하는 다른 용지 종류를 선택해 보고 결과가 가장 좋은 용지 종류를 사용합니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									용지 종류를 선택한 후 프린터 및 용지와 사용할 ICC 프로파일이 들어 있는 파일을 찾습니다. 일반적으로 ICC 프로파일의 파일 이름은 ".icc"(International Color Consortium) 또는 ".icm"(Image Color Matching) 확장자로 끝납니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									사용자 정의로 생성된 색상 프로파일과 다운로드 또는 "미리 만들어져 있는" 프로파일 사이에 어떤 차이가 있는지 궁금할 수 있습니다. 이 두 형태의 프로파일 간에는 다음과 같은 몇 가지 차이점이 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 사용자 정의 색상 프로파일은 각 환경 조건에서 개별 잉크와 용지를 사용하여 개별 프린터에서 수행한 테스트 대상과 측정 결과에 기초를 두고 있습니다. 이 방식에서는 모든 것이 시스템에 최적화되므로 원칙적으로 최상의 색상 정확도가 얻어집니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 일반 또는 "미리 만들어져 있는" 색상 프로파일은 해당 모델의 프린터와 잉크 그리고 사용하는 용지 종류에 적합하게 제작되었지만 사용자의 개별 프린터, 잉크 및 용지에 최적화된 것은 아닙니다. 이러한 색상 프로파일은 "일반적" 또는 평균 시스템을 대표하는 "일반적" 또는 평균 테스트 대상과 측정 결과를 기초로 합니다. 이 프로파일을 사용하여 평균 시스템에서 좋은 결과를 낼 수 있기는 하지만 실제 사용하는 시스템과 평균 시스템 사이에 이러한 프로파일로 만족시킬 수 없는 약간의 차이가 있을 수 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 사용자 정의 프로파일은 프린터에 내장된 프로파일링 소프트웨어나 따로 구입한 소프트웨어를 통해 만들어집니다. 이러한 소프트웨어는 뛰어난 결과를 제공하지만 소프트웨어가 프로파일을 생성하는 방식을 반드시 구체적으로 선택해 주어야 합니다. 특히 혼합 색상 렌더링 처리를 위한 색 영역 매핑 방식을 선택해야 합니다. 색 영역 매핑이란 디지털 카메라나 컴퓨터 모니터 등 주어진 색 영역(장치가 포착하거나 재현할 수 있는 모든 색상의 범위)을 갖는 장치의 색상을 프린터 등 다른 크기와 형태의 색 영역을 갖는 장치로 변환하거나 매핑시키는 것을 의미합니다. 색 영역 매핑은 과학이라기보다 기술에 가까우므로 차이가 있을 뿐 어느 것이 옳거나 그르다고 할 수 없습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 용지 제조업체에서 제공하는 색상 프로파일과 같은 일반 색상 프로파일은 색 영역 매핑과 프로파일 속성에 대해서 다른 선택이 적용된 다른 프로파일링 소프트웨어로 만들어졌을 수 있습니다. 이러한 선택 방식이 사용자의 프린터에 있는 프로파일링 소프트웨어로 만든 프로파일보다 반드시 더 좋거나 나쁘다고 할 수 없지만 서로 차이가 있을 수 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									여기서는 프로파일 종류를 선택하는 데 도움이 되는 몇 가지 지침을 설명합니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 예를 들어 교정 인쇄할 때와 같이 프린터의 색상 정확도가 중요할 경우 비색계 렌더링 처리를 사용하는 것이 좋습니다. 비색계 렌더링 처리의 경우 프린터의 색 영역 내에서 색상을 최고의 정확도로 재현하려고 합니다. 물론 프린터 색 영역을 벗어나는 색상의 경우(이런 색 영역도 인쇄해야 함)에는 이 방식이 불리합니다. 비색계 출력은 혼합 색상 출력보다 객관적인 작업이므로 프로파일링 소프트웨어에 따라 생길 수 있는 차이가 적으며 일반적으로 사용자 정의 프로파일을 사용하는 것이 가장 좋습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 예를 들어 사진 및 예술 분야와 같이 인쇄물의 "외관"과 컴퓨터 모니터와의 색상 대응이 가장 중요하다면 혼합 색상 렌더링 처리를 사용하는 것이 좋습니다. 사용자 정의 프로파일은 탁월한 색상 정확도와 보기에 좋은 혼합 색상 처리로 제작되었기 때문에 우선적으로 선택하는 것이 좋지만 특정 협력업체 프로파일의 외관이 더 마음에 드는 경우가 있을 수도 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									일반적으로 자신에게 가장 적합한 방식을 이용하는 것이 좋으며 어떤 방식이 가장 적합한지 찾으려면 몇 번의 실험을 해야 할 수도 있습니다.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">2단계 - ICC 프로파일 설정 확인</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									여기서 설치하려고 하는 ICC 프로파일의 이름을 선택할 수 있습니다. 이 이름은 두 가지 용도로 사용되는 데 서로 관련되어 있지만 목적은 다릅니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	운영체제의 파일 탐색기(Microsoft 탐색기)를 사용하여 ICC 프로파일을 포함한 파일을 찾아보는 경우에 표시되는 파일 이름. 응용 프로그램에서 프로파일 이름에 파일 이름 확장자 ".icc"를 자동으로 추가하여 사용자와 소프트웨어 모두 확장자로 ICC 프로파일임을 확인할 수 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	프로파일의 내부 설명 문자열. 모든 ICC 프로파일에는 일부(모두는 아님) ICC 인식 소프트웨어에서 프로파일을 식별하거나 사용자가 목록에서 프로파일을 선택할 수 있도록 하는 데 사용되는 내부 설명 문자열이 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									환경에 따라 파일 이름이 표시되거나 내부 기술어가 표시되는 데 이 때문에 둘 모두에 동일한 이름을 사용하는 것이 좋습니다. 원칙적으로 원하는 어떤 이름도 선택할 수 있지만 프로파일에 표준적인 명명 규칙을 정의하고 이를 따르는 것이 좋은 습관입니다. 예를 들어 공백, 밑줄 또는 사용자가 선택하는 다른 기호로 구분하여 다음과 같은 이름 요소를 사용할 수 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 예를 들어 "HP Designjet Z2100"과 같은 프린터 종류 또는 이름(여기서 "HP"는 제조업체(Hewlett-Packard)를 나타내고, "Designjet"은 시리즈를 나타내며 "Z2100"은 프린터의 모델 번호에 해당). 파일 이름과 내부 기술어 모두 길이가 제한되어 있기 때문에 일반적으로 이 모든 정보를 상대적으로 적은 문자 수의 단일 문자열로 축약해야 합니다. 프린터 모델을 프로파일 이름의 첫 부분으로 사용하면 파일 탐색기와 응용 프로그램 프로파일 목록 모두에 프린터에 대한 모든 프로파일이 하나의 연속적 그룹으로 표시됩니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 예를 들어 Hahnemuhle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm에 대한 "HWT310"과 같은 용지 종류 또는 이름. 프린터 종류나 이름의 경우와 마찬가지로 용지 종류나 이름도 일반적으로 축약해야 합니다. 사용하는 각 용지 종류에 고유한 이름 또는 축약된 이름을 사용해야 여러 프로파일을 구분하는 데 문제가 없습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 예를 들어 "Best" 인쇄 품질을 사용한 경우 "B" 또는 "Best" 인쇄 품질과 "Gloss Enhancer" 기능을 사용한 경우(포토 용지의 경우만) "BGE"와 같이 테스트 차트를 인쇄하는 데 사용한 인쇄 품질 및 기타 설정. 되도록 단순화하고 축약하는 것이 좋지만 지나치게 축약할 필요는 없습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 예를 들어 "Small" 또는 "Large"와 같은 테스트 차트 또는 해당 옵션을 사용할 수 있는 경우 "ECI2002"와 같은 특정한 테스트 차트 이름. 이름을 적합하게 단순화 및 축약하십시오.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									이러한 지침에 따라 구성한 몇 가지 프로파일 이름의 예로 "HP Designjet Z2100 HWT310" 또는 "HP Designjet Z2100, Coated Paper"를 들어봅니다. 해당 파일 이름은 "HP_Z2100_HWT310.icc" 또는 "HP_Z2100_CoatedPaper.icc"가 될 수 있습니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									사용한 특정 명명 방법에 관계없이 사용하고 있거나 사용하게 될 모든 용지 종류와 기타 설정에 대해 프로파일을 분명하게 구분할 수 있어야 합니다.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									일반적으로 자신에게 가장 적합한 방식을 이용하는 것이 좋으며 어떤 방식이 가장 적합한지 찾으려면 몇 번의 실험을 해야 할 수도 있습니다.
+								</td>
+							</tr>
+						</table><table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">3단계 - 프로파일 설치</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									설치 과정에서 ICC 프로파일을 Adobe Photoshop과 같은 응용 프로그램에서 사용할 수 있는지 확인합니다.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">4단계 - 완료</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									프로파일 설치 프로세스가 끝난 후 프린터가 '인지하는' 모든 용지 목록을 확인할 수 있습니다. 각 용지에 대한 용지 범주나 사용자 정의 용지 이름 및 해당하는(연결된) 프로파일 이름이 나열됩니다. 이제 프린터 및 용지에 설치된 ICC(ColorSync) 프로파일을 사용할 준비가 되었습니다. ICC 프로파일과 기타 색상 관리 옵션을 사용하는 여러 가지 방법에 대한 자세한 내용은 <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">3단계 - ICC 프로파일 설치</font></strong></a>를 참조하십시오.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

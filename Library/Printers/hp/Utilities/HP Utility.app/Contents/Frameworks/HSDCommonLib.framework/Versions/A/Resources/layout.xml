@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layouts>
+	<layout name="PrintingPropertiesWindowLayout">
+		<view name="_contentView">
+			<layout type="Border"/>
+			<insets value="15, 15, 0, 0"/>			
+		</view>
+		<view name="_topTitleContainer">
+			<layout type="Flow" align="left"/>
+			<constraint type="Border" align="north"/>
+			<insets value="20, 20, 20, 8"/>			
+		</view>
+		<view name="_title">
+			<localize/>
+		</view>
+		<view name="_propertyControlsContainer">
+			<layout type="GridBag"/>
+			<constraint type="Border" align="center"/>
+		</view>
+		<!-- property control titles -->
+		<view name="_paperThicknessTitle">
+			<constraint type="GridBag" gridx="0" gridy="0" anchor="east" insets="0, 8, 6, 9"/>
+			<localize/>
+		</view>
+		<view name="_dryTimeFactorTitle">
+			<constraint type="GridBag" gridx="0" gridy="1" anchor="east" insets="0, 8, 6, 9"/>
+			<localize/>
+		</view>
+		<view name="_manualDryTimeUnitTitle">
+			<!-- Just localize the view since it is laid into _manualDryTimeContainer view -->
+			<localize/>
+		</view>
+		<view name="_starwheelsTitle">
+			<constraint type="GridBag" gridx="0" gridy="3" anchor="east" insets="0, 8, 6, 9"/>
+			<localize/>
+		</view>
+		<view name="_advanceAdjustmentTitle">
+			<constraint type="GridBag" gridx="0" gridy="4" anchor="east" insets="0, 8, 6, 9"/>
+			<localize/>
+		</view>		
+		<view name="_advanceAdjustmentUnitsTitle">
+			<!-- Just localize the view since it is laid into _advanceAdjustmentContainer view -->
+			<localize/>
+		</view>
+		<view name="_vacuumLevelTitle">
+			<constraint type="GridBag" gridx="0" gridy="6" anchor="east" insets="0, 8, 6, 9"/>
+			<localize/>
+		</view>
+		<view name="_inkVolumeTitle">
+			<constraint type="GridBag" gridx="0" gridy="7" anchor="northeast" insets="0, 8, 6, 6"/>
+			<localize/>
+		</view>
+		<view name="_glossEnhancerTitle">
+			<constraint type="GridBag" gridx="0" gridy="8" anchor="northeast" insets="0, 8, 6, 6"/>
+			<localize/>
+		</view>
+		<!-- property control values -->
+		<view name="_paperThicknessPopup">
+			<constraint type="GridBag" gridx="1" gridy="0" fill="horizontal" anchor="west" insets="0, 0, 6, 6"/>
+			<localize/>
+		</view>
+		<view name="_dryTimeFactorPopup">
+			<constraint type="GridBag" gridx="1" gridy="1" fill="horizontal" anchor="west" insets="0, 0, 6, 6"/>
+			<localize/>
+		</view>
+		<view name="_manualDryTimeContainer">
+			<constraint type="GridBag" gridx="1" gridy="2" anchor="northwest"/>
+			<currentSizeIsPreferred/>
+		</view>
+		<view name="_starwheelsPopup">
+			<constraint type="GridBag" gridx="1" gridy="3" fill="horizontal" anchor="west" insets="0, 0, 6, 6"/>
+			<localize/>
+		</view>
+		<view name="_advanceAdjustmentContainer">
+			<constraint type="GridBag" gridx="1" gridy="4" fill="horizontal" align="center" anchor="west" insets="0, 0, 6, 6"/>
+			<localize/>
+		</view>
+		<view name="_advanceAdjustmentInfoTitle">
+			<constraint type="GridBag" gridx="1" gridy="5" anchor="west" insets="0, 8, 6, 9"/>
+			<localize/>
+		</view>				
+		<view name="_vacuumLevelPopup">
+			<constraint type="GridBag" gridx="1" gridy="6" fill="horizontal" anchor="west" insets="0, 0, 6, 6"/>
+			<localize/>
+		</view>
+		<view name="_inkVolumeContainer">
+			<constraint type="GridBag" gridx="1" gridy="7" fill="horizontal" anchor="west" insets="0, 0, 6, 6"/>
+			<currentSizeIsPreferred/>
+		</view>
+		<view name="_glossEnhancerContainer">
+			<constraint type="GridBag" gridx="1" gridy="8" anchor="west" insets="0, 0, 6, 6"/>
+			<currentSizeIsPreferred/>
+		</view>
+		<view name="_cutterCheck">
+			<constraint type="GridBag" gridx="1" gridy="9" anchor="west" insets="0, 0, 6, 6"/>
+			<localize/>
+		</view>
+		<!-- bottom buttons -->
+		<view name="_bottomButtonsContainer">
+			<layout type="GridBag"/>
+			<constraint type="Border" align="south"/>
+			<insets value="8, 8, 0, 8"/>
+		</view>
+		<view name="_helpButton">
+			<constraint type="GridBag" gridx="0" anchor="west" insets="12, 0, 12, 12"/>
+			<localize/>
+		</view>
+		<view name="_restoreButton">
+			<constraint type="GridBag" gridx="1" anchor="west" insets="12, 0, 12, 12"/>
+			<localize/>
+		</view>
+		<view name="_cancelButton">
+			<constraint type="GridBag" gridx="2" weightx="1" anchor="east" insets="12, 0, 12, 12"/>
+			<localize/>
+		</view>
+		<view name="_okButton">
+			<constraint type="GridBag" gridx="3" anchor="east" insets="12, 12, 12, 12"/>
+			<localize/>
+		</view>
+	</layout>
+</layouts>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Instalacja profilu ICC — pomoc</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Centrum kolorów</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Zainstaluj profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Krok 1 — Wybierz profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Krok 2 — Wybierz ustawienia profilu ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Krok 3 — Zainstaluj profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Krok 4 — Gotowe</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Krok 1 — Wybierz profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Jeśli masz profil ICC pozyskany z innego źródła niż&apos;wbudowane oprogramowanie profilujące w drukarce, np. pobrany z Internetu lub oprogramowania profilującego innej firmy, nadal możesz go zainstalować w celu używania z drukarką i papierem. </td>
+							</tr>
+							<tr>
+								<td> Drukarka musi wiedzieć, któremu typowi papieru odpowiada profil, należy więc najpierw wybrać typ papieru z listy „znanych”&apos; papierów. Wybierając typ papieru, spróbuj wybrać ten najbardziej przypominający rzeczywisty typ papieru. Od typu papieru zależy ilość tuszu, który będzie użyty, oraz inne podstawowe parametry drukowania, więc dokonanie dobrego wyboru jest podstawą uzyskania dobrych wydruków. Jeśli używanego papieru nie ma na liście lub nie możesz znaleźć typu papieru przypominającego używany w wystarczający sposób, możesz zdefiniować nowy typ. Następnie drukarka sama skalibruje się do korzystania z tego papieru, po czym będzie można powrócić do instalacji profilu ICC. Jeśli nie będzie można uzyskać satysfakcjonujących wyników przy użyciu wybranego profilu i typu papieru, może spróbować wybrać inne typy dla nowych nazw papieru odpowiadających temu samemu papierowi i użyć tego, który wypadnie najlepiej. </td>
+							</tr>
+							<tr>
+								<td> Po wybraniu typu papieru wyszukaj plik zawierający profil ICC w celu użycia go z drukarką i papierem. Nazwy plików z profilami ICC kończą się rozszerzeniem „.icc” (International Color Consortium) lub „.icm” (Image Color Matching). </td>
+							</tr>
+							<tr>
+								<td> Być może zastanawiasz się, jakie są różnice między osobiście wygenerowanymi profilami kolorów a pobranymi lub „gotowymi” profilami. Oto kilka różnic między tymi dwoma typami profilów: </td>
+							</tr>
+							<tr>
+								<td> — Niestandardowe profile kolorów są oparte na wartościach docelowych testu i pomiarach z konkretnej drukarki z użyciem konkretnych tuszów i papieru i w konkretnych warunkach środowiskowych. Zasadniczo daje to najwyższą możliwą wierność kolorów, ponieważ wszystko jest dopasowanego do danego systemu. </td>
+							</tr>
+							<tr>
+								<td> — Standardowe, gotowe profile kolorów są przygotowane dla danego modelu drukarki i tuszów oraz używanego typu papieru, ale nie dla konkretnego egzemplarza drukarki, tuszów i papieru. Są oparte na typowych, średnich wartościach docelowych testów i pomiarach odpowiadających typowemu, przeciętnemu systemowi. Choć daje to dobre wyniki w przypadku przeciętnego systemu, między konkretnym używanym systemem a systemem przeciętnym mogą istnieć pewne różnice, które nie są uwzględnione w tych profilach. </td>
+							</tr>
+							<tr>
+								<td> — Niestandardowe profile kolorów są tworzone przy użyciu wbudowanego oprogramowania profilującego danej drukarki&apos;albo oprogramowania kupionego jako akcesorium. Choć to oprogramowanie zapewnia znakomite wyniki, musi ono dokonać pewnych wyborów dotyczących sposobu tworzenia profili, w szczególności sposobu mapowania gamy barw w celu renderowania percepcyjnego. Mapowanie gamy jest wykonywane, gdy kolory z urządzenia o danej gamie barw (zakresie barw, które urządzenie może rejestrować lub generować), np. aparatu cyfrowego lub monitora komputerowego, muszą zostać przetłumaczone (czyli zamapowane) na urządzenie o gamie mającej inny rozmiar lub kształt, np. drukarkę. Mapowanie gamy barw to bardziej sztuka niż nauka, przez co nie ma tu dobrych ani złych rozwiązań — są jedynie różne odpowiedzi. </td>
+							</tr>
+							<tr>
+								<td> — Standardowe profile kolorów, np. dostarczane przez producentów papieru, mogły zostać wykonane przy użyciu innego oprogramowania profilującego, które dokonuje innych wyborów dotyczących mapowania gamy barw i innych właściwości profilu. Choć nie muszą one być gorsze czy lepsze niż te dokonane przez oprogramowanie profilujące drukarki, są prawdopodobnie inne. </td>
+							</tr>
+							<tr>
+								<td> Oto wskazówki, które pomogą wybrać odpowiedni typ profilu: </td>
+							</tr>
+							<tr>
+								<td> — Gdy najważniejsza jest wierność barw na wydrukach, np. w przypadku wykonywania odbitek próbnych, prawdopodobnie należy użyć celu renderowania kolorymetrycznego. Stanowi on próbę reprodukcji z największą wiernością barw należących do gamy drukarki, co może niekorzystnie wpłynąć na barwy spoza gamy drukarki (które jednak również muszą zostać wydrukowane). Ponieważ reprodukcja kolorymetryczna jest zadaniem bardziej obiektywnym niż reprodukcja percepcyjna, możliwe różnice między oprogramowaniem profilującym są mniejsze, a najlepszym wyborem jest zwykle profil niestandardowy. </td>
+							</tr>
+							<tr>
+								<td> — Gdy najważniejszy jest wygląd wydruków i ich wysokie podobieństwo do obrazu na monitorze komputera, np. w przypadku zastosowań fotograficznych i artystycznych, prawdopodobnie należy użyć celu renderowania percepcyjnego. Profile niestandardowe są dobrym punktem wyjścia, ponieważ są tworzone ze znakomitą wiernością barw i celem percepcyjnym dającym dobry wygląd, ale może okazać się, że lepszy wyda się wygląd zapewniany przez określone profile z innych źródeł. </td>
+							</tr>
+							<tr>
+								<td> Jak zwykle, najlepiej stosować rozwiązanie sprawdzające się w danym przypadku. Aby je znaleźć, trzeba trochę poeksperymentować. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Krok 2 — Wybierz ustawienia profilu ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> W tym miejscu możesz wybrać nazwę instalowanego profilu ICC. Nazwa będzie potrzebna dla dwóch powiązanych ze sobą, ale różnych celów: </td>
+							</tr>
+							<tr>
+								<td> 1. Nazwa pliku, która będzie widoczna w systemie operacyjnym&apos;w przeglądarce plików (Microsoft Explorer) systemu operacyjnego podczas wyszukiwania pliku zawierającego profil ICC. Aplikacja automatycznie doda rozszerzenie nazwy pliku „.icc” do nazwy profilu, więc użytkownik oraz oprogramowanie będą w stanie rozpoznać takie profile ICC, wyszukując odpowiednie rozszerzenie. </td>
+							</tr>
+							<tr>
+								<td> 2. Profil&apos;Wewnętrzny opis profilu. Każdy profil ICC zawiera wewnętrzny opis używany przez niektóre (ale nie wszystkie) programy obsługujące profile ICC w celu identyfikacji profilu lub wyboru profilu z listy. </td>
+							</tr>
+							<tr>
+								<td> W zależności od okoliczności widoczna może być nazwa pliku lub wewnętrzny opis, dlatego dobrym pomysłem jest użycie tej samej nazwy dla obu opcji. Mimo że generalnie możesz użyć dowolnej wybranej przez siebie nazwy, zaleca się zdefiniowanie standardowej konwencji nazewnictwa profili i trzymanie się jej. Możesz np. użyć następujących składników nazw oddzielonych spacjami, znakami podkreślenia lub innymi wybranymi symbolami: </td>
+							</tr>
+							<tr>
+								<td> — Typ lub nazwa drukarki, np. „HP Designjet Z2100”, gdzie „HP” oznacza producenta (Hewlett-Packard), „Designjet” jest nazwą serii, a „Z2100” odnosi się do numeru modelu drukarki. Ponieważ zarówno nazwa pliku, jak i wewnętrzne opisy, mają ograniczenia długości, konieczne może być skrócenie tych informacji do jednego ciągu składającego się z kilku znaków. Użycie jako pierwszej części nazwy profilu modelu drukarki zapewni, że wszystkie profile drukarki będą wyświetlane jako jedna grupa w przeglądarkach plików oraz na listach profili w aplikacji. </td>
+							</tr>
+							<tr>
+								<td> — Typ lub nazwa papieru, np. „HWT310” dla Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Tak jak w przypadku typu lub nazwy drukarki prawdopodobnie konieczne będzie skrócenie typu lub nazwy papieru. Upewnij się, że używasz unikalnej nazwy lub unikalnego skrótu dla różnych używanych typów papieru, tak aby nie było problemu z rozróżnieniem profili. </td>
+							</tr>
+							<tr>
+								<td> — Jakość wydruku lub inne ustawienia używane podczas drukowania wzornika testowego, np. „N” dla „Najlepsza” (jakość wydruku) lub „NZP” dla „Najlepsza, Zwiększający Połysk” (jakość wydruku, używanie środka zwiększającego połysk — tylko dla papierów fotograficznych). Używaj prostych skrótów, skracaj jak najwięcej się da, ale nic więcej. </td>
+							</tr>
+							<tr>
+								<td> — Używany wzornik testowy, np. „Mały” lub „Duży”, albo konkretna nazwa wzornika testowego, np. „ECI2002”, jeśli te opcje są dostępne. Używaj prostych i odpowiednich skrótów. </td>
+							</tr>
+							<tr>
+								<td> Przykładowe nazwy profili utworzone na podstawie tych wskazówek to np.: „HP Designjet Z2100 HWT310” lub „HP Designjet Z2100, papier powlekany”. Odpowiadające im nazwy plików to „HP_Z2100_HWT310.icc” oraz „HP_Z2100_PapierPowlekany.icc”. </td>
+							</tr>
+							<tr>
+								<td> Niezależnie od tego, którą metodę nazewnictwa wybierzesz, upewnij się, że możesz jednoznacznie rozróżnić profile dla wszystkich typów papieru i innych ustawień, których używasz lub będziesz używać. </td>
+							</tr>
+							<tr>
+								<td> Jak zwykle, najlepiej stosować rozwiązanie sprawdzające się w danym przypadku. Aby je znaleźć, trzeba trochę poeksperymentować. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step3">Krok 3 — Zainstaluj profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Proces instalacji zapewnia, że profil ICC będzie dostępny dla aplikacji, takich jak Adobe Photoshop. </td>
+							</tr>							
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Krok 4 — Gotowe</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Po zakończeniu procesu instalacji profilu możesz przeszukać listę wszystkich papierów „znanych” przez drukarkę. &apos;posiada&apos; Dla każdego papieru wyświetlona będzie jego kategoria lub niestandardowa nazwa oraz nazwa odpowiedniego (powiązanego) profilu. Możesz teraz skorzystać ze swojego zainstalowanego profilu ICC (ColorSync) dla drukarki i papieru. Więcej informacji na temat różnych sposobów korzystania z profili ICC oraz innych opcji zarządzania kolorem zawiera sekcja <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Krok 3 — Zainstaluj profil ICC</font></strong></a>. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

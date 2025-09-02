@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Officejet Pro 8500 A909n</key>
+	<string>DeviceSetup</string>
+	<key>Officejet Pro 8500 A909g</key>
+	<string>DeviceSetup</string>
+	<key>Officejet Pro 8500 A909a</key>
+	<string>DeviceSetup</string>
+	<key>Officejet 6500 E709n</key>
+	<string>DeviceSetup</string>
+	<key>Officejet 6500 E709a</key>
+	<string>DeviceSetup</string>
+	<key>Officejet 4500 G510g-m</key>
+	<string>DeviceSetup</string>
+	<key>Officejet 4500 G510a-f</key>
+	<string>DeviceSetup</string>
+	<key>Officejet 4500 G510n-z</key>
+	<string>DeviceSetup</string>
+	<key>Officejet 4500 K710</key>
+	<string>DeviceSetup</string>
+</dict>
+</plist>

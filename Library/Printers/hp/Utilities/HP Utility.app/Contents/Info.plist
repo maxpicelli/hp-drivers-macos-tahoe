@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>16G29</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>HP Utility</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>transport</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>plugin_icon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Utility Transport Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>task</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>plugin_icon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Utility Task Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>discovery</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>plugin_icon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Utility Discovery Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>monitor</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>plugin_icon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Utility Monitor Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>assistant</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>plugin_icon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Utility Assistant Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>hpstore</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>EventStore.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Events Database File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>NSSQLiteStoreType</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>hptask</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>plugin_icon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HP Task Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>HP Utility</string>
+	<key>CFBundleGetInfoString</key>
+	<string>HP Utility 5.37.1, © Copyright 2005-2017 HP Development Company, L.P.</string>
+	<key>CFBundleIconFile</key>
+	<string>HP Utility</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.hp.printerutility</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>HP Utility</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.37.1</string>
+	<key>CFBundleSignature</key>
+	<string>HPpu</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.hp.utility</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>hputility</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>5.37.1.1789</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>8E3004b</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>16E185</string>
+	<key>DTSDKName</key>
+	<string>macosx10.12</string>
+	<key>DTXcode</key>
+	<string>0833</string>
+	<key>DTXcodeBuild</key>
+	<string>8E3004b</string>
+	<key>LSHasLocalizedDisplayName</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.8</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Copyright 2005-2017 HP Development Company, L.P.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>HP Utility.sdef</string>
+	<key>SourceVersion</key>
+	<string>1789</string>
+</dict>
+</plist>

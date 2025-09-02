@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Opret og installer ICC-profil - hjælp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Farvecenter</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Opret og installer ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Trin 1 - Vælg papir og handling</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Trin 2 - Tilføj brugerdefineret papir</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Trin 3 - Vælg ICC-profilindstillinger</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Trin 4 - Kalibrer printeren</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Trin 5 - Opret ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Trin 6 - Installer ICC-profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Trin 7 - Færdig</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Trin 1 - Vælg papir og handling</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>For at sikre, at du får det bedste resultat, skal printeren vide, hvordan den skal konvertere farver fra computerskærmen eller programdokumenter til det blæk og papir, der udskrives med. En ICC-fil (International Color Consortium) er en beskrivelse af en printer-, blæk- og papirkombination, som indeholder de oplysninger, der skal bruges til disse farvekonverteringer.</td>
+							</tr>
+							<tr>
+								<td>Her kan du oprette og installere en brugerdefineret ICC-profil, så du kan udskrive med den bedst mulige farvenøjagtighed. Hvis du har en ICC-profil til dit papir fra en anden kilde, f.eks. internettet, kan du også bruge den. Færdige ICC-profiler, som dem du henter på nettet, kan godt give et godt resultat, men du får normalt det bedste resultat ved at fremstille din egen profil.</td>
+							</tr>
+							<tr>
+								<td>Her er nogen af forskellene mellem de to typer profiler:</td>
+							</tr>
+							<tr>
+								<td> - Brugertilpassede farveprofiler er baserede på testmål og målinger fra din printer med dit specifikke blæk og papir samt de miljømæssige forhold, der er hos dig. Det giver i princippet den bedste farvenøjagtighed, da alt er tilpasset netop dit system.</td>
+							</tr>
+							<tr>
+								<td> - Generiske farveprofiler er fremstillet til din printermodel samt den type blæk og papir, du benytter, men ikke til din individuelle printer, dit blæk og papir. De er baseret på &quot;typiske&quot; eller gennemsnitlige testmål og målinger og repræsenterer således det &quot;typiske&quot; eller gennemsnitlige system. Det giver et fint resultat på et gennemsnitligt system, men der kan være mindre afvigelser mellem dit system og gennemsnitssystemet, som disse profiler ikke kan afspejle.</td>
+							</tr>
+							<tr>
+								<td> - Brugertilpassede farveprofiler fremstilles med printerens indbyggede profileringssoftware eller med software, som du har købt som tilbehør. Dette software giver et godt resultat, men det skal træffe visse valg om, hvordan det opretter profiler, især hvordan der foretages farveområdemapning for perceptuel gengivelse. Farveområdemapning sker, når farver fra en enhed med et givent farveområde (det farveinterval en enhed kan benytte eller producere), f.eks. et digitalkamera eller en computerskærm, skal overføres eller mappes til en enhed med et farveområde med en anden størrelse eller facon, f.eks. en printer. Farveområdemapning er mere en kunst end en videnskaben, og der er derfor hverken rigtige eller forkerte svar - kun forskellige svar.</td>
+							</tr>
+							<tr>
+								<td> - Generiske farveprofiler, f.eks. dem der leveres af papirproducenter, kan være fremstillet med andet profileringssoftware, der foretager andre valg i forbindelse med farveområdemapning og andre profilegenskaber. Disse valg er ikke nødvendigvis hverken værre eller bedre end dem, dit profileringssoftware foretager, men de er sandsynligvis anderledes. </td>
+							</tr>
+							<tr>
+								<td>Her er nogle retningslinjer, som kan hjælpe dig med at vælge mellem profiltyper:</td>
+							</tr>
+							<tr>
+								<td> - Hvis du primært er interesseret i farvenøjagtighed for dine udskrifter, f.eks. ved fremstilling af prøvetryk, vil du sandsynligvis bruge kolorimetrisk gengivelse. Her forsøges det at reproducere farverne fra printerens farveområde med den størst mulige nøjagtighed, hvilket ikke er en fordel for farver uden for printerens farveområde (som jo også skal udskrives). Da kolorimetrisk gengivelse er mere objektivt end perceptuel gengivelse, er der færre forskelle mellem forskelligt profileringssoftware, og en brugertilpasset profil vil normalt være det bedste.</td>
+							</tr>
+							<tr>
+								<td> - Hvis du primært er interesseret i udskrifternes udseende og en god overensstemmelse med computerskærmen, f.eks. til fotografiske og kunstneriske applikationer, vil du sandsynligvis bruge perceptuel gengivelse. Brugertilpassede profiler er et godt sted at starte, da de bla. er fremstillet med en meget fin farvenøjagtighed og en flot perceptuel gengivelse, men måske fortrækker du udseendet fra visse tredjepartsprofiler.</td>
+							</tr>
+							<tr>
+								<td>Uanset hvilken profiltype, du beslutter dig for at bruge, skal du huske, at du til en vis grad kan tilpasse farvegengivelsen vha. farvejusteringsmulighederne i printerdriveren.</td>
+							</tr>
+							<tr>
+								<td> Processen med at oprette og installere en brugerdefineret ICC-profil består af følgende trin:</td>
+							</tr>
+							<tr>
+								<td> 1. Vælg den papirtype, der skal oprettes profil for, eller definer en ny.</td>
+							</tr>
+							<tr>
+								<td> 2. Vælg indstillinger for den nye profil, herunder det navn, den skal have.</td>
+							</tr>
+							<tr>
+								<td> 3. Opret den nye profil: Udskriv testkortet, lad det tørre, mål det, og beregn profilen. Alle den gøres automatisk af printeren.</td>
+							</tr>
+							<tr>
+								<td> 4. Installer den nye profil, så du kan bruge den sammen med dine programmer og printeren.</td>
+							</tr>
+							<tr>
+								<td> I forbindelse med det første trin kan du vælge en papirtype på listen over kendt papir, eller du kan definere en ny papirtype og føje den til listen.</td>
+							</tr>
+							<tr>
+								<td> Du kan oprette en profil på to måder: Du kan vælge en alt-i-et proces, der udfører alle de nødvendige handlinger i én uafbrudt sekvens, eller du kan bruge en proces, der splitter handlingerne op, så du først kan udskrive et profilkort, og senere føre det ind i printeren, så det kan blive målt, og der kan oprettes en profil. Her er nogen af grundene til, at du måske foretrækker den ene frem for den anden:</td>
+							</tr>
+							<tr>
+								<td>- Hvis du arbejder med prædefinerede standardpapirtyper under normale miljøforhold, kan du bruge alt-i-et processen. Det tager lidt tid at gennemføre den, men printeren vil sørge for det hele i den korrekte rækkefølge samt sikre, at blækket får lov at tørre helt, før kortet måles. Du kan følge processen eller foretage dig noget andet, og så komme tilbage, når det hele er klar.</td>
+							</tr>
+							<tr>
+								<td> - Hvis du arbejder med papirtyper, der ikke er standard, eller under specielle miljøforhold, vil blækket ofte være længere om at tørre, så de udskrevne farver er helt stabiliserede. Da en farveprofil bør repræsentere det endelige udskrevne resultat efter tørring, kan det være en god ide at splitte arbejdsgangen op under disse forhold..</td>
+							</tr>
+							<tr>
+								<td> - Hvis du normalt anvender visse typer efterbehandling på dine print, som kan have indflydelse på den opfattede farve, bør du også overveje at benytte den opsplittede arbejdsgang. Hvis du f.eks. normalt laminerer eller sprayer dine print, kan det være en god ide at oprette profilen, når de er lamineret eller coatet så du får den bedst mulige farvenøjagtighed. Du kan sammenligne printene før og efter efterbehandlingen og se, om der er relevante forskelle.</td>
+							</tr>
+							<tr>
+								<td> - Hvis du er bekymret for arkiveringsholdbarheden ved visse typer papir, kan du måle et testkort, du tidligere har målt for et stykke tid siden, igen og oprette en ny profil. På de måde kan du se, om der er sket markante ændringer. Både i dette og det forrige tilfælde vil du måske finde Photoshops metode til prøvetryk på skærmen ganske nyttig.</td>
+							</tr>
+							<tr>
+								<td> Hvis du vil bruge alt-i-et- processen, skal &quot;Udskriv ICC-profilkort&quot; og &quot;Scan ICC-profilkort, og opret ICC-profil&quot; være markeret, Hvis du vil splitte processen op, har du to muligheder. Du kan udskrive profilkortet og lægge det til side ved kun at vælge &quot;Udskriv ICC-profilkort&quot;. Hvis du vil måle og oprette profil for et tidligere udskrevet profilkort, skal du  kun vælge &quot;Scan ICC-profilkort og opret ICC-profil&quot;. </td>
+							</tr>
+							<tr>
+								<td>Som sædvanlig er det bedste råd at benytte det, der passer dig bedst. Det kan være nødvendigt at prøve sig frem, før man finder frem til den ønskede løsning.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Trin 2  - Tilføj brugerdefineret papir</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Trin 3 - Vælg ICC-profilindstillinger</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Her kan du vælge et navn til den ICC-profil, der skal oprettes. Navnet bruges til to forskellige ting med relation til hinanden: </td>
+							</tr>
+							<tr>
+								<td> 1. Det arkivnavn, der vises i operativsystemets filbrowser  (Microsoft Explorer), når du skal have fat i arkivet med ICC-profilen. Arkivnavnets type - &quot;.icc&quot; - føjes automatisk til profilnavnet , så både du og programmet kan genkende ICC-profiler bare ved at se på typen.</td>
+							</tr>
+							<tr>
+								<td> 2.  Profilens interne beskrivelsesstreng. Alle ICC-profiler har en intern beskrivelsesstreng, som bruges af nogle programmer, der kan benytte  ICC-arkiver, til at identificere profilen eller til at lade dig vælge den på en liste.</td>
+							</tr>
+							<tr>
+								<td>Afhængig af omstændighederne vises arkivnavnet eller den interne beskrivelse, og det er derfor en god ide at bruge det samme navn i begge tilfælde. Du kan i princippet vælge et hvilket som helst navn, men det er en god ide at definere en navngivningskonvention for profiler og bruge den konsekvent. Du kan f.eks. benytte følgende navnekomponenter, adskilt af mellemrum eller understregning eller andre symboler efter eget valg:</td>
+							</tr>
+							<tr>
+								<td> - Printertypen eller navnet, f.eks. &quot;HP Designjet Z2100&quot;, hvor &quot;HP&quot; repræsenterer producenten (Hewlett-Packard), &quot;Designjet&quot; repræsenterer serien og &quot;Z2100&quot; printerens modelnummer. Da både arkivnavn og interne beskrivelser har en begrænset længde, vil du sandsynligvis skulle forkorte disse oplysninger til en streng med forholdsvis få tegn. Når du bruger printermodellen som første del af profilnavnet, sikrer du, at alle profiler til printeren vises som en sammenhængende gruppe i såvel filbrowsere som i profilllister i programmer.</td>
+							</tr>
+							<tr>
+								<td> - Papirtypen eller navnet, f.eks. &quot;HWT310&quot; for Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Som det var tilfældet med papirtypen eller -navnet, vil du sandsynligvis blive nødt til at forkorte papirtypen eller -navnet. Brug et unikt navn eller unikke forkortelser for de enkelte papirtyper, så du altid vil kunne skelne de enkelte profiler fra hinanden.</td>
+							</tr>
+							<tr>
+								<td> - Udskriftskvaliteten og andre indstillinger, der blev brugt til udskrivning af testkortet, f.eks. &quot;B&quot; for &quot;Bedste&quot; udskriftskvalitet eller &quot;BGE&quot; for &quot;Bedste&quot; udskriftskvalitet samt  &quot;Gloss Enhancer&quot; (Glansforstærker) (kun visse typer fotopapir). Gør det så enkelt og kort som muligt.</td>
+							</tr>
+							<tr>
+								<td> - Det anvendte testkort, f.eks. &quot;Lille&quot; eller &quot;Stor&quot; eller et specifikt testkortnavn som &quot;ECI2002&quot;, hvis relevant.. Gør det så enkelt og kort, som det nu passer.</td>
+							</tr>
+							<tr>
+								<td>Eksempler på profilnavne, hvor man har fulgt disse retningslinjer, kunne være &quot;HP Designjet Z2100 HWT310&quot; eller &quot;HP Designjet Z2100, Coated Paper&quot;. Det tilsvarende filnavn ville så være &quot;HP_Z2100_HWT310.icc&quot; eller &quot;HP_Z2100_CoatedPaper.icc&quot;. </td>
+							</tr>
+							<tr>
+								<td>Uanset hvilken navngivningsmetode, du beslutter dig for at bruge, skal du sørge for, at du uden problemer kan skelne mellem profiler til de forskellige papirtyper og andre indstillinger, som du vil bruge.</td>
+							</tr>
+							<tr>
+								<td>Som sædvanlig er det bedste råd at benytte det, der passer dig bedst. Det kan være nødvendigt at prøve sig frem, før man finder frem til den ønskede løsning.</td>
+							</tr>
+							<tr>
+								<td> Før du fortsætter, skal du sikre dig, at du har lagt det rigtige papir i printeren, og at printeren er klar til at udskrive.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Trin 4 - Kalibrer printeren</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Trin 5 - Opret ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Udskriv kun kort. Opret ICC-profil senere.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>Printeren udskriver nu et profiltestkort i henhold til de instruktioner, du gav den i forrige trin. Der vises en statuslinje under udskrivningen. Her er et par ting, du skal huske i forbindelse med profiltestkort: </td>
+							</tr>
+							<tr>
+								<td>Et profiltestkort indeholde farvepletter med forskellige mængder af de forskellige blæktyper, der bruges på printeren. I modsætning til linearisering eller kalibrering af kalibreringstestkortet vil de fleste af pletterne indeholde kombinationer af forskellige farver blæk. Efter måling med det indbyggede spektrofotometer, gør det det muligt for printeren at fastsætte præcis, hvilke farver der fås af de mange forskellige blækkombinationer. Dette kaldes en fremadrettet printermodel, hvor man går fra blækmængder til farver. Et spektrofotometer er et præcisionsinstrument, der kan fastsætte den nøjagtige sammensætning af lys, der reflekteres fra en farveplet. Det opsplitter lyset i komponenter med forskellige bølgelængder, lige som Newtons berømte prisme opsplitter det hvide lys i regnbuens farver, og måler de enkelte komponenters styrke. Fremadrettede printermodeller bruges f.eks. til udskrevne prøvetryk eller prøvetryk på skærmen, hvor det simuleres, hvordan et billede vil se ud, hvis det udskrives på en bestemt printer og papirtype. Printeren kan herefter bruge den indbyggede profileringssoftware, eller andet profileringssoftware, til at inverte denne model til en bagudrettet printermodel, hvor man går fra de ønskede farver til de forskellige blækmængder, der skaber dem. Det bruges til at 'oversætte' farver fra et programdokument eller skærmen til den mængde af de forskellige blæktyper, som printeren skal bruge for at frembringe de samme farve i udskrifterne. ICC-printer- og medieprofiler (ColorSync) indeholde både fremadrettede og bagudrettede modeller i tre forskellige udgaver: Perceptuel (til fotoprint), Kolorimetrisk (til logofarver og prøvetryk) samt Mætning (til forretningsgrafik). </td>
+							</tr>
+							<tr>
+								<td>Da målingerne - og som følge heraf - ICC-profilen afspejler nøjagtigt, hvad de &quot;ser&quot; på papiret, og det, der ses på papiret, afhænger af mange faktorer som printeren, blæk, papir, udskriftsindstillinger og miljømæssige forhold, er den endelige profil kun så &quot;god&quot; eller repræsentativ, som udskrivningsforholdene er. Det betyder med andre ord, at testkortet skal udskrives under forhold, der er så tæt på de forhold, hvorunder du siden hen skal udskrive vha. profilen. Hvis du opdager problemer med udskriftskvaliteten, papirdefekter eller andet, mens kortet udskrives, skal du afbryde processen vha. knappen 'Annuller' og starte forfra. I modsat fald vil den færdige profil måske ikke være repræsentativ for de typiske udskrivningsforhold og vil måske slet ikke kunne bruges</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Opret ICC-profil fra et kort, der allierede er udskrevet.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>Testkort, der benyttes til printerkalibrering og oprettelse af profil, måles (scannes) vha. printerens indbyggede spektrofotometer.  Et spektrofotometer er et præcisionsinstrument, der kan fastsætte den nøjagtige sammensætning af det lys, der kastes tilbage fra en farveplet. Den deler lyset op i komponenter med forskellig bølgelængde, på samme måde som Newtons berømte prisme deler det hvide lys ind i regnbuens farver, og måler de enkelte komponenters styrke. Som alle andre præcisionsinstrumenter skal spektrofotometeret selv også kalibreres og stabiliseres, før der kan foretages målinger, så man får den bedst mulige præcision. Kalibreringen foregår automatisk vha. en indbygget hvid &quot;referenceflise&quot;. Stabiliseringen sikres ved at tænde spektrofotometerets indbyggede lyskilde og lade den varme op i en kort periode, før målingerne foretages. Der vises en statuslinje, mens dette sker.</td>
+							</tr>
+							<tr>
+								<td>Når testkortet scannes, flyttes både papiret og spektrofotometeret (der er monteret på printervognen), så spektrofotometeret placeres over de farvepletter, der skal måles. Selvom målingen foregår, uden at sensoren eller papiret bevæges, er processen ret hurtig og foretager i snit 5 målinger pr. sekund. Måletiden for hver plet tilpasses automatisk til den farve, der måles, da mørke farver har brug for længere integrationstid (måleperiode) end lyse farver. Der vises en statuslinje under målingen (scanningen) af kortet.</td>
+							</tr>
+							<tr>
+								<td> Når kortet er gennemmålt, starter profilberegningerne. Målingen gør det muligt for printeren at fastsætte præcis, hvilke farver der fås af de mange forskellige blækkombinationer. Dette kaldes en fremadrettet printermodel, hvor man går fra blækmængder til farver. Fremadrettede printermodeller bruges f.eks. til udskrevne prøvetryk eller prøvetryk på skærmen, hvor det simuleres, hvordan et billede vil se ud, hvis det udskrives på en bestemt printer og papirtype. Printeren kan herefter bruge den indbyggede profileringssoftware, eller andet profileringssoftware, til at invertere denne model til en bagudrettet printermodel., hvor man går fra de ønskede farver til de forskellige blækmængder, der skaber dem. Det bruges til at 'oversætte' farver fra et programdokument eller skærmen til den mængde af de forskellige blæktyper, som printeren skal bruge for at frembringe de samme farver i udskrifterne. ICC-printer- og medieprofiler (ColorSync) indeholde både fremadrettede og bagudrettede modeller i tre forskellige udgaver: Perceptuel (til fotoprint), Kolorimetrisk (til logofarver eller prøvetryk) og Mætning (til forretningsgrafik). Der vises en statuslinje under beregningen.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Udskriv kort, og opret ICC-profil.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Trin 6 - Installer ICC-profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> En ICC-profil er ikke meget værd, hvis ikke den benyttes. Det lyder måske nok indlysende, men for det første skal profilen kopieres til den korrekte systemappe på computeren, så programmer (og brugere) kan finde den (dette gøres af printeren), og for det andet overføres profilen til printerens interne profildatabase. </td>
+							</tr>
+							<tr>
+								<td> Hvordan eller om profilerne benyttes efter oprettelse og installation afhænger i stor grad af konfigurationen af dit/dine programmer og printerdriveren. Generelt er brugen af farveprofiler til at konvertere farver mellem programmer og enheder kendt som farvestyring, og her skelner vi mellem tre forskellige forhold:</td>
+							</tr>
+							<tr>
+								<td> 1. Programfarvestyring. Som navnet angiver er programmet ansvarligt for at anvende de nødvendige farvekonverteringer, før et dokumentet sendes til printeren. I praksis betyder det, at programmer skal give brugeren mulighed for at vælge den relevante printer- og papirprofil og bruge den til at konvertere dokumentfarver. Farveprofiler ligger i en operativsystemmappe (/Library/ColorSync/Profiles). Efter oprettelse kopierer printersoftwaren profiler til denne mappe. For at det hele skal fungere korrekt, skal du fortælle printeren (driveren), at den ikke skal anvende sin egen farrvestyring, da anvendelse af dobbelt farvestyring altid giver et dårligt resultat.  Se efter indstillingen &quot;programfarvestyring&quot; i printerdriverens farveindstillinger.</td>
+							</tr>
+							<tr>
+								<td> 2. Printerfarvestyring vha. ICC-profiler. Det modsatte af programfarvestyring er printerfarvestyring, i dette tilfælde ved brug af ICC-profiler (ColorSync). Her konverterer programmet ikke dokumentfarver til printerens og papirets farveområde, men lader printeren (driveren) tage sig af dette. Programmet skal derfor overføre dokumentet som det er til printeren uden at vælge eller anvende nogen printerfarveprofiler. &quot;Som det er&quot; betyder, at dokumenterne lægges i, hvad der kaldes programmets arbejdsfarveområde, typisk sRGB (standard, med mindre andet er angivet) eller Adobe RGB (bruges ofte til programmer i forbindelse med digital fotografering). Herefter skal printeren vælge og anvende den relevante farveprofil, før det hele fungerer som det skal. Det sker automatisk, når der vælges papirtype. Det er derfor profiler skal knyttes til papirtyper efter oprettelse. Se efter indstillingen &quot;printerfarvestyring&quot; under printerdriverens indstillinger.</td>
+							</tr>
+							<tr>
+								<td> 3. Printerfarvestyring ved hjælp af private farvekort. Dette tilfælde er meget lig det forrige, idet printeren (driveren) og ikke programmet tager kontrol over farvestyringen. Forskellen består i, at der benyttes private farvekort i stedet for open-standard ICC-profiler. Selvom de to metoder fungerer ens, er der nogle markante forskelle. Hvor ICC-profiler fungerer tovejs (fra den ønskede farve til blækmængderne og fra blækmængderne til den resulterende farve), fungerer farvekort envejs (går kun fra den ønskede farve til blækmængder). Det har nogle konsekvenser for prøvetryk, hvilket omtales nednefor. ICC-profiler bruges i par, hvor den ene gælder for inputenheden og den anden for outputenheden. Farvekort bruges alene, idet det oversætter direkte fra et givent inputfarveområde til printerens og papirets farveområde. Det medfører, at der kun kan understøttes et begrænset antal inputfarveområder, typisk sRGB eller Adobe RGB. Det er således ikke tilfældigt, at de er de mest almindelige programarbejdsfarveområder. Printerens profileringssoftware opretter brugertilpassede ICC-profiler (ColorSync), men det opretter ikke farvekort, hvilket gør, at de ikke kan bruges til specielle papirtyper, der ikke er standard (eller udskrivningsforhold, der afviger fra standarden) - se nedenfor. Printeren skal vælge det relevante farvekort, før det hele fungerer, og dette sker automatisk, når der vælges en standardpapirtype. Du skal fortælle programmet, at det ikke skal anvende farvestyring (typisk via en indstilling i stil med &quot;Printerstyrede farver&quot; eller lignende), og printeren, at den skal anvende farvekort. Se efter indstillingen &quot;Printerstyrede farver&quot; i printerdriverens indstillinger.</td>
+							</tr>
+							<tr>
+								<td> Her er flere overvejelse, du bør gøre dig, når du vælger mellem de forskellige farvestyringsmuligheder. </td>
+							</tr>
+							<tr>
+								<td> - Hvis du vil bruge prøvetryk i dine programmer, dvs. at simulere udskriften på skærmen, skal du bruge programfarvestyring med ICC-profiler. Profilerne er tovejs og indeholder de oplysninger, der er nødvendige for at konvertere programfarver til printerfarver (bagudrettet) og printer- til programfarver (fremadrettet). </td>
+							</tr>
+							<tr>
+								<td>- Hvis dit program ikke kan vise prøvetryk på skærmen, men du stadig gerne vil have vist udskriften på skærmen, kan du prøv at bruge HP's funktion til visning af udskrift. Du starter den fra printerdriveren (PDF-rullemenuen i Mac OS eller &quot;vis udskriftseksempel&quot; i Windows).</td>
+							</tr>
+							<tr>
+								<td> - Hvis du vil have mere kontrol med, hvordan farverne gengives på printeren og papiret, skal du bruge programfarvestyring. Med programmer som Photoshop kan du konvertere et originalt RGB-billede til dets printer- og papirafhængige repræsentation (uanset om det er RGB eller CMYK), aktivere prøvetryk på skærmen for at få en simulering af det udskrevne resultat, samt bruge en masse redigeringsværktøjer til at ændre enhedsfarveværdier, før billedet udskrives. Det giver meget avanceret kontrol med de udskrevne farver, men det kræver en del øvelse, før man får de ønskede resultater. Prøv først printerfarvestyring, hvis du ønsker flotte print uden alt besværet.</td>
+							</tr>
+							<tr>
+								<td>Hvis din arbejdsgang er bygget op omkring brugen af ICC-profiler, kan du bruge programfarvestyring i forbindelse med printer ICC-profiler (ColorSync). Prøv først at benytte printerfarvestyring, hvis ikke du har brug for ICC-profiler.</td>
+							</tr>
+							<tr>
+								<td>- Hvis du arbejder med ikke-standard papirtyper og/eller specielle miljømæssige forhold, skal du oprette brugerdefinerede ICC-profiler vha. printerens indbyggede spektrofotometer og profileringssoftware. Da softwaren generer ICC-profiler, men ikke egne farvekort, er det umiddelbart bedre at bruge programfarvestyring.</td>
+							</tr>
+							<tr>
+								<td>Uanset hvad du vælger at benytte, skal du vide, hvilken en af metoderne du bruger, og hvorfor. Sørg også for, at programmet og printerdriveren er konfigureret korrekt. Hvordan du anvender programfarvestyring afhænger af programmet, og der er desværre ikke nogen generel opskrift. Du kan finde nyttige oplysninger i <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color=#006699>HP Printing Knowledge Center</font></strong></a> vedrørende dette. Du finder detaljerede oplysninger om, hvordan du konfigurerer nogle af de mest almindelige professionelle grafikprogrammer samt fejlfinding og andre oplysninger.</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Trin 7 - Færdig</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>Når profileringsprocessen er færdig, kan du få vist en liste med alt det papir, printeren 'kender'. For hvert papir vises papirkategorien eller det brugerdefinerede papirnavn og det tilknyttede profilnavn. Du er nu klar til at bruge din tilpassede  ICC-profil (ColorSync) sammen med din printer og dit papir. Se <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Trin 6 - Installer ICC-profil</font></strong></a> for flere oplysninger om de forskellige måder, hvorpå du kan bruge ICC-profiler og andre farvestyringsmuligheder.</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

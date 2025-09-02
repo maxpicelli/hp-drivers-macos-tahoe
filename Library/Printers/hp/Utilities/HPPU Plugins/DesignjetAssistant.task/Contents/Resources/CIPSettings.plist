@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>businessType</key>
+	<array>
+		<string>None</string>
+		<string>Architecture, Engineering, Construction</string>
+		<string>Graphic Design, Advertising Services</string>
+		<string>Infrastructure, Utilities, Telecommunications</string>
+		<string>Manufacturing, Automotive, Transportation</string>
+		<string>Printing Services</string>
+		<string>Professional Photography Services</string>
+		<string>Public Sector</string>
+		<string>Other</string>
+	</array>
+	<key>businessSize</key>
+	<array>
+		<string>None</string>
+		<string>1-10 employees</string>
+		<string>10-100 employees</string>
+		<string>100-1000 employees</string>
+		<string>more than 1000 employees</string>
+	</array>
+	<key>geographicalRegion</key>
+	<array>
+		<string>None</string>
+		<string>Americas</string>
+		<string>Europe, Middle East, Africa</string>
+		<string>Asia Pacific, Japan</string>
+		<string>Other</string>
+	</array>
+</dict>
+</plist>

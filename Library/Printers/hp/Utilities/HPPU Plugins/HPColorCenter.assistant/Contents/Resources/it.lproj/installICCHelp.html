@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Guida di Installa profilo ICC</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Installa profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Fase 1 – Seleziona profilo ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Fase 2 – Controlla impostazioni profilo ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Fase 3 - Installa profilo</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Fase 4 - Fine</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Fase 1 – Seleziona profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Se si dispone di un profilo ICC ottenuto tramite strumenti diversi dal software per la creazione di profili, ad esempio tramite un download di Internet o da un pacchetto software per la creazione di profili di altri produttori, è comunque possibile installarlo per utilizzarlo con la stampante e la carta in uso.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									È necessario che sulla stampante sia specificato il tipo di carta cui corrisponde il profilo, è quindi importante scegliere prima un tipo di carta dall'elenco delle carte riconosciute. Per la scelta di un tipo di carta, provare a selezionarne uno il più simile possibile al tipo di carta effettivo. Il tipo di carta determina la quantità di inchiostro da utilizzare e altri parametri di stampa di base, pertanto è fondamentale effettuare la scelta ottimale per ottenere i migliori risultati. Se la carta utilizzata non è elencata o non è disponibile un tipo di carta sufficientemente simile, è possibile definire un tipo nuovo. Verrà quindi eseguita la calibrazione della stampante per l'utilizzo con la carta specificata; dopo questa operazione è possibile installare nuovamente il profilo ICC. Se si rilevano risultati non soddisfacenti con il profilo e il tipo di carta selezionati, è possibile scegliere tipi di carta differenti relativi a nuovi nomi di carta che corrispondono allo stesso tipo di carta e utilizzare quello che funziona meglio.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Dopo aver selezionato il tipo di carta, ricercare il file contenente il profilo ICC da utilizzare con la stampante e la carta. Generalmente, i nomi file dei profili ICC terminano con l'estensione ".icc" (per International Color Consortium) o ".icm" (per Image Color Matching).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ci si potrebbe chiedere quali sono le differenze tra i profili colore personalizzati e i profili "pronti" o scaricati. Di seguito sono riportate alcune differenze tra i due tipi di profili:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- I profili colore personalizzati si basano su obiettivi e misurazioni di prova della specifica stampante, utilizzando inchiostri, tipi di carta e condizioni ambientali particolari. Sostanzialmente questo tipo di profilo fornisce la massima precisione di colore in quanto ogni elemento è personalizzato in base al sistema in uso.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- I profili colore generici o "pronti" vengono creati per il modello di stampante e per gli inchiostri e il tipo di carta utilizzati e non per la stampante, gli inchiostri e il tipo di carta specifici. Questi tipi di profili si basano su obiettivi e misurazioni di prova "tipici" o medi che rappresentano il sistema "tipico" o medio. Sebbene questi profili forniscano buoni risultati per un sistema tipico, è possibile che vi siano lievi scostamenti dovuti alle differenze tra il proprio sistema e un sistema teorico che non è in grado di tenerne conto.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- I profili colore personalizzati vengono creati con il software per la creazione di profili incorporato della stampante oppure con il software acquistato separatamente. Sebbene questo software fornisca risultati eccellenti, è necessario selezionare determinate opzioni relative alla modalità di creazione dei profili, in particolare quelle relative all'associazione della gamma per la modalità di rendering Percettivo. L'associazione della gamma si verifica quando i colori di un dispositivo con una determinata gamma di colori (la gamma di tutti i colori che possono essere catturati o prodotti da un dispositivo), ad esempio una fotocamera digitale o un monitor di computer, devono essere trasferiti o associati a un dispositivo con una gamma di colori con formato o dimensioni differenti, ad esempio una stampante. L'associazione della gamma è un'abilità più che una tecnica, pertanto non esistono risposte giuste o errate; solo risposte differenti.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- È possibile che i profili colore generici (ad esempio quelli forniti dai produttori di carta) siano creati con vari software dedicati, in grado di creare differenti opzioni relative all'associazione della gamma e ad altre proprietà del profilo. Sebbene queste opzioni non siano necessariamente peggiori o migliori di quelle create dal software per la creazione di profili della stampante, è possibile che siano differenti.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Di seguito sono riportate alcune istruzioni che semplificano la scelta dei tipi di profilo:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si è principalmente interessati alla precisione di colore delle stampe, ad esempio per eseguire stampe di prova, è preferibile utilizzare la modalità di rendering Colorimetrico. Quest'ultimo tipo tenta di riprodurre i colori compresi nella gamma della stampante con la maggiore precisione, eventualmente a discapito dei colori non compresi nella gamma della stampante (che devono essere comunque stampati). Poiché la riproduzione colorimetrica è un'operazione più oggettiva della riproduzione percettiva, la differenza rilevabile tra i software per la creazione di profili è minima e un profilo personalizzato generalmente è la soluzione migliore.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si è principalmente interessati all'aspetto delle stampe e a una buona corrispondenza con il monitor del computer, ad esempio per le applicazioni fotografiche e artistiche, è preferibile utilizzare la modalità di rendering Percettivo. I profili personalizzati sono un elemento ideale da cui partire poiché vengono creati con una precisione di colore eccellente e una buona modalità di rendering Percettivo, tuttavia è possibile che si preferisca l'aspetto di determinati profili di altri produttori.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Naturalmente, il consiglio migliore è quello di trovare la combinazione più appropriata per le proprie esigenze, il che potrebbe richiedere alcune prove.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Fase 2 – Controlla impostazioni profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									È possibile scegliere un nome per il profilo ICC da installare. Questo nome verrà utilizzato per due differenti scopi correlati tra loro:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Il nome file che verrà visualizzato quando si utilizza il browser dei file del sistema operativo (Esplora Risorse di Microsoft) per ricercare il file contenente il profilo ICC. L'estensione ".icc" del nome file viene aggiunta automaticamente al nome profilo dall'applicazione in modo da consentire il riconoscimento da parte dell'utente e del software dei profili ICC in base a tale estensione.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	La stringa della descrizione interna del profilo. Ogni profilo ICC contiene una stringa descrittiva interna che viene utilizzata da alcuni (non tutti) software che riconoscono ICC per identificare il profilo o per consentirne la selezione da un elenco.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A seconda delle circostanze, può essere visualizzato o il nome file o il descrittore interno, per tale motivo si consiglia di utilizzare lo stesso nome per entrambi. Sebbene in linea di massima è possibile scegliere un nome qualsiasi, è preferibile definire una convenzione di denominazione standard per i profili e attenersi ad essa. Ad esempio, è possibile utilizzare i seguenti componenti dei nomi, separati da spazi, caratteri di sottolineatura o altri simboli a propria scelta:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Il tipo o il nome della stampante, ad esempio "HP Designjet Z2100" dove "HP" rappresenta il produttore (Hewlett-Packard), "Designjet" rappresenta la serie e "Z2100" il numero di modello della stampante. Poiché il nome file e i descrittori interni hanno una lunghezza limitata, potrebbe essere necessario abbreviare tutte queste informazioni in un'unica stringa composta da un numero ridotto di caratteri. Utilizzando il modello della stampante come parte iniziale del nome del profilo, tutti i profili della stampante verranno visualizzati in un singolo gruppo consecutivo sia nei browser dei file sia negli elenchi profilo dell'applicazione.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Il tipo o il nome della carta, ad esempio "HWT310" per Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Per quanto riguarda il tipo o il nome della stampante, è probabile che sia necessario abbreviare il tipo o il nome della carta. Assicurarsi di utilizzare un nome o un'abbreviazione univoca per ciascun tipo di carta differente utilizzato in modo da non avere problemi nella individuazione dei profili differenti.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- La qualità di stampa e le altre impostazioni utilizzate per la stampa del grafico di prova, ad esempio "O" per la qualità di stampa "Ottimale" o "OOB" per la qualità di stampa "Ottimale" con "Ottimizzatore di brillantezza" abilitato (solo per la carta di tipo fotografico).  Semplificare e abbreviare il più possibile.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Il grafico di prova utilizzato, ad esempio "Piccolo" o "Grande" o il nome di un particolare grafico di prova quale "ECI2002", quando queste opzioni sono disponibili. Semplificare e abbreviare in maniera appropriata.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Alcuni esempi di nomi profilo creati secondo queste istruzioni sono "HP Designjet Z2100 HWT310" o "HP Designjet Z2100, Carta patinata". I nomi file corrispondenti saranno "HP_Z2100_HWT310.icc" o "HP_Z2100_CartaPatinata.icc".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Indipendentemente dal metodo di denominazione utilizzato, accertarsi di poter distinguere chiaramente i profili per tutti i tipi di carta differenti e le altre impostazioni che si utilizzeranno.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Naturalmente, il consiglio migliore è quello di trovare la combinazione più appropriata per le proprie esigenze, il che potrebbe richiedere alcune prove.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Fase 3 - Installa profilo</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Il processo di installazione garantisce la disponibilit&agrave; del profilo ICC per applicazioni quali Adobe Photoshop.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Fase 4 - Fine</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Dopo aver terminato il processo di installazione dei profili, è possibile esplorare l'elenco di tutti i tipi di carta riconosciuti dalla stampante. Per ciascun tipo di carta, viene elencata la categoria o il nome della carta personalizzata e il nome profilo corrispondente (associato). Ora è possibile utilizzare il profilo ICC (ColorSync) installato con la stampante e la carta. Vedere <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Fase 3 – Installa profilo ICC</font></strong></a> per ulteriori informazioni sulle diverse modalità di utilizzo dei profili ICC e delle altre opzioni di gestione colori.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

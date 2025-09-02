@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>InkPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>file-name</key>
+		<string>Ink</string>
+	</dict>
+	<key>orderNumber</key>
+	<integer>50</integer>
+	<key>title</key>
+	<string>Ink</string>
+	<key>summary-order</key>
+	<array>
+		<string>HPInkDensity</string>
+		<string>HPDryTime</string>
+		<string>HPMaximumDetail</string>
+	</array>
+</dict>
+</plist>

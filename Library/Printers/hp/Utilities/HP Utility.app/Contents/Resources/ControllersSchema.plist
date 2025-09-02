@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControllerClass</key>
+	<string>HSDMainHostController</string>
+	<key>ControllerParameters</key>
+	<dict/>
+	<key>SubControllers</key>
+	<array>
+		<dict>
+			<key>ControllerClass</key>
+			<string>HSDDeviceSelectionViewController</string>
+			<key>ControllerParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>ControllerClass</key>
+			<string>HSDTasksHostController</string>
+			<key>ControllerParameters</key>
+			<dict/>
+		</dict>
+	</array>
+</dict>
+</plist>

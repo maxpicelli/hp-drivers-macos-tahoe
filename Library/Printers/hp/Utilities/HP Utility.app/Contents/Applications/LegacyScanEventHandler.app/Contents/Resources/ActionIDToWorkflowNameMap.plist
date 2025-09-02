@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.hp.dmf.action.scan.GeneralScan</key>
+	<string>Scan to Application.workflow</string>
+	<key>com.hp.dmf.action.scan.SaveEditableText</key>
+	<string>Document to Editable File.workflow</string>
+	<key>com.hp.dmf.action.scan.DocumentToEmail</key>
+	<string>Document to E-mail.workflow</string>
+	<key>com.hp.dmf.action.scan.DocumentToFile</key>
+	<string>Document to File.workflow</string>
+	<key>com.hp.dmf.action.scan.DocumentToTIFF</key>
+	<string>Document to TIF.workflow</string>
+	<key>com.hp.dmf.action.scan.PhotoToEmail</key>
+	<string>Photo to E-mail.workflow</string>
+	<key>com.hp.dmf.action.scan.PhotoToFile</key>
+	<string>Photo to File.workflow</string>
+	<key>com.hp.dmf.action.scan.PhotoToTIFF</key>
+	<string>Photo to TIF.workflow</string>
+	<key>com.hp.dmf.action.scan.PhotoToJPEG</key>
+	<string>Photo to JPEG.workflow</string>
+</dict>
+</plist>

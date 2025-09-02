@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BonjourNetwork</key>
+	<dict>
+		<key>_pdl-datastream._tcp.</key>
+		<array>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C8100 series)</string>
+					<key>ty</key>
+					<string>Photosmart C8100 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C8100 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C6200 series)</string>
+					<key>ty</key>
+					<string>Photosmart C6200 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C6200 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C7100 series)</string>
+					<key>ty</key>
+					<string>Photosmart C7100 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C7100 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart 2600 series)</string>
+					<key>ty</key>
+					<string>Photosmart 2600 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 2600 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet 7300 series)</string>
+					<key>ty</key>
+					<string>Officejet 7300 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 7300 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet 6300 series)</string>
+					<key>ty</key>
+					<string>Officejet 6300 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6300 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C6100 series)</string>
+					<key>ty</key>
+					<string>Photosmart C6100 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C6100 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C5100 series)</string>
+					<key>ty</key>
+					<string>Photosmart C5100 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C5100 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart 3200 series)</string>
+					<key>ty</key>
+					<string>Photosmart 3200 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 3200 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart 3300 series)</string>
+					<key>ty</key>
+					<string>Photosmart 3300 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 3300 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart 2570 series)</string>
+					<key>ty</key>
+					<string>Photosmart 2570 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 2570 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet 7200 series)</string>
+					<key>ty</key>
+					<string>Officejet 7200 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 7200 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet 7400 series)</string>
+					<key>ty</key>
+					<string>Officejet 7400 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 7400 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart 2700 series)</string>
+					<key>ty</key>
+					<string>Photosmart 2700 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart 2700 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet Pro L7500)</string>
+					<key>ty</key>
+					<string>Officejet Pro L7500</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro L7500.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet Pro L7600)</string>
+					<key>ty</key>
+					<string>Officejet Pro L7600</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro L7600.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet Pro L7700)</string>
+					<key>ty</key>
+					<string>Officejet Pro L7700</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro L7700.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C4380 series)</string>
+					<key>ty</key>
+					<string>Photosmart C4380 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C4380 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photsmart C6200 series)</string>
+					<key>ty</key>
+					<string>Photsmart C6200 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C6200 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet J6400 series)</string>
+					<key>ty</key>
+					<string>Officejet J6400 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet J6400 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Officejet Pro L7300)</string>
+					<key>ty</key>
+					<string>Officejet Pro L7300</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro L7300.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(HP Photosmart C7200 series)</string>
+					<key>ty</key>
+					<string>Photosmart C7200 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C7200 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>product</key>
+					<string>(hp psc 2500 series)</string>
+					<key>ty</key>
+					<string>psc 2500 series</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/psc 2500 series.icns</string>
+			</dict>
+		</array>
+		<key>_scanner._tcp.</key>
+		<array>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 8500 A909a</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8500 A909a.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet J4680 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet J4680 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart C4500 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C4500 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 8500 A909n</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8500 A909n.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet Pro 8500 A909g</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet Pro 8500 A909g.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart C6300 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C6300 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart C309a series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C309a series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6500 E709a</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6500 E709a.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 6500 E709n</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 6500 E709n.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Deskjet F4500 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Deskjet F4500 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart C4700 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart C4700 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Plus B209a-m</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Plus B209a-m.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Prem-Web C309n-s</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Prem-Web C309n-s.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Premium C309g-m</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Premium C309g-m.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Wireless B109n-z</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Wireless B109n-z.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart D110 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart D110 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart B110 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart B110 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 4500 G510g-m</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 4500 G510g-m.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 4500 G510n-z</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 4500 G510n-z.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Prem C410 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Prem C410 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Prem C310 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Premium C309g-m.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Prem C410 Japan</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Prem C410 series.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Prem C310 Japan</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Premium C309g-m.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart eStn C510 series</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Prem-Web C309n-s.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart eStn C510 Japan</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Prem-Web C309n-s.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Officejet 4500 K710</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Officejet 4500 K710.icns</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>mdl</key>
+					<string>Photosmart Ink Adv K510</string>
+					<key>mfg</key>
+					<string>HP</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>deviceIconPath</key>
+				<string>Device Icons/Photosmart Ink Adv K510.icns</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>usb</key>
+	<dict>
+		<key>IOUSBDevice</key>
+		<array>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP 915</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2704</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP officejet 4100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP officejet 4105</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP officejet 4200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3d11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP officejet 5500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP psc 1200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2f11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP psc 1300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3b11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 2100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2811</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 2150 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 2170 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2b11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 2200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2911</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP psc 2300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP psc 2400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>hp psc 2500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J3500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3212</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J6400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3312</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F4200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2504</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 3100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5011</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 3200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 3300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C7200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F2200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2404</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4340 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6c11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C8100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6411</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5c11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4380 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C6200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F2100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7d04</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F4100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7e04</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C6100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5911</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C7100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C5100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5811</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C3100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4100 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5311</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 2570 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4e11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 1400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4d11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 5600 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4f11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 7400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4311</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 7300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 2700 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart 2600 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4b11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 2350 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4911</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro L7400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3412</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J5700 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5b11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro L7300</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2512</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro L7500</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2112</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro L7600</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2212</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro L7700</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2312</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C5200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5d11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J4660 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2b12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J4500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2a12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J4680 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2c12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C6300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7011</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x6b11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C5300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C5500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F735 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2904</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 1600 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4811</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP PSC 1500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4c11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 7200 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8500 A909n</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4012</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8500 A909g</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3912</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet Pro 8500 A909a</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3812</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F4400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C309a series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7311</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4600 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7411</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6500 E709n</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4512</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 6500 E709a</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4412</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F2400 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet F4500 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8c11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Deskjet Ink Advant K209a-z</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7811</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart B109a-m</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart C4700 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7511</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Plus B209a-m</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7e11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Prem-Web C309n-s</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7c11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Premium C309g-m</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7d11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Wireless B109n-z</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x7b11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet J3600 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x3112</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4300 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5411</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart D110 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8d11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart B110 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8a11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart B010 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9711</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4500 G510a-f</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x4712</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4500 G510g-m</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2d12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4500 G510n-z</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x2e12</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Prem C410 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9611</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Prem C410 Japan</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9811</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Prem C310 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x8f11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Prem C310 Japan</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9111</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart eStn C510 series</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9011</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart eStn C510 Japan</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9211</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4500 K710</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x5712</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Officejet 4400 K410</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9d11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP Photosmart Ink Adv K510</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>idProduct</key>
+				<string>0x9e11</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

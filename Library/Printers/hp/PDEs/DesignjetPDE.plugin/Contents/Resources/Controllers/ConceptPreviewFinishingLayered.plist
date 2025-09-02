@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDELayeredController</string>
+	<key>layout</key>
+	<string>horizontal</string>
+	<key>sub-controllers</key>
+	<array>
+		<dict>
+			<key>file-name</key>
+			<string>ConceptPreview</string>
+		</dict>
+		<dict>
+			<key>file-name</key>
+			<string>ConceptPreviewInfo</string>
+		</dict>
+	</array>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.impala. PDEConceptPreviewFinishingLayeredController</string>
+		<key>label</key>
+		<string>Finishing</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPHoldForAttended</string>
+			<string>HPDisableAutoCutter</string>
+			<string>HPSetCutMedia</string>
+			<string>HPInkedArea</string>
+			<string>HPCropLines</string>
+			<string>HPPaperSource</string>
+			<string>HPPageOrientation</string>
+			<string>HPAutoScaling</string>
+			<string>HPPaperInfo</string>
+			<string>HPPhysicalPaperSize</string>
+			<string>HPScaleToFit</string>
+			<string>HPColorMode</string>
+			<string>HPColorOptions</string>
+			<string>HPImageLayout</string>
+			<string>SPAlert</string>
+			<string>HPTransverse</string>
+			<string>MirrorPrint</string>
+			<string>HPRotation</string>
+		</array>
+	</dict>
+</dict>
+</plist>

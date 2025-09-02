@@ -1,0 +1,5539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scannerClass</key>
+	<string>SDAIOScanner</string>
+	<key>device info version</key>
+	<string>3.0</string>
+	<key>devices</key>
+	<dict>
+		<key>HP Officejet Pro 6830</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 6800-6830.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Officejet Pro 6830</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 6830</string>
+		</dict>
+		<key>HP Officejet 6800</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 6800-6830.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Officejet 6800</string>
+			<key>modelName</key>
+			<string>HP Officejet 6800</string>
+		</dict>
+		<key>HP Color LaserJet MFP M476nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M476.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M476nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet MFP M476dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M476.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M476dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet MFP M476dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M476.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M476dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8660</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8660.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8660</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8650</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8650.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8650</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8640</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8640.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8640</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8630</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8630.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8630</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8620</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8620.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8620</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8610</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8610.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8610</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 4630 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 4630 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Officejet 4630 series</string>
+			<key>modelName</key>
+			<string>HP Officejet 4630 series</string>
+		</dict>
+		<key>HP Deskjet 4640 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>EnableDPE</key>
+			<true/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 4640 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Deskjet 4640 series</string>
+			<key>modelName</key>
+			<string>HP Deskjet 4640 series</string>
+		</dict>
+		<key>HP Officejet 2620 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>EnableDPE</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 2620 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Officejet 2620 series</string>
+			<key>modelName</key>
+			<string>HP Officejet 2620 series</string>
+		</dict>
+		<key>HP Deskjet 2640 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 2640 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Deskjet 2640 series</string>
+			<key>modelName</key>
+			<string>HP Deskjet 2640 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro 8500 A910</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8500 A910.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8500 A910</string>
+			<key>usbModelName</key>
+			<string>Officejet Pro 8500 A910</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Deskjet 1050 J410 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 2050 J510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 1050 J410 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 1050 J410 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Deskjet 2050 J510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 2050 J510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 2050 J510 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 2050 J510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Deskjet 3050 J610 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 3050 J610 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 3050 J610 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 3050 J610 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet CM1411fn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1411fn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1412fn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1412fn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1413fn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1413fn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1415fn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1415fn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1415fnw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1415fnw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1416fnw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1416fnw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1417fnw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1417fnw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet CM1418fnw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet CM1415fnw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet CM1418fnw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet M1536dnf MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet M1536dnf MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet M1537dnf MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet M1537dnf MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet M1538dnf MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet M1538dnf MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet M1539dnf MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/LaserJet M1536dnf MFP.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet M1539dnf MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175a</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175a</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175b</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175b</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175c</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175c</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175e</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175e</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175p</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175p</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175q</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175q</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 100 colorMFP M175r</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 100 color MFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 100 colorMFP M175r</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 6500 E710a-f</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 6500 E710a-f.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 6500 E710a-f</string>
+			<key>usbModelName</key>
+			<string>Officejet 6500 E710a-f</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 6500 E710n-z</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 6500 E710n-z.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 6500 E710n-z</string>
+			<key>usbModelName</key>
+			<string>Officejet 6500 E710n-z</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 7500 E910</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 7500 E910.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 7500 E910</string>
+			<key>usbModelName</key>
+			<string>Officejet 7500 E910</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Photosmart Plus B210 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart Plus B210 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart Plus B210 series</string>
+			<key>usbModelName</key>
+			<string>Photosmart Plus B210 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Officejet 150 Mobile L511</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPDOT4Scan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 150 Mobile L511.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 150 Mobile L511</string>
+			<key>usbModelName</key>
+			<string>Officejet 150 Mobile L511</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>feederType</key>
+			<integer>2</integer>
+		</dict>
+		<key>HP Envy 100 D410 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Envy 100 D410 series.icns</string>
+			<key>modelName</key>
+			<string>HP Envy 100 D410 series</string>
+			<key>usbModelName</key>
+			<string>Envy 100 D410 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Deskjet Ink Adv 2060 K110</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet Ink Adv 2060 K110.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet Ink Adv 2060 K110</string>
+			<key>usbModelName</key>
+			<string>Deskjet Ink Adv 2060 K110</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Deskjet 3050A J611 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 3050A J611 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 3050A J611 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 3050A J611 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Deskjet 3070 B611 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 3070 B611 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 3070 B611 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 3070 B611 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Photosmart 5510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 5510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 5510 series</string>
+			<key>usbModelName</key>
+			<string>Photosmart 5510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Photosmart 5510d series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 5510d series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 5510d series</string>
+			<key>usbModelName</key>
+			<string>Photosmart 5510d series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Photosmart 6510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 6510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 6510 series</string>
+			<key>usbModelName</key>
+			<string>Photosmart 6510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Officejet 6700</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 6700.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 6700</string>
+			<key>usbModelName</key>
+			<string>Officejet 6700</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet Pro 8600</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 8600.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 8600</string>
+			<key>usbModelName</key>
+			<string>Officejet Pro 8600</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 300 colorMFP M375nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LJ300-400 color MFP M375-M475 Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 300 colorMFP M375nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 400 colorMFP M475dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LJ300-400 color MFP M375-M475 Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 400 colorMFP M475dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 400 colorMFP M475dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LJ300-400 color MFP M375-M475 Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 400 colorMFP M475dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 6600</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 6600.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 6600</string>
+			<key>usbModelName</key>
+			<string>Officejet 6600</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP ENVY 110 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 110 series.icns</string>
+			<key>modelName</key>
+			<string>HP ENVY 110 series</string>
+			<key>usbModelName</key>
+			<string>ENVY 110 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Photosmart 7510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 7510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 7510 series</string>
+			<key>usbModelName</key>
+			<string>Photosmart 7510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Photosmart 7510 e-All-in-One</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 7510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 7510 e-All-in-One</string>
+			<key>usbModelName</key>
+			<string>Photosmart 7510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M275nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>supports3DObjectScan</key>
+			<true/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M275nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+						<string>Three-Dimensional Objects</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+						<integer>3</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M275s</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>supports3DObjectScan</key>
+			<true/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M275s</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+						<string>Three-Dimensional Objects</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+						<integer>3</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M275t</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>supports3DObjectScan</key>
+			<true/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M275t</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+						<string>Three-Dimensional Objects</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+						<integer>3</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M275u</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>supports3DObjectScan</key>
+			<true/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP Series.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M275u</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+						<string>Three-Dimensional Objects</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+						<integer>3</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276b</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276b</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276e</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276e</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276g</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276g</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276j</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276j</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276k</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276k</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276n</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276n</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276p</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276p</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276q</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276q</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276r</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276r</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276u</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276u</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 200 colorMFP M276v</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 200 colorMFP M276v</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Laserjet 200 color MFP M276</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 200 colorMFP M276.icns</string>
+			<key>modelName</key>
+			<string>HP Laserjet 200 color MFP M276</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 400 MFP M425dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 400 MFP M425.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 400 MFP M425dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 400 MFP M425dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 400 MFP M425.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 400 MFP M425dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Laserjet 400 MFP M425</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 400 MFP M425.icns</string>
+			<key>modelName</key>
+			<string>HP Laserjet 400 MFP M425</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 4610 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 4610 series.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 4610 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Officejet 4610 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet 4620 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 4620 series.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 4620 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Officejet 4620 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 4610 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 4610 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 4610 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 4610 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>EnableDPE</key>
+			<string>YES</string>
+		</dict>
+		<key>HP Deskjet 4620 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 4620 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 4620 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 4620 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>EnableDPE</key>
+			<string>YES</string>
+		</dict>
+		<key>HP Deskjet 2510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 2510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 2510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 2510 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Photosmart 5520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 5520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 5520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Photosmart 5520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 5520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 5520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 5520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 5520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 3520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 3520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 3520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 3520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 3510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 3510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 3510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 3510 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 2520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 2520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 2520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 2520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Photosmart 6520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 6520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 6520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Photosmart 6520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 6520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 6520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 6520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 6520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Photosmart 7520 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Photosmart 7520 series.icns</string>
+			<key>modelName</key>
+			<string>HP Photosmart 7520 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Photosmart 7520 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP ENVY 120 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 120 series.icns</string>
+			<key>modelName</key>
+			<string>HP ENVY 120 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>ENVY 120 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP LaserJet 500 colorMFP M570dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 500 colorMFP M570.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 500 colorMFP M570dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet 500 colorMFP M570dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet 500 colorMFP M570.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet 500 colorMFP M570dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Officejet 7610 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 7610 series.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet 7610 series</string>
+			<key>usbModelName</key>
+			<string>Officejet 7610 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro X476dn MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro X476 MFP.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro X476dn MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro X476dw MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro X476 MFP.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro X476dw MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro X576dw MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro X576 MFP.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro X576dw MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro 276dw MFP</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 276dw MFP.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 276dw MFP</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro 3610</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 3610.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 3610</string>
+			<key>usbModelName</key>
+			<string>Officejet Pro 3610</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Officejet Pro 3620</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet Pro 3620.icns</string>
+			<key>modelName</key>
+			<string>HP Officejet Pro 3620</string>
+			<key>usbModelName</key>
+			<string>Officejet Pro 3620</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP LaserJet Pro MFP M521dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M521dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M521dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M521dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M521dx</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M521dx</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M521dz</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M521.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M521dz</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Deskjet 1510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 1510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 1510 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 1510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 2540 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 2540 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 2540 series</string>
+			<key>usbModelName</key>
+			<string>Deskjet 2540 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP ENVY 4500 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 4500 series.icns</string>
+			<key>modelName</key>
+			<string>HP ENVY 4500 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>ENVY 4500 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 3540 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 3540 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 3540 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 3540 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP ENVY 5530 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 5530 series.icns</string>
+			<key>modelName</key>
+			<string>HP ENVY 5530 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>ENVY 5530 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Deskjet 4510 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Deskjet 4510 series.icns</string>
+			<key>modelName</key>
+			<string>HP Deskjet 4510 series</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>usbModelName</key>
+			<string>Deskjet 4510 series</string>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176n</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176n</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176nb</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176nb</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176nr</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176nr</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176ns</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176ns</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176ny</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176ny</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176nx</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176nx</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M176nz</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M176.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M176nz</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fb</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fb</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fr</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fr</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fs</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fs</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fy</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fy</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fx</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fx</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP Color LaserJet Pro MFP M177fz</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet Pro MFP M177.icns</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet Pro MFP M177fz</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M125a</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M125a</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M125nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M125nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M125ra</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M125ra</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M125r</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M125r</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M125rnw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M125.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M125rnw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M126a</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M126.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M126a</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M126nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M126.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M126nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M126ny</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M126.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M126ny</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M126nz</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M126.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M126nz</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M127fn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M127fn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M127fp</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M127fp</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M127fw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M127fw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M127fs</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M127fs</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M127fx</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M127.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M127fx</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M128fn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M128fn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M128fp</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M128fp</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M128fw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M128fw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M128fr</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M128fr</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M128fy</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M128fy</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M128fz</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M128.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M128fz</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+		</dict>
+		<key>HP LaserJet Pro MFP M435nw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M435nw.icns</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M435nw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>supportsLEFForA4AndSmaller</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225dn</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225rdn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225rdn</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225rdn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c1</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c1</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c1</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c2</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c2</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c2</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c3</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c3</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c3</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c4</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c4</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c4</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c5</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c5</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c5</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c6</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c6</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c6</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c7</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c7</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c7</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225c8</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225c8</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225c8</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M225dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M225dw</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M225dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M226dn</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M226dn</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M226dn</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP LaserJet Pro MFP M226dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP LaserJet Pro MFP M225-M226.icns</string>
+			<key>usbModelName</key>
+			<string>LaserJet Pro MFP M226dw</string>
+			<key>modelName</key>
+			<string>HP LaserJet Pro MFP M226dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP ENVY 5640 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 5640 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>ENVY 5640 series</string>
+			<key>modelName</key>
+			<string>HP ENVY 5640 series</string>
+		</dict>
+		<key>HP ENVY 5660 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 5660 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>ENVY 5660 series</string>
+			<key>modelName</key>
+			<string>HP ENVY 5660 series</string>
+		</dict>
+		<key>HP Officejet 8040 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>EnableDPE</key>
+			<true/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 8040 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Officejet 8040 series</string>
+			<key>modelName</key>
+			<string>HP Officejet 8040 series</string>
+		</dict>
+		<key>HP Officejet 5740 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>EnableDPE</key>
+			<true/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/Officejet 5740 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>Officejet 5740 series</string>
+			<key>modelName</key>
+			<string>HP Officejet 5740 series</string>
+		</dict>
+		<key>HP ENVY 7640 series</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>vendor features</key>
+			<array>
+				<dict>
+					<key>current</key>
+					<integer>0</integer>
+					<key>default</key>
+					<integer>0</integer>
+					<key>feature</key>
+					<string>VF_Scan_Type</string>
+					<key>label</key>
+					<string>Type</string>
+					<key>labels</key>
+					<array>
+						<string>Automatic</string>
+						<string>Picture</string>
+						<string>Document</string>
+					</array>
+					<key>tooltip</key>
+					<string>Tooltip_Type</string>
+					<key>type</key>
+					<string>TWON_ENUMERATION</string>
+					<key>values</key>
+					<array>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/ENVY 7640 series.icns</string>
+			<key>CrocusBundleName</key>
+			<string>HPLEDMScan.bundle</string>
+			<key>usbModelName</key>
+			<string>ENVY 7640 series</string>
+			<key>modelName</key>
+			<string>HP ENVY 7640 series</string>
+		</dict>
+		<key>HP Color LaserJet MFP M277n</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277n</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277n</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c1</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c1</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c1</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c2</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c2</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c2</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c3</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c3</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c3</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c4</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c4</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c4</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c5</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c5</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c5</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277dw</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277dw</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277dw</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c6</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c6</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c6</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c7</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c7</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c7</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c8</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c8</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c8</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c9</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c9</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c9</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+		<key>HP Color LaserJet MFP M277c10</key>
+		<dict>
+			<key>pageOrientationDetectionSupported</key>
+			<false/>
+			<key>CrocusBundleName</key>
+			<string>HPSOAPScan.bundle</string>
+			<key>functionalUnitDescriptions</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>icon file</key>
+			<string>Device Icons/HP Color LaserJet MFP M277.icns</string>
+			<key>usbModelName</key>
+			<string>Color LaserJet M277c10</string>
+			<key>modelName</key>
+			<string>HP Color LaserJet MFP M277c10</string>
+			<key>selectedFunctionalUnitType</key>
+			<integer>3</integer>
+			<key>EnableDPE</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

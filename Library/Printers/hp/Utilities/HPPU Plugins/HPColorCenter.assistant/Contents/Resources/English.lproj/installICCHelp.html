@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Install ICC Profile Help</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Install ICC Profile</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Step 1 - Select ICC Profile</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Step 2 - Choose ICC Profile Settings</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Step 3 - Install ICC Profile</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Step 4 - Finished</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Step 1 - Select ICC Profile</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									If you have obtained an ICC profile through other means than using the printer&apos;s built-in profiling software, for instance via an Internet download or a third party profiling software package, you can still install it for use with your printer and paper.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									The printer needs to know which paper type the profile corresponds to, so you must first choose a paper type from the list of papers it ‘knows&apos; about. When choosing a paper type, try to pick one resembling your actual paper type as closely as possible. The paper type determines the amount of ink to use and other basic printing parameters, so making a good choice here is fundamental to achieving good results later on. If the paper you are using is not listed, or you cannot find a paper type that resembles yours closely enough, you can define a new type. The printer will then calibrate itself for use with your paper, after which you can return to installing the ICC profile. If you find that you cannot obtain satisfactory results with the profile and paper type you picked, you can experiment with choosing different types for new paper names corresponding to the same paper, and use the one that works best.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									After you have selected the paper type, browse to the file containing the ICC profile to use with your printer and paper. Normally speaking, ICC profile file names end in the &quot;.icc&quot; (for International Color Consortium) or &quot;.icm&quot; (for Image Color Matching) extension.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									You might wonder what the differences are between custom generated color profiles and downloaded or &quot;canned&quot; profiles. Here are some of the differences between the two types of profiles:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Custom color profiles are based on test targets and measurements from your individual printer, using your individual inks and paper, and in your individual environmental conditions. In principle this gives you the best possible color accuracy, since everything is customized for your system.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generic or &quot;canned&quot; color profiles are made for your model of printer and inks and the type of paper you use, but not for your individual printer, inks, and paper. They are based instead on &quot;typical&quot; or average test targets and measurements representing the &quot;typical&quot; or average system. While this gives good results for an average system, there may be slight deviations between your system and the average one that these profiles cannot account for.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Custom color profiles are made with your printer&apos;s built-in profiling software, or with the software that you purchased as an accessory. While this software provides excellent results, it must necessarily make certain choices about how it creates profiles, in particular about how it does gamut mapping for the Perceptual rendering intent. Gamut mapping occurs when colors from a device with a given color gamut (the range of all colors a device can capture or produce), such as a digital camera or computer monitor, must be translated or mapped to a device with a different sized or shaped color gamut, such as a printer. Gamut mapping is more of an art than a science, and hence there are no right or wrong answers – only different ones.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generic color profiles, e.g. the ones provided by paper manufacturers, may have been made with different profiling software that makes different choices about gamut mapping and other profile properties. While these choices are not necessarily worse or better than the ones made by your printer profiling software, they are likely to be different.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here are some guidelines to help you choose between profile types:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you are mainly interested in the color accuracy of your prints, for instance to make proof prints, you will likely use the Colorimetric rendering intent. The latter attempts to reproduce colors within the gamut of your printer with the greatest accuracy, possibly to the disadvantage of colors outside the printer gamut (which also have to be printed, one way or another). Since colorimetric reproduction is a more objective task than perceptual reproduction, there is less difference possible among profiling software, and a custom profile is normally your best bet.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you are mainly interested in the &quot;look&quot; of your prints and good correspondence to your computer monitor, for instance for photographic and artistic applications, you will likely use the Perceptual rendering intent. Custom profiles are a great place to start since they are built with excellent color accuracy and a good looking Perceptual intent, but you may find that you prefer the look of certain third-party profiles.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									As usual, the best advice is to stick with what works best for you. Some experimentation may be necessary to find out.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Step 2 - Choose ICC Profile Settings</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here you can choose a name for the ICC profile that is going to be installed. The name will be used for two related but different purposes:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	The filename that you will see when using you operating system&apos;s file browser (Microsoft Explorer) to browse to the file containing the ICC profile. The file name extension &quot;.icc&quot; will be appended automatically to the profile name by the application so both you and your software will be able to recognize ICC profiles as such by looking at the extension.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	The profile&apos;s internal description string. Every ICC profile has an internal description string which is used by some (but not all) ICC-aware software to identify the profile, or to let you choose it from a list.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Depending on the circumstances you may see either the filename or the internal descriptor, which is why it is a good idea to use the same for both. Although in principle you can choose any name you like, it is good practice to define a standard naming convention for profiles, and to stick to it. For example, you can use the following name components, separated either by spaces, underscores, or other symbols of your choosing:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The printer type or name, for instance &quot;HP Designjet Z2100&quot; where &quot;HP&quot; represents the manufacturer (Hewlett-Packard), &quot;Designjet&quot; represents the series, and &quot;Z2100&quot; corresponds to the model number of your printer. Since both file name and internal descriptors are limited in length, you will probably need to abbreviate all this information into a single string of relatively few characters. Using the printer model as the first part of the profile name will ensure that all profiles for your printer will show up as a single consecutive group in both file browsers and application profile listings.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The paper type or name, for instance &quot;HWT310&quot; for Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. As for the printer type or name, you will probably have to abbreviate the paper type or name. Make sure to use a unique name or abbreviation for each different paper type you use, so you will have no problem distinguishing the different profiles.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The print quality and other settings you used for printing the test chart, for instance &quot;B&quot; for &quot;Best&quot; print quality or &quot;BGE&quot; for &quot;Best&quot; print quality and &quot;Gloss Enhancer&quot; enabled (only for photo type papers). Simplify and abbreviate as much as possible, but no more.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The test chart used, for instance &quot;Small&quot; or &quot;Large&quot; or a particular test chart name such as &quot;ECI2002&quot; if/when those options are available. Simplify and abbreviate as appropriate.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Some examples of profile names constructed under these guidelines would be &quot;HP Designjet Z2100 HWT310&quot; or &quot;HP Designjet Z2100, Coated Paper&quot;, for instance. The corresponding file names would be &quot;HP_Z2100_HWT310.icc&quot; or &quot;HP_Z2100_CoatedPaper.icc&quot;.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Regardless of which particular naming method you end up using, make sure that you can unambiguously distinguish the profiles for all the different paper types and other settings you are or will be using.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									As usual, the best advice is to stick with what works best for you. Some experimentation may be necessary to find out.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step3">Step 3 - Install ICC Profile</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									The installation process ensures that the ICC profile will be available to applications such as Adobe Photoshop.
+								</td>
+							</tr>							
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Step 4 - Finished</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Once the profile installation process is complete, you can browse the list of all papers your printer &apos;knows&apos; about. For each paper, it lists the paper category or custom paper name, and the corresponding (associated) profile name. You are now ready to use your installed ICC (ColorSync) profile with your printer and paper. See <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Step 3 - Install ICC Profile</font></strong></a> for more information on the different ways to use ICC profiles and other color management options.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

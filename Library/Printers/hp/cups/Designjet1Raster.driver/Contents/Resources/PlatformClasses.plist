@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Generic</key>
+	<dict>
+		<key>APrinterInformation</key>
+		<string>ARFPrinterInformation</string>
+		<key>AStatusInterpreter</key>
+		<string>ARFStatusInterpreter</string>
+		<key>APrinterStatus</key>
+		<string>ARFPrinterStatus</string>
+		<key>ARenderer</key>
+		<string>ARFDesignjetRenderer</string>
+		<key>APDLServer</key>
+		<string>ARFPJLServer</string>
+		<key>AIOInterface</key>
+		<string>ARFIOInterface</string>
+	</dict>
+	<key>DJ-500-800</key>
+	<dict/>
+	<key>DJ-30-90-130</key>
+	<dict>
+		<key>APrinterInformation</key>
+		<string>ARFPrinterInformation</string>
+	</dict>
+	<key>DJ-110</key>
+	<dict/>
+	<key>DJ-T-Z</key>
+	<dict>
+		<key>APDLServer</key>
+		<string>ARFTrojaPJLServer</string>
+		<key>ARenderer</key>
+		<string>ARFTrojaRenderer</string>
+		<key>AStatusInterpreter</key>
+		<string>ARFDCBasedStatusInterpreter</string>
+		<key>APrinterStatus</key>
+		<string>ARFDCBasedPrinterStatus</string>
+	</dict>
+	<key>DJ-T-520</key>
+	<dict>
+		<key>AStatusInterpreter</key>
+		<string>ARFDCBasedStatusInterpreter</string>
+		<key>APrinterStatus</key>
+		<string>ARFDCBasedPrinterStatus</string>
+	</dict>
+</dict>
+</plist>

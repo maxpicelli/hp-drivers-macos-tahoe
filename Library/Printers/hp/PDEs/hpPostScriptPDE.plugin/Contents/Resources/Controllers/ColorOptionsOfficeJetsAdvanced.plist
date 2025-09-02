@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEColorOptionsOfficeJetsController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.ps_pde.PDEColorQualityOptionsOfficeJetsController</string>
+		<key>label</key>
+		<string>Advanced</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPDryTime</string>
+			<string>HPInkBleed</string>
+			<string>HPSaturation</string>			
+		</array>
+		<key>supportedNibs</key>
+		<dict>
+			<key>ColorOptionsAdvanced001</key>
+			<array>
+				<string>HPDryTime</string>
+				<string>HPInkBleed</string>
+				<string>HPSaturation</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

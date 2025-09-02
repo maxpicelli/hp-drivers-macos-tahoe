@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEOutputBinController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.impala.PDEOuputBinController</string>
+		<key>label</key>
+		<string>Paper Output</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>OutputBin</string>
+		</array>
+	</dict>
+</dict>
+</plist>

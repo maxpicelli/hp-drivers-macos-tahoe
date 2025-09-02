@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CopySetting</key>
+	<string>Copy Setting</string>
+	<key>AutoOff</key>
+	<string>Auto-Off</string>
+	<key>EcoSMART</key>
+	<string>EcoSMART</string>
+	<key>SleepDelay</key>
+	<string>Sleep Delay:</string>
+	<key>PowerDownDelay</key>
+	<string>Power Down Delay:</string>
+	<key>InternalPages</key>
+	<string>Internal Pages</string>
+	<key>SupplyStatusPage</key>
+	<string>Supply Status Page</string>
+	<key>ConfigurationPage</key>
+	<string>Configuration Page</string>
+	<key>DemoPage</key>
+	<string>Demo Page</string>
+	<key>CleaningPage</key>
+	<string>Cleaning Page</string>
+	<key>PrintInformationPages</key>
+	<string>Print Information Pages</string>
+	<key>Cancel</key>
+	<string>Cancel</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>MenuTitle</key>
+	<string>MenuTitle</string>
+	<key>InternalPageNotes</key>
+	<string>InternalPageNotes</string>
+	<key>AutoOffAfter</key>
+	<string>Auto-Off After:</string>
+	<key>Note</key>
+	<string>Note:</string>
+	<key>AutoOffNotes</key>
+	<string>AutoOffNotes</string>
+	<key>AutoOffCheck</key>
+	<string>Automatically turn off device after inactivity</string>
+	<key>CopyQuality</key>
+	<string>Copy Quality:</string>
+	<key>PaperSize</key>
+	<string>Paper Size:</string>
+	<key>CopySettingNotes</key>
+	<string>CopySettingNotes</string>
+	<key>CleaningPagePanelLabel</key>
+	<string>CleaningPagePanelLabel</string>
+	<key>EWSBrowserNotes</key>
+	<string>EWSBrowserNotes</string>
+	<key>EWSBrowser</key>
+	<string>EWS Browser</string>
+</dict>
+</plist>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>PDEPTQAndOptionsPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDECollapsableController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDECollapsableController</string>
+			<key>label</key>
+			<string>Paper Type/Quality</string>
+		</dict>
+		<key>sub-controllers</key>
+		<array>
+			<dict>
+				<key>class-name</key>
+				<string>PDECompoundController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDECompoundController</string>
+					<key>label</key>
+					<string>Paper</string>
+				</dict>
+				<key>sub-controllers</key>
+				<array>
+					<dict>
+						<key>class-name</key>
+						<string>PDEPTQAndOptionsController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala.PDEPTQAndOptionsController</string>
+							<key>label</key>
+							<string>Paper Type/Quality</string>
+							<key>supportedSettingNames</key>
+							<array>
+								<string>HPPaperType</string>
+								<string>HPPrintQuality</string>
+								<string>HPPaperSource</string>
+								<string>HPColorMode</string>
+								<string>HPPaperCategoriesOrder</string>
+							</array>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>class-name</key>
+				<string>PDECompoundController</string>
+				<key>keyed-values</key>
+				<dict>
+					<key>identifier</key>
+					<string>com.hp.impala.PDECompoundController</string>
+					<key>label</key>
+					<string>Advanced Print Options</string>
+				</dict>
+				<key>sub-controllers</key>
+				<array>
+					<dict>
+						<key>class-name</key>
+						<string>PDECormorantAdvancedController</string>
+						<key>keyed-values</key>
+						<dict>
+							<key>identifier</key>
+							<string>com.hp.impala.PDECormorantAdvancedController</string>
+							<key>label</key>
+							<string>Advanced Print Options</string>
+							<key>supportedSettingNames</key>
+							<array>
+								<string>HPResolutionEnhancement</string>
+								<string>HPEconoMode</string>
+								<string>HPCompression</string>
+								<string>HPEdgeControl</string>
+							</array>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>title</key>
+	<string>Paper Type/Quality</string>
+	<key>orderNumber</key>
+	<real>20</real>
+	<key>summary-order</key>
+	<array>
+		<string>HPPaperType</string>
+		<string>HPPrintQuality</string>
+		<string>HPColorMode</string>
+		<string>HPPaperSource</string>
+		<string>HPResolutionEnhancement</string>
+		<string>HPEconoMode</string>
+		<string>HPCompression</string>
+		<string>HPEdgeControl</string>
+		<string>Driver Version</string>
+		<string>Driver Name</string>
+	</array>
+</dict>
+
+</plist>

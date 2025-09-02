@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEColorQualityOptionsLaserJets01Controller</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.ps_pde.PDEColorQualityOptionsOfficejetController</string>
+		<key>label</key>
+		<string>Color/Quality</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPEasyColor</string>
+			<string>HPColorAsGray</string>
+			<string>OutputMode</string>
+			<string>HPRGBEmulation</string>
+			<string>HPPaperSource</string>
+			<string>MediaType</string>
+		</array>
+		<key>supportedNibs</key>
+		<dict>
+			<key>ColorQualityOptions019</key>
+			<array>
+				<string>HPEasyColor</string>
+				<string>HPColorAsGray</string>
+				<string>OutputMode</string>
+				<string>HPRGBEmulation</string>
+				<string>HPPaperSource</string>
+				<string>MediaType</string>
+			</array>
+			<key>ColorQualityOptions029</key>
+			<array>
+				<string>HPEasyColor</string>
+				<string>HPColorAsGray</string>
+				<string>OutputMode</string>
+				<string>MediaType</string>
+				<string>HPRGBEmulation</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

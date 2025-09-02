@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Create and Install ICC Profile Help</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Create and Install ICC Profile</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Step 1 - Select Paper and Action</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Step 2 - Add Custom Paper</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Step 3 - Choose ICC Profile Settings</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Step 4 - Calibrate Your Printer</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Step 5 - Create ICC Profile</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Step 6 - Install ICC Profile</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Step 7 - Finished</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Step 1 - Select Paper and Action</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									To ensure the best results, your printer needs to know how to convert colors from your computer monitor or application documents to the inks and papers that it prints with. An ICC (International Color Consortium) profile is a description of a printer, ink, and paper combination that contains all the needed information for these color conversions.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here you can create and install a custom ICC profile, which will allow you to print with the best possible color accuracy. Alternatively, if you have an ICC profile for use with your paper from a different source such as an Internet download, you can use that too. While &quot;canned&quot; ICC profiles, such as the ones you download from the Web, can give you good results, the best possible results will normally be obtained with a custom generated profile.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here are some of the differences between the two types of profiles:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Custom color profiles are based on test targets and measurements from your individual  printer, using your individual inks and paper, and in your individual ambient conditions. In principle this gives you the best possible color accuracy, since everything is customized for your system.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generic or &quot;canned&quot; color profiles are made for your model of printer and inks and the type of paper you use, but not for your individual printer, inks, and paper. They are based instead on &quot;typical&quot; or average test targets and measurements representing the &quot;typical&quot; or average system. While this gives good results for an average system, there may be slight deviations between your system and the average one that these profiles cannot account for.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Custom color profiles are made with the profiling software that came standard with your printer, or with the profiling software that you purchased as an accessory. While this software provides excellent results, it must necessarily make certain choices about how it creates profiles, in particular about how it does gamut mapping for the Perceptual rendering intent. Gamut mapping occurs when colors from a device with a given color gamut (the range of all colors a device can capture or produce), such as a digital camera or computer monitor, must be translated or mapped to a device with a different sized or shaped color gamut, such as a printer. Gamut mapping is more of an art than a science, and there are no right or wrong answers – only different ones.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generic color profiles, e.g. the ones provided by paper manufacturers, may have been made with different profiling software that makes different choices about gamut mapping and other profile properties. While these choices are not necessarily worse or better than the ones made by your printer profiling software, they are likely to be different.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here are some guidelines to help you choose between them:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you are mainly interested in the color accuracy of your prints, for instance to make proof prints, you will likely use the Colorimetric rendering intent. The Colorimetric rendering intent attempts to reproduce colors within the gamut of your printer with the greatest accuracy, possibly to the disadvantage of colors outside the printer gamut (which also have to be printed one way or another). Since colorimetric reproduction is a more objective task than perceptual reproduction, there is less difference possible among profiling software, and a custom profile is normally your best bet.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you are mainly interested in the &quot;look&quot; of your prints and good correspondence to your computer monitor, for instance for photographic and artistic applications, you will likely use the Perceptual rendering intent. Custom profiles are a great place to start since they are built with excellent color accuracy and a good looking Perceptual intent, but you may find that you prefer the look of certain third-party profiles.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Regardless of which kind of profile you end up using, remember that you can &quot;tweak&quot; their color reproduction to some extent by using the printer driver&apos;s color adjustment controls.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									The process of creating and installing a custom ICC profile consists of the following steps:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Select the paper type you want to profile, or define a new one.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Choose some settings for the new profile, including the name you want to give to the profile.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Create the new profile: print the test chart, let it dry, measure it, and calculate the profile. All of this is done automatically by your printer.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									4.	Install the new profile so you can use it with your applications and printer.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									For the first step you can either choose a paper type from the list of known papers, or you can define a new paper type and add it to the list.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									For your convenience, there are two different ways of creating a profile: you can use an &quot;all in one&quot; process that performs all the necessary operations in one uninterrupted sequence, or you can use a &quot;split workflow&quot; process that lets you print the profiling chart first, then put it aside and later feed it back into the printer to have it measure the chart and create the profile. Here are some reasons you might want to use one or the other:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you are working with predefined standard paper types under normal environmental conditions, you will probably want to use the all-in-one process. It will take a while to complete, but your printer will take care of all the needed operations in the correct sequence and with the required waiting time in between, to let the ink dry before measuring the chart. Unless you enjoy watching the process (which is not uncommon), you can go have a cup of coffee and come back later to find everything ready to go.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you are working with non-standard paper types or under non-standard environmental conditions, you may find that the ink needs longer to dry than normal, before the printed color stabilizes completely. Since a color profile should represent the final printed result after drying, you may want to use the split workflow under these circumstances.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you normally apply a certain type of post-processing to your prints which may affect perceived color, you should also consider using the split workflow. For instance, if you normally laminate or spray-coat your prints you may want to consider profiling them with lamination or coating in place, to get the best possible color accuracy. Or you can compare results before and after post-processing, to determine if the differences are relevant.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you&apos;re concerned about the archival properties of certain paper types, you can re-measure and re-profile a test chart that you had originally measured some time ago, to determine if any significant changes have occurred. Both in this and the previous case you might find Photoshop&apos;s soft proofing mode to be quite useful.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									If you want to use the all-in-one workflow, keep the default selection of &quot;Print ICC profiling chart&quot; and &quot;Scan ICC profiling chart and create ICC profile&quot;. If you want to use the split workflow, you have two choices. To print the profiling chart and put it aside for later, only select &quot;Print ICC profiling chart&quot;. If you want to measure and profile a previously printed profiling chart, only select &quot;Scan ICC profiling chart and create ICC profile&quot;.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									As usual, the best advice is to stick with what works best for you. Some experimentation may be necessary to find out.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Step 2 - Add Custom Paper</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Step 3 - Choose ICC Profile Settings</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here you can choose a name for the ICC profile that is going to be created. The name will be used for two related but different purposes:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	The filename that you will see when using you operating system&apos;s file browser (Microsoft Explorer) to browse to the file containing the ICC profile. The file name extension &quot;.icc&quot; will be appended automatically to the profile name by the application so both you and your software will be able to recognize ICC profiles as such by looking at the extension.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	The profile&apos;s internal description string. Every ICC profile has an internal description string which is used by some (but not all) ICC-aware software to identify the profile, or to let you choose it from a list.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Depending on the circumstances you may see either the filename or the internal descriptor, which is why it is a good idea to use the same for both. Although in principle you can choose any name you like, it is good practice to define a standard naming convention for profiles, and to stick to it. For example, you can use the following name components, separated either by spaces, underscores, or other symbols of your choosing:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The printer type or name, for instance &quot;HP Designjet Z2100&quot; where &quot;HP&quot; represents the manufacturer (Hewlett-Packard), &quot;Designjet&quot; represents the series, and &quot;Z2100&quot; corresponds to the model number of your printer. Since both file name and internal descriptors are limited in length, you will probably need to abbreviate all this information into a single string of relatively few characters. Using the printer model as the first part of the profile name will ensure that all profiles for your printer will show up as a single consecutive group in both file browsers and application profile listings.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The paper type or name, for instance &quot;HWT310&quot; for Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. As for the printer type or name, you will probably have to abbreviate the paper type or name. Make sure to use a unique name or abbreviation for each different paper type you use, so you will have no problem distinguishing the different profiles.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The print quality and other settings you used for printing the test chart, for instance &quot;B&quot; for &quot;Best&quot; print quality or &quot;BGE&quot; for &quot;Best&quot; print quality and &quot;Gloss Enhancer&quot; enabled (only for photo type papers). Simplify and abbreviate as much as possible, but no more.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- The test chart used, for instance &quot;Small&quot; or &quot;Large&quot; or a particular test chart name such as &quot;ECI2002&quot; if/when those options are available. Simplify and abbreviate as appropriate.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Some examples of profile names constructed under these guidelines would be &quot;HP Designjet Z2100 HWT310&quot; or &quot;HP Designjet Z2100, Coated Paper&quot;, for instance. The corresponding file names would be &quot;HP_Z2100_HWT310.icc&quot; or &quot;HP_Z2100_CoatedPaper.icc&quot;.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Regardless of which particular naming method you end up using, make sure that you can unambiguously distinguish the profiles for all the different paper types and other settings you are or will be using.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									As usual, the best advice is to stick with what works best for you. Some experimentation may be necessary to find out.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Before continuing to test chart printing, make sure you have the appropriate kind of paper loaded in your printer, and the printer is ready to print.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Step 4 - Calibrate Your Printer</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Step 5 - Create ICC Profile</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Print target only. Create ICC profile later.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Your printer is now printing the profiling test chart according to the instructions you gave it in the previous step. A progress bar is shown while printing is in progress. Here are some things to keep in mind about profile test charts:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A profile test chart contains patches with various amounts of the different inks being used in your printer. Contrary to a linearization or calibration test chart, most of the patches contain combinations of different colors of inks. After measurement with its built-in spectrophotometer, this allows the printer to determine precisely which colors result from all possible combinations of inks, which is known as a forward printer model, going from amounts of inks to resulting colors. A spectrophotometer is a precision instrument that can determine the exact composition of light reflected from a color patch. It splits the reflected light into different wavelength components, just as Newton&apos;s famous prism splits white light into the colors of the rainbow, and measures the strength of each component. Forward printer models are used in soft or hard proofing, for instance, to simulate what an image would look like if printed on a certain printer and paper type. The printer can then use its built-in or accessory profiling software to invert this model into an inverse printer model, going from desired color to the amounts of different inks that produce them. The latter is used in &apos;translating&apos; colors from your application document or monitor to the amounts of different inks that the printer needs to put on the paper in order to produce the corresponding color. An ICC (ColorSync) printer and media profile contains both forward and inverse models in three different rendering intents: Perceptual (for photographic prints), Colorimetric (for logo color or proofing), and Saturation (for business graphics).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Since the measurements and hence the ICC profile precisely reflect what is ‘seen&apos; on the paper, and what is seen on the paper depends on many factors such as printer, inks, paper, print settings, and environmental conditions, the resulting profile can only be as ‘good&apos; or representative as the printing conditions are ‘good&apos; or representative. In other words, make sure that the test chart is being printed under conditions that are as similar as possible to the conditions you will use for making final prints using the resulting profile. If you happen to detect anomalies of print quality, paper defects, or other non-standard conditions while the chart is being printed, abort the process using the ‘Cancel&apos; button, and start over. Otherwise the resulting profile might not be representative for your typical printing conditions, and may not be very useful at all.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Create ICC profile from a target that has already been printed.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Test charts used for printer calibration and profiling are measured (scanned) using the printer&apos;s built-in spectrophotometer. A spectrophotometer is a precision instrument that can determine the exact composition of light reflected from a color patch. It splits the reflected light into different wavelength components, just as Newton&apos;s famous prism splits white light into the colors of the rainbow, and measures the strength of each component. Like all precision instruments, the spectrophotometer itself needs to be calibrated and stabilized before making measurements, to ensure the maximum accuracy possible. Calibration happens automatically, using a built-in white reference tile. Stabilization is ensured by switching on the spectrophotometer&apos;s built-in light source and letting it warm up for a short time before making measurements. A progress bar is displayed while this is happening.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									To scan the test chart, both the paper and the spectrophotometer (mounted on the printer carriage) are moved to position the latter over the color patches to be measured. Although measurement is done in stop motion (without the sensor or paper moving), the process is quite fast, averaging about 5 measurements per second. Measurement time for each patch is adapted automatically to the color being measured, since dark colors need a longer integration time (measurement period) than light colors, for best results. A progress bar is displayed during chart measurement (scanning).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Once the chart has been completely measured, profile calculation starts. The measurements allow the printer to determine precisely which colors result from all possible combinations of inks, which is known as a forward printer model, going from amounts of inks to resulting colors. Forward printer models are used in soft or hard proofing, for instance, to simulate what an image would look like if printed on a certain printer and paper type. The printer then uses its built-in profiling software to invert this model into an inverse printer model, going from desired color to the amounts of different inks that produce them. The latter is used in ‘translating&apos; colors from your application document or monitor to the amounts of different inks that the printer needs to put on the paper in order to produce the corresponding color. An ICC (ColorSync) printer and media profile contains both forward and inverse models in three different rendering intents: Perceptual (for photographic prints), Colorimetric (for logo color or proofing), and Saturation (for business graphics). A progress bar is displayed during profile calculation.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Print target and create ICC profile.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Step 6 - Install ICC Profile</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									An ICC profile will not do you much good unless it&apos;s being used. While that may sound like a truism (and in fact, it is), there is more to this than is apparent. First of all, the profile has to be copied into the right operating system folder on your computer so applications (and users) can find it. This is done automatically for you by your printer&apos;s software. Second, the profile is also uploaded to your printer&apos;s internal profile database.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									How or whether profiles are used after creation and installation depends to a good extent on the configuration of your application(s) and printer driver. In general, the use of color profiles for converting colors among applications and devices is known as color management, and we should distinguish three different cases:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Application color management. As the name implies, in this case the application is in charge, and responsible for applying all necessary color conversions before sending a document to the printer. In practice this means that the application needs to offer the user some way of selecting the appropriate printer and paper profile, and use it to convert document colors. Color profiles are found in a predetermined operating system folder (/Library/ColorSync/Profiles), which is where your printer software copies profiles after creation. For everything to work correctly you need to tell your printer (driver) not to apply color management of its own, since the results of such double color management will be poor at best. Look for the &quot;application color management&quot; setting in your printer driver color controls.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Printer color management, using ICC profiles. As you might expect, the opposite of application color management is printer color management, in this case using ICC (ColorSync) profiles. In this scenario the application does not convert document colors into the printer and paper&apos;s color space, but leaves this task to the printer (driver). Hence the application must pass on the document as is to the printer, without selecting or applying any printer color profiles. &quot;As is&quot; means that documents are left in what&apos;s known as the application working color space, typically either sRGB (the default, unless you know otherwise) or Adobe RGB (often used for digital photography applications). Of course the printer must then select and apply the appropriate color profile for everything to work correctly, which happens automatically when selecting the paper type. This is why profiles need to be associated with paper types, after creation. Look for the &quot;printer color management&quot; setting in your printer driver color controls.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Printer color management, using proprietary color maps. This case is very similar to the previous one in that the printer (driver) and not the application takes care of color management. The difference consists in the use of proprietary color maps rather than open-standard ICC profiles. Although the two are similar in functionality, there are some significant differences. Whereas ICC profiles are bi-directional (going from desired color to ink amounts and from ink amounts to resulting color), color maps are unidirectional (going only from desired color to ink amounts). This has some consequences for proofing, as we will see below. While ICC profiles are used in pairs, one corresponding to the input device and the other corresponding to the output device, color maps are used on their own, translating directly from a given input color space to the printer and paper color space. This implies that only a limited number of input color spaces can be supported, typically either sRGB or Adobe RGB. Not coincidentally, those are the most common application working color spaces. While your printer&apos;s profiling software creates custom ICC (ColorSync) profiles, it does not currently create color maps, meaning that they are not available for non-standard paper types (or non-standard printing conditions), see below. Of course the printer must select the appropriate color map for everything to work, which happens automatically when selecting a standard paper type. You must also tell the application not to apply color management (typically via a &quot;Printer Managed Color&quot; setting or similar), and the printer to apply color maps; look for the &quot;Printer Managed Color&quot; setting in your printer driver color controls.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Here are some further considerations to help you choose among the different color management options.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you want to use soft proofing in your applications, i.e. to simulate on-screen what the printed output will look like, you should use application color management with ICC profiles. Profiles are bi-directional and contain the necessary information for converting application to printer colors (the inverse direction) and printer to application color (the forward direction).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If your application does not provide soft proofing capabilities, but you would still like to simulate on screen what the printed output will look like, try the HP Print Preview application. You can launch it from your printer driver (the PDF drop-down menu under Mac OS, or &quot;show print in preview&quot; under Windows).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you want fine control over how colors are rendered on your printer and paper, you will probably want to use application color management. Applications like Photoshop allow you to convert an original RGB image into its printer and paper dependent representation (whether RGB or CMYK), turn on soft proofing to get an on-screen simulation of the printed result, and use a host of editing tools to modify the device color values before the image is printed. While this allows for very sophisticated control over printed color, it is not for the faint of heart and will require quite a bit of practice to get the results you want. If you want great-looking results without the hassle, try printer color management first.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If your workflow is built around the use of ICC profiles, you will probably want to use application color management with printer ICC (ColorSync) profiles. If ICC doesn&apos;t mean anything to you, or you have no other use for ICC profiles, try printer color management first.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- If you work with non-standard paper types and/or environmental conditions, your best option is to generate custom ICC profiles using your printer&apos;s built-in spectrophotometer and profiling software. Since the profiling software currently generates ICC profiles but not proprietary color maps, you will probably want to use application color management.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Whichever option you end up using, make sure you know which one you are using and why. Also make sure that your application and printer driver are configured correctly. The way to do application color management configuration depends on the application(s) you are using, and unfortunately there are no generally valid recipes. You may find the <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color="#006699">HP Printing Knowledge Center</font></strong></a> useful to assist with this task. It has detailed information on how to configure some of the most common professional graphics applications, as well as troubleshooting and other info.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Step 7 - Finished</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Once the profiling process is complete, you can browse the list of all papers your printer &apos;knows&apos; about. For each paper, it lists the paper category or custom paper name, and the corresponding (associated) profile name. You are now ready to use your custom ICC (ColorSync) profile with your printer and paper. See <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Step 6 - Install ICC Profile</font></strong></a> for more information on the different ways to use ICC profiles and other color management options.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

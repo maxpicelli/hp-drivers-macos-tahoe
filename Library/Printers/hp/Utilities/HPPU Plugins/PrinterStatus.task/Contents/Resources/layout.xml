@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layouts>
+	<layout name="PrinterStateViewLayout">
+		<view name="_detailsView">
+			<layout type="GridBag"/>
+			<insets value="20, 20, 116, 16"/>
+		</view>
+		<view name="_title">
+			<localize/>
+		</view>
+		<!-- buttons -->
+		<view name="_printerDetailsButton">
+			<constraint type="GridBag" gridx="0" gridy="0" anchor="north" insets="8, 8, 0, 79"/>
+			<localize/>
+		</view>
+		<view name="startButton">
+			<constraint type="GridBag" gridx="0" gridy="1" anchor="south" insets="8, 8, 79, 0"/>
+			<localize/>
+		</view>
+	</layout>
+</layouts>

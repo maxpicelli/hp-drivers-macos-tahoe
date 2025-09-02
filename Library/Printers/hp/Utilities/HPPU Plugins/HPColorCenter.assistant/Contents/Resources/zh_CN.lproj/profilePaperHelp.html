@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Profile Paper Help</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>配置纸张</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step1"><strong><font color="#006699">步骤 1 - 选择配置操作</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step2"><strong><font color="#006699">步骤 2 - 选择 ICC 配置文件设置</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step3"><strong><font color="#006699">步骤 3 - 创建配置文件</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step4"><strong><font color="#006699">步骤 4 - 安装配置文件</font></strong></a>
+								</td>
+							</tr>							
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll">					
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table1">
+							<tr>
+								<td>
+									<h2 id="Step1">步骤 1 - 选择配置操作</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>打印机提供四种不同的配置操作，工作流程也会根据所选操作而改变。</p>
+									
+									<h4>创建 ICC 配置文件/打印和扫描 ICC 配置文件图表并创建 ICC 配置文件</h4>
+									
+									<p>如果您在正常环境条件下使用预定义标准纸张类型，则可能希望用&ldquo;自动&rdquo;方式。尽管完成它需要一些时间，但您的打印机将以正确的顺序处理所需的全部操作，并留出所需的等待时间，在测量测试图表前让油墨干燥。</p>
+
+									<p>用打印机的内置分光光度计来测量（扫描）用于打印机校准和配置文件的测试图表。分光光度计是一种精密仪器，可以确定色标所反射光的精确成分。它将反射的光分成不同的波长成分（与将白色光分成彩虹颜色的牛顿的著名棱镜分割原理一样），然后再测量每种成分的强度。和所有精密仪器一样，测量前分光光度计自身也需要进行校准和稳定，以确保获得最高的精度。校准使用内置的白参考片自动进行。测量前打开分光光度计的内置光源，并让它预热一段时间，以确保稳定。进行此操作时会显示一个进度栏。</p>
+									
+									<p><strong>打印机内出了什么问题？</strong><br>首先，打印测试图表。为扫描测试图表，纸张和分光光度计（安装在打印机托架上）会分别移动到分光光度计所要测量的色标位置上。尽管测量在停止（没有传感器或纸张移动）中进行，但过程还是很快，平均每秒测量大约 5 次。每个色标的测量时间根据要测量的颜色自动改变，因为深颜色比浅颜色需要更长的综合时间（测量时间）才能获得最佳的结果。测量图表（扫描）的过程中会显示一个进度栏。</p>
+
+									<p>由于测量值和 ICC 配置文件准确反映出纸张上所&ldquo;看到&rdquo;的打印结果，并且在纸张上看到的结果取决于许多因素，例如打印机、油墨、纸张、打印设置和环境条件等，因此所生成的配置文件只有在打印条件为&ldquo;良好&rdquo;或一般时，才能是&ldquo;良好&rdquo;和一般。换句话说，就是要确保打印测试图表时的条件，尽可能接近使用所生成的配置文件进行最终打印时的条件。</p>
+									
+									<p>如果在打印图表时发现打印质量、纸张缺陷或其它非标准条件等异常现象，则请使用&ldquo;取消&rdquo;按钮来中止打印，然后重新开始。否则，生成的配置文件可能只代表您的典型打印条件，最终可能不太有用。</p>
+
+									<p>最后，HP Color Center 会自动在启动此程序的计算机中安装配置文件。如果在另一台计算机上使用打印机，记得在使用前先将打印机和纸张同步。此过程现已完成。</p>
+									
+									<h4>创建 ICC 配置文件/打印 ICC 配置图表</h4>
+
+									<p>此选项可用于只打印目标图表，之后再完成配置过程。此外，您可以将外部配置分光光度计用于打印好的目标图表。<br>请参阅第一个选项以了解配置文件创建过程的详细信息。</p>
+									
+									<h4>创建 ICC 配置文件/扫描 ICC 配置文件图表并创建 ICC 配置文件</h4>
+
+									<p>打印机可以从已打印的目标中创建 ICC 配置文件。选择此选项时，请准备一个先前打印好的目标。<br>请参阅第一个选项以了解配置文件创建过程的详细描述及以下步骤。</p>
+									
+									<h4 id="Step4">安装 ICC 配置文件/选择要安装的 ICC 配置文件</h4>
+
+									<p>此选项可用于将打印机外部生成的 ICC 配置文件安装和连接到您的纸张上，该配置文件可从 Internet 下载或在别处购买。</p>
+									
+									<p>步骤如下：</p>
+									<ul>
+										<li>单击浏览按钮以选择包含要安装的 ICC 配置文件的文件</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2 id="Step2">步骤 2 - 选择 ICC 配置文件设置</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>ICC 配置文件名称将在应用程序中（如 Adobe Photoshop）显示。纸张预设名称将在打印机驱动程序和前面板中显示。有关配置文件的名称，建议您结合使用打印机型号和纸张预设名称。例如：<font color = red>“HP Z3200 Fine Art Pearl”</font>。</p>
+									<p>对于支持光亮剂的纸张，还必须确定是启用还是禁用光亮剂。</p>
+								</td>
+							</tr>
+						</table>						
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step3">步骤 3 - 创建配置文件</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									需要创建 ICC 颜色配置文件，以使打印机、墨水和纸张三者的结合能生成准确的色彩。该配置文件用于将应用程序颜色与打印机颜色对应起来。该过程分两部分：对所有墨水组合形成的色标进行打印和测量。
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step4">步骤 4 - 安装配置文件</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									安装过程可确保应用程序（如 Adobe Photoshop）可以使用该 ICC 配置文件。
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HPBrightWhite</key>
+	<string>HPBrhtWhtInkjetBond</string>
+	<key>HPUniversalBond</key>
+	<string>HPUniInkjetBond</string>
+	<key>HPRecycledBond</key>
+	<string>HPRecycledBond</string>
+	<key>HPCoated</key>
+	<string>HPCoated</string>
+	<key>HPHeavyweightCoated</key>
+	<string>HPHvwCoated</string>
+	<key>plain</key>
+	<string>Plain</string>
+	<key>brightWhiteBond</key>
+	<string>BrightWhiteBond</string>
+	<key>recycled</key>
+	<string>RecycledBond</string>
+	<key>coated</key>
+	<string>Coated</string>
+	<key>heavyweightCoated</key>
+	<string>HeavyweightCoated</string>
+	<key>HPNaturalTracing</key>
+	<string>HPNaturalTracing</string>
+	<key>genericNaturalTracing</key>
+	<string>NaturalTracingL</string>
+	<key>genericNaturalTracing65gsm</key>
+	<string>NaturalTracingM</string>
+	<key>vellum</key>
+	<string>Vellum</string>
+	<key>universalGloss</key>
+	<string>HPUniGls</string>
+	<key>universalSatin</key>
+	<string>HPUniSatin</string>
+	<key>premiumGloss</key>
+	<string>HPPremGlsPhoto</string>
+	<key>premiumSatin</key>
+	<string>HPPremStnPhoto</string>
+	<key>lightGlossy</key>
+	<string>PhtoGls</string>
+	<key>photoGloss</key>
+	<string>PhtoGls</string>
+	<key>photoSatin</key>
+	<string>PhtoSemiGlsSatn</string>
+	<key>polySatin</key>
+	<string>PolyprSatin</string>
+	<key>matteFilm</key>
+	<string>MatteFilm</string>
+	<key>adhesivePaper</key>
+	<string>Adhesive</string>
+	<key>transparency</key>
+	<string>TranspClearFilm</string>
+	<key>adhesivePolypropyleneSatin</key>
+	<string>AdhesivePolypSatin</string>
+	<key>genericNaturalTracingRubberResistent</key>
+	<string>NTPRubberResistant</string>
+	<key>genericNaturalTracingPaperEraseResistant</key>
+	<string>NTPRubberResistant</string>
+	<key>blueprint</key>
+	<string>DigitalBlueprint</string>
+	<key>custom</key>
+	<string>custom</string>
+</dict>
+</plist>

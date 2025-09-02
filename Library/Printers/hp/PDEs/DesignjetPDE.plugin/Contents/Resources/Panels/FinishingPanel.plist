@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>FinishingPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>file-name</key>
+		<string>Finishing</string>
+	</dict>
+	<key>orderNumber</key>
+	<real>40</real>
+	<key>title</key>
+	<string>Finishing</string>
+	<key>summary-order</key>
+	<array>
+		<string>HPDisableAutoCutter</string>
+		<string>HPInkedArea</string>
+	</array>
+</dict>
+</plist>

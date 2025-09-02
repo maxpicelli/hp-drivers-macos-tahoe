@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude" title="HP Utility Terminology">
+	
+	<suite name="HP Utility Suite" code="hppu" description="HP Utility application commands.">
+		
+		<command name="connect to" code="connect " description="Connect to device with queue name.">
+			<cocoa class="HSDConnectScriptCommand"/>
+			<direct-parameter type="text" description="The device queue name."/>
+		</command>
+	
+		<command name="list tasks" code="listtask" description="Returns list of tasks for selected device.">
+			<cocoa class="HSDListTasksScriptCommand"/>
+			<result description="The task list.">
+				<type type="text" list="yes"/>
+			</result>
+		</command>
+
+		<command name="device plugins" code="deviplug" description="Returns list of device plugins names by model name.">
+			<cocoa class="HSDDevicePlugnsScriptCommand"/>
+			<direct-parameter type="text" description="The device model name."/>
+			<result description="The task list.">
+				<type type="text" list="yes"/>
+			</result>
+		</command>
+		
+		<command name="select task" code="selectta" description="Selects task by name.">
+			<cocoa class="HSDSelectTaskScriptCommand"/>
+			<direct-parameter type="text" description="The task name."/>
+		</command>
+
+		<command name="select plugin" code="selectpl" description="Selects plugin by name.">
+			<cocoa class="HSDSelectPluginScriptCommand"/>
+			<direct-parameter type="text" description="The plugin name."/>
+		</command>
+
+		<command name="selected task" code="currentt" description="Returns the name of the selected task.">
+			<cocoa class="HSDSelectedTaskScriptCommand"/>
+			<result description="The selected task name.">
+				<type type="text" list="no"/>
+			</result>
+		</command>
+
+	</suite>
+	
+</dictionary>

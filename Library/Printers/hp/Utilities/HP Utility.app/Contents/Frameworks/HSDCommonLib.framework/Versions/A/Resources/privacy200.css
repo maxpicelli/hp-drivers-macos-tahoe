@@ -1,0 +1,214 @@
+/* Created: August 12, 2009
+ * by: Darin Peterson
+ * Company: Hewlett-Packard
+ * Organization: Aftermarket Assets
+ * version: 2.1.0 
+ *
+ * Modifications on August 25, 2009 to fix IE6 z-index bug:
+ * 		Extended "image" div to encapsulate text that appears on graphic
+ * 		Inserted .back class to set the image deeper than the overlay text
+ * 		Versioned the CSS to v2.1.0*/
+
+
+html, body {
+	margin:0;
+	padding:0;
+	font-family:arial,sans-serif;
+}
+
+#page-container {
+	float:left;
+	margin:10px;
+	padding:0;
+	width:740px;
+	background:#FFF;
+}
+
+#image {
+	float:left;
+	margin:0;
+	padding:0;
+	width:740px;
+	height:306px;
+	position:relative;
+}
+
+.back {
+	z-index:20;
+}
+
+#lr-image-text, #rl-image-text {
+	position:absolute;
+	color:#FFF;
+	font-size:1.2em;
+	z-index:1;
+}
+
+#lr-image-text {
+	left:25px;
+	top:100px;
+	width:270px;
+	text-align:left;
+}
+
+#rl-image-text {
+	left:416px;
+	top:100px;
+	width:306px;
+	text-align:right;
+}
+
+#nav-links {
+	float:left;
+    width:740px;
+}
+
+#lr-data, #rl-data {
+	margin-top:6px;
+	font-size:.8em;
+	width:360px;
+}
+
+#lr-data {
+	float:right;
+	text-align:left;
+}
+
+#rl-data {
+	float:left;
+	text-align:right;
+}
+
+#goshop {
+    float:left;
+	margin:0;
+	padding:0;
+    background:#AEF16D;
+    font-size:1.1em;
+    text-align:center;
+    width:360px;
+}
+
+#lr-nodata, #rl-nodata {
+		margin-top:6px;
+		font-size:.8em;
+        width:360px;
+}
+
+#lr-nodata {
+	float:left;
+	text-align:left;
+}
+
+#rl-nodata {
+	float:right;
+	text-align:right;
+}
+
+#lr-privacy, #rl-privacy {
+	float:left;
+	margin:0;
+	margin-top:20px;
+	font-size:.9em;
+	width:740px;
+}
+
+#lr-privacy {
+	text-align:left;
+}
+
+#rl-privacy {
+	text-align:right;
+}
+
+hr {
+	float:left;
+	margin:0;
+	padding:0;
+	width:740px;
+    height:10px;
+    background-color:#606060;
+}
+
+#line {
+	float:left;
+	margin:0;
+	padding:0;
+	height:10px;
+	width:740px;
+}
+
+#privacy-links {
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#lr-privacy-url, #rl-privacy-url {
+	margin:0;
+	padding:0;
+	font-size:.9em;
+	width:360px;
+}
+
+#lr-privacy-url {
+	float:left;
+	text-align:left;
+}
+
+#rl-privacy-url {
+	float:right;
+	text-align:right;
+}
+
+#lr-using-url, #rl-using-url {
+	margin:0;
+	padding:0;
+	font-size:.9em;
+	width:360px;
+}
+
+#lr-using-url {
+	float:right;
+	text-align:left;
+}
+
+#rl-using-url {
+	float:left;
+	text-align:right;
+}
+
+#lr-using {
+	float:right;
+	margin:0;
+}
+
+#rl-using {
+	float:left;
+	margin:0;
+}
+
+#copyright {
+	float:left;
+	margin:0;
+	padding:0;
+	width:740px;
+    text-align:center;
+	color:#BFBFBF;
+	font-size:.7em;
+}
+
+#hpcopyright {
+	clear:both;
+	margin-top:5px;
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+
+a:link {color:#3366CC}
+a:visited {color:#A1A1A1}
+a:hover {color:#404040}
+a:active {color:#BFBFBF}

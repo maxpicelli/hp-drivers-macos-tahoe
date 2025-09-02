@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">		
+<plist version="1.0">		
+<dict>		
+	<key>North America</key>	
+	<dict>	
+		<key>Anguilla</key>
+		<integer>1</integer>
+		<key>Antigua and Barbuda</key>
+		<integer>1</integer>
+		<key>Aruba</key>
+		<integer>1</integer>
+		<key>Bahamas</key>
+		<integer>1</integer>
+		<key>Barbados</key>
+		<integer>1</integer>
+		<key>Belize</key>
+		<integer>1</integer>
+		<key>Bermuda</key>
+		<integer>1</integer>
+		<key>British Virgin Islands</key>
+		<integer>1</integer>
+		<key>Canada</key>
+		<integer>1</integer>
+		<key>Cayman Islands</key>
+		<integer>1</integer>
+		<key>Costa Rica</key>
+		<integer>1</integer>
+		<key>Cuba</key>
+		<integer>1</integer>
+		<key>Curacao</key>
+		<integer>2</integer>
+		<key>Dominica</key>
+		<integer>1</integer>
+		<key>Dominican Republic</key>
+		<integer>1</integer>
+		<key>El Salvador</key>
+		<integer>1</integer>
+		<key>French Antilles</key>
+		<integer>2</integer>
+		<key>Greenland</key>
+		<integer>2</integer>
+		<key>Grenada</key>
+		<integer>1</integer>
+		<key>Guadeloupe</key>
+		<integer>2</integer>
+		<key>Guatemala</key>
+		<integer>1</integer>
+		<key>Haiti</key>
+		<integer>1</integer>
+		<key>Honduras</key>
+		<integer>1</integer>
+		<key>Jamaica</key>
+		<integer>1</integer>
+		<key>Martinique</key>
+		<integer>2</integer>
+		<key>Mexico</key>
+		<integer>1</integer>
+		<key>Montserrat</key>
+		<integer>2</integer>
+		<key>Netherlands Antilles</key>
+		<integer>1</integer>
+		<key>Nicaragua</key>
+		<integer>1</integer>
+		<key>Panama</key>
+		<integer>1</integer>
+		<key>Saint-Martin</key>
+		<integer>2</integer>
+		<key>Puerto Rico</key>
+		<integer>1</integer>
+		<key>St. Kitts and Nevis</key>
+		<integer>1</integer>
+		<key>St. Lucia</key>
+		<integer>1</integer>
+		<key>St. Vincent and the Grenadines</key>
+		<integer>1</integer>
+		<key>St. Pierre and Miquelon</key>
+		<integer>2</integer>
+		<key>Trinidad and Tobago</key>
+		<integer>1</integer>
+		<key>Turks and Caicos Islands</key>
+		<integer>1</integer>
+		<key>United States</key>
+		<integer>1</integer>
+		<key>U.S. Virgin Islands</key>
+		<integer>1</integer>
+	</dict>	
+	<key>South America</key>	
+	<dict>	
+		<key>Argentina</key>
+		<integer>1</integer>
+		<key>Bolivia</key>
+		<integer>1</integer>
+		<key>Brazil</key>
+		<integer>1</integer>
+		<key>Chile</key>
+		<integer>1</integer>
+		<key>Colombia</key>
+		<integer>1</integer>
+		<key>Ecuador</key>
+		<integer>1</integer>
+		<key>French Guiana</key>
+		<integer>2</integer>
+		<key>Falkland Islands</key>
+		<integer>2</integer>
+		<key>Guyana</key>
+		<integer>1</integer>
+		<key>Paraguay</key>
+		<integer>1</integer>
+		<key>Peru</key>
+		<integer>1</integer>
+		<key>Suriname</key>
+		<integer>1</integer>
+		<key>Uruguay</key>
+		<integer>1</integer>
+		<key>Venezuela</key>
+		<integer>1</integer>
+	</dict>	
+	<key>Africa</key>	
+	<dict>	
+		<key>Algeria</key>
+		<integer>3</integer>
+		<key>Angola</key>
+		<integer>3</integer>
+		<key>Benin</key>
+		<integer>3</integer>
+		<key>Botswana</key>
+		<integer>3</integer>
+		<key>Burkina Faso</key>
+		<integer>3</integer>
+		<key>Burundi</key>
+		<integer>3</integer>
+		<key>Cameroon</key>
+		<integer>3</integer>
+		<key>Cape Verde</key>
+		<integer>3</integer>
+		<key>Central African Republic</key>
+		<integer>3</integer>
+		<key>Chad</key>
+		<integer>3</integer>
+		<key>Comoros</key>
+		<integer>3</integer>
+		<key>Congo</key>
+		<integer>3</integer>
+		<key>Congo, Democratic Republic of the</key>
+		<integer>3</integer>
+		<key>Côte d'Ivoire</key>
+		<integer>3</integer>
+		<key>Djibouti</key>
+		<integer>3</integer>
+		<key>Egypt</key>
+		<integer>3</integer>
+		<key>Equatorial Guinea</key>
+		<integer>3</integer>
+		<key>Eritrea</key>
+		<integer>3</integer>
+		<key>Ethiopia</key>
+		<integer>3</integer>
+		<key>Gabon</key>
+		<integer>3</integer>
+		<key>Gambia</key>
+		<integer>3</integer>
+		<key>Ghana</key>
+		<integer>3</integer>
+		<key>Guinea</key>
+		<integer>3</integer>
+		<key>Guinea-Bissau</key>
+		<integer>3</integer>
+		<key>Kenya</key>
+		<integer>3</integer>
+		<key>Lesotho</key>
+		<integer>3</integer>
+		<key>Liberia</key>
+		<integer>3</integer>
+		<key>Libya</key>
+		<integer>3</integer>
+		<key>Madagascar</key>
+		<integer>3</integer>
+		<key>Malawi</key>
+		<integer>3</integer>
+		<key>Mali</key>
+		<integer>3</integer>
+		<key>Mauritania</key>
+		<integer>3</integer>
+		<key>Mauritius</key>
+		<integer>3</integer>
+		<key>Mayotte</key>
+		<integer>2</integer>
+		<key>Morocco</key>
+		<integer>3</integer>
+		<key>Mozambique</key>
+		<integer>3</integer>
+		<key>Namibia</key>
+		<integer>3</integer>
+		<key>Niger</key>
+		<integer>3</integer>
+		<key>Nigeria</key>
+		<integer>3</integer>
+		<key>Réunion</key>
+		<integer>2</integer>
+		<key>Rwanda</key>
+		<integer>3</integer>
+		<key>Sao Tome and Principe</key>
+		<integer>3</integer>
+		<key>Senegal</key>
+		<integer>3</integer>
+		<key>Seychelles</key>
+		<integer>3</integer>
+		<key>Sierra Leone</key>
+		<integer>3</integer>
+		<key>Somalia</key>
+		<integer>3</integer>
+		<key>South Africa</key>
+		<integer>3</integer>
+		<key>Sudan</key>
+		<integer>3</integer>
+		<key>St. Helena</key>
+		<integer>2</integer>
+		<key>Swaziland</key>
+		<integer>3</integer>
+		<key>Tanzania</key>
+		<integer>3</integer>
+		<key>Togo</key>
+		<integer>3</integer>
+		<key>Tunisia</key>
+		<integer>3</integer>
+		<key>Uganda</key>
+		<integer>3</integer>
+		<key>Zambia</key>
+		<integer>3</integer>
+		<key>Zimbabwe</key>
+		<integer>3</integer>
+	</dict>	
+	<key>Europe</key>	
+	<dict>	
+		<key>Albania</key>
+		<integer>2</integer>
+		<key>Andorra</key>
+		<integer>2</integer>
+		<key>Austria</key>
+		<integer>2</integer>
+		<key>Belarus</key>
+		<integer>3</integer>
+		<key>Belgium</key>
+		<integer>2</integer>
+		<key>Bosnia and Herzegovina</key>
+		<integer>2</integer>
+		<key>Bulgaria</key>
+		<integer>2</integer>
+		<key>Channel Islands</key>
+		<integer>2</integer>
+		<key>Croatia</key>
+		<integer>2</integer>
+		<key>Czech Republic</key>
+		<integer>2</integer>
+		<key>Denmark</key>
+		<integer>2</integer>
+		<key>Estonia</key>
+		<integer>2</integer>
+		<key>Faeroe Islands</key>
+		<integer>2</integer>
+		<key>Finland</key>
+		<integer>2</integer>
+		<key>France</key>
+		<integer>2</integer>
+		<key>Germany</key>
+		<integer>2</integer>
+		<key>Gibraltar</key>
+		<integer>2</integer>
+		<key>Greece</key>
+		<integer>2</integer>
+		<key>Hungary</key>
+		<integer>2</integer>
+		<key>Iceland</key>
+		<integer>2</integer>
+		<key>Ireland</key>
+		<integer>2</integer>
+		<key>Isle of Man</key>
+		<integer>2</integer>
+		<key>Italy</key>
+		<integer>2</integer>
+		<key>Latvia</key>
+		<integer>2</integer>
+		<key>Liechtenstein</key>
+		<integer>2</integer>
+		<key>Lithuania</key>
+		<integer>2</integer>
+		<key>Luxembourg</key>
+		<integer>2</integer>
+		<key>Macedonia</key>
+		<integer>2</integer>
+		<key>Malta</key>
+		<integer>2</integer>
+		<key>Moldova</key>
+		<integer>2</integer>
+		<key>Monaco</key>
+		<integer>2</integer>
+		<key>Netherlands</key>
+		<integer>2</integer>
+		<key>Norway</key>
+		<integer>2</integer>
+		<key>Poland</key>
+		<integer>2</integer>
+		<key>Portugal</key>
+		<integer>2</integer>
+		<key>Romania</key>
+		<integer>2</integer>
+		<key>Russia</key>
+		<integer>3</integer>
+		<key>San Marino</key>
+		<integer>2</integer>
+		<key>Serbia and Montenegro</key>
+		<integer>2</integer>
+		<key>Slovakia</key>
+		<integer>2</integer>
+		<key>Slovenia</key>
+		<integer>2</integer>
+		<key>Spain</key>
+		<integer>2</integer>
+		<key>Sweden</key>
+		<integer>2</integer>
+		<key>Switzerland</key>
+		<integer>2</integer>
+		<key>Turkey</key>
+		<integer>2</integer>
+		<key>Ukraine</key>
+		<integer>3</integer>
+		<key>United Kingdom</key>
+		<integer>2</integer>
+		<key>Vatican City</key>
+		<integer>2</integer>
+	</dict>	
+	<key>Asia</key>	
+	<dict>	
+		<key>Afghanistan</key>
+		<integer>1</integer>
+		<key>Armenia</key>
+		<integer>3</integer>
+		<key>Azerbaijan</key>
+		<integer>3</integer>
+		<key>Bahrain</key>
+		<integer>3</integer>
+		<key>Bangladesh</key>
+		<integer>1</integer>
+		<key>Bhutan</key>
+		<integer>1</integer>
+		<key>Brunei</key>
+		<integer>1</integer>
+		<key>Cambodia</key>
+		<integer>1</integer>
+		<key>China</key>
+		<integer>4</integer>
+		<key>Cyprus</key>
+		<integer>2</integer>
+		<key>East Timor</key>
+		<integer>1</integer>
+		<key>Georgia</key>
+		<integer>3</integer>
+		<key>Hong Kong S.A.R.</key>
+		<integer>1</integer>
+		<key>India</key>
+		<integer>4</integer>
+		<key>Indonesia</key>
+		<integer>1</integer>
+		<key>Iran</key>
+		<integer>3</integer>
+		<key>Iraq</key>
+		<integer>3</integer>
+		<key>Israel</key>
+		<integer>3</integer>
+		<key>Japan</key>
+		<integer>3</integer>
+		<key>Jordan</key>
+		<integer>3</integer>
+		<key>Kazakstan</key>
+		<integer>3</integer>
+		<key>Korea, North</key>
+		<integer>1</integer>
+		<key>Korea, South</key>
+		<integer>1</integer>
+		<key>Kuwait</key>
+		<integer>3</integer>
+		<key>Kyrgyzstan</key>
+		<integer>3</integer>
+		<key>Laos</key>
+		<integer>1</integer>
+		<key>Lebanon</key>
+		<integer>3</integer>
+		<key>Macau S.A.R.</key>
+		<integer>1</integer>
+		<key>Malaysia</key>
+		<integer>1</integer>
+		<key>Maldives</key>
+		<integer>1</integer>
+		<key>Mongolia</key>
+		<integer>3</integer>
+		<key>Myanmar</key>
+		<integer>1</integer>
+		<key>Nepal</key>
+		<integer>1</integer>
+		<key>Oman</key>
+		<integer>3</integer>
+		<key>Pakistan</key>
+		<integer>1</integer>
+		<key>Philippines</key>
+		<integer>1</integer>
+		<key>Qatar</key>
+		<integer>3</integer>
+		<key>Russia</key>
+		<integer>3</integer>
+		<key>Saudi Arabia</key>
+		<integer>3</integer>
+		<key>Singapore</key>
+		<integer>1</integer>
+		<key>Sri Lanka</key>
+		<integer>1</integer>
+		<key>Syria</key>
+		<integer>3</integer>
+		<key>Taiwan, China</key>
+		<integer>1</integer>
+		<key>Tajikistan</key>
+		<integer>3</integer>
+		<key>Thailand</key>
+		<integer>1</integer>
+		<key>Turkey</key>
+		<integer>2</integer>
+		<key>Turkmenistan</key>
+		<integer>3</integer>
+		<key>United Arab Emirates</key>
+		<integer>3</integer>
+		<key>Uzbekistan</key>
+		<integer>3</integer>
+		<key>Vietnam</key>
+		<integer>1</integer>
+		<key>West Bank and Gaza</key>
+		<integer>3</integer>
+		<key>Yemen</key>
+		<integer>3</integer>
+	</dict>	
+	<key>Oceania</key>	
+	<dict>	
+		<key>American Samoa</key>
+		<integer>1</integer>
+		<key>Australia</key>
+		<integer>1</integer>
+		<key>Cook Islands</key>
+		<integer>1</integer>
+		<key>Fiji</key>
+		<integer>1</integer>
+		<key>French Polynesia</key>
+		<integer>2</integer>
+		<key>Guam</key>
+		<integer>1</integer>
+		<key>Kiribati</key>
+		<integer>1</integer>
+		<key>Marshall Islands</key>
+		<integer>1</integer>
+		<key>Micronesia</key>
+		<integer>1</integer>
+		<key>Nauru</key>
+		<integer>1</integer>
+		<key>New Caledonia</key>
+		<integer>2</integer>
+		<key>New Zealand</key>
+		<integer>1</integer>
+		<key>Niue</key>
+		<integer>1</integer>
+		<key>Northern Mariana Islands</key>
+		<integer>1</integer>
+		<key>Palau</key>
+		<integer>1</integer>
+		<key>Papua New Guinea</key>
+		<integer>1</integer>
+		<key>Pitcairn Island</key>
+		<integer>1</integer>
+		<key>Samoa</key>
+		<integer>1</integer>
+		<key>Solomon Islands</key>
+		<integer>1</integer>
+		<key>Tokelau</key>
+		<integer>1</integer>
+		<key>Tonga</key>
+		<integer>1</integer>
+		<key>Tuvalu</key>
+		<integer>1</integer>
+		<key>Vanuatu</key>
+		<integer>1</integer>
+		<key>Wallis and Futuna</key>
+		<integer>2</integer>
+	</dict>	
+</dict>		
+</plist>

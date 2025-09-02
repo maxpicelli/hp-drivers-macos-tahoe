@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDESimpleImageAdjustmentsController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>colorModeID</key>
+		<string>color</string>
+		<key>identifier</key>
+		<string>com.hp.impala.PDESimpleImageAdjustmentsController</string>
+		<key>label</key>
+		<string>Image Adjustments</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPSaturation</string>
+			<string>HPBrightness</string>
+			<string>HPColorTone</string>
+			<string>HPBlackAdjustment</string>
+			<string>HPCyanAdjustment</string>
+			<string>HPMagentaAdjustment</string>
+			<string>HPYellowAdjustment</string>
+			<string>HPSimpleImageEnhancement</string>
+			<string>HPRedEye</string>
+			<string>HPImagingModeAutomatic</string>
+		</array>
+	</dict>
+</dict>
+</plist>

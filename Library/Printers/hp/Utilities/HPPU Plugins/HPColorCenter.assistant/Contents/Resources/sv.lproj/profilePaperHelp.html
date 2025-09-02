@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Profilera papper - Hjälp</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Profilera papper</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step1"><strong><font color="#006699">Steg 1 - Välj åtgärd för profilering</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step2"><strong><font color="#006699">Steg 2 - Välj ICC-profilinställningar</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step3"><strong><font color="#006699">Steg 3 - Profilera</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="profilePaperHelp.html#Step4"><strong><font color="#006699">Steg 4 - Installera profil</font></strong></a>
+								</td>
+							</tr>							
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll">					
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table1">
+							<tr>
+								<td>
+									<h2 id="Step1">Steg 1 - Välj åtgärd för profilering</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Skrivaren erbjuder fyra olika åtgärder för profilering och arbetsflödet ändras i enlighet med den valda åtgärden.</p>
+									
+									<h4>Skapa ICC-profil/Skriv ut och skanna ICC-profileringskarta och skapa ICC-profil</h4>
+									
+									<p>Om du arbetar med fördefinierade standardpapperstyper under normala miljöförhållanden kommer du förmodligen att vilja använda allt-i-ett-processen. Den tar en stund att gå igenom, men skrivaren utför alla nödvändiga operationer i rätt ordning och med den väntetid som krävs för att bläcket ska hinna torka innan du utför mätningar av testkartan.</p>
+
+									<p>Testkartor som används för skrivarkalibrering och profilering mäts (skannas) med skrivarens inbyggda spektrofotometer. En spektrofotometer är ett precisionsinstrument som kan fastställa den exakta sammansättningen av ljus som reflekteras av ett färgfält. Spektrofotometern delar upp det reflekterade ljuset i olika kurvlängdskomponenter, precis som Newtons berömda prisma delar upp vitt ljus i regnbågens färger, och mäter styrkan hos varje komponent. Precis som alla precisionsinstrument måste spektrofotometern också kalibreras och stabiliseras innan mätningar utförs, för att säkerställa största möjliga noggrannhet. Kalibrering sker automatiskt med en inbyggd vit referensplatta. Stabilisering sker genom att spektrofotometerns inbyggda ljuskälla slås på och värms upp under en kort stund innan mätningar utförs. En förloppsindikator visas under processen.</p>
+									
+									<p><strong>Vad händer i skrivaren?</strong><br> Först skrivs testkartan ut. Därefter flyttas både papperet och spektrofotometern (monterad på skrivarvagnen) så att spektrofotometern placeras över de färgfält som ska mätas. Trots att mätningen utförs i en fångad rörelse (utan att sensorn eller papperet rör sig) är processen ganska snabb, med i genomsnitt 5 mätningar per sekund. Mätningstiden för varje fält anpassas automatiskt till den färg som mäts, eftersom mörka färger behöver längre integrationstid (mätperiod) än ljusa färger för bästa resultat. En förloppsindikator visas medan mätningen (skanningen) av kartan pågår. </p>
+
+									<p>Eftersom mätningarna och följaktligen ICC-profilen exakt reflekterar det som &quot;syns&quot; på papperet, och detta i sin tur är beroende av många faktorer såsom skrivare, bläck, papper, skrivarinställningar och omgivande förhållanden, kan den resulterande profilen bara bli så &quot;bra&quot; eller representativ som utskriftsförhållandena är &quot;bra&quot; eller representativa. Med andra ord ska du se till att testkartan skrivs ut under förhållanden som i största möjliga mån liknar de verkliga förhållandena när du gör slutgiltiga utskrifter med profilen.</p>
+									
+									<p>Om du upptäcker avvikelser i utskriftskvaltieten, pappersdefekter eller andra förhållanden utöver det normala när kartan skrivs ut, ska du avbryta processen med knappen Avbryt och börja om. Annars blir kanske den resulterande profilen inte representativ för dina typiska utskriftsförhållanden och är därmed inte användbar.</p>
+
+									<p>Slutligen installerar HP Color Center automatiskt profilen i den dator från vilken processen startades. Om du använder skrivaren från en annan dator, kom ihåg att synkronisera papperen innan du går vidare. Processen är nu klar.</p>
+									
+									<h4>Skapa ICC-profil/Skriv ut ICC-profileringskarta</h4>
+
+									<p>Det här alternativet ger dig möjlighet att endast skriva ut kartan och slutföra profileringsprocessen senare. Du kan dessutom använda den utskrivna kartan med en extern spektrofotometer för profilering.<br> Se det första alternativet för en detaljerad beskrivning av processen för att skapa profiler.</p>
+									
+									<h4>Skapa ICC-profil/Skanna ICC-profileringskarta och skapa ICC-profil</h4>
+
+									<p>Skrivaren kan skapa en ICC-profil från en profileringskarta som redan har skrivits ut. Se till att du har en tidigare utskriven karta redo när du väljer det här alternativet.<br> Se det första alternativet för en detaljerad beskrivning av processen för att skapa profiler och de följande stegen.</p>
+									
+									<h4 id="Step4">Installera ICC-profil/Välj den ICC-profil som du vill installera</h4>
+
+									<p>Med det här alternativet kan du installera en ICC-profil som skapats utanför skrivaren och associera den med ditt papper. Det kan t.ex. vara en profil som du har laddat ned från internet eller köpt från en annan leverantör.</p>
+									
+									<p>Steg som ska utföras:</p>
+									<ul>
+										<li>Klicka på bläddringsknappen för att markera den fil som innehåller den ICC-profil som du vill installera</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2 id="Step2">Steg 2 - Välj ICC-profilinställningar</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p> ICC-profilnamnet visas i program som t.ex. Adobe Photoshop. Pappersförinställningens namn visas i skrivardrivrutinen och på frontpanelen. För profilnamnet rekommenderar vi att du använder en kombination av skrivarmodellens och pappersförinställningens namn. Exempel:<font color=red>&quot;HP Z3200 Fine Art Pearl&quot;.</font></p>
+									<p>För papper som kan användas med glansförstärkare ska du även bestämma om denna funktion ska vara aktiverad eller inaktiverad.</p>
+								</td>
+							</tr>
+						</table>						
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step3">Steg 3 - Profilera</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> En ICC-färgprofil behövs för att exakt färg ska kunna produceras för din kombination av skrivare, bläck och papper. ICC-profilen består av en omvandling från programfärger till skrivarfärger. Processen består i att man skriver ut och mäter fält med kombinationer av alla bläck. </td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step4">Steg 4 - Installera profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td> Installationprocessen säkerställer att ICC-profilen kommer att vara tillgänglig för program som t.ex. Adobe Photoshop. </td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>HPPrintQuality</string>
+	<string>HPMaximumDetail</string>
+	<string>HPMorePasses</string>
+	<string>HPPrintQualityPreset</string>
+	<string>HPPaperSource</string>
+	<string>HPSmoothing</string>
+	<string>HPSharpness</string>
+	<string>HPContrastEnhance</string>
+	<string>HPDigitalFlash</string>
+	<string>HPRedEye</string>
+	<string>HPSmartFocus</string>
+	<string>HPSimpleImageEnhancement</string>
+	<string>HPOversprayScaling</string>
+	<string>HPManualBorderless</string>
+	<string>HPPaperType</string>
+	<string>HPColorMode</string>
+	<string>HPColorOptions</string>
+	<string>HPGrayscaleMode</string>
+	<string>HPColorSyncProfile</string>
+	<string>HPDuplex</string>
+	<string>HPBindingMode</string>
+	<string>HPTumbleMode</string>
+	<string>HPPaperInfo</string>
+	<string>HPDisableAutoCutter</string>
+	<string>HPInkedArea</string>
+	<string>HPPageOrientation</string>
+	<string>HPImageLayout</string>
+	<string>HPMirrorFlip</string>
+	<string>HPGlossEnhancer</string>
+	<string>HPBrightness</string>
+	<string>HPColorBalanceEnabled</string>
+	<string>HPRedAdjustment</string>
+	<string>HPGreenAdjustment</string>
+	<string>HPBlueAdjustment</string>
+	<string>HPGrayBalanceEnabled</string>
+	<string>HPGrayHighlightLevel</string>
+	<string>HPGrayHighlightX</string>
+	<string>HPGrayHighlightY</string>
+	<string>HPGrayMidtoneLevel</string>
+	<string>HPGrayMidtoneX</string>
+	<string>HPGrayMidtoneY</string>
+	<string>HPGrayShadowLevel</string>
+	<string>HPGrayShadowX</string>
+	<string>HPGrayShadowY</string>
+	<string>HPGrayBalanceApplyMidtoneToAll</string>
+	<string>HPPenConfigOptions</string>
+	<string>HPCropLines</string>
+	<string>HPEmulatedPrinter</string>
+	<string>HPEconoMode</string>
+	<string>HPSupportedAlertTypes</string>
+	<string>HPShowPrintPreview</string>
+	<string>HPTransverse</string>
+	<string>HPAutoRotate</string>
+	<string>SPAlert</string>
+	<string>HPHoldForAttended</string>
+	<string>OutputBin</string>
+</array>
+</plist>

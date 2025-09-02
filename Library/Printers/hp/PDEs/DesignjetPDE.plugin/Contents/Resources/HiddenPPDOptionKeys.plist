@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>HPErnieCompressionSlope</string>
+	<string>HPErnieCompressionIntercept</string>
+	<string>HPPrintToDiskBeforeProcessing</string>
+	<string>HPPrintToDiskAfterProcessing</string>
+	<string>HPSaveCupsOptions</string>
+	<string>HPDoNotPrint</string>
+
+	<string>HPColorMatchingMode</string>
+	<string>HPGrayHighlightX</string>
+	<string>HPGrayHighlightY</string>
+	<string>HPGrayHighlightLevel</string>
+	<string>HPGrayMidtoneX</string>
+	<string>HPGrayMidtoneY</string>
+	<string>HPGrayMidtoneLevel</string>
+	<string>HPGrayShadowX</string>
+	<string>HPGrayShadowY</string>
+	<string>HPGrayShadowLevel</string>
+	<string>HPGrayBalanceApplyMidtoneToAll</string>
+	<string>HPSaturation</string>
+	<string>HPBrightness</string>
+	<string>HPColorTone</string>
+	<string>HPCyanAdjustment</string>
+	<string>HPMagentaAdjustment</string>
+	<string>HPYellowAdjustment</string>
+	<string>HPBlackAdjustment</string>
+	<string>HPRedAdjustment</string>
+	<string>HPGreenAdjustment</string>
+	<string>HPBlueAdjustment</string>
+</array>
+</plist>

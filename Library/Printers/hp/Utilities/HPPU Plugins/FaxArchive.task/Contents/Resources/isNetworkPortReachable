@@ -1,0 +1,46 @@
+#! /usr/bin/perl -w
+#vhm:To check the SMB connectivity
+
+use strict;
+
+# set time until connection attempt times out
+sub main()
+{	
+	if ($#ARGV != 1) 
+	{
+		print "usage: isSmbEnabled Ipaddress";
+		exit 2;
+	}
+	my $returnValue = checkIsReachable($ARGV[0],$ARGV[1]);
+	if($returnValue)
+	{
+		exit(1);
+	}
+	else
+	{
+		exit(0);
+	}
+}
+
+sub checkIsReachable
+{
+	my $returnValue = 0;
+	my $IPAddress = shift;
+	my $portNumber = shift;
+	my $output = "";
+	eval 
+	{
+		local $SIG{ALRM} = sub { die "timeout" };
+		alarm(3);
+		$output =`nc -z \"$IPAddress\" $portNumber`;
+		alarm(0);
+	};
+	if ( defined ($output) && $output ne "")
+	{
+		$returnValue = 1;
+	}
+	return $returnValue;
+}
+
+main ();
+

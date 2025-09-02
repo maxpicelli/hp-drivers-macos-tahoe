@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>CFBundleGetInfoString</key>
+	<string>0.0.1, © Copyright 2004-2016 HP Development Company, L.P.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.hp.scanner.scan_profile</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>HPProfileIconNames</key>
+	<dict>
+		<key>D</key>
+		<string>Profile_Documents</string>
+		<key>N</key>
+		<string>Profile_Negatives</string>
+		<key>P</key>
+		<string>Profile_Pictures</string>
+		<key>S</key>
+		<string>Profile_Slides</string>
+		<key>U</key>
+		<string>Profile_Unknown</string>
+	</dict>
+	<key>HPProfileSizeUnitsList</key>
+	<dict>
+		<key>Centimeters</key>
+		<real>28.34645669291</real>
+		<key>Inches</key>
+		<integer>72</integer>
+		<key>Millimeters</key>
+		<real>2.834645669291</real>
+		<key>Pixels</key>
+		<integer>1</integer>
+		<key>Points</key>
+		<integer>1</integer>
+	</dict>
+	<key>HPScannerIZProductSearchPaths</key>
+	<array>
+		<string>~/Library/Application Support/Hewlett-Packard/Devices/</string>
+		<string>/Library/Application Support/Hewlett-Packard/Devices/</string>
+	</array>
+	<key>HPScannerPrefs</key>
+	<array>
+		<string>~/Library/Preferences/</string>
+		<string>/Library/Preferences/</string>
+	</array>
+	<key>HPScannerPrefsFileName</key>
+	<string>com.hp.scanner.prefs.plist</string>
+	<key>HPScannerProfileExtension</key>
+	<string>hpsprofile</string>
+	<key>HPScannerShortcutFileName</key>
+	<string>com.hp.scan.shortcuts.plist</string>
+	<key>HPScannerShortcutSearchPaths</key>
+	<array>
+		<string>~/Library/Application Support/Hewlett-Packard/Scan-Destinations/</string>
+		<string>/Library/Application Support/Hewlett-Packard/Scan-Destinations/</string>
+	</array>
+	<key>HPScannerTulipSearchPaths</key>
+	<array>
+		<string>/Library/Image Capture/Support/Hewlett-Packard/Devices</string>
+		<string>/Library/Image Capture/Support/Hewlett-Packard</string>
+	</array>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Copyright 2007-2016 HP Development Company, L.P.</string>
+</dict>
+</plist>

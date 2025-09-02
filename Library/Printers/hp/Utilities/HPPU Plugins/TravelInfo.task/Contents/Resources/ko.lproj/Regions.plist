@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">		
+<plist version="1.0">		
+<dict>		
+	<key>북미</key>	
+	<dict>	
+		<key>앙길라</key>
+		<integer>1</integer>
+		<key>안티구아 바부다</key>
+		<integer>1</integer>
+		<key>아루바</key>
+		<integer>1</integer>
+		<key>바하마스</key>
+		<integer>1</integer>
+		<key>바베이도스</key>
+		<integer>1</integer>
+		<key>벨리즈</key>
+		<integer>1</integer>
+		<key>버뮤다</key>
+		<integer>1</integer>
+		<key>영국령 버진 군도</key>
+		<integer>1</integer>
+		<key>캐나다</key>
+		<integer>1</integer>
+		<key>캐이먼 군도</key>
+		<integer>1</integer>
+		<key>코스타 리카</key>
+		<integer>1</integer>
+		<key>쿠바</key>
+		<integer>1</integer>
+		<key>쿠라카오</key>
+		<integer>2</integer>
+		<key>도미니카</key>
+		<integer>1</integer>
+		<key>도미니카 공화국</key>
+		<integer>1</integer>
+		<key>엘 살바도르</key>
+		<integer>1</integer>
+		<key>프랑스령 안틸레스</key>
+		<integer>2</integer>
+		<key>그린랜드</key>
+		<integer>2</integer>
+		<key>그레나다</key>
+		<integer>1</integer>
+		<key>과달루페</key>
+		<integer>2</integer>
+		<key>과테말라</key>
+		<integer>1</integer>
+		<key>아이티</key>
+		<integer>1</integer>
+		<key>혼두라스</key>
+		<integer>1</integer>
+		<key>자메이카</key>
+		<integer>1</integer>
+		<key>마르티니크</key>
+		<integer>2</integer>
+		<key>멕시코</key>
+		<integer>1</integer>
+		<key>몽세라</key>
+		<integer>2</integer>
+		<key>네덜란드령 안틸레스</key>
+		<integer>1</integer>
+		<key>니카라구아</key>
+		<integer>1</integer>
+		<key>파나마</key>
+		<integer>1</integer>
+		<key>세인트 마틴</key>
+		<integer>2</integer>
+		<key>푸에르토 리코</key>
+		<integer>1</integer>
+		<key>세인트 키츠 네비스</key>
+		<integer>1</integer>
+		<key>세인트 루시아</key>
+		<integer>1</integer>
+		<key>세인트 빈센트 그레나딘</key>
+		<integer>1</integer>
+		<key>쌩 피에르 미켈롱</key>
+		<integer>2</integer>
+		<key>트리니다드 토바고</key>
+		<integer>1</integer>
+		<key>터크스 캐이코스 제도</key>
+		<integer>1</integer>
+		<key>미국</key>
+		<integer>1</integer>
+		<key>미국령 버진 군도</key>
+		<integer>1</integer>
+	</dict>	
+	<key>남미</key>	
+	<dict>	
+		<key>아르헨티나</key>
+		<integer>1</integer>
+		<key>볼리비아</key>
+		<integer>1</integer>
+		<key>브라질</key>
+		<integer>1</integer>
+		<key>칠레</key>
+		<integer>1</integer>
+		<key>콜롬비아</key>
+		<integer>1</integer>
+		<key>에쿠아도르</key>
+		<integer>1</integer>
+		<key>프랑스령 가이아나</key>
+		<integer>2</integer>
+		<key>포클랜드 제도</key>
+		<integer>2</integer>
+		<key>가아나</key>
+		<integer>1</integer>
+		<key>파라과이</key>
+		<integer>1</integer>
+		<key>페루</key>
+		<integer>1</integer>
+		<key>수리남</key>
+		<integer>1</integer>
+		<key>우루과이</key>
+		<integer>1</integer>
+		<key>베네주엘라</key>
+		<integer>1</integer>
+	</dict>	
+	<key>아프리카</key>	
+	<dict>	
+		<key>알제리아</key>
+		<integer>3</integer>
+		<key>앙골라</key>
+		<integer>3</integer>
+		<key>베넹</key>
+		<integer>3</integer>
+		<key>보츠와나</key>
+		<integer>3</integer>
+		<key>부키나 파소</key>
+		<integer>3</integer>
+		<key>부룬디</key>
+		<integer>3</integer>
+		<key>카메룬</key>
+		<integer>3</integer>
+		<key>케이프 베르데</key>
+		<integer>3</integer>
+		<key>중앙 아프리카 공화국</key>
+		<integer>3</integer>
+		<key>챠드</key>
+		<integer>3</integer>
+		<key>코모로스</key>
+		<integer>3</integer>
+		<key>콩고</key>
+		<integer>3</integer>
+		<key>콩고 민주 공화국</key>
+		<integer>3</integer>
+		<key>코트 디브와르</key>
+		<integer>3</integer>
+		<key>지부티</key>
+		<integer>3</integer>
+		<key>이집트</key>
+		<integer>3</integer>
+		<key>적도 기니</key>
+		<integer>3</integer>
+		<key>에리트리아</key>
+		<integer>3</integer>
+		<key>이디오피아</key>
+		<integer>3</integer>
+		<key>가봉</key>
+		<integer>3</integer>
+		<key>감비아</key>
+		<integer>3</integer>
+		<key>가나</key>
+		<integer>3</integer>
+		<key>기니</key>
+		<integer>3</integer>
+		<key>기니 비소</key>
+		<integer>3</integer>
+		<key>케냐</key>
+		<integer>3</integer>
+		<key>레소토</key>
+		<integer>3</integer>
+		<key>라이베리아</key>
+		<integer>3</integer>
+		<key>리비아</key>
+		<integer>3</integer>
+		<key>마다가스카르</key>
+		<integer>3</integer>
+		<key>말라위</key>
+		<integer>3</integer>
+		<key>말리</key>
+		<integer>3</integer>
+		<key>모리태니아</key>
+		<integer>3</integer>
+		<key>모리셔스</key>
+		<integer>3</integer>
+		<key>마요뜨</key>
+		<integer>2</integer>
+		<key>모로코</key>
+		<integer>3</integer>
+		<key>모잠비크</key>
+		<integer>3</integer>
+		<key>나미비아</key>
+		<integer>3</integer>
+		<key>니제르</key>
+		<integer>3</integer>
+		<key>나이제리아</key>
+		<integer>3</integer>
+		<key>레유니용</key>
+		<integer>2</integer>
+		<key>르완다</key>
+		<integer>3</integer>
+		<key>상 투메 프린시페</key>
+		<integer>3</integer>
+		<key>세네갈</key>
+		<integer>3</integer>
+		<key>세이셸</key>
+		<integer>3</integer>
+		<key>시에라 리온</key>
+		<integer>3</integer>
+		<key>소말리아</key>
+		<integer>3</integer>
+		<key>남아프리카</key>
+		<integer>3</integer>
+		<key>수단</key>
+		<integer>3</integer>
+		<key>세인트 헬레나</key>
+		<integer>2</integer>
+		<key>스와질랜드</key>
+		<integer>3</integer>
+		<key>탄자니아</key>
+		<integer>3</integer>
+		<key>토고</key>
+		<integer>3</integer>
+		<key>튜니지아</key>
+		<integer>3</integer>
+		<key>우간다</key>
+		<integer>3</integer>
+		<key>잠비아</key>
+		<integer>3</integer>
+		<key>짐바브웨</key>
+		<integer>3</integer>
+	</dict>	
+	<key>유럽</key>	
+	<dict>	
+		<key>알바니아</key>
+		<integer>2</integer>
+		<key>안도라</key>
+		<integer>2</integer>
+		<key>오스트리아</key>
+		<integer>2</integer>
+		<key>벨라루스</key>
+		<integer>3</integer>
+		<key>벨기에</key>
+		<integer>2</integer>
+		<key>보즈니아 헤르체고비나</key>
+		<integer>2</integer>
+		<key>불가리아</key>
+		<integer>2</integer>
+		<key>채널 제도</key>
+		<integer>2</integer>
+		<key>크로아티아</key>
+		<integer>2</integer>
+		<key>체크 공화국</key>
+		<integer>2</integer>
+		<key>덴마크</key>
+		<integer>2</integer>
+		<key>에스토니아</key>
+		<integer>2</integer>
+		<key>페로스 제도</key>
+		<integer>2</integer>
+		<key>핀란드</key>
+		<integer>2</integer>
+		<key>프랑스</key>
+		<integer>2</integer>
+		<key>독일</key>
+		<integer>2</integer>
+		<key>지브랄타</key>
+		<integer>2</integer>
+		<key>그리스</key>
+		<integer>2</integer>
+		<key>헝가리</key>
+		<integer>2</integer>
+		<key>아이스랜드</key>
+		<integer>2</integer>
+		<key>아일랜드</key>
+		<integer>2</integer>
+		<key>아일 오브 맨</key>
+		<integer>2</integer>
+		<key>이탈리아</key>
+		<integer>2</integer>
+		<key>라트비아</key>
+		<integer>2</integer>
+		<key>리히텐슈타인</key>
+		<integer>2</integer>
+		<key>리투아니아</key>
+		<integer>2</integer>
+		<key>룩셈부르그</key>
+		<integer>2</integer>
+		<key>마케도니아</key>
+		<integer>2</integer>
+		<key>몰타</key>
+		<integer>2</integer>
+		<key>몰도바</key>
+		<integer>2</integer>
+		<key>모나코</key>
+		<integer>2</integer>
+		<key>네덜란드</key>
+		<integer>2</integer>
+		<key>노르웨이</key>
+		<integer>2</integer>
+		<key>폴란드</key>
+		<integer>2</integer>
+		<key>포르투갈</key>
+		<integer>2</integer>
+		<key>루마니아</key>
+		<integer>2</integer>
+		<key>러시아</key>
+		<integer>3</integer>
+		<key>산 마리노</key>
+		<integer>2</integer>
+		<key>세르비아 몬테네그로</key>
+		<integer>2</integer>
+		<key>슬로바키아</key>
+		<integer>2</integer>
+		<key>슬로베니아</key>
+		<integer>2</integer>
+		<key>스페인</key>
+		<integer>2</integer>
+		<key>스웨덴</key>
+		<integer>2</integer>
+		<key>스위스</key>
+		<integer>2</integer>
+		<key>터키</key>
+		<integer>2</integer>
+		<key>우크라이나</key>
+		<integer>3</integer>
+		<key>영국</key>
+		<integer>2</integer>
+		<key>바티칸 시티</key>
+		<integer>2</integer>
+	</dict>	
+	<key>아시아</key>	
+	<dict>	
+		<key>아프가니스탄</key>
+		<integer>1</integer>
+		<key>아르메니아</key>
+		<integer>3</integer>
+		<key>아제르바이잔</key>
+		<integer>3</integer>
+		<key>바레인</key>
+		<integer>3</integer>
+		<key>방글라데쉬</key>
+		<integer>1</integer>
+		<key>부탄</key>
+		<integer>1</integer>
+		<key>브루나이</key>
+		<integer>1</integer>
+		<key>캄보디아</key>
+		<integer>1</integer>
+		<key>중국</key>
+		<integer>4</integer>
+		<key>사이프러스</key>
+		<integer>2</integer>
+		<key>동 티모르</key>
+		<integer>1</integer>
+		<key>그루지아</key>
+		<integer>3</integer>
+		<key>홍콩 특별 행정 구역</key>
+		<integer>1</integer>
+		<key>인도</key>
+		<integer>4</integer>
+		<key>인도네시아</key>
+		<integer>1</integer>
+		<key>이란</key>
+		<integer>3</integer>
+		<key>이라크</key>
+		<integer>3</integer>
+		<key>이스라엘</key>
+		<integer>3</integer>
+		<key>일본</key>
+		<integer>3</integer>
+		<key>요르단</key>
+		<integer>3</integer>
+		<key>카자크스탄</key>
+		<integer>3</integer>
+		<key>북한</key>
+		<integer>1</integer>
+		<key>한국</key>
+		<integer>1</integer>
+		<key>쿠웨이트</key>
+		<integer>3</integer>
+		<key>키르지스탄</key>
+		<integer>3</integer>
+		<key>라오스</key>
+		<integer>1</integer>
+		<key>레바논</key>
+		<integer>3</integer>
+		<key>마카오 특별 행정 구역</key>
+		<integer>1</integer>
+		<key>말레이지아</key>
+		<integer>1</integer>
+		<key>몰디브</key>
+		<integer>1</integer>
+		<key>몽고</key>
+		<integer>3</integer>
+		<key>미얀마</key>
+		<integer>1</integer>
+		<key>네팔</key>
+		<integer>1</integer>
+		<key>오만</key>
+		<integer>3</integer>
+		<key>파키스탄</key>
+		<integer>1</integer>
+		<key>필리핀</key>
+		<integer>1</integer>
+		<key>카타르</key>
+		<integer>3</integer>
+		<key>러시아</key>
+		<integer>3</integer>
+		<key>사우디 아라비아</key>
+		<integer>3</integer>
+		<key>싱가폴</key>
+		<integer>1</integer>
+		<key>스리 랑카</key>
+		<integer>1</integer>
+		<key>시리아</key>
+		<integer>3</integer>
+		<key>대만, 중국</key>
+		<integer>1</integer>
+		<key>타지키스탄</key>
+		<integer>3</integer>
+		<key>태국</key>
+		<integer>1</integer>
+		<key>터키</key>
+		<integer>2</integer>
+		<key>투르크메니스탄</key>
+		<integer>3</integer>
+		<key>아랍 에미리트 연방</key>
+		<integer>3</integer>
+		<key>우즈베키스탄</key>
+		<integer>3</integer>
+		<key>베트남</key>
+		<integer>1</integer>
+		<key>웨스트 뱅크-가자</key>
+		<integer>3</integer>
+		<key>예멘</key>
+		<integer>3</integer>
+	</dict>	
+	<key>오세아니아</key>	
+	<dict>	
+		<key>미국령 사모아</key>
+		<integer>1</integer>
+		<key>호주</key>
+		<integer>1</integer>
+		<key>쿡 제도</key>
+		<integer>1</integer>
+		<key>피지</key>
+		<integer>1</integer>
+		<key>프랑스령 폴리네시아</key>
+		<integer>2</integer>
+		<key>괌</key>
+		<integer>1</integer>
+		<key>키리바티</key>
+		<integer>1</integer>
+		<key>마셜 제도</key>
+		<integer>1</integer>
+		<key>마이크로네시아</key>
+		<integer>1</integer>
+		<key>나우루</key>
+		<integer>1</integer>
+		<key>뉴 칼레도니아</key>
+		<integer>2</integer>
+		<key>뉴 질랜드</key>
+		<integer>1</integer>
+		<key>니우에</key>
+		<integer>1</integer>
+		<key>북 마리아나 제도</key>
+		<integer>1</integer>
+		<key>팔라우</key>
+		<integer>1</integer>
+		<key>파푸아 뉴 기니</key>
+		<integer>1</integer>
+		<key>핏캐언 섬</key>
+		<integer>1</integer>
+		<key>사모아</key>
+		<integer>1</integer>
+		<key>솔로몬 군도</key>
+		<integer>1</integer>
+		<key>토켈라우</key>
+		<integer>1</integer>
+		<key>통가</key>
+		<integer>1</integer>
+		<key>투발루</key>
+		<integer>1</integer>
+		<key>바누아투</key>
+		<integer>1</integer>
+		<key>월리스 푸투나</key>
+		<integer>2</integer>
+	</dict>	
+</dict>		
+</plist>

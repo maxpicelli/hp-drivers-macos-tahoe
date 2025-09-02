@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<drv-container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hp.com/schemas/imaging/con/raster-data/printer-list/2010/01/18/                     Schemas/deviceslist.xsd" name="ProductsSummary"><device name="Photosmart_Pro_B8800_series" location="Printers/photosmart_pro_B8800.xml"><model-names type="array"><model-name>Photosmart Pro B8800 series</model-name><model-name>HP Photosmart Pro B8800 series</model-name></model-names></device></drv-container>

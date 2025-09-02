@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>previewDescription</key>
+	<array>
+		<!-- Fold and Stitch; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>FoldAndStitch_portrait</key>
+				<array/>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>FoldStitch</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- Fold and Stitch; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>FoldAndStitch_landscape</key>
+				<array/>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>FoldStitch</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{16, 103}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1left</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{25, 110}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1Staple</string>
+					<string>1StapleLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Left Angled; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_002</key>
+				<array>
+					<string>{16, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1leftAngled</string>
+					<string>1StapleLeftAngled</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Right; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{85, 110}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1StapleRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Right Angled; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_001</key>
+				<array>
+					<string>{94, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1StapleRightAngled</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{16, 85}</string>
+					<string>{16, 25}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2left</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{14, 85}</string>
+					<string>{14, 25}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2StaplesLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Right; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{96, 85}</string>
+					<string>{96, 25}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2StaplesRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{25, 106}</string>
+					<string>{85, 106}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2top</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{25, 110}</string>
+					<string>{85, 110}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2StaplesTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left/Top; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<!-- <key>Stapler_004</key> -->
+				<!-- <array> -->
+				<!-- 	<string>{16, 85}</string> -->
+				<!-- 	<string>{16, 25}</string> -->
+				<!-- </array> -->
+				<key>Stapler_003</key>
+				<array>
+					<string>{25, 110}</string>
+					<string>{85, 110}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2StaplesLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Left; Portrait -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{16, 31}</string>
+					<string>{16, 55}</string>
+					<string>{16, 79}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>3left</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>1</string>
+					<string>3</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Left; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{6, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1left</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{-1, 91}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1Staple</string>
+					<string>1StapleLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Left Angled; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_002</key>
+				<array>
+					<string>{3, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1leftAngled</string>
+					<string>1StapleLeftAngled</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Right; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{110, 91}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1StapleRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 1 Right Angled; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_001</key>
+				<array>
+					<string>{106, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>1StapleRightAngled</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{-1, 25}</string>
+					<string>{-1, 85}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2left</string>
+					<string>2StaplesLeft</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Right; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{110, 25}</string>
+					<string>{110, 85}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2StaplesRight</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{25, 96}</string>
+					<string>{85, 96}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2top</string>
+					<string>2StaplesTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 2 Left/Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_004</key>
+				<array>
+					<string>{-1, 25}</string>
+					<string>{-1, 85}</string>
+				</array>
+				<!-- <key>Stapler_003</key> -->
+				<!-- <array> -->
+				<!-- 	<string>{25, 94}</string> -->
+				<!-- 	<string>{85, 94}</string> -->
+				<!-- </array> -->
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>2StaplesLeftOrTop</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+		<!-- 3 Top; Landscape -->
+		<dict>
+			<key>renderer-type</key>
+			<string>Image</string>
+			<key>items-to-draw</key>
+			<dict>
+				<key>Stapler_003</key>
+				<array>
+					<string>{31, 94}</string>
+					<string>{55, 94}</string>
+					<string>{79, 94}</string>
+				</array>
+			</dict>
+			<key>available-for-options</key>
+			<dict>
+				<key>HPStaplerOptions</key>
+				<array>
+					<string>3top</string>
+				</array>
+				<key>Orientation</key>
+				<array>
+					<string>2</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

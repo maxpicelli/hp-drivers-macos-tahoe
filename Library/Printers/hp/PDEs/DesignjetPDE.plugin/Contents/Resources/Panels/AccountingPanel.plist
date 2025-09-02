@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>AccountingPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEExpandingController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDEExpandingController</string>
+			<key>label</key>
+			<string>Accounting</string>
+			<key>supportedSettingNames</key>
+			<array/>
+		</dict>
+		<key>topController</key>
+		<dict>
+			<key>file-name</key>
+			<string>Accounting</string>
+		</dict>
+		<key>bottomController</key>
+		<dict>
+			<key>file-name</key>
+			<string>StatusAlerts</string>
+		</dict>
+	</dict>
+	<key>title</key>
+	<string>Accounting</string>
+	<key>summary-order</key>
+	<array>
+		<string>HPAccounting</string>
+	</array>
+	<key>orderNumber</key>
+	<real>60</real>
+</dict>
+</plist>

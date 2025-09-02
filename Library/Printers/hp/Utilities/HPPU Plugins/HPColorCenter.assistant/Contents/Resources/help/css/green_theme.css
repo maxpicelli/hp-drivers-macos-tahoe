@@ -1,0 +1,176 @@
+
+
+
+
+/* Tabs */
+div.tabOff {
+	background-color:#86BB5B;
+	background-image:url(../images/themes/green/tab_right.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+}
+div.secondaryTabSet div.tabOff {
+	background-color:#86BB5B;
+	background-image:url(../images/themes/green/tab_secondary_right.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+}
+
+
+button.hpButton,
+button.hpButtonSmall,
+button.hpButtonVerySmall,
+input.hpButton,
+input.hpButtonSmall,
+input.hpButtonVerySmall {
+	background-color: #86BB5B;
+}
+div.bEmphasized button,
+div.bEmphasized input,
+div.bEmphasized submit{
+	background-color:#336633;
+	color:#fff;
+}
+
+/* these are the right and bottom edge colors for the various states */
+div.bWrapperUp,
+div.bWrapperUp div{
+	background-color:#5C8E34;
+}
+div.bWrapperDown,
+div.bWrapperDown div{
+	background-color:#003300;
+}
+div.bEmphasized,
+div.bEmphasized div{
+	background-color:#003300;
+}
+div.bWrapperDisabled,
+div.bWrapperDisabled div{
+	background-color:#ADADAD;
+}
+div.bWrapperOver,
+div.bWrapperOver div{
+	background-color:#3F8C00;
+}
+
+/* these are the background colors for the button face states. */
+div.bWrapperOver button,
+div.bWrapperOver input,
+div.bWrapperOver submit {
+	background-color:#4FAF00;
+	color:#fff;
+}
+div.bWrapperDown button,
+div.bWrapperDown input,
+div.bWrapperDown submit {
+	background-color:#336633;
+	color:#fff;
+}
+div.bWrapperDisabled button,
+div.bWrapperDisabled input,
+div.bWrapperDisabled submit {
+	background-color:#c1c1c1;
+	color:#fff;
+}
+
+
+div.treeOpen div.treeDisclosure,
+div.treeOpenSelected div.treeDisclosure {
+	background-image:url(../images/themes/green/button_tree_contract.gif);
+}
+div.treeClosed div.treeDisclosure,
+div.treeClosedSelected div.treeDisclosure {
+	background-image:url(../images/themes/green/button_tree_expand.gif);
+}
+div.treeDisclosure{
+	background-repeat:no-repeat;
+}
+
+
+
+
+
+
+td.dropdownNavMainCell {
+	width:100%;
+	border:1px;
+}
+td.dropdownNavRightBorder {
+	background-color:#4FAF00;
+	vertical-align:top;
+}
+td.dropdownNavBottomBorder {
+	background-color:#4FAF00;
+}
+
+ul.dropdownMenu {
+	border:1px solid #4FAF00;
+}
+
+div.dropdownMenuItemChecked {
+	background:url(../images/themes/green/navbar_checkbox.gif);
+}
+div.globalNavTrigger {
+	background-color:#86BB5B;
+}
+li.subMenuTrigger {
+	background:url(../images/themes/green/navbar_parent_bg.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+li.subMenuTriggerOver {
+	background:url(../images/themes/green/navbar_parent_bg_over.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+div.globalNavTrigger {
+	background:url(../images/themes/green/navbar_global_trigger_over_bg.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	color: #000000;	
+	padding-right:40px;
+	padding-bottom:2px;
+	border:1px solid #86BB5B;
+	font-weight:normal;
+}
+div.globalNavTriggerOver {
+	background:url(../images/themes/green/navbar_global_trigger_over_bg.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	color:#000000;
+	padding-right:40px;	
+	color: #000000;	
+	padding-right:40px;
+	padding-bottom:2px;	
+	border:1px solid #86BB5B;
+	font-weight:normal;	
+}
+
+
+
+tr.treeTableTitleRowOpen div.treeControl {		
+	background:transparent;
+	background-image:url(../images/themes/green/button_tree_contract.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+}
+tr.treeTableTitleRowClosed div.treeControl {		
+	background:transparent;
+	background-image:url(../images/themes/green/button_tree_expand.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+}
+
+table.applicationMastheadSmall,
+table.applicationMastheadSmall td,
+table.applicationMastheadLarge,
+table.applicationMastheadLarge td {
+	background-color:#4FAF00;
+}
+
+/* change the table row class when a mouse click is detected, this css works with treeTableManager */
+.dataTable tr.rowHighlight td, .scrollingTable tr.rowHighlight td, .treeTable tr.rowHighlight td, .propertyViewTable tr.rowHighlight td {
+	background-color:#86BB5B;
+}

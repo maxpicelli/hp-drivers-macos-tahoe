@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Aide sur l'option Créer et installer un profil ICC</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Créer et installer un profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Etape 1 – Sélectionner un papier et une action</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Etape 2 – Ajouter un papier personnalisé</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Etape 3 - Choisir les paramètres du profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Etape 4 - Calibrer votre imprimante</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Etape 5 - Créer un profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Etape 6 - Installer un profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Etape 7 - Terminé</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Etape 1 – Sélectionner un papier et une action</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Pour obtenir les meilleurs résultats, votre imprimante doit pouvoir convertir les couleurs de votre moniteur ou des documents d'application dans les encres et les papiers utilisés pour l'impression. Un profil ICC (International Color Consortium) représente une combinaison d'une description d'imprimante, d'une encre et d'un papier contenant toutes les informations nécessaires à ces conversions de couleurs.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Cette section vous permet de créer et d'installer un profil ICC personnalisé afin d'obtenir une précision optimale des couleurs imprimées. Vous pouvez également appliquer cette méthode si vous utilisez un profil ICC provenant d'une autre source telle qu'un téléchargement sur Internet. Les profils ICC prédéfinis, comme ceux que vous téléchargez sur Internet, offrent de bons résultats mais vous obtiendrez une meilleure qualité d'impression avec un profil personnalisé.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Voici quelques-unes des différences entre les deux types de profils :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur personnalisés reposent sur des cibles de test et des mesures provenant de votre imprimante, ils utilisent votre encre et votre papier dans les conditions de votre environnement. Vous obtenez en principe une précision de couleur optimale car tous les paramètres de votre système sont personnalisés.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur génériques ou prédéfinis sont adaptés à votre modèle d'imprimante, votre encre et votre type de papier, mais pas à votre imprimante, votre encre et votre papier en particulier. Ils reposent sur des cibles de test et des mesures typiques ou moyennes représentant un système typique ou moyen. Ils offrent de bons résultats avec un système moyen, mais risquent de ne pas pouvoir gérer les légères variations qui peuvent survenir entre votre système et le système moyen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur personnalisés sont créés à l'aide du logiciel de profil fourni avec votre imprimante ou que vous avez acheté en option. Ce logiciel offre d'excellents résultats, mais il doit nécessairement effectuer certains choix en matière de création des profils. Il procède en particulier à un mappage gamut afin de permettre une tentative de rendu perceptif. Le mappage gamut se produit lorsque des couleurs d'un périphérique affichant un gamut de couleurs donné (la plage de toutes les couleurs qu'un périphérique peut capturer ou produire), par exemple un appareil photo numérique ou un moniteur, doit être converti ou associé à un périphérique offrant un gamut de couleurs de taille ou de forme différente, par exemple une imprimante. Le mappage gamut s'apparente plus à un art qu'à une science et il n'existe donc de bonnes ou de mauvaises méthodes, elles sont simplement différentes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur génériques, comme ceux fournis par les fabricants de papier, ont peut-être été créés à l'aide d'un autre logiciel de profil effectuant des choix différents en matière de mappage gamut et d'autres propriétés de profil. Ces choix ne sont pas nécessairement pires ou meilleurs que ceux effectués par le logiciel de profil de votre imprimante, ils risquent simplement d'être différents.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Voici quelques informations qui vous aideront à choisir votre type de profil :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous vous préoccupez essentiellement de la précision des couleurs de vos impressions, pour créer par exemple des épreuves, utilisez la tentative de rendu colorimétrique. Cette méthode tente de reproduire avec une précision optimale les couleurs du gamut de votre imprimante, ce qui peut nuire aux couleurs qui n'y figurent pas (et qui doivent également être imprimées, d'une façon ou d'une autre). La reproduction colorimétrique étant plus objective que la reproduction perceptive, la différence entre les logiciels de profil est minime, et il est donc préférable de choisir un profil personnalisé.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous vous préoccupez essentiellement de l'apparence de vos impressions et de l'affichage sur votre moniteur, par exemple pour des applications photographiques et artistiques, utilisez plutôt la tentative de rendu perceptif. Les profils personnalisés sont très utiles car ils offrent une excellente précision des couleurs et une bonne tentative de rendu perceptif, mais peut-être préférerez-vous l'apparence de certains profils tiers.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Quel que soit le type de profil que vous choisissez, n'oubliez pas que vous pouvez affiner la reproduction des couleurs à l'aide des commandes de réglage des couleurs du pilote de votre imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Le processus de création et d'installation d'un profil ICC personnalisé se compose des étapes suivantes :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Sélectionner le type de papier pour le profil ou définir un nouveau papier.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Choisir certains paramètres du nouveau profil, y compris son nom.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Créer le nouveau profil : imprimer le diagramme de test, le laisser sécher, le mesurer et calculer le profil. Votre imprimante effectue automatiquement toutes ces opérations.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									4.	Installer le nouveau profil afin de l'utiliser avec vos applications et votre imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Pour la première étape, vous pouvez choisir un type de papier dans la liste des papiers connus, ou définir un nouveau type de papier et l'ajouter à la liste.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Il existe deux méthodes de création d'un profil : vous pouvez utiliser un processus « tout en un » exécutant toutes les opérations requises en une seule séquence ininterrompue, ou une « procédure fractionnée » vous permettant d'imprimer d'abord le diagramme de profils avant de l'ajouter à l'imprimante pour mesurer le diagramme et créer le profil. Voici quelques conseils qui vous aideront à choisir la méthode adaptée à vos besoins :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous utilisez des types de papier standard prédéfinis dans des conditions normales, sélectionnez le processus tout en un. L'opération peut prendre du temps mais l'imprimante effectuera toutes les étapes nécessaires dans l'ordre correspondant, en respectant un temps d'attente afin de laisser l'encre sécher avant de mesurer le diagramme. A moins de vouloir visualiser le processus (ce qui n'est pas rare), vous pouvez en profiter pour vous préparer un café et revenir une fois l'opération terminée.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous utilisez des types de papier non standard dans des conditions non standard, il est possible que l'encre nécessite un temps de séchage plus long avant que la couleur imprimée ne soit complètement stabilisée. Un profil couleur devant représenter le résultat imprimé final après le séchage, vous pouvez utiliser la procédure fractionnée dans ces conditions.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous appliquez généralement un certain type de post-traitement à vos impressions pouvant affecter la couleur perçue, vous pouvez également utiliser la procédure fractionnée. Par exemple, si vous stratifiez ou couchez par pulvérisation vos impressions, vous pouvez créer un profil en effectuant une stratification ou un couchage afin d'obtenir une qualité d'impression couleur optimale. Vous pouvez également comparer les résultats avant et après le post-traitement afin de visualiser les différences.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous vous préoccupez des propriétés d'archivage de certains types de papier, vous pouvez de nouveau mesurer et créer le profil d'un diagramme de test déjà mesuré afin de déterminer si d'importantes modifications ont été effectuées. Dans les deux cas, le mode d'épreuve à l'écran de Photoshop peut s'avérer très utile.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Si vous souhaitez utiliser le processus de travail tout en un, conservez la sélection par défaut « Imprimer un diagramme de profils ICC » et « Numériser le diagramme de profils ICC et créer un profil ICC ». Si vous souhaitez utiliser la procédure fractionnée, deux options s'offrent à vous. Pour imprimer le diagramme de profil et le stocker pour une utilisation ultérieure, sélectionnez uniquement l'option « Imprimer un diagramme de profils ICC ». Si vous souhaitez mesurer et créer le profil d'un diagramme de profils imprimé précédemment, sélectionnez uniquement l'option « Numériser le diagramme de profils ICC et créer un profil ICC ».
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ici aussi, il est préférable de choisir la méthode qui vous convient le mieux. Plusieurs essais peuvent être nécessaires.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Etape 2 – Ajouter un papier personnalisé</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Etape 3 - Choisir les paramètres du profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Vous pouvez ici sélectionner le nom du profil ICC à créer. Le nom servira pour deux fonctions différentes mais associées :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Le nom de fichier affiché lorsque vous utilisez l'explorateur de votre système d'exploitation (Microsoft Explorer) pour rechercher le fichier contenant le profil ICC. L'application ajoute automatiquement l'extension de nom de fichier « .icc » au nom du profil afin que vous et votre logiciel puissiez identifier les profils ICC à l'aide de l'extension.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	La chaîne de description interne du profil. Chaque profil ICC comporte une chaîne de description interne utilisée par certains (mais pas tous) logiciels compatibles ICC afin d'identifier le profil ou vous permettre de le sélectionner dans une liste.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Selon les circonstances, le nom de fichier ou le descripteur interne s'affiche ; pour cette raison, il est judicieux d'utiliser le même nom pour ces deux éléments. Vous pouvez en principe sélectionner le nom de votre choix, mais il est préférable de définir une convention d'attribution de nom standard pour les profils, et de vous y conformer. Par exemple, vous pouvez utiliser les composants de nom suivants, séparés par des espaces, des traits de soulignement ou d'autres symboles de votre choix :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- le type ou le nom de l'imprimante, par exemple « HP Designjet Z2100 » où « HP » représente le fabricant (Hewlett-Packard), « Designjet » la gamme et « Z2100 » le modèle de votre imprimante. La longueur du nom de fichier et du descripteur interne étant limitée, vous devrez sans doute résumer toutes ces informations dans une chaîne unique de quelques caractères. Utilisez le modèle d'imprimante comme première partie du nom de profil afin que tous les profils de votre imprimante apparaissent sous forme d'un groupe unique consécutif à la fois dans les explorateurs de fichiers et les listes de profils d'application.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Le type ou le nom du papier, par exemple « HWT310 » pour Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Comme pour le type ou le nom de l'imprimante, vous devrez probablement résumer ces informations. Veillez à utiliser un nom ou une abréviation unique pour chaque type de papier afin de distinguer facilement les différents profils.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- La qualité d'impression et d'autres paramètres utilisés pour l'impression du diagramme de test, par exemple « B » pour une qualité d'impression « Best » (optimale) ou « BGE » pour une qualité d'impression « Best » (optimale) avec l'option « Rehausseur de brillance » activée (uniquement pour les papiers de type photo). Simplifiez et résumez autant que possible vos informations, mais pas trop.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Le diagramme de test utilisé, par exemple « Small » (Petit) ou « Large » (Grand) ou un nom de diagramme de test particulier tel que « ECI2002 » si ces options sont disponibles. Simplifiez et résumez ces informations, si nécessaire.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ces instructions permettent, par exemple, d'obtenir des noms de profils tels que « HP Designjet Z2100 HWT310 » ou « HP Designjet Z2100, Papier couché ». Les noms de fichier correspondants seraient « HP_Z2100_HWT310.icc » ou « HP_Z2100_PapierCouché.icc ».
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Quelle que soit la méthode d'attribution de nom utilisée, assurez-vous que vous pouvez facilement distinguer les profils pour tous les différents types de papier et autres paramètres utilisés actuellement ou dans le futur.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ici aussi, il est préférable de choisir la méthode qui vous convient le mieux. Plusieurs essais peuvent être nécessaires.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Avant de continuer l'impression du diagramme de test, vérifiez que vous avez chargé le type de papier adéquat dans votre imprimante et que celle-ci est prête à imprimer.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Etape 4 - Calibrer votre imprimante</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Etape 5 - Créer un profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Imprimer uniquement la cible. Créer le profil ICC ultérieurement.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Votre imprimante imprime le diagramme de test du profil selon les instructions que vous avez fournies à l'étape précédente. Une barre de progression s'affiche pendant l'impression. Voici quelques informations à prendre en compte concernant les diagrammes de test du profil :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Un diagramme de test du profil contient des modèles affichant différentes quantités de chaque encre utilisée dans votre imprimante. Contrairement à un diagramme de test de linéarisation ou de calibrage, la plupart des modèles proposent des combinaisons de différentes couleurs d'encre. Les mesures effectuées à l'aide du spectrophotomètre intégré permettent à l'imprimante de définir avec précision les couleurs obtenues à partir de toutes les combinaisons d'encres possibles, appelées modèle d'imprimante à l'endroit, des quantités d'encre aux couleurs finales. Un spectrophotomètre est un instrument de précision permettant de déterminer la composition exacte de la lumière reflétée par un modèle de couleur. Il divise la lumière reflétée en différents composants de longueur d'onde, comme le célèbre prisme de Newton divise la lumière blanche en un arc-en-ciel de couleurs, et mesure la longueur de chaque composant. Les modèles d'imprimante à l'endroit sont utilisés pour les épreuves sur support physique ou à l'écran, par exemple pour simuler l'aperçu d'une image imprimée sur un certain type d'imprimante ou de papier. L'imprimante peut ensuite utiliser son logiciel de profil intégré ou optionnel pour inverser ce modèle en un modèle d'imprimante à l'envers, de la couleur finale aux quantités des différentes encres. Ce logiciel permet de convertir les couleurs de votre document d'application ou moniteur en quantités d'encres différentes nécessaires à l'impression sur le papier pour obtenir la couleur correspondante. Un profil d'imprimante et de support ICC (ColorSync) contient à la fois les modèles à l'endroit et à l'envers dans trois intentions de rendu différentes : Perceptif (pour les impressions photographiques), Colorimétrie (pour la couleur des logos ou les épreuves) et Saturation (pour les graphiques commerciaux).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Etant donné que les mesures, et par conséquent le profil ICC, reflètent précisément ce qui apparaît sur le papier, et que ce résultat dépend de nombreux facteurs tels que les imprimantes, les encres, le papier, les paramètres d'impression et les conditions d'utilisation, le profil obtenu est aussi bon ou représentatif que le sont les conditions d'impression. En d'autres termes, assurez-vous que le diagramme de test est imprimé dans des conditions aussi proches que possible des conditions d'impression finales avec le profil obtenu. Si vous rencontrez des problèmes de qualité d'impression, des défauts sur le papier ou d'autres conditions non standard lors de l'impression du diagramme, arrêtez le processus à l'aide du bouton Annuler, puis recommencez l'opération. Sinon, le profil obtenu risque de ne pas être représentatif de vos conditions d'impression, et sera donc inutile.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Créer un profil ICC à partir d'une cible déjà imprimée.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Les diagrammes de test utilisés pour le calibrage de l'imprimante et la création du profil sont mesurés (numérisés) à l'aide du spectrophotomètre intégré de l'imprimante. Un spectrophotomètre est un instrument de précision permettant de déterminer la composition exacte de la lumière reflétée par un modèle de couleur. Il divise la lumière reflétée en différents composants de longueur d'onde, comme le célèbre prisme de Newton divise la lumière blanche en un arc-en-ciel de couleurs, et mesure la longueur de chaque composant. Comme tous les instruments de précision, le spectrophotomètre doit être calibré et stabilisé avant d'effectuer les mesures afin de garantir la meilleure précision possible. Le calibrage s'effectue automatiquement à l'aide d'un panneau de référence intégré. La stabilisation est effectuée en activant la source lumineuse intégrée du spectrophotomètre et en la préchauffant pendant quelques instants avant de réaliser les mesures. Une barre de progression s'affiche pendant cette opération.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Pour numériser le diagramme de test, le papier et le spectrophotomètre (installé sur le chariot de l'imprimante) sont déplacés afin de positionner le spectrophotomètre sur les modèles de couleurs à mesurer. La mesure est effectuée à l'arrêt (sans déplacer le capteur ni le papier), mais le processus est assez rapide et permet de réaliser environ 5 mesures par seconde. Le temps de mesure de chaque modèle est automatiquement ajusté en fonction de la couleur mesurée car, pour obtenir de meilleurs résultats, les couleurs sombres demandent un temps d'intégration (période de mesure) plus long que les couleurs claires. Une barre de progression s'affiche pendant la mesure du diagramme (numérisation).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Une fois la mesure du diagramme terminée, le calcul du profil commence. Les mesures permettent à l'imprimante de définir avec précision les couleurs obtenues à partir de toutes les combinaisons d'encres possibles, appelées modèle d'imprimante à l'endroit, des quantités d'encre aux couleurs finales. Les modèles d'imprimante à l'endroit sont utilisés pour les épreuves sur support physique ou à l'écran, par exemple pour simuler l'aperçu d'une image imprimée sur un certain type d'imprimante ou de papier. L'imprimante utilise ensuite son logiciel de profil intégré pour inverser ce modèle en un modèle d'imprimante à l'envers, de la couleur finale aux quantités des différentes encres. Ce logiciel permet de convertir les couleurs de votre document d'application ou moniteur en quantités d'encres différentes nécessaires à l'impression sur le papier pour obtenir la couleur correspondante. Un profil d'imprimante et de support ICC (ColorSync) contient à la fois les modèles à l'endroit et à l'envers dans trois intentions de rendu différentes : Perceptif (pour les impressions photographiques), Colorimétrie (pour la couleur des logos ou les épreuves) et Saturation (pour les graphiques commerciaux). Une barre de progression s'affiche pendant le calcul du profil.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Imprimer la cible et créer un profil ICC.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Etape 6 - Installer un profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Un profil ICC n'est utile que s'il est appliqué. Cela peut sembler évident (et c'est le cas), mais ce constat entraîne d'autres conséquences. Premièrement, le profil doit être copié sur l'ordinateur, dans le dossier correspondant du système d'exploitation afin que les applications (et les utilisateurs) puissent y accéder. Le logiciel de votre imprimante effectue automatiquement cette opération à votre place. Deuxièmement, le profil est également transmis vers la base de données interne des profils de votre imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									L'utilisation des profils après la création et l'installation dépend en grande partie de la configuration de vos applications et du pilote de l'imprimante. En général, l'utilisation de profils couleur pour convertir des couleurs dans des applications et des périphériques est désignée par le terme gestion des couleurs, et trois types de gestion sont disponibles :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Gestion des couleurs de l'application. Comme le nom l'indique, l'application gère les couleurs et effectue toutes les conversions de couleurs nécessaires avant d'envoyer un document vers l'imprimante. En pratique, cela signifie que l'application doit permettre à l'utilisateur de sélectionner le profil d'imprimante et de papier approprié afin de convertir les couleurs du document. Les profils couleur figurent dans un dossier prédéfini du système d'exploitation (/Library/ColorSync/Profiles), dans lequel le logiciel de l'imprimante copie les profils créés. Pour que tout fonctionne parfaitement, vous devez indiquer à votre imprimante (pilote) de ne pas gérer automatiquement les couleurs car cette double gestion des couleurs produit des résultats médiocres. Recherchez le paramètre de gestion des couleurs de l'application dans les commandes de couleurs de votre pilote d'imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Gestion des couleurs de l'imprimante à l'aide des profils ICC. Logiquement, la solution inverse de gestion des couleurs de l'application est la gestion des couleurs de l'imprimante, qui utilise dans ce cas des profils ICC (ColorSync). Ici, l'application ne convertit pas les couleurs du document dans l'espace de couleurs de l'imprimante et du papier, mais confie cette tâche à l'imprimante (pilote). L'application doit donc envoyer le document en l'état vers l'imprimante, sans sélectionner ni appliquer des profils couleur d'imprimante. « En l'état » signifie que les documents sont conservés dans ce qu'on appelle l'espace de travail des couleurs d'application, généralement au format sRVB (valeur par défaut, sauf indication contraire) ou Adobe RVB (souvent utilisé pour les applications de photographie numérique). Bien entendu, l'imprimante doit ensuite sélectionner et appliquer le profil couleur approprié pour que tout fonctionne correctement, ce qui se produit automatiquement lors de la sélection du type de papier. Pour cette raison, les profils créés doivent être associés aux types de papier. Recherchez le paramètre « Couleurs gérées par l'imprimante » dans les commandes de couleurs de votre pilote d'imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Gestion des couleurs de l'imprimante à l'aide des tables de couleurs propriétaires. Ce scénario ressemble beaucoup au précédent puisque c'est l'imprimante (pilote) et non l'application qui gère les couleurs. La différence réside dans le fait que cette méthode utilise des tables de couleurs propriétaires plutôt que des profils ICC standard ouverts. Bien que ces deux méthodes se ressemblent en terme de fonctionnalité, elles présentent quelques différences notables. Tandis que les profils ICC sont bidirectionnels (de la couleur souhaitée vers les quantités d'encre et des quantités d'encre vers la couleur finale), les tables de couleur sont unidirectionnelles (uniquement de la couleur souhaitée vers les quantités d'encre). Ces différences entraînent quelques conséquences au niveau des épreuves, comme nous le verrons ci-dessous. Tandis que les profils ICC sont utilisés par paires, un pour le périphérique en entrée et l'autre pour le périphérique en sortie, les tables de couleurs sont utilisées seules afin de convertir directement un espace de couleur en entrée donné dans l'espace de couleur de l'imprimante et du papier. Cela suppose que seul un nombre restreint d'espaces de couleurs en entrée peut être pris en charge, généralement sRVB ou Adobe RVB. Il n'est donc pas surprenant que ces formats représentent les espaces de travail des couleurs d'application les plus utilisés. Tandis que le logiciel de profil de votre imprimante crée des profils ICC (ColorSync) personnalisés, il ne crée aucune table de couleurs, ce qui signifie qu'elles ne sont pas disponibles pour les types de papier ou les conditions d'impression non standard (voir ci-dessous). Bien entendu, l'imprimante doit sélectionner la table de couleurs appropriée pour que tout fonctionne correctement, ce qui se produit automatiquement lors de la sélection d'un type de papier standard. Vous devez également configurer l'application afin qu'elle ne gère pas les couleurs (généralement à l'aide d'un paramètre « Couleurs gérées par l'imprimante » ou similaire), et qu'elle applique des tables de couleurs. Recherchez le paramètre « Couleurs gérées par l'imprimante » dans les commandes de couleurs de votre pilote d'imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Voici quelques conseils qui vous aideront à choisir les différentes options de gestion des couleurs.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous souhaitez utiliser la fonction d'épreuve à l'écran dans vos applications, par exemple pour simuler à l'écran un aperçu de l'impression, utilisez la gestion des couleurs de l'application avec des profils ICC. Les profils sont bidirectionnels et contiennent les informations nécessaires à la conversion des couleurs de l'application en couleurs de l'imprimante (à l'endroit) et des couleurs de l'imprimante en couleurs de l'application (à l'envers).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si votre application n'offre aucune option d'épreuve à l'écran, mais que vous souhaitez néanmoins simuler à l'écran l'aperçu de l'impression, utilisez l'application Aperçu avant impression HP. Vous pouvez la lancer à partir du pilote de votre imprimante (le menu déroulant PDF sous Mac OS ou l'option aperçu avant impression sous Windows).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous souhaitez définir avec précision le rendu des couleurs sur votre imprimante et votre papier, utilisez de préférence la gestion des couleurs de l'application. Les applications comme Photoshop vous permettent de convertir une image RVB originale en une représentation par rapport à l'imprimante et au papier (RVB ou CMJN), d'activer la fonction d'épreuve à l'écran pour obtenir une simulation du résultat de l'impression, et d'utiliser plusieurs outils d'édition afin de modifier les couleurs du périphérique avant l'impression de l'image. Cette méthode, qui offre un contrôle très précis de la couleur imprimée, doit être réservée aux utilisateurs avertis car elle nécessite une solide expérience pour obtenir de bons résultats. Pour obtenir facilement des résultats satisfaisants, utilisez d'abord la gestion des couleurs de l'imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si votre travail implique l'utilisation de profils ICC, utilisez la gestion des couleurs de l'application avec des profils d'imprimante ICC (ColorSync). Si vous ne connaissez pas les profils ICC ou que vous n'avez pas d'autre application utilisant ce type de profil, utilisez d'abord la gestion des couleurs de l'imprimante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous utilisez des types de papier et/ou des conditions non standard, il est préférable de créer des profils ICC personnalisés à l'aide du spectrophotomètre de votre imprimante et du logiciel de profils. Etant donné que les logiciels de profil génèrent actuellement des profils ICC mais aucune table de couleurs propriétaire, utilisez la gestion des couleurs de l'application.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Quelle que soit l'option choisie, assurez-vous que vous maîtrisez parfaitement la méthode utilisée. Vérifiez également que votre application et votre pilote d'imprimante sont correctement configurés. La configuration de la gestion des couleurs de l'application varie selon les applications utilisées et il n'existe malheureusement pas de méthode standard. Le service <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color="#006699">HP Printing Knowledge Center</font></strong></a> vous aidera à effectuer cette opération. Il propose des ressources détaillées sur la configuration des principales applications graphiques professionnelles, ainsi que des conseils de dépannage et d'autres informations.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Etape 7 - Terminé</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Une fois la création du profil terminée, vous pouvez parcourir la liste de tous les papiers reconnus par votre imprimante. Pour chaque papier, la liste répertorie la catégorie du papier ou le nom du papier personnalisé ainsi que le nom de profil correspondant (associé). Vous pouvez désormais utiliser votre profil ICC (ColorSync) personnalisé avec votre imprimante et papier. Voir <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Etape 6 - Installer un profil ICC</font></strong></a> pour plus d'informations sur les différentes méthodes d'utilisation des profils ICC et les autres options de gestion des couleurs.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

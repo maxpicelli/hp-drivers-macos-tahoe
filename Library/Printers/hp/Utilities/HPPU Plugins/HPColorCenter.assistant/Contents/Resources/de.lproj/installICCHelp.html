@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Hilfe zur Installation von ICC-Profilen</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>ICC-Profil installieren</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Schritt 1 - ICC-Profil auswählen</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Schritt 2 - ICC-Profileinstellungen prüfen</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Schritt 3 - Profil installieren</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Schritt 4 - Fertig stellen</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Schritt 1 - ICC-Profil auswählen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Auch ICC-Profile, die nicht mit der integrierten Profil-Erstellungssoftware des Druckers generiert wurden, können zur Verwendung mit Ihrem Drucker und dem betreffenden Medium installiert werden. Solche Profile können beispielsweise aus dem Internet stammen oder mit der Profil-Erstellungssoftware eines externen Anbieters erzeugt worden sein.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Im Drucker muss registriert werden, zu welchem Medientyp das Profil gehört. Wählen Sie deshalb zuerst einen Medientyp aus der Liste, der dem Drucker 'bekannt' ist. Achten Sie dabei darauf, dass dieser dem tatsächlich verwendeten Typ so weit wie möglich entspricht. Der Medientyp bestimmt die Menge der aufgebrachten Tinte und weitere grundlegende Druckparameter. Deshalb ist es wichtig, an dieser Stelle eine geeignete Auswahl zu treffen, damit später die bestmöglichen Ergebnisse erreicht werden. Wenn das verwendete Medium nicht in der Liste enthalten ist und sich auch keine ausreichende Annäherung finden lässt, können Sie einen neuen Typ definieren. Der Drucker kalibriert sich dann automatisch für das neue Medium. Anschließend können Sie mit der Installation des ICC-Profils fortfahren. Sollten die Ergebnisse mit der ausgewählten Kombination aus Profil und Medientyp nicht zufrieden stellend sein, lohnt es sich, mit verschiedenen Medientypen für den neuen Mediennamen zu experimentieren, bis Sie die beste Lösung gefunden haben.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Nach Auswahl des Medientyps wechseln Sie zu der Datei, die das ICC-Profil enthält, das für den Drucker und das betreffende Medium verwendet werden soll. Die Dateinamen von ICC-Profilen sind in der Regel mit der Erweiterung ".icc" für "International Color Consortium" oder ".icm" für Image Color Matching gekennzeichnet.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Vielleicht fragen Sie sich, wo genau die Unterschiede zwischen benutzerdefinierten Farbprofilen und extern erstellten Profilen liegen. Einige Unterschiede zwischen den beiden Arten von Profilen:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Benutzerdefinierte Farbprofile basieren auf Mess- und Zielwerten Ihres persönlichen Druckers sowie auf dem individuell verwendeten Papier und den spezifischen Eigenschaften der Systemumgebung. Da alles exakt auf Ihr System abgestimmt ist, erreichen Sie damit die beste Farbgenauigkeit.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generische (extern erstellte) Farbprofile sind zwar für Ihr Druckermodell und dessen Tinten sowie für den von Ihnen verwendeten Medientyp gemacht, jedoch nicht für Ihren persönlichen Drucker sowie die damit konkret verwendeten Tinten und Medien. Vielmehr basieren solche Profile auf "typischen", das heißt statistisch ermittelten Mess- und Zielwerten, die für ein virtuelles Referenzsystem gelten. Da kein reales System in allen Nuancen dieser Projektion entspricht, bleiben Abweichungen in solchen Profilen unberücksichtigt.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Benutzerdefinierte Farbprofile werden mit der integrierten Profil-Erstellungssoftware des Druckers oder mit einer separat erworbenen Software generiert. Solche Software liefert zwar hochwertige Ergebnisse, die jedoch zwangsläufig auf bestimmten Annahmen in Bezug auf die Profil-Erstellung basieren. Dies gilt insbesondere bei der Farbraumtransformation (Gamut-Mapping) für den wahrnehmungsorientierten (perzeptiven) Rendering Intent. Jedes Gerät, das Farbe darstellt oder reproduziert, besitzt einen eigenen charakteristischen Gamut, das heißt einen Gerätefarbraum, der einen mehr oder weniger großen Teil des gesamten Farbraums abdeckt. Eine Farbraumtransformation ist immer dann notwendig, wenn die Farbdaten eines bestimmten Geräts, beispielsweise einer Digitalkamera oder eines Computerbildschirms, in den Farbraum eines anderen Geräts, etwa eines Druckers, übertragen werden müssen. Die Farbraumtransformation ist eher eine Kunst als eine Wissenschaft, deshalb gibt es genau genommen keine richtigen oder falschen Lösungen, sondern eben nur unterschiedliche.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generische Farbprofile, wie sie beispielsweise von Papierherstellern zur Verfügung gestellt werden, wurden möglicherweise mit anderer Profil-Erstellungssoftware generiert, wobei unterschiedliche Algorithmen der Farbraumtransformation zum Einsatz gekommen sein können. Wie gesagt, sind diese Prämissen nicht als schlechter oder besser zu bewerten als die, die in der Software Ihres Druckers gelten, es bestehen einfach Unterschiede.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Einige Anhaltspunkte zur Unterscheidung der Profiltypen:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie Priorität auf die Farbtreue der Drucke legen, wie dies in der Regel bei Proofs der Fall ist, verwenden Sie den farbmetrischen Rendering Intent. Die Farben innerhalb des Drucker-Gamuts (Ziel-Gamuts) werden mit höchster Genauigkeit reproduziert. Farben außerhalb des Drucker-Gamuts, die natürlich auf die eine oder andere Art dennoch gedruckt werden müssen, werden auf die jeweils nächstliegende Farbe abgebildet, was möglicherweise zu Kontrastverlusten führt. Da die farbmetrische Reproduktion im Vergleich zur wahrnehmungsorientierten Reproduktion ein eher regelorientierter Vorgang ist, erzeugt verschiedene Profil-Erstellungssoftware kaum unterschiedliche Ergebnisse. Ein benutzerdefiniertes Profil eignet sich daher normalerweise am besten.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie Priorität auf die realistische, natürliche Wiedergabe von Fotos oder künstlerischen Elementen legen und eine möglichst große Übereinstimmung mit der Bildschirmdarstellung anstreben, wählen Sie den wahrnehmungsorientierten Rendering Intent. Benutzerdefinierte Profile sind hier ein guter Ansatzpunkt, da sie mit exzellenter Farbgenauigkeit erstellt wurden und sich gut in den wahrnehmungsorientierten Intent integrieren. Dennoch kann es sein, dass Sie mit einem extern erstellten Profil zufriedener sind.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Wie so oft gilt auch hier: Sie entscheiden, was am besten für Sie ist. Es lohnt sich immer, etwas zu experimentieren.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Schritt 2 - ICC-Profileinstellungen prüfen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Hier wählen Sie einen Namen für das zu installierende Profil aus. Der Name wird für zwei ähnliche, aber dennoch verschiedene Zwecke verwendet:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Der Dateiname, der von den Dateiverwaltungsprogrammen des Betriebssystems (Windows Explorer) zur Identifizierung von ICC-Profildateien benötigt wird, entsteht ebenfalls aus dem Profilnamen. Der Profilname wird automatisch mit der Erweiterung ".icc" ergänzt, so dass die Datei für Sie als Benutzer und für die Anwendung als ICC-Profildatei zu identifizieren ist.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Aus dem Namen wird die interne Beschreibungszeichenkette des Profils abgeleitet. Jedes ICC-Profil ist mit einer solchen internen Kennung versehen, die von vielen ICC-fähigen Programmen zur Identifizierung des Profils oder zur Anzeige in einer Auswahlliste verwendet wird.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Je nach Konstellation sehen Sie entweder den Dateinamen oder den internen Deskriptor, deshalb empfiehlt es sich, in beiden Fällen dieselbe Benennung zu verwenden. Grundsätzlich können Sie den Namen frei wählen. Es ist jedoch ratsam, eine standardisierte Namenskonvention festzulegen und diese auch einzuhalten. Ein solches Benennungsschema könnte beispielsweise darin bestehen, verschiedene Komponenten zu kombinieren, die mit Leerzeichen, Unterstrichen oder einem anderen Zeichen Ihrer Wahl getrennt werden:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Druckertyp oder -name, beispielsweise "HP Designjet Z2100", wobei "HP" für den Hersteller Hewlett-Packard steht. "Designjet" bezeichnet die Modellreihe, und "Z2100" entspricht der Modellnummer des Druckers. Für den Dateinamen und den internen Deskriptor gelten Längenbeschränkungen. Deshalb kann es erforderlich sein, diese Informationen verkürzt darzustellen. Indem Sie das Druckermodell als ersten Teil des Profilnamens verwenden, stellen Sie sicher, dass alle Profile für Ihren Drucker in Dateiverwaltungsprogrammen und in Auswahllisten als zusammenhängender Block erscheinen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Medientyp oder Name, beispielsweise "HWT310" für Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Ebenso wie bei der Druckerbezeichnung können hier Abkürzungen erforderlich werden. Der Name bzw. die Abkürzung müssen eindeutig sein, damit sich die verschiedenen Profile unterscheiden lassen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Druckqualität und andere Einstellungen, die für den Druck der Testgrafik verwendet wurden, beispielsweise "B" für "Beste" Druckqualität oder "BHV" für "Beste" Druckqualität und "Hochglanzverstärker" (nur für Fotopapiere). Vereinfachen und verkürzen Sie so weit wie nötig, jedoch nicht mehr.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Die verwendete Testgrafik, z. B. "Klein" oder "Groß", oder der Name einer bestimmten Testgrafik, etwa "ECI2002", sofern diese Option zur Verfügung steht. Vereinfachen und verkürzen Sie nach Bedarf.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Mit diesem Schema ergeben sich beispielsweise Profilnamen wie "HP Designjet Z2100 HWT310" oder "HP Designjet Z2100, gestrichenes Papier". Die Dateinamen dazu würden lauten: "HP_Z2100_HWT310.icc" bzw. "HP_Z2100_gestrichenesPapier.icc".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Unabhängig davon, welche Benennungsmethode Sie schließlich verwenden, muss sichergestellt sein, dass sich die Profile für die verschiedenen Medientypen und Einstellungen zweifelsfrei unterscheiden lassen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Wie so oft gilt auch hier: Sie entscheiden, was am besten für Sie ist. Es lohnt sich immer, etwas zu experimentieren.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Schritt 3 - Profil installieren</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Durch die Installation wird sichergestellt, dass das ICC-Profil in Anwendungen wie Adobe Photoshop verfügbar ist.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Schritt 4 - Fertig stellen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Nach der Installation des Profils können Sie die Liste aller Druckmedien durchgehen, die der Drucker "kennt". Für jedes Druckmedium sind die Kategorie, der benutzerspezifische Name und der zugeordnete Profilname verzeichnet. Nun können Sie das installierte ICC-Profil (ColorSync) für die konfigurierte Kombination aus Drucker und Medium einsetzen. Weitere Informationen finden Sie im Abschnitt <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Schritt 3 - ICC-Profil installieren</font></strong></a> der Online-Hilfe.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

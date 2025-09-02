@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+	HP <NMDP>
+	(c) Copyright 2010-2015 HP Development Company, L.P.
+	All Rights Reserved Worldwide
+	Proprietary and Confidential - Not for Distribution
+	Written by Software MacKiev
+	
+	PDLData.plist
+	
+	AUTHOR IDENTITY:
+		Denis Ustimenko		6/1/10		Software MacKiev
+-->
+<plist version="1.0">
+<!--
+		//
+		//		PDL command strings
+		//
+		//		Syntax:
+		//	'\'	=	&#
+		//	'&'	=	;&amp;
+		//	'$%n%$'		=  replaceable param where 'n' is a number and cooresponds to the index of 
+		//		a paramater. Example: $%1%$
+-->
+<dict>
+	<!--
+	///////////////////////////////////
+	//	GENERAL PDL COMMANDS 
+	///////////////////////////////////
+	-->
+	<key>pdl-reset</key>
+	<string>&#x1B;&#x45;</string>
+	<key>pdl-form-feed</key>
+	<string>&#x0C;</string>
+	<!-- 0x1b 0x25 0x2d 0x31 0x32 0x33 0x34 0x35 0x58 -->
+	<key>pdl-end-job</key>
+	<string>&#x1b;%-12345X</string>
+	<!-- Universal exit command with empty PJL string
+	the workaround for Connery Cxxx series devices printing from 4-core computer -->
+	<key>pdl-end-job-pjl</key>
+	<string>&#x1b;%-12345X@PJL&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	Cancel driverware command - used in Designjets
+	///////////////////////////////////
+	-->
+	<key>pdl-cancel</key>
+	<string>&#x1b;*o5W&#x45;&#xed;&#x00;&#x00;&#x00;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL BORN ON DATE/TIMESTAMP PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string repsentation of current time stamp
+	//"@PJL SET TIMESTAMP = $%1%$\n"
+	-->
+	<key>pdl-pjl-born-on-date</key>
+	<string>@PJL SET TIMESTAMP = "$%1%$"&#x0A;</string>
+	
+	<!--
+	///////////////////////////////////
+	//	PJL Driver Version PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string repsentation of driver version info
+	//	@PJL COMMENT "HP Designjet T520 36in - PCL3 raster (20.0); Mac OS X 10.7.3; Designjet1Raster 1.0"
+	-->
+	<key>pdl-driver-version</key>
+	<string>@PJL COMMENT = "$%1%$"&#x0A;</string>
+
+	<!--
+	///////////////////////////////////
+	//	MEDIA SOURCE PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The media source code.
+	//
+	// 0x1B 0x26 0x6c $%1%$ 0x48
+	-->
+	<key>pdl-pcl-media-source</key>
+	<string>&#x1B;&amp;l$%1%$H</string>
+	<key>pcl-code-media-source-tray</key>
+	<string>1</string>
+	<key>pcl-code-media-source-manual-feed</key>
+	<string>2</string>
+	<key>pcl-code-media-source-tray-two</key>
+	<string>4</string>
+	<key>pcl-code-media-source-auto-select</key>
+	<string>7</string>
+	<key>pcl-code-media-source-rear-feeder</key>
+	<string>8</string>
+	<key>pcl-code-media-source-roll</key>
+	<string>15</string>
+	<!--
+	///////////////////////////////////
+	//	PAPER DIMENTIONS PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The paper width in units of measument specified by job resolution command
+	//		$%2%$	- The paper height in units of measument specified by job resolution command
+	//
+	// 0x1b 0x2a 0x6f 0x35 0x57 0x0E 0x05 0x00 $%1%$ - two bytes paper width
+	// 0x1b 0x2a 0x6f 0x35 0x57 0x0E 0x06 0x00 $%2%$ - two bytes paper height
+	//
+	// There is combined two commands for width and height. It must be specified if media size code ("PCL Code") is 101 right after job resolution command
+	-->
+	<key>sirius-pdl-paper-width</key>
+	<string>&#x1b;*o$%1%$W&#x0E;&#x05;&#x00;$%2%$</string>
+	<key>sirius-pdl-paper-height</key>
+	<string>&#x1b;*o$%1%$W&#x0E;&#x06;&#x00;$%2%$</string>
+
+	<key>pdl-media-size</key>
+	<string>&#x1b;&amp;l$%1%$A</string>
+
+	<!--
+	///////////////////////////////////
+	//	MEDIA TYPE PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The media type code "PCL-Media-Type", currently -1, 0, 2, 3, 4, or 5.
+	//
+	// 0x1b 0x26 0x6c $%1%$ 0x4d
+	-->
+	<key>pdl-media-type</key>
+	<string>&#x1b;&amp;l$%1%$M</string>
+	
+	<!-- PCL for AmpereXL, $%1%$	- two bytes media ID -->
+	<key>sirius-pdl-media-type</key>
+	<string>&#x1b;*o5W&#x0D;&#x03;&#x00;$%1%$</string>
+
+	<!--
+	///////////////////////////////////
+	//	PRINT QUALITY PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The print quality code, currently -2, -1, 0, 1, or 2.
+	//
+	// 0x1b 0x2a 0x6f $%1%$ 0x4d
+	-->
+	<key>pdl-print-quality</key>
+	<string>&#x1b;*o$%1%$M</string>
+	<!-- the values -->
+	<key>pdl-print-quality-lowest</key>
+	<string>-2</string>
+	<key>pdl-print-quality-draft</key>
+	<string>-1</string>
+	<key>pdl-print-quality-normal</key>
+	<string>0</string>
+	<key>pdl-print-quality-best</key>
+	<string>1</string>
+	<key>pdl-print-quality-highest</key>
+	<string>2</string>
+	<!--
+	///////////////////////////////////
+	//	PCL SET CUTTER
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 00 cutter is disabled, 01 cutter is enabled (not to be sent)
+	-->
+	<key>pcl-cutter</key>
+	<string>&#x1b;*o5W&#x0E;&#x14;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	PCL INKED AREA
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 01 remove top/bottom blank areas
+	//		00 - not to remove
+	-->
+	<key>pcl-inkedarea</key>
+	<string>&#x1b;*o5W&#x0E;&#x15;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	COLOR MODE PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Color mode: 0 = color;
+	//		1 = Hight Quality grayscale; 2 = Black Only grayscale; 3 = Pure B/W
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the color mode.
+	-->
+	<key>pdl-color-mode</key>
+	<string>&#x1b;*o5W&#x0b;&#x01;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	COLOR SATURATION PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Saturation: 0-8 allowed, 4 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the saturation.
+	-->
+	<key>pdl-color-saturation</key>
+	<string>&#x1b;*o5W&#x0b;&#x06;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	COLOR BRIGHTNESS PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Brightness: 0-8 allowed, 4 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the Brightness.
+	-->
+	<key>pdl-color-brightness</key>
+	<string>&#x1b;*o5W&#x0b;&#x07;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	COLOR TONE PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Color Tone: 0-8 allowed, 4 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the color tone.
+	-->
+	<key>pdl-color-tone</key>
+	<string>&#x1b;*o5W&#x0b;&#x08;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	INK DENSITY PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Ink Density: 0-8 allowed, 4 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the ink density.
+	-->
+	<key>pdl-ink-density</key>
+	<string>&#x1b;*o5W&#x0b;&#x09;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	BLACK ADJUSTMENT PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Black Adjustment: 0-20 allowed, 10 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the black adjustment.
+	-->
+	<key>pdl-black-adjustment</key>
+	<string>&#x1b;*o5W&#x46;&#x10;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	CYAN ADJUSTMENT PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Cyan Adjustment: 0-20 allowed, 10 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the cyan adjustment.
+	-->
+	<key>pdl-cyan-adjustment</key>
+	<string>&#x1b;*o5W&#x46;&#x11;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	MAGENTA ADJUSTMENT PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Magenta Adjustment: 0-20 allowed, 10 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the magenta adjustment.
+	-->
+	<key>pdl-magenta-adjustment</key>
+	<string>&#x1b;*o5W&#x46;&#x12;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	YELLOW ADJUSTMENT PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	- Yellow Adjustment: 0-20 allowed, 10 is center
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the yellow adjustment.
+	-->
+	<key>pdl-yellow-adjustment</key>
+	<string>&#x1b;*o5W&#x46;&#x13;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	Color Space PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	Color Spaces: 
+	//			0 - sRGB standard
+	//			1 - w9RGB, unused, windows only
+	//			4 - AdobeRGB
+	//			5 - ColorSync/ICM mode
+	//			*Other unknow values may also exist.
+	//	PARAMS:
+	//		$%1%$ - A byte value representing the color space.
+	-->
+	<key>pdl-pcl-color-space-mode</key>
+	<string>&#x1b;*o5W&#x0E;&#x03;&#x00;&#x00;$%1%$</string>
+	<key>pdl-pcl-color-space-sRGB</key>
+	<string>&#x00;</string>
+	<key>pdl-pcl-color-space-w9RGB</key>
+	<string>&#x01;</string>
+	<key>pdl-pcl-color-space-AdobeRGB</key>
+	<string>&#x04;</string>
+	<key>pdl-pcl-color-space-ColorSync</key>
+	<string>&#x05;</string>
+	<!--
+	///////////////////////////////////
+	//	INK DRY TIME PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	A one byte value representing the dry time adjustment 
+	//      		   in seconds (-15, -10, -5, 0(default), 5, 10, 15, 20, 30)
+	-->
+	<!-- Seems not used so far
+	<key>pdl-ink-dry-time</key>
+	<string>&#x1B;&amp;b16WPML&#x20;&#x04;&#x00;&#x06;&#x01;&#x04;&#x01;&#x04;&#x01;&#x06;&#x08;&#x01;$%1%$</string-->
+	<key>pdl-ink-dry-time-ulysses</key>
+	<string>&#x1b;*o5W&#x46;&#xF0;&#x00;&#x00;$%1%$</string>
+	<!--
+	///////////////////////////////////
+	//	RESOLUTION 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The resolution, currently 300, 600, or 1200.
+	-->
+	<key>pdl-resolution</key>
+	<string>&#x1b;&amp;u$%1%$D</string>
+	<!--
+	///////////////////////////////////
+	//	COLOR RESOLUTION PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The resolution, currently 300 or 600.
+	//	NOTE: 
+	//		- send as one command
+	-->
+	<key>pdl-color-resolution</key>
+	<string>&#x1b;*t$%1%$R</string>
+	<key>pdl-color-resolution-units</key>
+	<string>&#x1b;*r-4U</string>
+	<!--
+	///////////////////////////////////
+	//	RASTER WIDTH PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The raster width
+	//	NOTE:
+	//		- We'll always start rasters at CAP. 
+	-->
+	<key>pdl-max-raster-width</key>
+	<string>&#x1b;*r$%1%$S</string>
+	<!--
+	///////////////////////////////////
+	//	RASTER TRANSFER PDL 
+	///////////////////////////////////
+	//
+	// Currently We always start rasters at CAP so our param is 1.
+	-->
+	<key>pdl-raster-plane-size-begin</key>
+	<string>&#x1b;*b</string>
+	<key>pdl-raster-plane-size-end</key>
+	<string>v</string>
+	<!-- $%1%$ = Size of the final plane in the band in bytes -->
+	<key>pdl-raster-end</key>
+	<string>&#x1b;*rC</string>
+	<!--
+	///////////////////////////////////
+	//	PAGE COUNT PDL 
+	///////////////////////////////////
+	// NOTES: 
+	//		- DriverWare: 2 more bytes for page count; format <Esc>*o5W 0x0d 0x02 0x00 0xNN 0xNN
+	//	PARAMS:
+	//		$%1%$ - A two byte value representing the page count.
+	-->
+	<key>pdl-page-count</key>
+	<string>&#x1b;*o5W&#x0D;&#x02;&#x00;$%1%$</string>
+	<!--
+	////////////////////////////////////////
+	//	DesignJets RGB only configure raster data PDL
+	///////////////////////////////////////
+	// 
+	//NOTES: 
+	// 	format: <Esc>*g12W 0x06 0x1f 0x00 0x01 0xNN 0xNN 0xMM 0xMM 0x0A 0x01 0x20 0x01
+	// where 0xNN 0xNN are a 2 byte h-res value for RGB,
+	// 0xMM 0xMM are a 2 byte v-res value for RGB,
+	//	PARAMS:
+	//		$%1%$ - A two byte RGB h-res.
+	//		$%2%$ - A two byte RGB v-res.
+	-->
+	<key>pdl-raster-data-format-designjet-rgb</key>
+	<string>&#x1b;*g12W&#x06;&#x1f;&#x00;&#x01;$%1%$$%2%$&#x0A;&#x01;&#x20;&#x01;</string>
+	
+	<!-- MISC. RASTER COMMANDS PDL -->
+	<key>pdl-raster-cmd-skip</key>
+	<string>&#x1b;*p+0x+0000Y</string>
+	<key>pdl-raster-cmd-transfer-row</key>
+	<string>w</string>
+	<key>pdl-raster-cmd-start</key>
+	<string>&#x1b;*r1A</string>
+	<key>pdl-raster-cmd-skip-last</key>
+	<string>y</string>
+	<!--
+	// Convinience command for zero vertical skip
+	// used in Designjets as initial skip, in other case job is ingnored
+	-->
+	<key>pdl-raster-cmd-skip-zero-vert</key>
+	<string>&#x1b;*b0y</string>
+	
+	<!-- Page Logical Orientation command -->
+	<key>pdl-page-orientation</key>
+	<string>&#x1b;&amp;l$%1%$O</string>
+	<key>pdl-page-orientation-portrait</key>
+	<string>0</string>
+	<key>pdl-page-orientation-landscape</key>
+	<string>1</string>
+	<key>pdl-page-orientation-reverse-portrait</key>
+	<string>2</string>
+	<key>pdl-page-orientation-reverse-landscape</key>
+	<string>3</string>
+	
+	<!-- LANGUAGE VERSION PDL -->
+	<key>pdl-language-version</key>
+	<string>@PJL ENTER LANGUAGE=PCL\12</string>
+	<!--
+	// These are PCL Commands for VIP Printers
+	// Our PCL commands. Structures loaded w/ arrary initializers.
+	// Job Setup &amp; Control Commands, Use to put printer in standard printing mode.
+	//
+	// 0x40 0x50 0x4a 0x4c 0x20 0x45 0x4e 0x54 0x45 0x52
+	// 0x20 0x4c 0x41 0x4e 0x47 0x55 0x41 0x47 0x45 0x3d 0x50 0x43 0x4c 0x33 0x47 0x55 0x49 0x0A 0x0D
+	-->
+	<key>pdl-language-version</key>
+	<string>@PJL ENTER LANGUAGE=PCL3GUI&#x0A;&#x0D;</string>
+	<!--
+	///////////////////////////////////
+	// PJL ON, OFF PDL 
+	///////////////////////////////////
+	//	Widely used commands parameters
+	-->
+	<key>pdl-on</key>
+	<string>ON</string>
+	<key>pdl-off</key>
+	<string>OFF</string>
+	<!--
+	///////////////////////////////////
+	//	PJL MEDIA SOURCE PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- string of used tray
+	//
+	// @PJL SET MEDIASOURCE = $%1%$\n
+	-->
+	<key>pdl-media-source</key>
+	<string>@PJL SET MEDIASOURCE = $%1%$</string>
+	<key>pdl-media-source-tray-one</key>
+	<string>TRAY1&#x0A;</string>
+	<key>pdl-media-source-manual-feed</key>
+	<string>MANUALFEED&#x0A;</string>
+	<key>pdl-media-source-tray-two</key>
+	<string>TRAY2&#x0A;</string>
+	<key>pdl-media-source-auto-select</key>
+	<string>&#x0A;</string>
+	<key>pdl-media-source-rear-feeder</key>
+	<string>REARPATH&#x0A;</string>
+	<key>pdl-media-source-roll</key>
+	<string>ROLL&#x0A;</string>
+	<key>pdl-media-source-roll-1</key>
+	<string>ROLL1&#x0A;</string>
+	<key>pdl-media-source-roll-2</key>
+	<string>ROLL2&#x0A;</string>
+	<key>pdl-media-source-automatic</key>
+	<string>AUTO&#x0A;</string>
+
+	<!--
+	///////////////////////////////////
+	//	PJL MEDIA DESTINATION PDL 
+	///////////////////////////////////
+	-->
+	<key>pdl-media-destination</key>
+	<string>@PJL SET MEDIADESTINATION = $%1%$</string>
+	<key>pdl-media-destination-autoselect</key>
+	<string>DEFAULT&#x0A;</string>
+	<key>pdl-media-destination-basket</key>
+	<string>BIN&#x0A;</string>
+	<key>pdl-media-destination-accessory-stacker</key>
+	<string>ACCESSORY_STACKER&#x0A;</string>
+	<key>pdl-media-destination-stacker</key>
+	<string>STACKER&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// PJL PRINT QUALITY PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//	$%1%$	- string of used quality(kDraftStr, kNormalStr, kHighStr)
+	//	"@PJL SET PRINTQUALITY = $%1%$\n"
+	-->
+	<key>pdl-pjl-print-quality</key>
+	<string>@PJL SET PRINTQUALITY = $%1%$&#x0A;</string>
+	<key>pdl-pjl-print-quality-draft</key>
+	<string>DRAFT</string>
+	<key>pdl-pjl-print-quality-normal</key>
+	<string>NORMAL</string>
+	<key>pdl-pjl-print-quality-best</key>
+	<string>HIGH</string>
+	<!--
+	///////////////////////////////////
+	//	PJL Color Space PDL 
+	///////////////////////////////////
+	// NOTES: 
+	// 	Color Spaces: 
+	//			SRGB - sRGB standard
+	//			DEVICE - device defined
+	//	PARAMS:
+	//		$%1%$ - string of used color space(kSRGBStr/kDeviceStr)
+	-->
+	<key>pdl-color-space-mode</key>
+	<string>@PJL SET COLORSPACE = $%1%$&#x0A;</string>
+	<key>pdl-color-space-sRGB</key>
+	<string>SRGB</string>
+	<key>pdl-color-space-device</key>
+	<string>DEVICE</string>
+	<key>pdl-color-space-AdobeRGB</key>
+	<string>ADOBERGB</string>
+	<!--
+	///////////////////////////////////
+	//	PJL PAPER DIMENTIONS PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- The paper width in 720dpi specified by job resolution command
+	//		$%2%$	- The paper height in 720dpi specified by job resolution command
+	//
+	// "@PJL SET PAPERWIDTH = $%1%$&#x0A;@PJL SET PAPERLENGTH = $%2%$&#x0A;"
+	-->
+	<key>pdl-paper-width-height</key>
+	<string>@PJL SET PAPERWIDTH = $%1%$&#x0A;@PJL SET PAPERLENGTH = $%2%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL SET CUTTER PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string ON/OFF
+	//"@PJL SET CUTTER = $%1%$\n"
+	-->
+	<key>pdl-set-cutter</key>
+	<string>@PJL SET CUTTER = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL MAX DETAIL PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string ON/OFF
+	//"@PJL SET MAXDETAIL = $%1%$\n"
+	-->
+	<key>pdl-max-detail</key>
+	<string>@PJL SET MAXDETAIL = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL JOB PDL
+	///////////////////////////////////
+	// Starts pjl job header. Format is: @PJL JOB [NAME = "$%1%$"]
+	// where NAME is optional.
+	//"@PJL JOB 
+	//
+	-->
+	<key>pdl-job</key>
+	<string>@PJL JOB&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL JOB NAME PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of job name
+	//"@PJL JOB NAME = $%1%$\n"
+	//
+	-->
+	<key>pdl-job-name</key>
+	<string>@PJL JOB NAME = "$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL SET JOBNAME PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of job name
+	//"@PJL SET JOBNAME = $%1%$\n"
+	//
+	-->
+	<key>pdl-set-jobname</key>
+	<string>@PJL SET JOBNAME = "$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// PJL KCMY SLIDERS PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET CYANBRIGHTNESS = $%1%$
+	// @PJL SET MAGENTABRIGHTNESS = $%1%$
+	// @PJL SET YELLOWBRIGHTNESS = $%1%$
+	// @PJL SET BLACKBRIGHTNESS = $%1%$
+	//
+	// Possible value: integer [-10, 10]
+	-->
+	<key>pdl-pjl-cyan-adjustment</key>
+	<string>@PJL SET CYANBRIGHTNESS = $%1%$&#x0A;</string>
+	<key>pdl-pjl-magenta-adjustment</key>
+	<string>@PJL SET MAGENTABRIGHTNESS = $%1%$&#x0A;</string>
+	<key>pdl-pjl-yellow-adjustment</key>
+	<string>@PJL SET YELLOWBRIGHTNESS = $%1%$&#x0A;</string>
+	<key>pdl-pjl-black-adjustment</key>
+	<string>@PJL SET BLACKBRIGHTNESS = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL STRING CODE SET PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of used code set(kUTF8CodeSet)
+	//"@PJL SET STRINGCODESET = $%1%$\n"
+	//
+	-->
+	<key>pdl-string-code-set</key>
+	<string>@PJL SET STRINGCODESET = $%1%$&#x0A;</string>
+	<key>pdl-string-code-set-utf8</key>
+	<string>UTF8</string>
+	<!--
+	///////////////////////////////////
+	// PJL PRINT AREA PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET PRINTAREA = $%1%$
+	//
+	// Possible values: FULLSIZE, INKEDAREA
+	-->
+	<key>pdl-set-printarea</key>
+	<string>@PJL SET PRINTAREA = $%1%$&#x0A;</string>
+	<key>pdl-printarea-fullsize</key>
+	<string>FULLSIZE</string>
+	<key>pdl-printarea-inkedarea</key>
+	<string>INKEDAREA</string>
+	<!--
+	///////////////////////////////////
+	//PJL SET RET/OPTIMIZE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string ON/OFF
+	//"@PJL SET RET = $%1%$\n"
+	-->
+	<key>pdl-optimize</key>
+	<string>@PJL SET RET = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL SET ATTENDEDMODE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string ON/OFF
+	//"@PJL SET ATTENDEDMODE = $%1%$\n"
+	-->
+	<key>pdl-hold-for-attended-mode</key>
+	<string>@PJL SET ATTENDEDMODE = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL RENDER MODE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of used render mode(kGrayRenderMode/kColorRenderMode/kTrueBlackRenderMode)
+	//"@PJL SET RENDERMODE = $%1%$\n"
+	-->
+	<key>pdl-render-mode</key>
+	<string>@PJL SET RENDERMODE = $%1%$&#x0A;</string>
+	<key>pdl-render-mode-color</key>
+	<string>COLOR</string>
+	<key>pdl-render-mode-gray</key>
+	<string>GRAYSCALE</string>
+	<key>pdl-render-mode-trueblack</key>
+	<string>TRUEBLACK</string>
+	<key>pdl-render-mode-blackandwhite</key>
+	<string>BLACKANDWHITE</string>
+	<!--
+	///////////////////////////////////
+	//PJL RENDERING INTENT PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of used rendering intent(kPerceptualStr)
+	//"@PJL SET RENDERINTENT = $%1%$\n"
+	-->
+	<key>pdl-rendering-intent</key>
+	<string>@PJL SET RENDERINTENT = $%1%$&#x0A;</string>
+	<key>pdl-rendering-intent-perceptual</key>
+	<string>PERCEPTUAL</string>
+	<!--
+	///////////////////////////////////
+	//PJL END OF JOB PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		none
+	//"@PJL EOJ\n"
+	-->
+	<key>pdl-pjl-end-job</key>
+	<string>@PJL EOJ&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//PJL END OF JOB PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- ON or OFF
+	//"@PJL SET ECONOMODE\n"
+	-->
+	<key>pjl-economode</key>
+	<string>@PJL SET ECONOMODE = $%1%$&#x0A;</string>
+	<!--
+	// These are PCL Commands for VIP Printers
+	// Our PCL commands. Structures loaded w/ arrary initializers.
+	// Job Setup &amp; Control Commands, Use to put printer in standard printing mode.
+	//
+	// 0x40 0x50 0x4a 0x4c 0x20 0x45 0x4e 0x54 0x45 0x52
+	// 0x20 0x4c 0x41 0x4e 0x47 0x55 0x41 0x47 0x45 0x3d 0x50 0x43 0x4c 0x33 0x47 0x55 0x49 0x0A
+	-->
+	<key>pdl-language-version</key>
+	<string>@PJL ENTER LANGUAGE=PCL3GUI&#x0A;</string>
+	
+	<!--
+	////////////////////////////////////////
+	//	Troja KRGB only configure raster data PDL
+	///////////////////////////////////////
+	// 
+	//NOTES: 
+	// 	format: <Esc>*g12W 0x06 0x1f 0x00 0x01 0xNN 0xNN 0xMM 0xMM 0x0C 0x01 0x20 0x01
+	// where 0xNN 0xNN are a 2 byte h-res value for RGB,
+	// 0xMM 0xMM are a 2 byte v-res value for RGB,
+	//	PARAMS:
+	//		$%1%$ - A two byte RGB h-res.
+	//		$%2%$ - A two byte RGB v-res.
+	// Difference between designjet's CRD is in 8-th byte: 0x0C means compression method. TAOS for Troja.
+	-->
+	<key>pdl-raster-data-format-troja-rgb</key>
+	<string>&#x1b;*g12W&#x06;&#x1f;&#x00;&#x01;$%1%$$%2%$&#x0C;&#x01;&#x20;&#x01;</string>
+	<!--
+	///////////////////////////////////
+	// PJL Troja 12 ADVANCED COLOR SLIDERS PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET REDBRIGHTNESS = $%1%$
+	// @PJL SET GREENBRIGHTNESS = $%1%$
+	// @PJL SET BLUEBRIGHTNESS = $%1%$
+	// @PJL SET LIGHTNESS = $%1%$
+	//
+	// Possible value: integer [-10, 10]
+	-->
+	<key>pdl-red-adjustment</key>
+	<string>@PJL SET REDBRIGHTNESS = $%1%$&#x0A;</string>
+	<key>pdl-green-adjustment</key>
+	<string>@PJL SET GREENBRIGHTNESS = $%1%$&#x0A;</string>
+	<key>pdl-blue-adjustment</key>
+	<string>@PJL SET BLUEBRIGHTNESS = $%1%$&#x0A;</string>
+	<key>pdl-lightness-adjustment</key>
+	<string>@PJL SET LIGHTNESS = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// PJL Troja 12 ADVANCED GRAY SLIDERS PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET GRAYHIGHLIGHTLEVEL = $%1%$
+	// @PJL SET GRAYMIDTONELEVEL = $%1%$
+	// @PJL SET GRAYSHADOWLEVEL = $%1%$
+	//
+	// Possible value: integer [0, 100]
+	-->
+	<key>pdl-gray-highlight-level</key>
+	<string>@PJL SET GRAYHIGHLIGHTLEVEL = $%1%$&#x0A;</string>
+	<key>pdl-gray-midtone-level</key>
+	<string>@PJL SET GRAYMIDTONELEVEL = $%1%$&#x0A;</string>
+	<key>pdl-gray-shadow-level</key>
+	<string>@PJL SET GRAYSHADOWLEVEL = $%1%$&#x0A;</string>
+	<!--
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET GRAYHIGHLIGHTX = $%1%$
+	// @PJL SET GRAYHIGHLIGHTY = $%1%$
+	// @PJL SET GRAYMIDTONEX = $%1%$
+	// @PJL SET GRAYMIDTONEY = $%1%$
+	// @PJL SET GRAYSHADOWX = $%1%$
+	// @PJL SET GRAYSHADOWY = $%1%$
+	//
+	// Possible value: integer [-10, 10]
+	-->
+	<key>pdl-gray-highlight-x-value</key>
+	<string>@PJL SET GRAYHIGHLIGHTX = $%1%$&#x0A;</string>
+	<key>pdl-gray-highlight-y-value</key>
+	<string>@PJL SET GRAYHIGHLIGHTY = $%1%$&#x0A;</string>
+	<key>pdl-gray-midtone-x-value</key>
+	<string>@PJL SET GRAYMIDTONEX = $%1%$&#x0A;</string>
+	<key>pdl-gray-midtone-y-value</key>
+	<string>@PJL SET GRAYMIDTONEY = $%1%$&#x0A;</string>
+	<key>pdl-gray-shadow-x-value</key>
+	<string>@PJL SET GRAYSHADOWX = $%1%$&#x0A;</string>
+	<key>pdl-gray-shadow-y-value</key>
+	<string>@PJL SET GRAYSHADOWY = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL EXTRAPASSES PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string ON/OFF
+	//"@PJL SET EXTRAPASSES = $%1%$\n"
+	-->
+	<key>pdl-extrapasses</key>
+	<string>@PJL SET EXTRAPASSES = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL CROPMARKS PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string ON/OFF
+	//"@PJL SET CROPMARKS = $%1%$\n"
+	-->
+	<key>pdl-cropmarks</key>
+	<string>@PJL SET CROPMARKS = $%1%$&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// JOB ACCOUNTING ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of user name
+	// @PJL SET JOBATTR = "JobAcct1=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr1-user-name</key>
+	<string>@PJL SET JOBATTR = "JobAcct1=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// JOB ACCOUNTING ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of client computer name
+	// @PJL SET JOBATTR = "JobAcct2=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr2-client-name</key>
+	<string>@PJL SET JOBATTR = "JobAcct2=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// JOB ACCOUNTING ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of domain name
+	// @PJL SET JOBATTR = "JobAcct3=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr3-domain-name</key>
+	<string>@PJL SET JOBATTR = "JobAcct3=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// JOB ACCOUNTING ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string of current time in YYYYMMDDhhmmss format
+	// @PJL SET JOBATTR = "JobAcct4=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr4-timestamp</key>
+	<string>@PJL SET JOBATTR = "JobAcct4=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// JOB ACCOUNTING ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	job uuid as string
+	// @PJL SET JOBATTR = "JobAcct5=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr5-uuid</key>
+	<string>@PJL SET JOBATTR = "JobAcct5=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// APP NAME ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	app name as string
+	// @PJL SET JOBATTR = "JobAcct6=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr6-app-name</key>
+	<string>@PJL SET JOBATTR = "JobAcct6=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// JOB ACCOUNTING ATTRIBUTE PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	user account ID
+	// @PJL SET JOBATTR = "JobAcct8=$%1%$"
+	//
+	-->
+	<key>pdl-job-attr8-account-id</key>
+	<string>@PJL SET JOBATTR = "JobAcct8=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL System Version Attribute PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string repsentation of system version info
+	// @PJL SET JOBATTR = "JobAcct12=$%1%$"
+	-->
+	<key>pdl-job-attr11-system-version</key>
+	<string>@PJL SET JOBATTR = "JobAcct11=Mac OS X"&#x0A;@PJL SET JOBATTR = "JobAcct12=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	//	PJL Driver Version Attribute PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	string repsentation of driver version info
+	// @PJL SET JOBATTR = "JobAcct14=$%1%$"
+	-->
+	<key>pdl-job-attr14-driver-version</key>
+	<string>@PJL SET JOBATTR = "JobAcct13=PCL3"&#x0A;@PJL SET JOBATTR = "JobAcct14=$%1%$"&#x0A;</string>
+	<!--
+	///////////////////////////////////
+	// PJL MARGIN LAYOUT PDLS
+	///////////////////////////////////
+	//	PARAMS:
+	// @PJL SET MARGINLAYOUT = $%1%$"
+	//
+	// Possible values: STANDARD, OVERSIZE, CLIPINSIDE
+	-->
+	<key>pdl-margin-layout</key>
+	<string>@PJL SET MARGINLAYOUT = $%1%$&#x0A;</string>
+	<key>pdl-margin-layout-standard</key>
+	<string>STANDARD</string>
+	<key>pdl-margin-layout-oversize</key>
+	<string>OVERSIZE</string>
+	<key>pdl-margin-layout-clipinside</key>
+	<string>CLIPINSIDE</string>
+	<!--
+	///////////////////////////////////
+	// PJL JOB MARGINS PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET MARGINS = $%1%$"
+	//
+	// Possible values: NORMAL, NOMARGINS for borderless printing
+	-->
+	<key>pdl-set-margins</key>
+	<string>@PJL SET MARGINS = $%1%$&#x0A;</string>
+	<key>pdl-margins-normal</key>
+	<string>NORMAL</string>
+	<key>pdl-margins-nomargins</key>
+	<string>NOMARGINS</string>
+	<!--
+	///////////////////////////////////
+	//	PJL MARGINS DIMENTIONS PDL 
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- TOPMARGIN in 720dpi specified by job resolution command
+	//		$%2%$	- LEFTMARGIN in 720dpi specified by job resolution command
+	//		$%3%$	- BOTTOMMARGIN in 720dpi specified by job resolution command
+	//		$%4%$	- RIGHTMARGIN in 720dpi specified by job resolution command
+	//
+	-->
+	<key>pdl-set-margins-size</key>
+	<string>@PJL SET TOPMARGIN = $%1%$&#x0A;@PJL SET LEFTMARGIN = $%2%$&#x0A;@PJL SET BOTTOMMARGIN = $%3%$&#x0A;@PJL SET RIGHTMARGIN = $%4%$&#x0A;</string>
+
+	<!--
+	///////////////////////////////////
+	// PJL BORDERLESS METHOD PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET BORDERLESSMETHOD = $%1%$"
+	//
+	// Possible values: AUTOFIT, CROP
+	-->
+	<key>pdl-set-borderless-method</key>
+	<string>@PJL SET BORDERLESSMETHOD = $%1%$&#x0A;</string>
+	<key>pdl-borderless-method-autofit</key>
+	<string>AUTOFIT</string>
+	<key>pdl-borderless-method-crop</key>
+	<string>CROP</string>
+	<!--
+	///////////////////////////////////
+	// PJL GLOSS ENHANCER PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET GLOSSENHANCER = $%1%$
+	//
+	// Possible values: OFF, INKEDAREA, FULLPAGE
+	-->
+	<key>pdl-set-gloss-enahncer</key>
+	<string>@PJL SET GLOSSENHANCER = $%1%$&#x0A;</string>
+	<key>pdl-gloss-enahncer-off</key>
+	<string>OFF</string>
+	<key>pdl-gloss-enahncer-inkedarea</key>
+	<string>INKEDAREA</string>
+	<key>pdl-gloss-enahncer-fullpage</key>
+	<string>FULLPAGE</string>
+	<!--
+	///////////////////////////////////
+	// PJL MEDIA ID PDL
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- 	
+	// @PJL SET MEDIAID = "$%1%$"
+	//
+	// Possible value: 32 Byte hexadecimal string value.
+	-->
+	<key>pdl-set-mediaid</key>
+	<string>@PJL SET MEDIAID = "$%1%$"&#x0A;</string>
+	
+	<!--
+	///////////////////////////////////
+	//PJL EMULATED PRINTER PDL
+	///////////////////////////////////
+	// Indicates which printer will be emulated. PJL SET COLORSPACE = SRGB should be sent at the same time.
+	// NOTE: When no emulation is selected, this PJL command should be sent using the NONE value.
+	//	PARAMS:
+	//		$%1%$	- 	printer to emulate
+	//"@PJL SET EMULATEDPRINTER = $%1%$\n"
+	-->
+	<key>pdl-emulated-printer</key>
+	<string>@PJL SET EMULATEDPRINTER = $%1%$&#x0A;</string>
+	<key>pdl-emulated-printer-none</key>
+	<string>NONE</string>
+	<key>pdl-emulated-printer-DJ800</key>
+	<string>DJ800</string>
+	<key>pdl-emulated-printer-DJ1000</key>
+	<string>DJ1055</string>
+	<key>pdl-emulated-printer-DJ4500</key>
+	<string>DJ4500</string>
+	<key>pdl-media-source-roll-3</key>
+	<string>ROLL3&#x0A;</string>
+	<key>pdl-media-source-roll-4</key>
+	<string>ROLL4&#x0A;</string>
+	<key>pdl-media-source-roll-5</key>
+	<string>ROLL5&#x0A;</string>
+	<key>pdl-media-source-roll-6</key>
+	<string>ROLL6&#x0A;</string>
+	
+	<!--
+	///////////////////////////////////
+	// PJL SET MARGINS POLICY
+	///////////////////////////////////
+	//	PARAMS:
+	//		$%1%$	- KEEP_LEFT/CENTER/KEEP_RIGHT
+	// @PJL SET MARGINSPOLICY = $%1%$
+	//
+	// Possible values: KEEP_LEFT/CENTER/KEEP_RIGHT
+	-->
+	<key>pdl-set-margins-policy</key>
+	<string>@PJL SET MARGINSPOLICY = $%1%$&#x0A;</string>
+	<key>pdl-set-margins-policy-left</key>
+	<string>KEEP_LEFT</string>
+	<key>pdl-set-margins-policy-center</key>
+	<string>CENTER</string>
+	<key>pdl-set-margins-policy-right</key>
+	<string>KEEP_RIGHT</string>
+
+	<key>pdl-job-off</key>
+	<string>JOB_OFF</string>
+
+</dict>
+</plist>

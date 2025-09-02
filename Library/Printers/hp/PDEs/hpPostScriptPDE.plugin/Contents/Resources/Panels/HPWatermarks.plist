@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>HPWatermarks</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEWatermarksController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.ps_pde.PDEWatermarksController</string>
+			<key>label</key>
+			<string>Watermarks</string>
+			<key>supportedSettingNames</key>
+			<array>
+				<string>HPwmSwitch</string>
+				<string>HPwmPages</string>
+				<string>HPwmTextMessage</string>
+				<string>HPwmText</string>
+				<string>HPwmTextAngle</string>
+				<string>HPwmFontName</string>
+				<string>HPwmFont</string>
+				<string>HPwmFontSize</string>
+				<string>HPwmTextStyle</string>
+				<string>HPwmTextColor</string>
+				<string>HPwmBrightness</string>
+			</array>
+			<key>supportedNibs</key>
+			<dict>
+				<key>Watermarks001</key>
+				<array>
+					<string>HPwmSwitch</string>
+					<string>HPwmPages</string>
+					<string>HPwmTextMessage</string>
+					<string>HPwmCustomText</string>
+					<string>HPwmTextAngle</string>
+					<string>HPwmFontName</string>
+					<string>HPwmFontSize</string>
+					<string>HPwmTextStyle</string>
+					<string>HPwmBrightness</string>
+					<string>HPwmTextColor</string>
+				</array>
+				<key>Watermarks002</key>
+				<array>
+					<string>HPwmSwitch</string>
+					<string>HPwmPages</string>
+					<string>HPwmTextMessage</string>
+					<string>HPwmCustomText</string>
+					<string>HPwmTextAngle</string>
+					<string>HPwmFontName</string>
+					<string>HPwmFontSize</string>
+					<string>HPwmTextStyle</string>
+					<string>HPwmBrightness</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>summary-order</key>
+	<array>
+		<string>HPwmSwitch</string>
+		<string>HPwmPages</string>
+		<string>HPwmTextMessage</string>
+		<string>HPwmText</string>
+		<string>HPwmTextAngle</string>
+		<string>HPwmFontName</string>
+		<string>HPwmFont</string>
+		<string>HPwmFontSize</string>
+		<string>HPwmTextStyle</string>
+		<string>HPwmTextColor</string>
+		<string>HPwmBrightness</string>
+	</array>
+</dict>
+</plist>
+	

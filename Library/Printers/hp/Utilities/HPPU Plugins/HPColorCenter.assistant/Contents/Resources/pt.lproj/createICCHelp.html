@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Ajuda para criar e instalar um perfil ICC</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Criar e instalar perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Etapa 1 – Selecionar o papel e a ação</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Etapa 2 – Adicionar papel personalizado</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Etapa 3 – Escolher as configurações de perfil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Etapa 4 – Calibrar a impressora</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Etapa 5 - Criar um perfil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Etapa 6 - Instalar um perfil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Etapa 7 – Concluir</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Etapa 1 – Selecionar o papel e a ação</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Para garantir os melhores resultados, a impressora precisa saber como converter as cores do monitor do computador ou dos documentos do aplicativo para a tinta e o papel usados. Um perfil ICC (International Color Consortium) é uma descrição de uma combinação de impressora, tinta e papel que contém todas as informações necessárias para essas conversões de cores.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Agora, você pode criar e instalar um perfil ICC, que permitirá imprimir com a melhor precisão de cores possível. Se você obtiver um perfil ICC de outra fonte, por exemplo, de um download da Internet, também poderá usá-lo com seu papel. Embora os perfis ICC "enlatados", como os obtidos por download na Web, possam produzir bons resultados, os melhores resultados possíveis, em geral, são obtidos gerando-se um perfil personalizado.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A seguir, são apresentadas algumas diferenças entre os dois tipos de perfil:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores personalizados têm como base padrões e medidas de teste da sua impressora particular, usando sua tinta e seu papel particulares e nas suas condições ambientais particulares. Teoricamente, você terá a maior precisão de cores possível já que tudo é personalizado para seu sistema.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores genéricos ou "enlatados" são feitos para o modelo da sua impressora e das suas tintas e para os tipos de papel que você usa, mas não para sua impressora, suas tintas e seu papel particulares. Eles se baseiam nos padrões e nas medidas de teste usuais, representando o sistema "típico" ou comum. Embora proporcionem bons resultados para um sistema comum, pode haver pequenos desvios entre o seu sistema e o comum que esses perfis não calculam.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores personalizados são feitos com o software de criação de perfis, que vem por padrão com a impressora, ou com aquele que você adquiriu como acessório. Embora o software forneça excelentes resultados, é necessário fazer as escolhas certas sobre a forma como ele cria os perfis, especialmente sobre como faz o mapeamento de gamas para a tentativa de renderização Perceptiva. O mapeamento de gamas ocorre quando as cores de um dispositivo com uma determinada gama de cores (a variação de todas as cores que um dispositivo pode capturar ou produzir), como uma câmera digital ou um monitor de computador, deve ser traduzida ou mapeada para um dispositivo com uma gama de cores de tamanho ou forma diferente, como uma impressora. O mapeamento de gamas é mais uma arte do que uma ciência e não existem respostas certas ou erradas, apenas diferentes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores genéricos, por exemplo os fornecidos pelos fabricantes de papel, podem ter diferentes softwares de criação de perfis que fazem escolhas distintas sobre o mapeamento de gamas e outras propriedades de perfil. Embora essas escolhas não sejam necessariamente piores nem melhores que as do software de criação de perfis de sua impressora, provavelmente são diferentes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A seguir, são apresentadas algumas diretrizes para ajudá-lo a escolhê-los:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você está mais interessado na precisão das cores das impressões, por exemplo para fazer impressões de prova, talvez seja melhor usar a tentativa de renderização Colorimétrica. Ela tenta reproduzir cores dentro da gama de sua impressora com a melhor precisão, possivelmente em detrimento das cores fora dessa gama (que, de alguma maneira, também precisam ser impressas). Como a reprodução colorimétrica é uma tarefa mais objetiva que a reprodução perceptiva, a diferença entre os softwares de criação de perfis é a menor possível e um perfil personalizado pode ser a melhor opção.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você está mais interessado na "aparência" das impressões e em uma boa correspondência com o monitor do computador, por exemplo para aplicações fotográficas e artísticas, provavelmente a melhor opção é usar a tentativa de renderização Perceptiva. Os perfis personalizados são ótimos pontos de partida já que são criados com excelente precisão de cores e uma boa tentativa Perceptiva, mas talvez você prefira a aparência de alguns perfis de terceiros.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Independentemente do tipo de perfil usado, lembre-se de que é possível "refinar" sua reprodução de cores até certo ponto usando os controles de ajuste de cores do driver da impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									O processo de criação e instalação de um perfil ICC personalizado consiste nas seguintes etapas:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Selecionar o tipo de papel para o qual será criado um perfil ou defina um novo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Escolher algumas configurações para o novo perfil, incluindo o nome.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Criar o novo perfil: imprimir o gráfico de teste, esperar que seque, medi-lo e calcular o perfil. Tudo isso é feito automaticamente pela impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									4.	Instalar o novo perfil para poder usá-lo com seus aplicativos e a impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Na primeira etapa, você pode escolher um tipo de papel da lista de papéis conhecidos ou pode definir um novo tipo e adicioná-lo à lista.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Para sua conveniência, há duas formas diferentes de criar um perfil: usar um processo "simplificado" que realiza todas as operações necessárias em uma única seqüência ininterrupta ou usar um processo de "fluxo de trabalho dividido" que permite  imprimir o gráfico de perfil primeiro para,  mais tarde, alimentá-lo na impressora, medi-lo e criar o perfil. A seguir, são apresentadas algumas razões para o uso de cada uma dessas formas:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se  estiver trabalhando com tipos predefinidos de papel padrão sob condições ambientais normais, provavelmente o melhor processo a ser usado será o simplificado. Ele demora um pouco para ser concluído, mas a impressora cuida de todas as operações necessárias na seqüência correta e com o tempo de espera apropriado para permitir que a tinta seque antes da medição do gráfico. A menos que você goste de observar o processo (o que é  normal), poderá sair para tomar um café e, então, quando voltar, encontrará tudo pronto.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você estiver trabalhando com tipos de papel fora do padrão ou sob condições ambientais incomuns, a tinta pode precisar de mais tempo para secar que o normal antes que as cores impressas se estabilizem completamente. Como o perfil de cores deve representar o resultado impresso final depois da secagem, talvez você decida usar o fluxo de trabalho dividido nessas circunstâncias.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se, normalmente, você aplica certo tipo de pós-processamento às suas impressões capaz de afetar a percepção das cores, considere também o uso do fluxo de trabalho dividido. Por exemplo, se você costuma laminar ou aplicar um revestimento em aerossol, deve considerar a criação do perfil após a laminação ou a aplicação do revestimento para obter a melhor precisão de cores possível. Ou você pode comparar os resultados anteriores e posteriores ao pós-processamento para determinar se as diferenças são relevantes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se estiver preocupado com as propriedades de arquivamento de alguns tipos de papel, poderá refazer a medição e o perfil de um gráfico de teste anteriormente medido para determinar se ocorreu alguma mudança significativa. Nos dois casos, o modo de prova eletrônica do Photoshop pode ser muito útil.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Para usar o fluxo de trabalho simplificado, mantenha a seleção padrão nas opções "Imprimir gráfico de perfil ICC" e "Digitalize o gráfico de perfil ICC e crie o perfil ICC". Para usar o fluxo de trabalho dividido, você tem duas opções. Para somente imprimir o gráfico de perfil para uso posterior, selecione a opção "Imprimir gráfico de perfil ICC". Para medir e criar um perfil de um gráfico impresso anteriormente, selecione apenas a opção "Digitalize o gráfico de perfil ICC e crie o perfil ICC".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Como sempre, é aconselhável optar pelo que funciona melhor no seu caso. Pode ser necessário fazer algumas experiências para descobrir.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Etapa 2 – Adicionar papel personalizado</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Etapa 3 – Escolher as configurações de perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Agora você pode escolher um nome para o perfil ICC que será criado. O nome será usado para dois propósitos diferentes, mas relacionados:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	O nome de arquivo que você verá ao usar o navegador de arquivos do sistema (o Explorer da Microsoft) para procurar aquele que contém o perfil ICC. A extensão do nome do arquivo ".icc" será anexada automaticamente ao nome do perfil pelo aplicativo, para que tanto você quanto o software possam reconhecer os perfis ICC quando a virem.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	A seqüência de descrição interna do perfil. Todo perfil ICC tem uma seqüência de descrição interna que é usada por alguns (mas não todos) softwares de reconhecimento de ICC a fim de identificar o perfil ou permitir que você o escolha de uma lista.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Dependendo das circunstâncias, você verá o nome do arquivo ou o descritor interno, por isso é aconselhável usar o mesmo para os dois. Embora, teoricamente, você possa escolher o nome que desejar, é uma boa prática definir uma convenção de nomeação padrão para os perfis e se ater a ela. Por exemplo, você pode usar os seguintes componentes de nome, separados por espaço, traço baixo ou outros símbolos de sua escolha:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- O tipo ou nome da impressora, por exemplo, "HP Designjet Z2100", no qual "HP" representa o fabricante (Hewlett-Packard), "Designjet" representa a série e "Z2100" corresponde ao número do modelo da impressora. Como tanto o nome do arquivo quanto os descritores internos têm um comprimento limitado, talvez seja necessário abreviar todas essas informações em uma única seqüência com poucos caracteres. Você pode usar o modelo da impressora na primeira parte do nome do perfil para garantir que todos os perfis da impressora apareçam em um único grupo consecutivo nos navegadores de arquivos e nas listagens de perfis do aplicativo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- O tipo ou nome do papel, por exemplo, "HWT310" para Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Quanto ao tipo ou nome da impressora, talvez seja necessário abreviar o tipo ou nome do papel. Adote um único nome ou abreviação para cada tipo de papel diferente usado a fim facilitar a identificação dos diferentes perfis.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- A qualidade da impressão e as outras configurações que forem usadas para imprimir o gráfico de teste, por exemplo, "M" para qualidade de impressão "Melhor" ou "MIB" para qualidade de impressão "Melhor" e com a opção "Intensificador de brilho" habilitada (somente para papéis fotográficos). Simplifique e abrevie somente o necessário.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- O gráfico de teste usado, por exemplo, "Pequeno" ou "Grande" ou um nome específico como "ECI2002" se/quando essas opções estiverem disponíveis Simplifique e abrevie conforme apropriado.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Alguns exemplos de nomes de perfis construídos segundo essas diretrizes seriam "HP Designjet Z2100 HWT310" ou "HP Designjet Z2100, Papel Revestido", por exemplo. Os nomes de arquivo correspondentes seriam "HP_Z2100_HWT310.icc" ou "HP_Z2100_PapelRevestido.icc".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Independentemente do método de nomeação usado, procure distinguir de forma inequívoca os perfis para todos os diferentes tipos de papel e outras configurações que estão sendo ou serão usadas.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Como sempre, é aconselhável optar pelo que funciona melhor no seu caso. Pode ser necessário fazer algumas experiências para descobrir.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Antes de fazer a impressão do gráfico de teste, verifique se o tipo apropriado de papel está carregado na impressora e se ela está pronta para imprimir.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Etapa 4 – Calibrar a impressora</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Etapa 5 - Criar um perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Imprimir destino apenas. Criar perfil ICC mais tarde.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Agora, a impressora está imprimindo o gráfico de teste de criação de perfis de acordo com as instruções que você forneceu na etapa anterior. É exibida uma barra de progresso durante a impressão. Quanto aos gráficos de teste de perfil, tenha em mente o seguinte:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									O gráfico de teste de perfil contém áreas com diversas porções das diferentes tintas usadas na impressora. Diferentemente do gráfico de teste de linearização ou de calibragem, a maioria das áreas contém combinações de diversas cores de tinta. Depois da medição do espectrofotômetro integrado, a impressora pode determinar precisamente quais cores resultam de todas as combinações de tinta possíveis, produzindo um modelo de impressora progressivo, como é conhecido, partindo de porções de tinta até obter as cores resultantes. O espectrofotômetro é um instrumento de precisão que pode determinar a composição exata da luz refletida de uma área colorida. Ele divide a luz refletida em componentes diferentes de comprimento de onda da mesma forma que o famoso prisma de Newton divide a luz branca nas cores do arco-íris e mede a intensidade de cada componente. Os modelos de impressora progressivos são usados em provas eletrônicas e impressas, por exemplo, para simular como uma imagem ficaria se fosse impressa por determinada impressora com certo tipo de papel. Depois, a impressora usa o software integrado ou acessório de criação de perfis para reverter o modelo e transformá-lo em um modelo de impressora invertido, partindo da cor desejada até chegar às porções das diferentes tintas usadas para produzi-la. O modelo invertido é usado para "traduzir" as cores do documento do aplicativo ou do monitor para as porções de diferentes tintas que a impressora precisa colocar no papel para produzir uma cor correspondente. Um perfil ICC (ColorSync) de impressora e mídia contém modelos progressivos e inversos em três tentativas de renderização diferentes: Perceptiva (para impressões fotográficas), Colorimétrica (para cor ou prova de logotipo) e Saturação (para gráficos profissionais).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Como as medições e, conseqüentemente, o perfil ICC refletem precisamente o que se "vê" no papel e isso depende de vários fatores, como impressora, tinta, papel, configurações da impressora e condições ambientais, o perfil resultante será tão "bom" ou representativo quanto as condições de impressão. Em outras palavras, o gráfico de teste deve ser impresso sob as condições mais semelhantes possíveis às que serão usadas nas impressões finais usando o perfil resultante. Se, por acaso, você detectar anomalias de qualidade de impressão, defeitos no papel ou outras condições fora do padrão quando o gráfico estiver sendo impresso, aborte o trabalho usando o botão "Cancelar" e reinicie o processo. Caso contrário, o perfil resultante talvez não represente as condições de impressão típicas e não tenha nenhuma utilidade.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Criar perfil ICC a partir do destino que já foi impresso.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Os gráficos de teste usados para calibragem da impressora e criação de perfis são medidos (digitalizados) usando o espectrofotômetro integrado à impressora. O espectrofotômetro é um instrumento de precisão que pode determinar a composição exata da luz refletida de uma área colorida. Ele divide a luz refletida em componentes diferentes de comprimento de onda da mesma forma que o famoso prisma de Newton divide a luz branca nas cores do arco-íris e mede a intensidade de cada componente. Como todo instrumento de precisão, o espectrofotômetro precisa ser calibrado e estabilizado antes de realizar medições, a fim de garantir a máxima precisão possível. A calibragem ocorre automaticamente, usando uma base branca integrada de referência. A estabilização acontece depois que a fonte de luz integrada do espectrofotômetro é ligada e aquecida por um curto período de tempo antes de fazer as medições. É exibida uma barra de progresso durante esse processo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Para digitalizar o gráfico de teste, tanto o papel quanto o espectrofotômetro (montado no carro da impressora) são movidos para a posição deste sobre as áreas coloridas a serem medidas. Embora a medição seja feita na posição parada (sem que o sensor ou o papel se movam), o processo é bastante rápido, fazendo em média 5 medições por segundo. O tempo de medição de cada área é adaptado automaticamente à cor que está sendo medida, já que as cores escuras precisam de mais tempo de integração (período de medida) que as claras, para obter os melhores resultados. Uma barra de progresso é exibida durante a medição do gráfico (digitalização).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Depois que o gráfico é completamente medido, o cálculo do perfil é iniciado. As medidas permitem à impressora determinar precisamente quais cores resultam de todas as combinações de tinta possíveis, produzindo o chamado modelo de impressora progressivo, partindo de porções de tinta até obter as cores resultantes. Os modelos de impressora progressivos são usados em provas eletrônicas e impressas, por exemplo, para simular como uma imagem ficaria se fosse impressa por determinada impressora com certo tipo de papel. Depois, a impressora usa o software integrado de criação de perfis para reverter o modelo e transformá-lo em um modelo de impressora invertido, partindo da cor desejada até chegar às porções das diferentes tintas usadas para produzi-la. O modelo invertido é usado para "traduzir" as cores do documento do aplicativo ou do monitor para as porções de diferentes tintas que a impressora precisa colocar no papel para produzir uma cor correspondente. Um perfil ICC (ColorSync) de impressora e mídia contém modelos progressivos e inversos em três tentativas de renderização diferentes: Perceptiva (para impressões fotográficas), Colorimétrica (para cor ou prova de logotipo) e Saturação (para gráficos profissionais). É exibida uma barra de progresso durante o cálculo do perfil.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Imprimir destino e criar perfil ICC.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Etapa 6 - Instalar um perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									O perfil ICC não será muito útil a menos que seja usado. Embora possa soar um clichê (e, de fato, é), isso não é tão simples quanto parece. Primeiro, o perfil precisa ser copiado para a pasta correta do sistema operacional no seu computador para que os aplicativos (e usuários) possam encontrá-lo. O software da impressora faz isso automaticamente para você. Segundo, o perfil também é carregado no banco de dados de perfis interno da impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Se e como os perfis serão usados depois da criação e da instalação dependerá em grande parte da configuração do(s) aplicativo(s) e do driver da impressora. Em geral, o uso de perfis de cores para converter as cores entre aplicativos e dispositivos é conhecido como gerenciamento de cores e há três casos distintos:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Gerenciamento de cores de aplicativos. Como o nome sugere, o aplicativo está no comando e é responsável por aplicar todas as conversões de cores necessárias antes de enviar um documento à impressora. Na prática, isso significa que o aplicativo precisa oferecer ao usuário uma forma de selecionar o perfil apropriado de impressora e papel e usá-lo para converter as cores do documento. Os perfis de cores são encontrados em uma pasta predeterminada do sistema operacional (/Library/ColorSync/Profiles), que é onde o software da impressora copia os perfis depois da criação. Para que tudo funcione corretamente, é preciso dizer à impressora (driver) para não aplicar seu próprio gerenciamento de cores, já que os resultados de um gerenciamento duplo seriam, no mínimo, insatisfatórios. Procure a configuração de "gerenciamento de cores de aplicativo" nos controles de cores do driver da impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Gerenciamento de cores da impressora, usando perfis ICC. Como seria de se esperar, o oposto do gerenciamento de cores de aplicativos é o gerenciamento de cores da impressora, neste caso, usando perfis ICC (ColorSync). Nesse cenário, o aplicativo não converte as cores do documento no espaço de cores da impressora e do papel, mas deixa essa tarefa para a impressora (driver). Assim, o aplicativo deve passar o documento no estado em que se encontra à impressora, sem selecionar nem aplicar qualquer perfil de cores da impressora. "No estado em que se encontra" significa que os documentos são deixados no chamado espaço de trabalho de cores do aplicativo, normalmente, sRGB (o padrão, a menos que se diga o contrário) ou Adobe RGB (em geral, usado para aplicativos de fotografia digital). Obviamente, a impressora deve então selecionar e aplicar o perfil de cores apropriado em tudo para funcionar corretamente, o que acontece automaticamente ao selecionar o tipo de papel. É por isso que os perfis precisam ser associados com os tipos de papel depois de sua criação. Procure a configuração de "gerenciamento de cores da impressora" nos controles de cores do driver da impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Gerenciamento de cores da impressora, usando mapas de cores proprietários. Este caso é muito parecido com o anterior no qual a impressora (driver) e não o aplicativo cuida do gerenciamento de cores. A diferença está no uso de mapas de cores proprietários em vez de perfis padrão ICC abertos. Embora os dois sejam semelhantes em funcionalidade, apresentam diferenças significativas. Enquanto os perfis ICC são bidirecionais (vão da cor desejada para porções de tinta e de porções de tinta para a cor resultante), os mapas de cores são unidirecionais (vão somente da cor desejada para porções de tinta). Isso acaba afetando as provas, como veremos a seguir. Embora os perfis ICC sejam usados aos pares, um correspondendo ao dispositivo de entrada e o outro ao dispositivo de saída, os mapas de cores são usados sozinhos, traduzindo diretamente de um espaço de entrada de cor para o espaço de cor da impressora e do papel. Isso significa que há suporte apenas para um número limitado de espaços de cores de entrada, normalmente sRGB ou Adobe RGB. Não por acaso, trata-se dos espaços de trabalho de cores dos aplicativos mais comuns. Embora o software de criação de perfis da impressora crie perfis ICC (ColorSync) personalizados, atualmente, ele não cria mapas de cores, o que significa que eles não estão disponíveis para tipos de papel (ou condições de impressão) fora do padrão. Veja a seguir. Obviamente, a impressora deve selecionar o mapa de cores apropriado em tudo para funcionar, o que acontece automaticamente ao selecionar um tipo de papel padrão. Você também deve dizer ao aplicativo para não aplicar o gerenciamento de cores (normalmente por uma configuração semelhante a "Cores gerenciadas pela impressora") e à impressora para aplicar mapas de cores; procure a configuração "Cores gerenciadas pela impressora" nos controles de cores do driver da impressora.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Veja outras considerações a seguir que poderão ajudá-lo a escolher entre as diferentes opções de gerenciamento de cores.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você pretende usar provas eletrônicas nos seus aplicativos, ou seja, simular na tela como ficará o trabalho impresso, deve usar o gerenciamento de cores de aplicativo com perfis ICC. Os perfis são bidirecionais e contêm as informações necessárias para converter as cores do aplicativo para as da impressora (o sentido inverso) e as cores da impressora para as do aplicativo (o sentido natural).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se o aplicativo não fornecer recursos de prova eletrônica, mas você ainda quiser simular na tela como ficará o trabalho impresso, tente o aplicativo HP Print Preview. É possível executá-lo do driver da impressora (o menu suspenso PDF no SO do Mac ou "Visualizar impressão" no Windows).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Para ter um bom controle sobre como as cores serão reproduzidas na sua impressora e no seu papel, talvez você queira usar o gerenciamento de cores de aplicativo. Aplicativos como o Photoshop permitem converter uma imagem original RGB em uma representação dependente da impressora e do papel (seja RGB ou CMYK), transformá-la em prova eletrônica para obter uma simulação na tela do resultado impresso e usar várias ferramentas de edição para modificar os valores das cores do dispositivo antes da impressão da imagem. Embora permita um controle bastante sofisticado sobre a cor impressa, esse método envolve certo risco e requer muita prática para produzir os resultados desejados. Para obter resultados excelentes sem confusão, experimente o gerenciamento de cores da impressora primeiro.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se seu fluxo de trabalho é construído em torno do uso de perfis ICC, talvez seja melhor usar o gerenciamento de cores de aplicativo com os perfis ICC (ColorSync) da impressora. Se você não sabe o que ICC significa ou se os perfis ICC não tiverem nenhuma outra utilidade para você, experimente o gerenciamento de cores da impressora primeiro.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você trabalha com tipos de papel e/ou condições ambientais fora do padrão, a melhor opção é gerar perfis ICC personalizados usando o espectrofotômetro integrado à impressora e o software de criação de perfis. Como o software de criação de perfis normalmente gera perfis ICC, mas não mapas de cores proprietários, pode ser útil usar o gerenciamento de cores de aplicativo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Independente do método adotado, não se esqueça de qual opção você escolheu e por quê. Verifique também se o aplicativo e o driver da impressora estão configurados corretamente. A configuração do gerenciamento de cores do aplicativo depende do(s) aplicativo(s) usado(s) e, infelizmente, não existe uma fórmula geral válida. O <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color="#006699">HP Printing Knowledge Center</font></strong></a> pode ser útil para ajudá-lo nessa tarefa. Ele contém informações detalhadas sobre como configurar os aplicativos gráficos profissionais mais comuns, além de soluções de problemas e outras instruções.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Etapa 7 – Concluir</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Quando o processo de criação de perfis for concluído, você poderá percorrer a lista de todos os papéis que sua impressora "reconhece". Para cada papel, ela lista uma categoria ou um nome de papel personalizado e o nome do perfil (associado) correspondente. Agora, você está pronto para usar o perfil ICC (ColorSync) personalizado com sua impressora e seu papel. Consulte <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Etapa 6 - Instalar um perfil ICC</font></strong></a> para obter mais informações sobre as diferentes maneiras de usar os perfis ICC e outras opções de gerenciamento de cores.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

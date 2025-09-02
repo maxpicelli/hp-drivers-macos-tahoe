@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Guida di Crea e installa profilo ICC</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Crea e installa profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Fase 1 – Seleziona carta e azione</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Fase 2 – Aggiungi carta personalizzata</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Fase 3 – Scegli impostazioni profilo ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Fase 4 – Calibra stampante</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Fase 5 – Crea profilo ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Fase 6 – Installa profilo ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Fase 7 - Fine</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Fase 1 – Seleziona carta e azione</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Per garantire i risultati migliori, sulla stampante è necessario specificare la modalità di conversione dei colori del monitor del computer o dei documenti delle applicazioni negli inchiostri e sul tipo di carta utilizzati per la stampa. Un profilo ICC (International Color Consortium) è la descrizione di una combinazione di stampante, inchiostro e carta contenente tutte le informazioni necessarie per la conversione dei colori.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									È possibile creare e installare un profilo ICC personalizzato che consente di stampare con la massima precisione possibile di colore. In alternativa, per il tipo di carta selezionato è possibile anche utilizzare un profilo ICC proveniente da un'origine differente, ad esempio un download da Internet, se disponibile. Sebbene i profili ICC "pronti", ad esempio quelli scaricati dal Web, forniscano risultati ottimali, i migliori risultati possibili vengono generalmente ottenuti con un profilo personalizzato.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Di seguito sono riportate alcune differenze tra i due tipi di profili:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- I profili colore personalizzati si basano su obiettivi e misurazioni di prova della specifica stampante, utilizzando inchiostri, tipi di carta e condizioni ambientali particolari. Sostanzialmente questo tipo di profilo fornisce la massima precisione di colore in quanto ogni elemento è personalizzato in base al sistema in uso.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- I profili colore generici o "pronti" vengono creati per il modello di stampante e per gli inchiostri e il tipo di carta utilizzati e non per la stampante, gli inchiostri e il tipo di carta specifici. Questi tipi di profili si basano su obiettivi e misurazioni di prova "tipici" o medi che rappresentano il sistema "tipico" o medio. Sebbene questi profili forniscano buoni risultati per un sistema tipico, è possibile che vi siano lievi scostamenti dovuti alle differenze tra il proprio sistema e un sistema teorico che non è in grado di tenerne conto.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- I profili colore personalizzati vengono creati con il software per la creazione di profili fornito come componente standard della stampante oppure con il software per la creazione di profili acquistato separatamente Sebbene questo software fornisca risultati eccellenti, è necessario selezionare determinate opzioni relative alla modalità di creazione dei profili, in particolare quelle relative all'associazione della gamma per la modalità di rendering Percettivo. L'associazione della gamma si verifica quando i colori di un dispositivo con una determinata gamma di colori (la gamma di tutti i colori che possono essere catturati o prodotti da un dispositivo), ad esempio una fotocamera digitale o un monitor di computer, devono essere trasferiti o associati a un dispositivo con una gamma di colori con formato o dimensioni differenti, ad esempio una stampante. L'associazione della gamma è un'abilità più che una tecnica, pertanto non esistono risposte giuste o errate; solo risposte differenti.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- È possibile che i profili colore generici (ad esempio quelli forniti dai produttori di carta) siano creati con vari software dedicati, in grado di creare differenti opzioni relative all'associazione della gamma e ad altre proprietà del profilo. Sebbene queste opzioni non siano necessariamente peggiori o migliori di quelle create dal software per la creazione di profili della stampante, è possibile che siano differenti.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Di seguito sono riportate alcune istruzioni che semplificano la scelta dei tipi di profilo:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si è principalmente interessati alla precisione di colore delle stampe, ad esempio per eseguire stampe di prova, è preferibile utilizzare la modalità di rendering Colorimetrico. Quest'ultimo tipo tenta di riprodurre i colori compresi nella gamma della stampante con la maggiore precisione, eventualmente a discapito dei colori non compresi nella gamma della stampante (che devono essere comunque stampati). Poiché la riproduzione colorimetrica è un'operazione più oggettiva della riproduzione percettiva, la differenza rilevabile tra i software per la creazione di profili è minima e un profilo personalizzato generalmente è la soluzione migliore.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si è principalmente interessati all'aspetto delle stampe e a una buona corrispondenza con il monitor del computer, ad esempio per le applicazioni fotografiche e artistiche, è preferibile utilizzare la modalità di rendering Percettivo. I profili personalizzati sono un elemento ideale da cui partire poiché vengono creati con una precisione di colore eccellente e una buona modalità di rendering Percettivo, tuttavia è possibile che si preferisca l'aspetto di determinati profili di altri produttori.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Indipendentemente dal tipo di profilo utilizzato, tenere presente che è possibile regolarne la riproduzione dei colori fino a un determinato livello utilizzando gli appositi controlli del driver della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Il processo di creazione e installazione di un profilo ICC personalizzato comprende le seguenti fasi:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Selezionare il tipo di carta per il quale si desidera creare il profilo oppure definirne uno nuovo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Scegliere alcune impostazioni per il nuovo profilo, incluso il nome che si desidera assegnare al profilo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Creare il nuovo profilo: stampare il grafico di prova, attendere che si asciughi, misurarlo e calcolare il profilo. Tutte queste operazioni vengono eseguite automaticamente dalla stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									4.	Installare il nuovo profilo in modo che possa essere utilizzato dalle applicazioni e dalla stampante in uso.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Per la prima fase è possibile scegliere un tipo di carta dall'elenco delle carte riconosciute oppure è possibile definire un nuovo tipo di carta e aggiungerla all'elenco.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Per la creazione di un profilo sono disponibili due modalità differenti: è possibile utilizzare un processo completo che esegue tutte le operazioni necessarie in una sequenza continua oppure è possibile utilizzare un processo con suddivisione del flusso di lavoro che consente di stampare prima il grafico di creazione del profilo, quindi di tenerlo da parte e successivamente di reinserirlo nella stampante per la misurazione e la creazione del profilo. Di seguito sono riportate alcune ragioni per cui utilizzare una o l'altra modalità:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si utilizza la stampante con tipi di carta standard predefiniti in condizioni ambientali regolari, è preferibile utilizzare il processo completo senza interruzioni. Il completamento di tale processo richiede alcuni minuti, la stampante eseguirà tutte le operazioni necessarie nella sequenza corretta e con gli intervalli di tempo richiesti tra l'asciugatura dell'inchiostro e la misurazione del grafico. A meno che non si desideri assistere all'elaborazione (cosa non rara), è possibile concedersi una pausa e ritornare una volta completato il processo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si utilizza la stampante con tipi di carta o in condizioni ambientali non standard, i tempi di asciugatura potrebbero risultare più lunghi del normale prima che il colore stampato si stabilizzi completamente. Poiché un profilo colore rappresenta il risultato finale della stampa dopo l'asciugatura, in tali condizioni si potrebbe preferire il processo con suddivisione del flusso di lavoro.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se generalmente sulle stampe viene applicato un determinato tipo di post-elaborazione che potrebbe influire sulla rilevazione del colore, è consigliabile prendere in considerazione l'utilizzo del processo con suddivisione del flusso di lavoro. Ad esempio, se generalmente si esegue la laminatura o la patinatura delle stampe, potrebbe essere conveniente creare profili con queste soluzioni per ottenere la migliore precisione di colore, oppure per determinare se le differenze sono rilevanti è consigliabile confrontare i risultati ottenuti prima e dopo la post-elaborazione.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si è interessati alle proprietà di archiviazione di determinati tipi di carta, è possibile misurare e creare nuovamente il profilo di un grafico di prova calcolato in una fase precedente, in modo da determinare se si sono verificate modifiche rilevanti.  In entrambi i casi può essere utile la modalità Soft proof di Photoshop.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Per utilizzare il processo completo senza interruzioni, lasciare la selezione predefinita di "Stampa grafico profilo ICC" e "Esegui scansione profilo ICC e crea profilo ICC". Per utilizzare il processo con suddivisione del flusso di lavoro, è possibile scegliere tra due opzioni. Per stampare il grafico profilo e tenerlo da parte per utilizzarlo in un secondo momento, selezionare solo "Stampa grafico profilo ICC". Per misurare e creare un profilo di un grafico profilo stampato precedentemente, selezionare solo "Esegui scansione profilo ICC e crea profilo ICC".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Naturalmente, il consiglio migliore è quello di trovare la combinazione più appropriata per le proprie esigenze, il che potrebbe richiedere alcune prove.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Fase 2 – Aggiungi carta personalizzata</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Fase 3 – Scegli impostazioni profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									È possibile scegliere un nome per il profilo ICC che viene creato. Questo nome verrà utilizzato per due differenti scopi correlati tra loro:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Il nome file che verrà visualizzato quando si utilizza il browser dei file del sistema operativo (Esplora Risorse di Microsoft) per ricercare il file contenente il profilo ICC. L'estensione ".icc" del nome file viene aggiunta automaticamente al nome profilo dall'applicazione in modo da consentire il riconoscimento da parte dell'utente e del software dei profili ICC in base a tale estensione.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	La stringa della descrizione interna del profilo. Ogni profilo ICC contiene una stringa descrittiva interna che viene utilizzata da alcuni (non tutti) software che riconoscono ICC per identificare il profilo o per consentirne la selezione da un elenco.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A seconda delle circostanze, può essere visualizzato o il nome file o il descrittore interno, per tale motivo si consiglia di utilizzare lo stesso nome per entrambi. Sebbene in linea di massima è possibile scegliere un nome qualsiasi, è preferibile definire una convenzione di denominazione standard per i profili e attenersi ad essa. Ad esempio, è possibile utilizzare i seguenti componenti dei nomi, separati da spazi, caratteri di sottolineatura o altri simboli a propria scelta:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Il tipo o il nome della stampante, ad esempio "HP Designjet Z2100" dove "HP" rappresenta il produttore (Hewlett-Packard), "Designjet" rappresenta la serie e "Z2100" il numero di modello della stampante. Poiché il nome file e i descrittori interni hanno una lunghezza limitata, potrebbe essere necessario abbreviare tutte queste informazioni in un'unica stringa composta da un numero ridotto di caratteri. Utilizzando il modello della stampante come parte iniziale del nome del profilo, tutti i profili della stampante verranno visualizzati in un singolo gruppo consecutivo sia nei browser dei file sia negli elenchi profilo dell'applicazione.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Il tipo o il nome della carta, ad esempio "HWT310" per Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Per quanto riguarda il tipo o il nome della stampante, è probabile che sia necessario abbreviare il tipo o il nome della carta. Assicurarsi di utilizzare un nome o un'abbreviazione univoca per ciascun tipo di carta differente utilizzato in modo da non avere problemi nella individuazione dei profili differenti.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- La qualità di stampa e le altre impostazioni utilizzate per la stampa del grafico di prova, ad esempio "O" per la qualità di stampa "Ottimale" o "OOB" per la qualità di stampa "Ottimale" con "Ottimizzatore di brillantezza" abilitato (solo per la carta di tipo fotografico).  Semplificare e abbreviare il più possibile.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Il grafico di prova utilizzato, ad esempio "Piccolo" o "Grande" o il nome di un particolare grafico di prova quale "ECI2002", quando queste opzioni sono disponibili. Semplificare e abbreviare in maniera appropriata.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Alcuni esempi di nomi profilo creati secondo queste istruzioni sono "HP Designjet Z2100 HWT310" o "HP Designjet Z2100, Carta patinata". I nomi file corrispondenti saranno "HP_Z2100_HWT310.icc" o "HP_Z2100_CartaPatinata.icc".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Indipendentemente dal metodo di denominazione utilizzato, accertarsi di poter distinguere chiaramente i profili per tutti i tipi di carta differenti e le altre impostazioni che si utilizzeranno.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Naturalmente, il consiglio migliore è quello di trovare la combinazione più appropriata per le proprie esigenze, il che potrebbe richiedere alcune prove.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Prima di procedere alla stampa del grafico di prova, accertarsi di disporre del tipo di carta appropriato caricato sulla stampante e che la stampante sia pronta per eseguire la stampa.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Fase 4 – Calibra stampante</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Fase 5 – Crea profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Stampa solo la destinazione. Creare il profilo ICC in un secondo momento.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Viene quindi stampato il grafico di prova per la creazione di profili in base alle istruzioni fornite nella fase precedente. Durante la stampa viene visualizzato un indicatore di stato. Di seguito sono riportati alcuni aspetti da tenere presenti sui grafici di prova profilo:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Un grafico di prova profilo contiene campioni con le varie quantità dei diversi inchiostri utilizzati dalla stampante. In contrasto con il grafico di prova di linearizzazione o di calibrazione, la maggior parte dei campioni contiene combinazioni di inchiostri di colori differenti. Una volta eseguite le misurazioni con lo spettrofotometro incorporato, la stampante è in grado di determinare con precisione il risultato dei colori derivante da tutte le possibili combinazioni di inchiostro, pertanto questo modello è noto come modello di stampante lineare, in quanto procede dalla quantità degli inchiostri ai colori risultanti. Lo spettrofotometro è uno strumento di precisione che consente di determinare l'esatta composizione della luce riflessa da un campione di colore. Tale strumento consente di suddividere la luce riflessa in diversi componenti di lunghezza d'onda, proprio come il famoso prisma di Newton suddivide la luce bianca nei colori dell'arcobaleno e misura l'intensità di ciascun componente. I modelli di stampante lineari vengono utilizzati nel soft e hard proofing, ad esempio, per simulare l'aspetto di un'immagine stampata su una determinata stampante e con un determinato tipo di carta. La stampante può quindi utilizzare il software incorporato o il software acquistato separatamente per la creazione di profili per invertire questo modello in un modello di stampante inverso, ovvero partendo dai colori desiderati risale alla quantità dei vari inchiostri necessari per produrli. Quest'ultimo modello viene utilizzato nella 'conversione' dei colori dal documento dell'applicazione o monitor alla quantità dei vari inchiostri richiesti dalla stampante per la riproduzione su carta del colore corrispondente. Un profilo supporto e stampante ICC (ColorSync) contiene modelli lineari e inversi con tre diverse modalità di rendering: Percettivo (per le stampe fotografiche), Colorimetrico (per il colore di logo o proofing) e Saturazione (per i grafici aziendali).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Poiché le misurazioni e il profilo ICC riflettono con precisione ciò che viene stampato e ciò che viene stampato dipende da vari fattori quale stampante, inchiostri, carta, impostazioni di stampa e condizioni ambientali, il livello del profilo risultante corrisponderà esattamente al livello delle condizioni di stampa. Assicurarsi quindi che il grafico di prova venga stampato in condizioni il più possibile simili alle condizioni utilizzate per effettuare le stampe finali con il profilo risultante. Se durante la stampa del grafico si rilevano anomalie di qualità di stampa, difetti della carta o altre condizioni non standard, interrompere il processo utilizzando il pulsante 'Annulla' e ricominciare per evitare che il profilo risultante non sia rappresentativo delle tipiche condizioni di stampa e quindi inutilizzabile.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>Crea il profilo ICC da una destinazione già stampata.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									I grafici di prova utilizzati per la calibrazione della stampante e la creazione di profili vengono misurati (sottoposti a scansione) utilizzando lo spettrofotometro incorporato della stampante. Lo spettrofotometro è uno strumento di precisione che consente di determinare l'esatta composizione della luce riflessa da un campione di colore. Tale strumento consente di suddividere la luce riflessa in diversi componenti di lunghezza d'onda, proprio come il famoso prisma di Newton suddivide la luce bianca nei colori dell'arcobaleno e misura l'intensità di ciascun componente. Come con qualsiasi strumento di precisione, per ottenere la massima precisione possibile, prima di effettuare le misurazioni è necessario calibrare e stabilizzare lo spettrofotometro. La calibrazione viene eseguita automaticamente utilizzando un tassello bianco di riferimento incorporato. La stabilizzazione viene assicurata accendendo la sorgente luminosa incorporata dello spettrofotometro e lasciandola riscaldare per un breve periodo di tempo prima di effettuare le misurazioni. Durante questa fase viene visualizzato un indicatore di stato.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Per eseguire la scansione del grafico di prova, la carta e lo spettrofotometro (montato sul carrello della stampante) si spostano in modo che lo spettrofotometro si posizioni sui campioni di colore da misurare. Sebbene la misurazione venga effettuata in posizione di arresto (sensore e carta non in movimento), il processo è piuttosto rapido con una media di circa 5 misurazioni al secondo. Per ottenere i migliori risultati, il tempo di misurazione per ciascun campione viene adattato automaticamente al colore da misurare, in quanto i colori scuri richiedono un tempo di integrazione maggiore (periodo di misurazione) rispetto ai colori chiari. Durante la misurazione del grafico (scansione) viene visualizzato un indicatore di stato.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Al termine della misurazione del grafico inizia il calcolo del profilo. Le misurazioni consentono alla stampante di determinare con precisione il risultato dei colori derivante da tutte le possibili combinazioni di inchiostro, pertanto questo modello è noto come modello di stampante lineare, in quanto procede dalla quantità degli inchiostri ai colori risultanti. I modelli di stampante lineari vengono utilizzati nel soft e hard proofing, ad esempio, per simulare l'aspetto di un'immagine stampata su una determinata stampante e con un determinato tipo di carta. La stampante quindi utilizza il software per la creazione di profili incorporato per invertire questo modello in un modello di stampante inverso, ovvero partendo dai colori desiderati risale alla quantità dei vari inchiostri necessari per produrli. Quest'ultimo modello viene utilizzato nella 'conversione' dei colori dal documento dell'applicazione o monitor alla quantità dei vari inchiostri richiesti dalla stampante per la riproduzione su carta del colore corrispondente. Un profilo supporto e stampante ICC (ColorSync) contiene modelli lineari e inversi con tre diverse modalità di rendering: Percettivo (per le stampe fotografiche), Colorimetrico (per il colore di logo o proofing) e Saturazione (per i grafici aziendali). Durante il calcolo del profilo viene visualizzato un indicatore di stato.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Stampa la destinazione e crea il profilo ICC.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Fase 6 – Installa profilo ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Un profilo ICC assolve alla sua funzione solo quando viene utilizzato. Sebbene possa sembrare scontato (come infatti lo è) è importante non fermarsi alle considerazioni ovvie. Innanzitutto, il profilo deve essere copiato nella corretta cartella del sistema operativo del computer in modo da consentirne il reperimento da parte delle applicazioni (e degli utenti). Il software della stampante esegue questa operazione automaticamente. Inoltre, il profilo viene anche scaricato nel database dei profili interni della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Il modo o l'eventuale utilizzo dei profili dopo la creazione e l'installazione dipende largamente dalla configurazione delle applicazioni e del driver della stampante. In genere, l'utilizzo dei profili colore per la conversione dei colori tra applicazioni e dispositivi viene definito come gestione dei colori ed è possibile distinguere tre casi differenti:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Gestione dei colori dell'applicazione. Come indicato dal nome, in questo caso tutte le conversioni di colore necessarie vengono gestite dall'applicazione prima dell'invio di un documento alla stampante. In altre parole, l'applicazione deve consentire all'utente di selezionare il profilo carta e la stampante appropriati per eseguire la conversione dei colori del documento. I profili colore sono posizionati in una cartella del sistema operativo predeterminata (/Library/ColorSync/Profiles) ovvero la cartella in cui il software della stampante copia i profili creati. Per assicurare il regolare funzionamento, è necessario disattivare l'impostazione relativa alla gestione indipendente dei colori da parte della stampante (driver), in quanto i risultati di una doppia gestione dei colori potrebbero essere scadenti. Ricercare l'impostazione "Gestione dei colori dell'applicazione" nei controlli dei colori del driver della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Gestione dei colori della stampante, utilizzando i profili ICC. In contrapposizione alla gestione dei colori dell'applicazione è disponibile la gestione dei colori della stampante, in tal caso utilizzando i profili ICC (ColorSync). In questo scenario l'applicazione non converte i colori del documento nello spazio colori della stampante e della carta; questa operazione viene eseguita dalla stampante (driver). L'applicazione quindi trasmette il documento alla stampante così com'é, senza selezionare o applicare alcun profilo colore della stampante. "Così com'é" significa che i documenti vengono gestiti in base allo spazio di colori attivo per l'applicazione, generalmente sRGB (valore predefinito, a meno che non si desideri utilizzare un altro profilo) o Adobe RGB (spesso utilizzato per le applicazioni fotografiche digitali). Naturalmente, per il corretto funzionamento, è necessario che sulla stampante venga selezionato e applicato il profilo colore appropriato; tale selezione viene impostata automaticamente quando si seleziona il tipo di carta. Per tale motivo è necessario che i profili, una volta creati, vengano associati ai tipi di carta. Ricercare l'impostazione "Gestione dei colori della stampante" nei controlli dei colori del driver della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Gestione dei colori della stampante, utilizzando le mappe colore proprietarie. Questo tipo di gestione è molto simile a quello precedente dove la gestione dei colori viene eseguita dalla stampante (driver) e non dall'applicazione. La differenza consiste nell'utilizzo delle mappe colore proprietarie anziché dei profili ICC standard aperti. Nonostante la funzionalità sia simile, esistono importanti differenze. I profili ICC sono bidirezionali (dal colore desiderato alle quantità di inchiostro e dalle quantità di inchiostro al colore risultante), le mappe colore sono unidirezionali (dal colore desiderato alle quantità di inchiostro). Ciò produce alcune conseguenze per il proofing, come descritto di seguito. I profili ICC vengono utilizzati a coppie, uno corrispondente al dispositivo di input e l'altro al dispositivo di output mentre le mappe colore vengono utilizzate separatamente, consentendo la conversione diretta da uno spazio colori di input nello spazio colori della carta e della stampante. Ciò implica che può essere supportato solo un numero limitato di spazi di colore di input, generalmente sRGB o Adobe RGB. Non è un caso che questi siano gli spazi di colore utilizzati più di frequente dalle applicazioni. Sebbene il software per la creazione di profili della stampante crei profili ICC personalizzati (ColorSync), correntemente non esegue la creazione di mappe colore che, pertanto, non saranno disponibili per tipi di carta non standard (o per condizioni di stampa non standard), vedere di seguito. Naturalmente, per il corretto funzionamento, è necessario che sulla stampante venga selezionato il profilo colore appropriato; tale selezione viene impostata automaticamente quando si seleziona un tipo di carta standard. È inoltre necessario impostare l'applicazione in modo che non venga applicata la gestione dei colori (generalmente tramite un'impostazione "Colori gestiti dalla stampante" o simile) e la stampante in modo che applichi le mappe colore; ricercare l'impostazione "Colori gestiti dalla stampante" nei controlli dei colori del driver della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Di seguito sono riportate altre considerazioni per semplificare la scelta tra le diverse opzioni di gestione colori.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Per utilizzare il soft proofing nelle proprie applicazioni, ad esempio per simulare su schermo l'aspetto dell'output stampato, utilizzare la gestione dei colori dell'applicazione con i profili ICC. I profili sono bidirezionali e contengono le informazioni necessarie per convertire i colori dell'applicazione nei colori della stampante (direzione inversa) e i colori della stampante nei colori dell'applicazione (direzione lineare).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se l'applicazione non fornisce funzioni di soft proofing e si desidera simulare su schermo l'aspetto dell'output stampato, provare a eseguire l'applicazione Anteprima di stampa HP. Questa applicazione può essere avviata dal driver della stampante (il menu a discesa PDF in Mac OS oppure l'opzione "mostra anteprima di stampa" in Windows).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Per avere un buon controllo sui colori che vengono prodotti sulla stampante e sulla carta, è preferibile utilizzare la gestione colori dell'applicazione. Applicazioni quali Photoshop consentono di convertire un'immagine RGB originale nella rappresentazione dipendente dalla stampante e dalla carta (RGB o CMYK), attivare il soft proofing per ottenere una simulazione su schermo del risultato stampato e utilizzare un gruppo di strumenti di modifica per modificare i valori dei colori del dispositivo prima che l'immagine venga stampata. Sebbene questa modalità garantisca un controllo molto sofisticato sui colori stampati, è adatta a persone che non abbiano timore di affrontare un notevole impegno e che siano dotate di esperienza. Per ottenere risultati ottimali senza problemi, provare prima la gestione dei colori della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se il flusso di lavoro viene creato sulla base dell'utilizzo dei profili ICC, è preferibile utilizzare la gestione dei colori dell'applicazione con i profili ICC (ColorSync) della stampante. Se non si ha esperienza con i profili ICC, provare a utilizzare prima la gestione dei colori della stampante.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se si utilizzano tipi di carta e/o condizioni ambientali non standard, l'opzione migliore è quella di generare profili ICC personalizzati utilizzando lo spettrofotometro incorporato della stampante e il software per la creazione di profili. Poiché il software per la creazione di profili correntemente genera profili ICC e non mappe colore proprietarie, è preferibile utilizzare la gestione dei colori dell'applicazione.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Qualsiasi sia l'opzione utilizzata, è consigliabile accertarsi del mezzo utilizzato e del motivo della sua scelta. Accertarsi inoltre che l'applicazione e il driver della stampante siano configurati correttamente. La modalità in base alla quale configurare la gestione dei colori dell'applicazione dipende dalle applicazioni utilizzate e purtroppo non esiste una procedura generalmente valida. Per informazioni su questa operazione, potrebbe risultare utile consultare <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color="#006699">HP Printing Knowledge Center</font></strong></a> che fornisce informazioni dettagliate su come configurare alcune delle applicazioni grafiche professionali più diffuse e sulla risoluzione dei problemi e altro.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Fase 7 - Fine</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Dopo aver terminato il processo di creazione profili, è possibile esplorare l'elenco di tutti i tipi di carta riconosciuti dalla stampante. Per ciascun tipo di carta, viene elencata la categoria o il nome della carta personalizzata e il nome profilo corrispondente (associato). A questo punto è possibile utilizzare il profilo ICC (ColorSync) personalizzato con la stampante e la carta. Vedere <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Fase 6 – Installa profilo ICC</font></strong></a> per ulteriori informazioni sulle diverse modalità di utilizzo dei profili ICC e delle altre opzioni di gestione colori.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

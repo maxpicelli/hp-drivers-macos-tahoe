@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>HPColorQualityOptionsEdgelinePanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDEDisclosureController</string>
+		<key>controller-description</key>
+		<string>Disclosure</string>
+		<key>sub-controllers</key>
+		<array>
+			<dict>
+				<key>controller-description</key>
+				<string>ColorQualityOptionsLaserJets</string>
+			</dict>
+			<dict>
+				<key>controller-description</key>
+				<string>ColorQualityOptionsCMYKController</string>
+			</dict>
+		</array>
+	</dict>
+	<key>summary-order</key>
+	<array>
+		<string>HPCyanBrightness</string>
+		<string>HPMagentaBrightness</string>
+		<string>HPYellowBrightness</string>
+		<string>HPBlackBrightness</string>
+	</array>
+</dict>
+</plist>

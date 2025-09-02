@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>black</key>
+	<string>K</string>
+	<key>blue</key>
+	<string>B</string>
+	<key>cyan</key>
+	<string>C</string>
+	<key>darkgray</key>
+	<string>DG</string>
+	<key>glossenhancer</key>
+	<string>E</string>
+	<key>gray</key>
+	<string>G</string>
+	<key>green</key>
+	<string>GN</string>
+	<key>lightcyan</key>
+	<string>LC</string>
+	<key>lightgray</key>
+	<string>LG</string>
+	<key>lightmagenta</key>
+	<string>LM</string>
+	<key>lightyellow</key>
+	<string>LY</string>
+	<key>magenta</key>
+	<string>M</string>
+	<key>matteblack</key>
+	<string>MK</string>
+	<key>orange</key>
+	<string>O</string>
+	<key>photo</key>
+	<string>P</string>
+	<key>photoblack</key>
+	<string>PK</string>
+	<key>red</key>
+	<string>R</string>
+	<key>transparent</key>
+	<string>E</string>
+	<key>tricolor</key>
+	<string>TC</string>
+	<key>violet</key>
+	<string>V</string>
+	<key>white</key>
+	<string>W</string>
+	<key>yellow</key>
+	<string>Y</string>
+</dict>
+</plist>

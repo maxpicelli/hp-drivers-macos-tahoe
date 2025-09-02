@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<presets-container xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hp.com/schemas/imaging/con/raster-data/presets/2009/08/27/&#10;                Schemas/presets.xsd"><presets><preset name="plain-paper-high-speed-draft" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode high-speed-draft
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-high-speed-draft-main-tray" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode high-speed-draft
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-draft" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode draft
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-best" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-best-main-tray-general" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-high-speed-draft-grayscale-black-only" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode high-speed-draft
+	*HPColorMode grayscale
+	*HPGrayscaleMode black-only
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-high-speed-draft-grayscale-black-only-main-tray" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode high-speed-draft
+	*HPColorMode grayscale
+	*HPGrayscaleMode black-only
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-draft-grayscale-black-only" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode draft
+	*HPColorMode grayscale
+	*HPGrayscaleMode black-only
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="automatic-frontpanel" preset-type="general">
+	*MediaType automatic
+	*OutputMode frontpanel
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-normal" preset-type="general">
+	*MediaType automatic
+	*OutputMode normal
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="hp-photo-paper-normal" preset-type="general">
+	*MediaType hp-photo-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-normal-photo-tray-general" preset-type="general">
+	*MediaType hp-photo-paper
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-best" preset-type="general">
+	*MediaType hp-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal-main-tray-general" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-best" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode best
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-highest" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode highest
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-normal" preset-type="general">
+	*MediaType hp-premium-photo-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-best" preset-type="general">
+	*MediaType hp-premium-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best" preset-type="general">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-glossy-best" preset-type="general">
+	*MediaType hp-premium-plus-photo-paper-glossy
+	*OutputMode best
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="other-photo-paper" preset-type="general">
+ 	*MediaType other-photo-paper
+ 	*OutputMode normal
+ 	com.apple.print.preset.graphicsType General
+ 	com.apple.print.preset.quality high
+ 	com.apple.print.preset.media-front-coating glossy</preset><preset name="automatic-tray" preset-type="general">
+	*HPPaperSource Automatic
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-frontpanel-automatic-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode frontpanel
+	*HPPaperSource Automatic
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-frontpanel-high-automatic-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode frontpanel
+	*HPPaperSource Automatic
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-normal-automatic-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode normal
+	*HPPaperSource Automatic
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-normal-high-automatic-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode normal
+	*HPPaperSource Automatic
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-frontpanel-photo-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode frontpanel
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-normal-photo-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-frontpanel-main-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode frontpanel
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-normal-main-tray" preset-type="general">
+	*MediaType automatic
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="hp-photo-paper-best-main-tray" preset-type="general">
+	*MediaType hp-photo-paper
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal-main-tray" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal-high-main-tray" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-best-main-tray" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-professional-brochure-paper-matte-normal-main-tray" preset-type="general">
+	*MediaType hp-professional-brochure-paper-matte
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none</preset><preset name="hp-premium-photo-paper-best-main-tray" preset-type="general">
+	*MediaType hp-premium-photo-paper
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best-main-tray" preset-type="general">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-glossy-best-main-tray" preset-type="general">
+	*MediaType hp-premium-plus-photo-paper-glossy
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="other-photo-paper-normal-high-main-tray" preset-type="general">
+	*MediaType other-photo-paper
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best-photo-tray" preset-type="general">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal-photo-tray" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal-high-photo-tray" preset-type="general">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="plain-paper-draft-main-tray" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode draft
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-fast-normal-main-tray" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode fast-normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality low
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-normal-main-tray" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-best-main-tray" preset-type="general">
+	*MediaType plain-paper
+	*OutputMode best
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none</preset><preset name="hp-premium-photo-paper-normal" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-best-mid" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-best-mid-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-best-high" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-best-high-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-highest" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode highest
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-photo-paper-highest-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-photo-paper
+	*OutputMode highest
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="plain-paper-normal" preset-type="iphoto">
+	*MediaType plain-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-normal-main-tray-iphoto" preset-type="iphoto">
+	*MediaType plain-paper
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-normal-photo-tray" preset-type="iphoto">
+	*MediaType plain-paper
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-best" preset-type="iphoto">
+	*MediaType plain-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none</preset><preset name="plain-paper-best-photo-tray" preset-type="iphoto">
+	*MediaType plain-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating none</preset><preset name="hp-everyday-photo-paper-matte-normal" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-best-mid" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-best-mid-photo-tray" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-best-high" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-best-high-photo-tray" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-highest" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode highest
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-everyday-photo-paper-matte-highest-photo-tray" preset-type="iphoto">
+	*MediaType hp-everyday-photo-paper-matte
+	*OutputMode highest
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating matte</preset><preset name="automatic-normal" preset-type="iphoto">
+	*MediaType automatic
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-normal-photo-tray" preset-type="iphoto">
+	*MediaType automatic
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-best" preset-type="iphoto">
+	*MediaType automatic
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-best-photo-tray" preset-type="iphoto">
+	*MediaType automatic
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-highest" preset-type="iphoto">
+	*MediaType automatic
+	*OutputMode highest
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="automatic-highest-photo-tray" preset-type="iphoto">
+	*MediaType automatic
+	*OutputMode highest
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="hp-premium-plus-photo-paper-normal" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best-high" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-best-high-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-highest" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode highest
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-highest-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper
+	*OutputMode highest
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-glossy-best-mid" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper-glossy
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-plus-photo-paper-glossy-best-mid-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-plus-photo-paper-glossy
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-normal" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-normal-main-tray" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode normal
+	*HPPaperSource Tray1
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-best" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-best-photo-tray" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-highest" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode highest
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-photo-paper-highest-photo-tray" preset-type="iphoto">
+	*MediaType hp-photo-paper
+	*OutputMode highest
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal" preset-type="iphoto">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-best" preset-type="iphoto">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-best-photo-tray" preset-type="iphoto">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-highest" preset-type="iphoto">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode highest
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-advanced-photo-paper-glossy-highest-photo-tray" preset-type="iphoto">
+	*MediaType hp-advanced-photo-paper-glossy
+	*OutputMode highest
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="other-photo-paper-normal" preset-type="iphoto">
+	*MediaType other-photo-paper
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="other-photo-paper-normal-photo-tray" preset-type="iphoto">
+	*MediaType other-photo-paper
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="other-photo-paper-best" preset-type="iphoto">
+	*MediaType other-photo-paper
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="other-photo-paper-best-photo-tray" preset-type="iphoto">
+	*MediaType other-photo-paper
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating autodetect</preset><preset name="hp-photo-paper-matte-normal" preset-type="iphoto">
+	*MediaType hp-photo-paper-matte
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-photo-paper-matte-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-photo-paper-matte
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-photo-paper-matte-best" preset-type="iphoto">
+	*MediaType hp-photo-paper-matte
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-photo-paper-matte-best-photo-tray" preset-type="iphoto">
+	*MediaType hp-photo-paper-matte
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating matte</preset><preset name="hp-premium-instant-dry-photo-glossy-normal" preset-type="iphoto">
+	*MediaType hp-premium-instant-dry-photo-glossy
+	*OutputMode normal
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-instant-dry-photo-glossy-normal-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-instant-dry-photo-glossy
+	*OutputMode normal
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-instant-dry-photo-glossy-best" preset-type="iphoto">
+	*MediaType hp-premium-instant-dry-photo-glossy
+	*OutputMode best
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset><preset name="hp-premium-instant-dry-photo-glossy-best-photo-tray" preset-type="iphoto">
+	*MediaType hp-premium-instant-dry-photo-glossy
+	*OutputMode best
+	*HPPaperSource PhotoTray
+	com.apple.print.preset.graphicsType Photo
+	com.apple.print.preset.quality high
+	com.apple.print.preset.media-front-coating glossy</preset></presets><printer-presets><printer-preset name="Plain_paper_Fast_Draft"><user-name>Plain paper, Fast draft</user-name><value link="Data/PresetsData.xml#/presets-container//preset[@preset-type='general'][@name='plain-paper-high-speed-draft']"/></printer-preset><printer-preset name="Plain_paper_Best"><user-name>Plain paper, Best</user-name><value link="Data/PresetsData.xml#/presets-container//preset[@preset-type='general'][@name='plain-paper-best']"/></printer-preset><printer-preset name="Plain_paper_Fast_Draft_Black_and_White"><user-name>Plain paper, Fast draft, black and white</user-name><value link="Data/PresetsData.xml#/presets-container//preset[@preset-type='general'][@name='plain-paper-high-speed-draft-grayscale-black-only']"/></printer-preset><printer-preset name="Photo_paper"><user-name>Photo paper</user-name><value link="Data/PresetsData.xml#/presets-container//preset[@preset-type='general'][@name='hp-premium-photo-paper-best']"/></printer-preset><printer-preset name="Photo_paper_Main_Tray"><user-name>Photo paper from Main Tray</user-name><value link="Data/PresetsData.xml#/presets-container//preset[@preset-type='general'][@name='hp-premium-photo-paper-best-main-tray']"/></printer-preset><printer-preset name="Plain_paper_Main_Tray"><user-name>Plain paper from Main Tray</user-name><value link="Data/PresetsData.xml#/presets-container//preset[@preset-type='general'][@name='plain-paper-normal-main-tray']"/></printer-preset></printer-presets></presets-container>

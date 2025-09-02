@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Aide sur l'option Installer un profil ICC</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Installer un profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Étape 1 - Sélectionner un profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Étape 2 - Vérifier les paramètres du profil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Étape 3 - Installer un profil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Étape 4 - Terminé</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Étape  1 - Sélectionner un profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Si vous avez obtenu un profil ICC à l'aide d'une autre méthode que le logiciel de profil intégré de l'imprimante, par exemple via un téléchargement sur Internet ou un logiciel de profil tiers, vous pouvez toujours installer ce profil et l'utiliser avec votre imprimante et votre papier.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									L'imprimante doit savoir à quel type de papier le profil correspond ; vous devez donc d'abord choisir un type de papier dans la liste des papiers connus. Lorsque vous sélectionnez un type de papier, choisissez un papier ressemblant le plus possible au type de papier réel. Le type de papier détermine la quantité d'encre utilisée et d'autres paramètres d'impression de base ; il est donc primordial de faire le bon choix pour obtenir les meilleurs résultats. Si le papier utilisé n'apparaît pas dans la liste ou qu'aucun type de papier ne ressemble au vôtre, vous pouvez définir un nouveau type de papier. L'imprimante se calibrera pour utiliser votre papier, puis vous pourrez revenir à l'installation du profil ICC. Si les résultats obtenus ne sont pas satisfaisants avec le profil et le type de papier sélectionnés, vous pouvez essayer d'autres types de papier avec les nouveaux noms de papier correspondant au même papier afin de définir celui qui convient le mieux.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Une fois le type de papier sélectionné, recherchez le fichier contenant le profil ICC à utiliser avec votre imprimante et votre papier. Généralement, le fichier du profil ICC se termine par l'extension « .icc » (International Color Consortium) ou « .icm » (Image Color Matching).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Vous vous demandez peut-être quelles sont les différences entre les profils de couleurs personnalisés et les profils téléchargés prédéfinis. Voici quelques-unes des différences entre les deux types de profils :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur personnalisés reposent sur des cibles de test et des mesures provenant de votre imprimante, ils utilisent votre encre et votre papier dans les conditions de votre environnement. Vous obtenez en principe une précision de couleur optimale car tous les paramètres de votre système sont personnalisés.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur génériques ou prédéfinis sont adaptés à votre modèle d'imprimante, votre encre et votre type de papier, mais pas à votre imprimante, votre encre et votre papier en particulier. Ils reposent sur des cibles de test et des mesures typiques ou moyennes représentant un système typique ou moyen. Ils offrent de bons résultats avec un système moyen, mais risquent de ne pas pouvoir gérer les légères variations qui peuvent survenir entre votre système et le système moyen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur personnalisés sont créés à l'aide du logiciel de profil intégré de votre imprimante ou que vous avez acheté en option. Ce logiciel offre d'excellents résultats, mais il doit nécessairement effectuer certains choix en matière de création des profils. Il procède en particulier à un mappage gamut afin de permettre une tentative de rendu perceptif. Le mappage gamut se produit lorsque des couleurs d'un périphérique affichant un gamut de couleurs donné (la plage de toutes les couleurs qu'un périphérique peut capturer ou produire), par exemple un appareil photo numérique ou un moniteur, doit être converti ou associé à un périphérique offrant un gamut de couleurs de taille ou de forme différente, par exemple une imprimante. Le mappage gamut s'apparente plus à un art qu'à une science et il n'existe donc pas de bonnes ou de mauvaises méthodes : elles sont simplement différentes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Les profils couleur génériques, comme ceux fournis par les fabricants de papier, ont peut-être été créés à l'aide d'un autre logiciel de profil effectuant des choix différents en matière de mappage gamut et d'autres propriétés de profil. Ces choix ne sont pas nécessairement pires ou meilleurs que ceux effectués par le logiciel de profil de votre imprimante, ils risquent simplement d'être différents.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Voici quelques informations qui vous aideront à choisir votre type de profil :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous vous préoccupez essentiellement de la précision des couleurs de vos impressions, pour créer par exemple des épreuves, utilisez la tentative de rendu colorimétrique. Cette méthode tente de reproduire avec une précision optimale les couleurs du gamut de votre imprimante, ce qui peut nuire aux couleurs qui n'y figurent pas (et qui doivent également être imprimées, d'une façon ou d'une autre). La reproduction colorimétrique étant plus objective que la reproduction perceptive, la différence entre les logiciels de profil est minime, et il est donc préférable de choisir un profil personnalisé.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Si vous vous préoccupez essentiellement de l'apparence de vos impressions et de l'affichage sur votre moniteur, par exemple pour des applications photographiques et artistiques, utilisez plutôt la tentative de rendu perceptif. Les profils personnalisés sont très utiles car ils offrent une excellente précision des couleurs et une bonne tentative de rendu perceptif, mais peut-être préférerez-vous l'apparence de certains profils tiers.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ici aussi, il est préférable de choisir la méthode qui vous convient le mieux. Plusieurs essais peuvent être nécessaires.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Étape 2 - Vérifier les paramètres du profil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Vous pouvez ici sélectionner le nom du profil ICC à installer. Le nom servira pour deux fonctions différentes mais associées :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Le nom de fichier affiché lorsque vous utilisez l'explorateur de votre système d'exploitation (Microsoft Explorer) pour rechercher le fichier contenant le profil ICC. L'application ajoute automatiquement l'extension de nom de fichier « .icc » au nom du profil afin que vous et votre logiciel puissiez identifier les profils ICC à l'aide de l'extension.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	La chaîne de description interne du profil. Chaque profil ICC comporte une chaîne de description interne utilisée par certains (mais pas tous) logiciels compatibles ICC afin d'identifier le profil ou vous permettre de le sélectionner dans une liste.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Selon les circonstances, le nom de fichier ou le descripteur interne s'affiche ; pour cette raison, il est judicieux d'utiliser le même nom pour ces deux éléments. Vous pouvez en principe sélectionner le nom de votre choix, mais il est préférable de définir une convention d'attribution de nom standard pour les profils, et de vous y conformer. Par exemple, vous pouvez utiliser les composants de nom suivants, séparés par des espaces, des traits de soulignement ou d'autres symboles de votre choix :
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- le type ou le nom de l'imprimante, par exemple « HP Designjet Z2100 » où « HP » représente le fabricant (Hewlett-Packard), « Designjet » la gamme et « Z2100 » le modèle de votre imprimante. La longueur du nom de fichier et du descripteur interne étant limitée, vous devrez sans doute résumer toutes ces informations dans une chaîne unique de quelques caractères. Utilisez le modèle d'imprimante comme première partie du nom de profil afin que tous les profils de votre imprimante apparaissent sous forme d'un groupe unique consécutif à la fois dans les explorateurs de fichiers et les listes de profils d'application.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Le type ou le nom du papier, par exemple « HWT310 » pour Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Comme pour le type ou le nom de l'imprimante, vous devrez probablement résumer ces informations. Veillez à utiliser un nom ou une abréviation unique pour chaque type de papier afin de distinguer facilement les différents profils.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- La qualité d'impression et d'autres paramètres utilisés pour l'impression du diagramme de test, par exemple « B » pour une qualité d'impression « Best » (optimale) ou « BGE » pour une qualité d'impression « Best » (optimale) avec l'option « Rehausseur de brillance » activée (uniquement pour les papiers de type photo). Simplifiez et résumez autant que possible vos informations, mais pas trop.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Le diagramme de test utilisé, par exemple « Small » (Petit) ou « Large » (Grand) ou un nom de diagramme de test particulier tel que « ECI2002 » si ces options sont disponibles. Simplifiez et résumez ces informations, si nécessaire.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ces instructions permettent, par exemple, d'obtenir des noms de profils tels que « HP Designjet Z2100 HWT310 » ou « HP Designjet Z2100, Papier couché ». Les noms de fichier correspondants seraient « HP_Z2100_HWT310.icc » ou « HP_Z2100_PapierCouché.icc ».
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Quelle que soit la méthode d'attribution de nom utilisée, assurez-vous que vous pouvez facilement distinguer les profils pour tous les différents types de papier et autres paramètres utilisés actuellement ou dans le futur.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ici aussi, il est préférable de choisir la méthode qui vous convient le mieux. Plusieurs essais peuvent être nécessaires.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Étape 3 - Installer un profil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Le processus d'installation permet de s'assurer que le profil ICC sera disponible pour les applications comme Adobe Photoshop.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Étape 4 - Terminé</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Une fois l'installation du profil terminée, vous pouvez parcourir la liste de tous les papiers reconnus par votre imprimante. Pour chaque papier, la liste répertorie la catégorie du papier ou le nom du papier personnalisé ainsi que le nom de profil correspondant (associé). Vous pouvez désormais utiliser votre profil ICC (ColorSync) installé avec votre imprimante et papier. Voir <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Étape 3 - Installer un profil ICC</font></strong></a> pour plus d'informations sur les différentes méthodes d'utilisation des profils ICC et les autres options de gestion des couleurs.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

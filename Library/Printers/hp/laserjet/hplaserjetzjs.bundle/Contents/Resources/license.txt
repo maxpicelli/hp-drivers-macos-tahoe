@@ -1,0 +1,41 @@
+The following open source software is used in some or all of the HP software provided:
+
+Portable free JBIG image compression library:
+
+*  Portable Free JBIG image compression library
+*
+*  Markus Kuhn -- http://www.cl.cam.ac.uk/~mgk25/
+*
+*  $Id: jbig.c,v 1.1 2007/08/23 16:44:50 raghothamac Exp $
+*
+*  This module implements a portable standard C encoder and decoder
+*  using the JBIG lossless bi-level image compression algorithm as
+*  specified in International Standard ISO 11544:1993 or equivalently
+*  as specified in ITU-T Recommendation T.82. See the file jbig.doc
+*  for usage instructions and application examples.
+*
+*  This program is free software; you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation; either version 2 of the License, or
+*  (at your option) any later version.
+*
+*  This program is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*  GNU General Public License for more details.
+*
+*  You should have received a copy of the GNU General Public License
+*  along with this program; if not, write to the Free Software
+*  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+* 
+*  If you want to use this program under different license conditions,
+*  then contact the author for an arrangement.
+*
+*  It is possible that certain products which can be built using this
+*  software module might form inventions protected by patent rights in
+*  some countries (e.g., by patents about arithmetic coding algorithms
+*  owned by IBM and AT&T in the USA). Provision of this software by the
+*  author does NOT include any licences for any patents. In those
+*  countries where a patent licence is required for certain applications
+*  of this software module, you will have to obtain such a licence
+*  yourself.

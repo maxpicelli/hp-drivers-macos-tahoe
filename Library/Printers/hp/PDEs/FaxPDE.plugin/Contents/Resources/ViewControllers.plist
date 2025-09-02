@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>controller-descriptions</key>
+	<array>
+		<dict>
+			<key>supported-options</key>
+			<array>
+				<string>Color</string>
+				<string>HPColorMode</string>
+				<string>ColorModel</string>
+			</array>
+			<key>controller-class-name</key>
+			<string>PDEColorModeController</string>
+			<key>nib-name</key>
+			<string>ColorMode</string>
+		</dict>
+		<dict>
+			<key>supported-options</key>
+			<array>
+				<string>Quality</string>
+				<string>HPPrintQuality</string>
+				<string>OutputMode</string>
+				<string>cupsPrintQuality</string>
+			</array>
+			<key>controller-class-name</key>
+			<string>PDEOutputQualityController</string>
+			<key>nib-name</key>
+			<string>OutputQuality</string>
+		</dict>
+	</array>
+</dict>
+</plist>

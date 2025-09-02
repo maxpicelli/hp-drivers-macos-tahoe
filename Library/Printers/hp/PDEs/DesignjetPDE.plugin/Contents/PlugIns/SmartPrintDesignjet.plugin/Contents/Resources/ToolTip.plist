@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Generic</key>
+	<dict>
+		<key>HPHoldForAttended</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this setting to prevent stacker wheel marks on some photographic papers. When reaching the printer, your job will be put on hold, to be printed from the printer&apos;s front panel with the stacker cover open.</string>
+		</dict>
+		<key>HPBPCompensation</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this option to adjust for differences in black color values when converting colors between color spaces.</string>
+		</dict>
+		<key>HPIntent</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Indicates how to manage the colors that are out of range when converting between color spaces.</string>
+			<key>Saturation</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use for presentation graphics, charts, or images that contain bright, saturated colors.</string>
+			</dict>
+			<key>RelativeColorimetric</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use when you need to match a particular color and to print it accurately. This option also maps the white of the input space to the white of the paper on which the print job is printed.</string>
+			</dict>
+			<key>AbsoluteColorimetric</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use when you need to print a draft to use for proofing. This option matches a particular color like the Relative Colorimetric option, but does not map the white.</string>
+			</dict>
+			<key>Perceptual</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use for photographs or images in which colors blend together. The overall appearance of colors is preserved as much as possible.</string>
+			</dict>
+		</dict>
+		<key>MirrorPrint</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print your document reversed left-to-right.</string>
+		</dict>
+		<key>HPAutoRotate</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this feature to permit the image or document to be automatically rotated in order to save paper or avoid clipping.</string>
+		</dict>
+		<key>HPAutoScaling</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Prints your document on a paper size other than the one for which it is formatted.</string>
+		</dict>
+		<key>HPTransverse</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select to rotate the printed image or document by 90 degrees. If you are using roll paper, this feature can help reduce the amount of paper that is used for the print job.</string>
+		</dict>
+		<key>HPRGBEmulation</key>
+		<dict>
+			<key>AdobeRGB_HP_colormap</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Uses HP proprietary color conversion based on Adobe RGB (1998).</string>
+			</dict>
+			<key>sRGB_HP_colormap</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Uses HP proprietary color conversion based on sRGB IEC61966-2.1.</string>
+			</dict>
+			<key>toolTip</key>
+			<string>Select the appropriate color input profile from the list.</string>
+		</dict>
+		<key>HPCMYKEmulation</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select the appropriate color input profile from the list.</string>
+		</dict>
+		<key>HPPantone</key>
+		<dict>
+			<key>toolTip</key>
+			<string>When this option is selected, the printer extracts the PANTONE color definitions from the PostScript file and matches them with the closest CMYK colors.</string>
+		</dict>
+		<key>HPAccounting</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Enter the job&apos;s Account ID. For printers where the &quot;Request Account ID&quot; feature exists and is enabled, the Account ID is provided by the printer administrator. In that case, if the printer has a queue, a job that does not have an Account ID may be put on hold and stored in the printer queue until an ID is entered from the Embedded Web Server.</string>
+		</dict>
+		<key>HPBlackAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Moving this slider to the right will increase the black color intensity, moving it to the left will decrease it.</string>
+		</dict>
+		<key>HPBlueAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use this to adjust the overall color balance between yellow and blue.</string>
+		</dict>
+		<key>HPBrightness</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use this to adjust the overall tone reproduction from lighter to darker.</string>
+		</dict>
+		<key>HPColorBalanceEnabled</key>
+		<dict>
+			<key>False</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Checking this box enables all controls and returns them to their previous values.</string>
+			</dict>
+			<key>True</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Unchecking this box disables all controls and returns them to their default values.</string>
+			</dict>
+		</dict>
+		<key>MarginsPolicy</key>
+		<dict>
+			<key>KeepLeft</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print your job aligned with the left side of the roll.</string>
+			</dict>
+			<key>Center</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print your job on the center of the roll.</string>
+			</dict>
+			<key>KeepRight</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print your job aligned with the right side of the roll.</string>
+			</dict>
+		</dict>
+		<key>HPColorMode</key>
+		<dict>
+			<key>true-black</key>
+			<dict>
+				<key>toolTip</key>
+				<string>When this option is selected, the system will attempt to print using a black pen.</string>
+			</dict>
+			<key>printer-emulated</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This printer allows the emulation of colors of other HP Designjet Printers.</string>
+			</dict>
+			<key>grayscale</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents in shades of gray.</string>
+			</dict>
+			<key>colorsmart</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents using HP color matching.</string>
+			</dict>
+			<key>AdobeRGB</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Uses HP proprietary color conversion based on Adobe RGB (1998).</string>
+			</dict>
+			<key>application-managed</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents using the application provided color management.</string>
+			</dict>
+			<key>Black and White</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints in black and white only; all colors and gray shades are printed as black.</string>
+			</dict>
+			<key>Black Only</key>
+			<dict>
+				<key>toolTip</key>
+				<string>When this option is selected, the system will attempt to print using a black pen.</string>
+			</dict>
+			<key>ColorSmart/sRGB</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents using HP color matching.</string>
+			</dict>
+			<key>ColorSync</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents using HP color profiles.</string>
+			</dict>
+			<key>Grayscale</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents in shades of gray.</string>
+			</dict>
+			<key>Printer Emulation</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This printer allows the emulation of colors of other HP Designjet Printers.</string>
+			</dict>
+			<key>toolTip</key>
+			<string></string>
+			<key>Use Adobe RGB (1998)</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Uses HP proprietary color conversion based on Adobe RGB (1998).</string>
+			</dict>
+			<key>Use Embedded (ICC/ColorSync)</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Uses Apple color engine (ColorSync) to convert from the embedded profile to the media dependent color space.</string>
+			</dict>
+		</dict>
+		<key>HPColorOptions</key>
+		<dict>
+			<key>grayscalePureGrays</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option will give you neutral Black and White prints.</string>
+			</dict>
+			<key>grayscaleFull</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option will give you a consistent glossy appearance.</string>
+			</dict>
+			<key>colorPureGrays</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option will give you neutral grey areas.</string>
+			</dict>
+			<key>colorFull</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option will give you a consistent glossy appearance.</string>
+			</dict>
+			<key>colorsmart</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents using HP color matching.</string>
+			</dict>
+			<key>grayscale</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Print documents in shades of gray.</string>
+			</dict>
+			<key>black-and-white</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints in black and white only; all colors and gray shades are printed as black.</string>
+			</dict>
+			<key>Pure Black and White</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints in black and white only; all colors and gray shades are printed as black.</string>
+			</dict>
+		</dict>
+		<key>HPColorTone</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Moving the slider to the right will produce warmer tones, moving it to the left will produce cooler tones.</string>
+		</dict>
+		<key>HPCropLines</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this feature to enable the printing of crop lines so that the printer will draw a line telling you where to cut to get the desired paper size.</string>
+		</dict>
+		<key>HPCyanAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Moving this slider to the right will increase the cyan color intensity, moving it to the left will decrease it.</string>
+		</dict>
+		<key>HPDisableAutoCutter</key>
+		<dict>
+			<key>False</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Checking this box tells the printer to not cut the paper after printing.</string>
+			</dict>
+			<key>True</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Unchecking this box tells the printer to cut the paper after printing.</string>
+			</dict>
+		</dict>
+		<key>HPSetCutMedia</key>
+		<dict>
+			<key>False</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Checking this box tells the printer to not cut the paper after printing each page.</string>
+			</dict>
+			<key>True</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Unchecking this box tells the printer to cut the paper after printing each page.</string>
+			</dict>
+		</dict>
+		<key>HPDryTime</key>
+		<dict>
+			<key>toolTip</key>
+			<string>This slider adjusts the amount of time allowed for each page to dry when using the automatic two-sided printing option.</string>
+		</dict>
+		<key>HPEconoMode</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this option to print faster and with less ink, with only a slight compromise to print quality.</string>
+		</dict>
+		<key>HPEmulatedPrinter</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select the Printer whose colors you want to emulate.</string>
+		</dict>
+		<key>HPGlossEnhancer</key>
+		<dict>
+			<key>economode-ge</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Applies the finishing only on the inked area.</string>
+			</dict>
+			<key>toolTip</key>
+			<string>Applies a special finishing to improve gloss uniformity and gray glossiness.</string>
+			<key>whole-page-ge</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Applies the finishing over the whole page for more uniform surface.</string>
+			</dict>
+		</dict>
+		<key>HPGrayBalanceApplyMidtoneToAll</key>
+		<dict>
+			<key>toolTip</key>
+			<string>When activated, this will enable only the Midtones gray balance control and apply its settings also to the Highlight and Shadow zones of printed images.</string>
+		</dict>
+		<key>HPGrayBalanceEnabled</key>
+		<dict>
+			<key>False</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Checking this box enables all controls and returns them to their previous values.</string>
+			</dict>
+			<key>True</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Unchecking this box disables all controls and returns them to their default values.</string>
+			</dict>
+		</dict>
+		<key>HPGrayHighlightLevel</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to define the highlight, midtone, and shadow zones for the printed image.</string>
+		</dict>
+		<key>HPGrayHighlightX</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to adjust the gray balance of the printed image highlight areas.</string>
+		</dict>
+		<key>HPGrayHighlightY</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to adjust the gray balance of the printed image highlight areas.</string>
+		</dict>
+		<key>HPGrayMidtoneLevel</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to define the highlight, midtone, and shadow zones for the printed image.</string>
+		</dict>
+		<key>HPGrayMidtoneX</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to adjust the gray balance of the printed image midtone areas.</string>
+		</dict>
+		<key>HPGrayMidtoneY</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to adjust the gray balance of the printed image midtone areas.</string>
+		</dict>
+		<key>HPGrayscaleMode</key>
+		<dict>
+			<key>high-quality</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option will give you a consistent glossy appearance.</string>
+			</dict>
+			<key>black-only</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option will give you neutral Black and White prints.</string>
+			</dict>
+			<key>High Quality</key>
+			<dict>
+				<key>Current</key>
+				<dict>
+					<key>toolTip</key>
+					<string>When this item is selected, a high quality grayscale version of your document will be printed using both the black and color ink cartridges.</string>
+				</dict>
+				<key>toolTip</key>
+				<string>To print your document in high quality grayscale using both the black and color ink cartridges, click this item.</string>
+			</dict>
+		</dict>
+		<key>HPGrayShadowLevel</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to define the highlight, midtone, and shadow zones for the printed image.</string>
+		</dict>
+		<key>HPGrayShadowX</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to adjust the gray balance of the printed image shadow areas.</string>
+		</dict>
+		<key>HPGrayShadowY</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use these controls to adjust the gray balance of the printed image shadow areas.</string>
+		</dict>
+		<key>HPGreenAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use this to adjust the overall color balance between magenta and green.</string>
+		</dict>
+		<key>HPImageLayout</key>
+		<dict>
+			<key>automatic-layout</key>
+			<dict>
+				<key>toolTip</key>
+				<string>The printable area is equal to the selected paper size. The printer will align the selected paper to the edge of the loaded paper. The printer will cut the paper with a size equal to the selected paper size. To avoid white areas in the border of the drawing caused by possible paper alignment problems, the contents of the drawing will be slightly magnified.</string>
+			</dict>
+			<key>clip-layout</key>
+			<dict>
+				<key>toolTip</key>
+				<string>The printable area is equal to the selected paper size. The printer will align the selected paper size to the edge of the loaded paper and will clip the contents according to the selected margins. The printer will cut a paper with a size equal to the selected paper size. The printer will not print any data inside the clipped area.</string>
+			</dict>
+			<key>manual-layout</key>
+			<dict>
+				<key>toolTip</key>
+				<string>The printable area is equal to the selected paper size. The printer will align the selected paper to the edge of the loaded paper. To avoid white areas in the border of the drawing caused by possible paper alignment problems, the printer will cut the paper with a size slightly smaller than the selected paper size.</string>
+			</dict>
+			<key>oversize-layout</key>
+			<dict>
+				<key>toolTip</key>
+				<string>The printable area is equal to the selected paper size. The printer will add the selected margins to the printable area and align the resulting paper to the edge of the loaded paper. The printer will cut the paper with a size equal to the selected paper size plus the selected margins.</string>
+			</dict>
+			<key>standard-layout</key>
+			<dict>
+				<key>toolTip</key>
+				<string>The printable area is equal to the selected paper size minus the selected margins. The printer will add the selected margins to the printable area and align the resulting paper to the edge of the loaded paper. The printer will cut the paper with a size equal to the selected paper size.</string>
+			</dict>
+		</dict>
+		<key>HPInkDensity</key>
+		<dict>
+			<key>toolTip</key>
+			<string>This slider adjusts the amount of ink used to print your pages. The center position is the optimum for most users.</string>
+		</dict>
+		<key>HPInkedArea</key>
+		<dict>
+			<key>toolTip</key>
+			<string>If checked, only the roll paper necessary to contain the drawing will be used by the printer.</string>
+		</dict>
+		<key>HPMagentaAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Moving this slider to the right will increase the magenta color intensity, moving it to the left will decrease it.</string>
+		</dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Selects the highest resolution possible for the quality level chosen. For most jobs default resolution is recommended. This setting decreases performance.</string>
+		</dict>
+		<key>HPMorePasses</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this option if you notice image quality issues. This setting decreases performance but does not increase the ink consumption.</string>
+		</dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Automatic</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to have the printer automatically switch paper trays when one tray runs out of paper.</string>
+			</dict>
+			<key>Automatically Select</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to have the printer automatically switch paper trays when one tray runs out of paper.</string>
+			</dict>
+			<key>Autoselect2</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to have the printer automatically switch paper trays when one tray runs out of paper.</string>
+			</dict>
+			<key>ManualFeed</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to insert paper via the manual feed slot on the printer.</string>
+			</dict>
+			<key>Autoselect</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to let the printer select an appropriate paper source.</string>
+			</dict>
+			<key>Printer Auto Select</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to let the printer select an appropriate paper source.</string>
+			</dict>
+			<key>RearManualFeed</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to insert paper via the manual feed slot on the back of the printer.</string>
+			</dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print from a roll of paper instead of individual sheets of paper.</string>
+			</dict>
+			<key>Roll 1</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+			<key>Roll1</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+			<key>Roll 2</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 2.</string>
+			</dict>
+			<key>Roll2</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 2.</string>
+			</dict>
+			<key>Roll3</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 3.</string>
+			</dict>
+			<key>Roll4</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 4.</string>
+			</dict>
+			<key>Roll5</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 5.</string>
+			</dict>
+			<key>Roll6</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 6.</string>
+			</dict>
+			<key>Tray1</key>
+			<dict>
+				<key>toolTip</key>
+				<string>MultiSheetTrayTooltip</string>
+			</dict>
+		</dict>
+		<key>OutputMode</key>
+		<dict>
+			<key>Automatic</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option enables the printer to automatically select the print quality to use based upon the type of paper the printer detects.</string>
+			</dict>
+			<key>highest</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document with high resolution photo quality, but will take longer to print.</string>
+			</dict>
+			<key>best</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document with great quality, but at a slower speed.</string>
+			</dict>
+			<key>normal</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document with very good quality.</string>
+			</dict>
+			<key>normaldraft</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document with good quality and good speed.</string>
+			</dict>
+			<key>draft</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document as fast as possible, but at a lower quality.</string>
+			</dict>
+			<key>lowest</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document as fast as possible, but at a lower quality.</string>
+			</dict>
+			<key>Use printer default</key>
+			<dict>
+				<key>toolTip</key>
+				<string>This option prints your document using the quality level set on printer&apos;s front panel.</string>
+			</dict>
+		</dict>
+		<key>HPPrintQualityPreset</key>
+		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Choose advanced options for more precise control of the print quality settings, suitable for special needs.</string>
+			</dict>
+			<key>toolTip</key>
+			<string></string>
+		</dict>
+		<key>HPRedAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Use this to adjust the overall color balance between cyan and red.</string>
+		</dict>
+		<key>HPSaturation</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Moving this slider to the right will produce more vivid images, moving it to the left will produce more muted tones.</string>
+		</dict>
+		<key>HPUnidirectional</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select this option for unidirectional printing to get an image with better sharpness. This setting decreases performance.</string>
+		</dict>
+		<key>HPYellowAdjustment</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Moving this slider to the right will increase the yellow color intensity, moving it to the left will decrease it.</string>
+		</dict>
+		<key>HPOptimization</key>
+		<dict>
+			<key>text-and-images</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Optimize the printer output for text and images.</string>
+			</dict>
+			<key>line-drawings</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Optimize the printer output for line art.</string>
+			</dict>
+		</dict>
+		<key>HPRotation</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Select an angle of rotation</string>
+		</dict>
+		<key>OutputBin</key>
+		<dict>
+			<key>AutoSelect</key>
+			<dict>
+				<key>toolTip</key>
+				<string>PaperOutputAutoTooltip</string>
+			</dict>
+			<key>Stacker</key>
+			<dict>
+				<key>toolTip</key>
+				<string>PaperOutputBuiltInTooltip</string>
+			</dict>
+			<key>AccessoryStacker</key>
+			<dict>
+				<key>toolTip</key>
+				<string>PaperOutputAttachedStackerTooltip</string>
+			</dict>
+			<key>Basket</key>
+			<dict>
+				<key>toolTip</key>
+				<string>PaperOutputBasketTooltip</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet Z5400 PostScript</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T7200ps</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T7100ps</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1300</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1300 PostScript</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T2300</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T2300 PostScript</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1200</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1200 PostScript</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1100 44in</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1100 24in</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1100ps 44in</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1100ps 24in</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T7100ps Monochrome</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T3500</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T3500ps</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T2500</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T2500 PostScript</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1500</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>HP Designjet T1500 PostScript</key>
+	<dict>
+		<key>HPPaperSource</key>
+		<dict>
+			<key>Roll</key>
+			<dict>
+				<key>toolTip</key>
+				<string>Use this option to print on Roll 1.</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>hp designjet 130</key>
+	<dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print document with the highest resolution.</string>
+		</dict>
+	</dict>
+	<key>hp designjet 130nr</key>
+	<dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print document with the highest resolution.</string>
+		</dict>
+	</dict>
+	<key>hp designjet 30</key>
+	<dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print document with the highest resolution.</string>
+		</dict>
+	</dict>
+	<key>hp designjet 30n</key>
+	<dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print document with the highest resolution.</string>
+		</dict>
+	</dict>
+	<key>hp designjet 90</key>
+	<dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print document with the highest resolution.</string>
+		</dict>
+	</dict>
+	<key>hp designjet 90r</key>
+	<dict>
+		<key>HPMaximumDetail</key>
+		<dict>
+			<key>toolTip</key>
+			<string>Print document with the highest resolution.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BonjourNetwork</key>
+	<dict>
+		<key>_printer._tcp.</key>
+		<array>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1212nf MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1213nfh MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1214nfh MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1216nfh MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1217nfw MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1218nf MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1219nf MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1218nfs MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1218nfg MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1219nfs MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+			<dict>
+				<key>ICABonjourTXTRecordKey</key>
+				<dict>
+					<key>usb_MDL</key>
+					<string>HP LaserJet Professional M1219nfg MFP</string>
+					<key>usb_MFG</key>
+					<string>Hewlett-Packard</string>
+				</dict>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+				<key>scan port</key>
+				<string>8290</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>usb</key>
+	<dict>
+		<key>IOUSBDevice</key>
+		<array>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1212nf MFP</string>
+				<key>idProduct</key>
+				<string>0x052a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1213nfh MFP</string>
+				<key>idProduct</key>
+				<string>0x052a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1214nfh MFP</string>
+				<key>idProduct</key>
+				<string>0x052a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1216nfh MFP</string>
+				<key>idProduct</key>
+				<string>0x052a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1217nfw MFP</string>
+				<key>idProduct</key>
+				<string>0x0e2a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1218nf MFP</string>
+				<key>idProduct</key>
+				<string>0x052a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1219nf MFP</string>
+				<key>idProduct</key>
+				<string>0x052a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1218nfs MFP</string>
+				<key>idProduct</key>
+				<string>0x262a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1218nfg MFP</string>
+				<key>idProduct</key>
+				<string>0x262a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1219nfs MFP</string>
+				<key>idProduct</key>
+				<string>0x262a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1219nfg MFP</string>
+				<key>idProduct</key>
+				<string>0x262a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1132 MFP</string>
+				<key>idProduct</key>
+				<string>0x042a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1134 MFP</string>
+				<key>idProduct</key>
+				<string>0x042a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1136 MFP</string>
+				<key>idProduct</key>
+				<string>0x042a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1137 MFP</string>
+				<key>idProduct</key>
+				<string>0x042a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1138 MFP</string>
+				<key>idProduct</key>
+				<string>0x042a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+			<dict>
+				<key>Product Identification</key>
+				<string>HP LaserJet Professional M1139 MFP</string>
+				<key>idProduct</key>
+				<string>0x042a</string>
+				<key>idVendor</key>
+				<string>0x03f0</string>
+				<key>device events</key>
+				<array>
+					<string>scan</string>
+				</array>
+				<key>device type</key>
+				<string>scanner</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

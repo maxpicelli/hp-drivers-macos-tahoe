@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDETransverseController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.impala.PDETransverseController</string>
+		<key>label</key>
+		<string>Rotate by 90 Degrees</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPTransverse</string>
+		</array>
+	</dict>
+</dict>
+</plist>

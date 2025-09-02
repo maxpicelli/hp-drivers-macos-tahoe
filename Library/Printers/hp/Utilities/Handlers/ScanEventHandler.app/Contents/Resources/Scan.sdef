@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Scan Terminology">
+	<suite name="Scan" code="Scan" description="Scanning support">
+	
+		<enumeration name="scan source" code="SFU " description="Source to scan from">
+			<enumerator name="flatbed" code="SFUf"/>
+			<enumerator name="adf" code="SFUa" />
+			<enumerator name="auto" code="SFUA" />
+			<enumerator name="default" code="SFUd" />
+		</enumeration>
+
+		<enumeration name="format" code="Sfor" description="Document formats">
+			<enumerator name="jpeg" code="SJPG" />
+			<enumerator name="pdf" code="SPDF" />
+			<enumerator name="tiff" code="STIF" />
+			<enumerator name="auto" code="SAUT" />
+			<enumerator name="default" code="SDEF" />
+		</enumeration>
+
+		<enumeration name="media size" code="SPsz" description="Media sizes">
+			<enumerator name="A4" code="SPA4" />
+			<enumerator name="US Letter" code="SPLt" />
+			<enumerator name="US Legal" code="SPLg" />
+		</enumeration>
+		
+		<enumeration name="color mode" code="SCMd" description="Color types">
+			<enumerator name="black and white" code="SMBW" />
+			<enumerator name="high color" code="SMHC" />
+			<enumerator name="true color" code="SMTC" />
+			<enumerator name="deep color" code ="SCDC" />
+		</enumeration>
+		
+		<enumeration name="job state" code="SJst" description="Scan job state">
+			<enumerator name="waiting" code="SJwt" description="Job is waiting to scanner to become available" />
+			<enumerator name="scanning" code="SJsg" description="Scan is currently in progress" />
+			<enumerator name="complete" code="SJct" description="Scan job complete" />
+			<enumerator name="canceled" code="SJcn" description="Job was canceled" />
+			<enumerator name="no media" code="SJnm" description="Job failed since no media was loaded into device" />
+			<enumerator name="busy" code="SJbs" description="Job failed since scanner was used by other application" />
+			<enumerator name="offline" code="SJso" description="Job failed since scanner was offline" />
+			<enumerator name="failed" code="SJsf" description="Job failed due to other reasons" />
+		</enumeration>
+		
+		<class name="application" code="capp" description="">
+			<cocoa class="NSApplication" />
+			
+			<element name="scanners" code="Scna" type="scanner" access="r" description="currently available scanners">
+				<cocoa key="scannersForScripting" />
+			</element>
+			
+			<property name="idle exit timeout" code="Siet" type="number" description="seconds to wait in idle before exiting ">
+				<cocoa key="idleExitTimeoutForScripting" />
+			</property>
+			
+		</class>
+
+		<class name="scanner" plural="scanners" code="Scnr" description="Scanner object">
+			<cocoa class="SHScannerArbitrator" />
+			
+			<responds-to name="purge completed jobs">
+				<cocoa method="purgeCompletedJobsForScripting:" />
+			</responds-to>
+			<responds-to name="scan">
+				<cocoa method="scanForScripting:" />
+			</responds-to>
+			
+			<property name="ID" type="text" code="ID  " access="r" description="unique id of the scanner">
+				<cocoa key="ID" />
+			</property>
+			
+			<property name="online" type="boolean" code="SCol" access="r" description="whether scanner is online">
+				<cocoa key="onlineForScripting" />
+			</property>
+
+			<property name="URL" type="text" code="SCul" access="r" description="URL of the scanner">
+				<cocoa key="deviceURLForScripting" />
+			</property>
+
+			<property name="name" type="text" code="SCnm" access="r" description="name of the scanner">
+				<cocoa key="deviceNameForScripting" />
+			</property>
+
+			<property name="USB" type="boolean" code="SUSB" access="r" description="whether scanner is USB">
+				<cocoa key="localForScripting" />
+			</property>
+
+			<property name="network" type="boolean" code="SNET" access="r" description="whether scanner is network">
+				<cocoa key="networkForScripting" />
+			</property>
+			
+			<property name="shared" type="boolean" code="SSHD" access="r" description="whether scanner is shared">
+				<cocoa key="sharedForScripting" />
+			</property>
+			
+			<property name="remote" type="boolean" code="SRMT" access="r" description="whether scanner is remote">
+				<cocoa key="sharedForScripting" />
+			</property>
+			
+			<!-- property hidden="yes" name="scan sources" code="SCss" access="r" description="Available scan sources">
+				<type type="scan source" list="yes" />
+			</property -->
+			
+			<property name="keeping completed jobs" type="boolean" code="SCkc" access="rw" description="whether to keep completed jobs for further referencing(default is false)">
+				<cocoa key="keepsCompletedJobs" />
+			</property>
+
+			<element name="scan job" type="scan job" access="r">
+				<cocoa key="jobs" />
+			</element>
+		</class>
+
+		<class name="scan job" code="SJob" description="Scan job">
+			<cocoa class="SHScanJob" />
+
+			<responds-to name="await completion">
+				<cocoa method="awaitCompletionForScripting:" />
+			</responds-to>
+
+			<responds-to name="cancel">
+				<cocoa method="cancelForScripting:" />
+			</responds-to>
+			
+			<property name="ID" code="ID  " type="text" access="r" description="unique id of the job">
+				<cocoa key="ID" />
+			</property>
+
+			<property name="settings" code="SJss" type="scan settings" access="r" description="actual settings job was scanned with">
+				<cocoa key="settingsForScripting" />
+			</property>
+			
+			<property name="failure reason" code="SJfr" type="text" access="r" description="textual reason for failure, like scanner is offline, etc.">
+				<cocoa key="failureReasonForScripting" />
+			</property>
+			
+			<property name="state" code="SJjs" type="job state" access="r" description="current state of the job">
+				<cocoa key="stateForScripting" />
+			</property>
+			
+			<property name="pages scanned" code="SJpc" type="number" access="r" description="number of pages scanned so far">
+				<cocoa key="pagesScannedForScripting" />
+			</property>
+			
+			<!-- property hidden="yes" name="page scan progress" type="number" access="r" / -->
+			<property name="scanned documents" code="SJsd" access="r" description="documents scanned during entire job">
+				<cocoa key="scannedDocumentsForScripting" />
+				<type type="file" list="yes" />
+			</property>
+		</class>
+
+		<record-type name="scan settings" code="SSst">
+			<!-- property hidden="yes" name="color mode" type="color mode" access="r" />
+			<property hidden="yes" name="scan rect" type="rect" access="r" />
+			<property hidden="yes" name="media size" type="media size" access="r" / -->
+			<property name="resolution" code="SSre" type="number" access="r">
+				<cocoa key="resolution" />
+			</property>
+			<property name="scan source" code="SSss" type="scan source" access="r">
+				<cocoa key="source" />
+			</property>
+			<property name="document format" code="SSdf" type="format" access="r">
+				<cocoa key="format" />
+			</property>
+			<property name="destination folder" code="SSfo" type="file" access="r">
+				<cocoa key="path" />
+			</property>
+			<property name="document name" code="SSdn" type="text" access="r">
+				<cocoa key="name" />
+			</property>
+			<property name="duplex" code="SSdp" type="boolean" access="r">
+				<cocoa key="duplexForScripting" />
+			</property>
+			<!-- property hidden="yes" name="combining pages" type="boolean" access="r" / -->
+		</record-type>
+
+		<!-- command hidden="yes" name="capabilities" code="ScanCap " description="Capabilities of the scan source">
+			<direct-parameter type="scanner" optional="no" description="Scanner to scan from" />
+			<parameter name="of" code="SCof" type="scan source" optional="no" description="Scacn source in question" />
+			<result type="capabilities" />
+		</command -->
+
+		<!--record-type name="capabilities" code="SCap" description="Capabilities of scan source">
+			<property name="supported resolutions" code="SCRs" description="Supported resolutions">
+				<type type="number" list="yes" />
+			</property>
+			<property name="supported colors" code="SCMs" description="Supported color modes">
+				<type type="color mode" list="yes" />
+			</property>
+			<property name="supported media" code="SCMs" description="Supported media sizes">
+				<type type="media size" list="yes" />
+			</property>
+			<property name="media loaded" code="SCFl" type="boolean" description="True if media is loaded in adf" />
+			<property name="physical size" code="SCFs" type="rect" description="Physical size of the scan source" />
+			<property name="two-sided" code="SCFd" type="boolean" description="True if adf has duplexing capabilities" />
+		</record-type -->
+		
+		<command name="scan" code="ScanScan" description="start asynchronous scan job">
+			<direct-parameter type="scanner" description="scanner to scan from" />
+			
+			<parameter name="from" code="SFrm" type="scan source" optional="yes" description="source to scan from">
+				<cocoa key="source" />
+			</parameter>
+			
+			<parameter name="as" code="Scas" type="format" optional="yes" description="format of the resulting document">
+				<cocoa key="format" />
+			</parameter>
+			
+			<parameter name="to" code="Sto " type="file" optional="yes" description="the folder to scan document(s) to">
+				<cocoa key="path" />
+			</parameter>
+			
+			<parameter name="with name" code="Snam" type="text" optional="yes" description="the base name of the document(s)">
+				<cocoa key="name" />
+			</parameter>
+			
+			<!-- parameter hidden="yes" name="in" code="SClr" type="color mode" optional="yes" description="Color to scan with" / -->
+			
+			<!-- parameter hidden="yes" name="inside" code="SRct" type="rect" optional="yes" description="Rect to scan from, flatbed only" / -->
+			
+			<!-- parameter hidden="yes" name="size" code="SPpr" type="media size" optional="yes" description="media size to scan, adf only" / -->
+			
+			<parameter name="at resolution" code="SRes" type="number" optional="yes" description="resolution to scan with">
+				<cocoa key="resolution" />
+			</parameter>
+			
+			<parameter name="duplexing" code="Stwo" type="boolean" optional="yes" description="duplex scan, for adf only">
+				<cocoa key="duplexForScripting" />
+			</parameter>
+			
+			<!-- parameter hidden="yes" name="pages combined" code="Scom" type="boolean" optional="yes" description="Should mulitple pages be combined into a single document, valid for pdf and tiff (default is false)" / -->
+			
+			<result type="scan job" description="initiated scan job" />
+		</command>
+
+		<command name="cancel" code="ScanCncl" description="cancel scan job">
+			<direct-parameter type="scan job" description="ccan job to cancel" />
+		</command>
+		
+		<command name="await completion" code="ScanWait" description="waits for scan job completion">
+			<direct-parameter type="scan job" description="scan job to wait for, returns immediately if scan job is already completed" />
+		</command>
+		
+		<command name="purge completed jobs" code="ScanPurg" description="purges completed jobs unconditionally">
+			<direct-parameter type="scanner" description="scanner in question" />
+		</command>
+		
+	</suite>
+</dictionary>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEBookletController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.ps_pde.APDEBookletController</string>
+		<key>label</key>
+		<string>Booklet Printing</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPBookletFilter</string>
+			<string>HPBookletBackCover</string>
+			<string>HPBookletPageOrder</string>
+			<string>HPBookletScaling</string>
+			<string>HPBookletPageSize</string>
+		</array>
+		<key>supportedNibs</key>
+		<dict>
+			<key>Booklet001</key>
+			<array>
+				<string>HPBookletFilter</string>
+				<string>HPBookletBackCover</string>
+				<string>HPBookletScaling</string>
+				<string>HPBookletPageOrder</string>
+				<string>HPBookletPageSize</string>
+			</array>
+			<key>Booklet002</key>
+			<array>
+				<string>HPBookletFilter</string>
+				<string>HPBookletBackCover</string>
+				<string>HPBookletScaling</string>
+				<string>HPBookletPageOrder</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

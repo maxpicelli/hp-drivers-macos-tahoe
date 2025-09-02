@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EcoSMART</key>
+	<string>EcoSMART</string>
+	<key>SupplyStatusPage</key>
+	<string>Supply Status Page</string>
+	<key>ConfigurationPage</key>
+	<string>Configuration Page</string>
+	<key>DemoPage</key>
+	<string>Demo Page</string>
+	<key>CleaningPage</key>
+	<string>Cleaning Page</string>
+	<key>PrintInformationPages</key>
+	<string>Print Information Pages</string>
+	<key>Cancel</key>
+	<string>Cancel</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>AutoOffAfter</key>
+	<string>Auto Off after:</string>
+	<key>CleaningPagePanelLabel</key>
+	<string>CleaningPagePanelLabel</string>
+	<key>SleepAfter   </key>
+	<string>Sleep after:</string>
+	<key>QuietMode</key>
+	<string>Quiet Mode</string>
+	<key>Enable</key>
+	<string>Enable</string>
+	<key>Disable</key>
+	<string>Disable</string>
+	<key>HtmlConfig</key>
+	<string>HTML Config...</string>
+	<key>sleepafter</key>
+	<string>sleep after</string>
+	<key>MenuTitle</key>
+	<string>MenuTitle</string>
+</dict>
+</plist>

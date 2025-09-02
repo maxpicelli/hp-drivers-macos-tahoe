@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Officejet 150 Mobile L511</key>
+	<dict>
+		<key>ScanProtocol</key>
+		<string>HDT</string>
+		<key>has48bitScan</key>
+		<integer>0</integer>
+		<key>hasADF</key>
+		<integer>1</integer>
+		<key>hasADFDuplex</key>
+		<integer>0</integer>
+		<key>hasFlatbed</key>
+		<integer>0</integer>
+		<key>productID</key>
+		<string>20498</string>
+		<key>hasScanComponent</key>
+		<integer>1</integer>
+		<key>scanResolution</key>
+		<dict>
+			<key>maxDpiAdfX</key>
+			<integer>600</integer>
+			<key>maxDpiAdfY</key>
+			<integer>600</integer>
+			<key>maxDpiX</key>
+			<integer>600</integer>
+			<key>maxDpiY</key>
+			<integer>600</integer>
+			<key>minDpiX</key>
+			<integer>75</integer>
+			<key>minDpiY</key>
+			<integer>75</integer>
+			<key>nativeDPI</key>
+			<integer>300</integer>
+		</dict>
+		<key>supportsTMAScan</key>
+		<integer>0</integer>
+		<key>usesSCL</key>
+		<integer>1</integer>
+		<key>vendorID</key>
+		<string>1008</string>
+		<key>windowBounds</key>
+		<dict>
+			<key>maxExtentX</key>
+			<integer>2550</integer>
+			<key>maxExtentY</key>
+			<integer>3507</integer>
+			<key>maxExtentY_ADF</key>
+			<integer>4200</integer>
+			<key>minExtentX</key>
+			<integer>0</integer>
+			<key>minExtentY</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEFinishingPreview01Controller</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.ps_pde.PDEFinishingPreview01Controller</string>
+		<key>label</key>
+		<string>Concept Preview</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPStaplerOptions</string>
+		</array>
+	</dict>
+</dict>
+</plist>

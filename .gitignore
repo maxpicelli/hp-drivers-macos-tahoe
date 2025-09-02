@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.backup.*
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.pkg
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (if any)
+node_modules/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+
+# Large files that shouldn't be in git
+*.dmg
+*.iso
+*.zip
+*.tar.gz
+
+# Sensitive files
+.env
+*.key
+*.pem
+
+# System files
+.fseventsd

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ADCPPDDeviceCapabilitiesUpdater-1.2</key>
+	<string>*OpenGroup: InstallableOptions/InstallableOptions
+*fr.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*de.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*es.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*pt.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*sv.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*nl.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*it.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_CN.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ja.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ko.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ru.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*da.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*fi.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*no.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_TW.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+
+*OpenUI *HPAutoDuplexerInstalled/HP Two-sided Printing Accessory (Duplexer): Boolean
+*fr.Translation HPAutoDuplexerInstalled/Accessoire d&apos;impression recto verso HP (unité d&apos;interclassement): &quot;&quot;
+*de.Translation HPAutoDuplexerInstalled/HP Zubehör für den beidseitigen Druck (Duplexer): &quot;&quot;
+*es.Translation HPAutoDuplexerInstalled/Accesorio de impresión a dos caras de HP (duplicador): &quot;&quot;
+*pt.Translation HPAutoDuplexerInstalled/Acessório de impressão dupla-face HP (duplex): &quot;&quot;
+*sv.Translation HPAutoDuplexerInstalled/HP-tillbehör för dubbelsidig utskrift: &quot;&quot;
+*nl.Translation HPAutoDuplexerInstalled/HP-accessoire voor dubbelzijdig afdrukken (duplexer): &quot;&quot;
+*it.Translation HPAutoDuplexerInstalled/Accessorio HP per la stampa fronte/retro (unità duplex): &quot;&quot;
+*zh_CN.Translation HPAutoDuplexerInstalled/HP 双面打印附件（双面打印器）: &quot;&quot;
+*ja.Translation HPAutoDuplexerInstalled/HP 両面プリント アクセサリー（両面印刷ユニット）: &quot;&quot;
+*ko.Translation HPAutoDuplexerInstalled/HP 양면 인쇄 부속품(양면): &quot;&quot;
+*ru.Translation HPAutoDuplexerInstalled/Устройство двусторонней печати HP: &quot;&quot;
+*da.Translation HPAutoDuplexerInstalled/HP Tilbehør til tosidet udskrivning (dupleksenhed): &quot;&quot;
+*fi.Translation HPAutoDuplexerInstalled/HP&lt;3A&gt;n kaksipuolisen tulostuksen lisälaite (kääntölaite): &quot;&quot;
+*no.Translation HPAutoDuplexerInstalled/HP tilbehør for tosidig utskrift (duplekser): &quot;&quot;
+*zh_TW.Translation HPAutoDuplexerInstalled/HP 雙面列印模組 (雙面): &quot;&quot;
+*OrderDependency: 10.0 AnySetup *HPAutoDuplexerInstalled
+*DefaultHPAutoDuplexerInstalled: True
+*HPAutoDuplexerInstalled True/On: &quot;&quot;
+*fr.HPAutoDuplexerInstalled True/Activé(e): &quot;&quot;
+*de.HPAutoDuplexerInstalled True/Ein: &quot;&quot;
+*es.HPAutoDuplexerInstalled True/Activado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled True/Ativado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*nl.HPAutoDuplexerInstalled True/Aan: &quot;&quot;
+*it.HPAutoDuplexerInstalled True/Attivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled True/开: &quot;&quot;
+*ja.HPAutoDuplexerInstalled True/オン: &quot;&quot;
+*ko.HPAutoDuplexerInstalled True/켜짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled True/Вкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled True/Til: &quot;&quot;
+*fi.HPAutoDuplexerInstalled True/Päällä: &quot;&quot;
+*no.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled True/開啟: &quot;&quot;
+*HPAutoDuplexerInstalled False/Off: &quot;&quot;
+*fr.HPAutoDuplexerInstalled False/Inactif(ve): &quot;&quot;
+*de.HPAutoDuplexerInstalled False/Aus: &quot;&quot;
+*es.HPAutoDuplexerInstalled False/Desactivado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled False/Desligado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*nl.HPAutoDuplexerInstalled False/Uit: &quot;&quot;
+*it.HPAutoDuplexerInstalled False/Disattivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled False/关: &quot;&quot;
+*ja.HPAutoDuplexerInstalled False/オフ: &quot;&quot;
+*ko.HPAutoDuplexerInstalled False/꺼짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled False/Выкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled False/Fra: &quot;&quot;
+*fi.HPAutoDuplexerInstalled False/Pois päältä: &quot;&quot;
+*no.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled False/關閉: &quot;&quot;
+*CloseUI: *HPAutoDuplexerInstalled
+
+*CloseGroup: InstallableOptions
+
+*UIConstraints: *HPDuplex *HPAutoDuplexerInstalled False
+*UIConstraints: *HPAutoDuplexerInstalled False *HPDuplex
+
+</string>
+	<key>ADCPPDDeviceCapabilitiesUpdater-1.4</key>
+	<string>*OpenGroup: InstallableOptions/InstallableOptions
+*fr.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*de.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*es.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*pt.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*sv.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*nl.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*it.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_CN.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ja.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ko.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ru.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*da.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*fi.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*no.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_TW.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+
+*OpenUI *HPAutoDuplexerInstalled/HP Two-sided Printing Accessory (Duplexer): Boolean
+*fr.Translation HPAutoDuplexerInstalled/Accessoire d&apos;impression recto verso HP (unité d&apos;interclassement): &quot;&quot;
+*de.Translation HPAutoDuplexerInstalled/HP Zubehör für den beidseitigen Druck (Duplexer): &quot;&quot;
+*es.Translation HPAutoDuplexerInstalled/Accesorio de impresión a dos caras de HP (duplicador): &quot;&quot;
+*pt.Translation HPAutoDuplexerInstalled/Acessório de impressão dupla-face HP (duplex): &quot;&quot;
+*sv.Translation HPAutoDuplexerInstalled/HP-tillbehör för dubbelsidig utskrift: &quot;&quot;
+*nl.Translation HPAutoDuplexerInstalled/HP-accessoire voor dubbelzijdig afdrukken (duplexer): &quot;&quot;
+*it.Translation HPAutoDuplexerInstalled/Accessorio HP per la stampa fronte/retro (unità duplex): &quot;&quot;
+*zh_CN.Translation HPAutoDuplexerInstalled/HP 双面打印附件（双面打印器）: &quot;&quot;
+*ja.Translation HPAutoDuplexerInstalled/HP 両面プリント アクセサリー（両面印刷ユニット）: &quot;&quot;
+*ko.Translation HPAutoDuplexerInstalled/HP 양면 인쇄 부속품(양면): &quot;&quot;
+*ru.Translation HPAutoDuplexerInstalled/Устройство двусторонней печати HP: &quot;&quot;
+*da.Translation HPAutoDuplexerInstalled/HP Tilbehør til tosidet udskrivning (dupleksenhed): &quot;&quot;
+*fi.Translation HPAutoDuplexerInstalled/HP&lt;3A&gt;n kaksipuolisen tulostuksen lisälaite (kääntölaite): &quot;&quot;
+*no.Translation HPAutoDuplexerInstalled/HP tilbehør for tosidig utskrift (duplekser): &quot;&quot;
+*zh_TW.Translation HPAutoDuplexerInstalled/HP 雙面列印模組 (雙面): &quot;&quot;
+*OrderDependency: 10.0 AnySetup *HPAutoDuplexerInstalled
+*DefaultHPAutoDuplexerInstalled: True
+*HPAutoDuplexerInstalled True/On: &quot;&quot;
+*fr.HPAutoDuplexerInstalled True/Activé(e): &quot;&quot;
+*de.HPAutoDuplexerInstalled True/Ein: &quot;&quot;
+*es.HPAutoDuplexerInstalled True/Activado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled True/Ativado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*nl.HPAutoDuplexerInstalled True/Aan: &quot;&quot;
+*it.HPAutoDuplexerInstalled True/Attivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled True/开: &quot;&quot;
+*ja.HPAutoDuplexerInstalled True/オン: &quot;&quot;
+*ko.HPAutoDuplexerInstalled True/켜짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled True/Вкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled True/Til: &quot;&quot;
+*fi.HPAutoDuplexerInstalled True/Päällä: &quot;&quot;
+*no.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled True/開啟: &quot;&quot;
+*HPAutoDuplexerInstalled False/Off: &quot;&quot;
+*fr.HPAutoDuplexerInstalled False/Inactif(ve): &quot;&quot;
+*de.HPAutoDuplexerInstalled False/Aus: &quot;&quot;
+*es.HPAutoDuplexerInstalled False/Desactivado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled False/Desligado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*nl.HPAutoDuplexerInstalled False/Uit: &quot;&quot;
+*it.HPAutoDuplexerInstalled False/Disattivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled False/关: &quot;&quot;
+*ja.HPAutoDuplexerInstalled False/オフ: &quot;&quot;
+*ko.HPAutoDuplexerInstalled False/꺼짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled False/Выкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled False/Fra: &quot;&quot;
+*fi.HPAutoDuplexerInstalled False/Pois päältä: &quot;&quot;
+*no.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled False/關閉: &quot;&quot;
+*CloseUI: *HPAutoDuplexerInstalled
+
+*CloseGroup: InstallableOptions
+
+*UIConstraints: *Duplex *HPAutoDuplexerInstalled False
+*UIConstraints: *HPAutoDuplexerInstalled False *Duplex
+
+</string>
+	<key>ADCPPDNonInstallableDuplexUpdater-1.2</key>
+	<string>*OpenGroup: InstallableOptions/InstallableOptions
+*fr.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*de.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*es.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*pt.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*sv.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*nl.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*it.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_CN.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ja.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ko.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ru.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*da.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*fi.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*no.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_TW.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+
+*OpenUI *HPAutoDuplexerInstalled/HP Two-sided Printing Accessory (Duplexer): Boolean
+*fr.Translation HPAutoDuplexerInstalled/Accessoire d&apos;impression recto verso HP (unité d&apos;interclassement): &quot;&quot;
+*de.Translation HPAutoDuplexerInstalled/HP Zubehör für den beidseitigen Druck (Duplexer): &quot;&quot;
+*es.Translation HPAutoDuplexerInstalled/Accesorio de impresión a dos caras de HP (duplicador): &quot;&quot;
+*pt.Translation HPAutoDuplexerInstalled/Acessório de impressão dupla-face HP (duplex): &quot;&quot;
+*sv.Translation HPAutoDuplexerInstalled/HP-tillbehör för dubbelsidig utskrift: &quot;&quot;
+*nl.Translation HPAutoDuplexerInstalled/HP-accessoire voor dubbelzijdig afdrukken (duplexer): &quot;&quot;
+*it.Translation HPAutoDuplexerInstalled/Accessorio HP per la stampa fronte/retro (unità duplex): &quot;&quot;
+*zh_CN.Translation HPAutoDuplexerInstalled/HP 双面打印附件（双面打印器）: &quot;&quot;
+*ja.Translation HPAutoDuplexerInstalled/HP 両面プリント アクセサリー（両面印刷ユニット）: &quot;&quot;
+*ko.Translation HPAutoDuplexerInstalled/HP 양면 인쇄 부속품(양면): &quot;&quot;
+*ru.Translation HPAutoDuplexerInstalled/Устройство двусторонней печати HP: &quot;&quot;
+*da.Translation HPAutoDuplexerInstalled/HP Tilbehør til tosidet udskrivning (dupleksenhed): &quot;&quot;
+*fi.Translation HPAutoDuplexerInstalled/HP&lt;3A&gt;n kaksipuolisen tulostuksen lisälaite (kääntölaite): &quot;&quot;
+*no.Translation HPAutoDuplexerInstalled/HP tilbehør for tosidig utskrift (duplekser): &quot;&quot;
+*zh_TW.Translation HPAutoDuplexerInstalled/HP 雙面列印模組 (雙面): &quot;&quot;
+*OrderDependency: 10.0 AnySetup *HPAutoDuplexerInstalled
+*DefaultHPAutoDuplexerInstalled: True
+*HPAutoDuplexerInstalled True/On: &quot;&quot;
+*fr.HPAutoDuplexerInstalled True/Activé(e): &quot;&quot;
+*de.HPAutoDuplexerInstalled True/Ein: &quot;&quot;
+*es.HPAutoDuplexerInstalled True/Activado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled True/Ativado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*nl.HPAutoDuplexerInstalled True/Aan: &quot;&quot;
+*it.HPAutoDuplexerInstalled True/Attivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled True/开: &quot;&quot;
+*ja.HPAutoDuplexerInstalled True/オン: &quot;&quot;
+*ko.HPAutoDuplexerInstalled True/켜짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled True/Вкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled True/Til: &quot;&quot;
+*fi.HPAutoDuplexerInstalled True/Päällä: &quot;&quot;
+*no.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled True/開啟: &quot;&quot;
+*HPAutoDuplexerInstalled False/Off: &quot;&quot;
+*fr.HPAutoDuplexerInstalled False/Inactif(ve): &quot;&quot;
+*de.HPAutoDuplexerInstalled False/Aus: &quot;&quot;
+*es.HPAutoDuplexerInstalled False/Desactivado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled False/Desligado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*nl.HPAutoDuplexerInstalled False/Uit: &quot;&quot;
+*it.HPAutoDuplexerInstalled False/Disattivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled False/关: &quot;&quot;
+*ja.HPAutoDuplexerInstalled False/オフ: &quot;&quot;
+*ko.HPAutoDuplexerInstalled False/꺼짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled False/Выкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled False/Fra: &quot;&quot;
+*fi.HPAutoDuplexerInstalled False/Pois päältä: &quot;&quot;
+*no.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled False/關閉: &quot;&quot;
+*CloseUI: *HPAutoDuplexerInstalled
+
+*CloseGroup: InstallableOptions
+
+*UIConstraints: *HPDuplex *HPAutoDuplexerInstalled False
+*UIConstraints: *HPAutoDuplexerInstalled False *HPDuplex
+
+</string>
+	<key>ADCPPDNonInstallableDuplexUpdater-1.4</key>
+	<string>*OpenGroup: InstallableOptions/InstallableOptions
+*fr.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*de.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*es.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*pt.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*sv.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*nl.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*it.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_CN.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ja.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ko.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*ru.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*da.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*fi.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*no.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+*zh_TW.Translation InstallableOptions/InstallableOptions: &quot;&quot;
+
+*OpenUI *HPAutoDuplexerInstalled/HP Two-sided Printing Accessory (Duplexer): Boolean
+*fr.Translation HPAutoDuplexerInstalled/Accessoire d&apos;impression recto verso HP (unité d&apos;interclassement): &quot;&quot;
+*de.Translation HPAutoDuplexerInstalled/HP Zubehör für den beidseitigen Druck (Duplexer): &quot;&quot;
+*es.Translation HPAutoDuplexerInstalled/Accesorio de impresión a dos caras de HP (duplicador): &quot;&quot;
+*pt.Translation HPAutoDuplexerInstalled/Acessório de impressão dupla-face HP (duplex): &quot;&quot;
+*sv.Translation HPAutoDuplexerInstalled/HP-tillbehör för dubbelsidig utskrift: &quot;&quot;
+*nl.Translation HPAutoDuplexerInstalled/HP-accessoire voor dubbelzijdig afdrukken (duplexer): &quot;&quot;
+*it.Translation HPAutoDuplexerInstalled/Accessorio HP per la stampa fronte/retro (unità duplex): &quot;&quot;
+*zh_CN.Translation HPAutoDuplexerInstalled/HP 双面打印附件（双面打印器）: &quot;&quot;
+*ja.Translation HPAutoDuplexerInstalled/HP 両面プリント アクセサリー（両面印刷ユニット）: &quot;&quot;
+*ko.Translation HPAutoDuplexerInstalled/HP 양면 인쇄 부속품(양면): &quot;&quot;
+*ru.Translation HPAutoDuplexerInstalled/Устройство двусторонней печати HP: &quot;&quot;
+*da.Translation HPAutoDuplexerInstalled/HP Tilbehør til tosidet udskrivning (dupleksenhed): &quot;&quot;
+*fi.Translation HPAutoDuplexerInstalled/HP&lt;3A&gt;n kaksipuolisen tulostuksen lisälaite (kääntölaite): &quot;&quot;
+*no.Translation HPAutoDuplexerInstalled/HP tilbehør for tosidig utskrift (duplekser): &quot;&quot;
+*zh_TW.Translation HPAutoDuplexerInstalled/HP 雙面列印模組 (雙面): &quot;&quot;
+*OrderDependency: 10.0 AnySetup *HPAutoDuplexerInstalled
+*DefaultHPAutoDuplexerInstalled: True
+*HPAutoDuplexerInstalled True/On: &quot;&quot;
+*fr.HPAutoDuplexerInstalled True/Activé(e): &quot;&quot;
+*de.HPAutoDuplexerInstalled True/Ein: &quot;&quot;
+*es.HPAutoDuplexerInstalled True/Activado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled True/Ativado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*nl.HPAutoDuplexerInstalled True/Aan: &quot;&quot;
+*it.HPAutoDuplexerInstalled True/Attivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled True/开: &quot;&quot;
+*ja.HPAutoDuplexerInstalled True/オン: &quot;&quot;
+*ko.HPAutoDuplexerInstalled True/켜짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled True/Вкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled True/Til: &quot;&quot;
+*fi.HPAutoDuplexerInstalled True/Päällä: &quot;&quot;
+*no.HPAutoDuplexerInstalled True/På: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled True/開啟: &quot;&quot;
+*HPAutoDuplexerInstalled False/Off: &quot;&quot;
+*fr.HPAutoDuplexerInstalled False/Inactif(ve): &quot;&quot;
+*de.HPAutoDuplexerInstalled False/Aus: &quot;&quot;
+*es.HPAutoDuplexerInstalled False/Desactivado: &quot;&quot;
+*pt.HPAutoDuplexerInstalled False/Desligado: &quot;&quot;
+*sv.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*nl.HPAutoDuplexerInstalled False/Uit: &quot;&quot;
+*it.HPAutoDuplexerInstalled False/Disattivato: &quot;&quot;
+*zh_CN.HPAutoDuplexerInstalled False/关: &quot;&quot;
+*ja.HPAutoDuplexerInstalled False/オフ: &quot;&quot;
+*ko.HPAutoDuplexerInstalled False/꺼짐: &quot;&quot;
+*ru.HPAutoDuplexerInstalled False/Выкл.: &quot;&quot;
+*da.HPAutoDuplexerInstalled False/Fra: &quot;&quot;
+*fi.HPAutoDuplexerInstalled False/Pois päältä: &quot;&quot;
+*no.HPAutoDuplexerInstalled False/Av: &quot;&quot;
+*zh_TW.HPAutoDuplexerInstalled False/關閉: &quot;&quot;
+*CloseUI: *HPAutoDuplexerInstalled
+
+*CloseGroup: InstallableOptions
+
+*UIConstraints: *Duplex *HPAutoDuplexerInstalled False
+*UIConstraints: *HPAutoDuplexerInstalled False *Duplex
+
+</string>
+	<key>DCPPDDuplexSafeRegularExpression</key>
+	<string>^\*(()|([a-z]{2}\.|[a-z]{2}_[A-Z]{2}\.))(PageSize|PageRegion|ImageableArea|PaperDimension) [a-zA-Z0-9]*\.DuplexSafe/</string>
+</dict>
+</plist>

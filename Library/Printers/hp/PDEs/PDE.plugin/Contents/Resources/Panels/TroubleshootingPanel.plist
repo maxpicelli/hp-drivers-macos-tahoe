@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>panel-code-name</key>
+	<string>TroubleshootingPanel</string>
+	<key>root-controller</key>
+	<dict>
+		<key>class-name</key>
+		<string>PDETroubleshootingController</string>
+		<key>keyed-values</key>
+		<dict>
+			<key>identifier</key>
+			<string>com.hp.impala.PDETroubleshootingController</string>
+			<key>label</key>
+			<string>Troubleshooting</string>
+			<key>supportedSettingNames</key>
+			<array>
+				<string>HPDontSendPCL</string>
+				<string>HPDumpRawImage</string>
+				<string>HPPrintToDisk</string>
+			</array>
+		</dict>
+	</dict>
+	<key>title</key>
+	<string>Troubleshooting</string>
+	<key>orderNumber</key>
+	<real>80</real>
+	<key>summary-order</key>
+	<array>
+		<string>HPDontSendPCL</string>
+		<string>HPDumpRawImage</string>
+		<string>HPPrintToDisk</string>
+	</array>
+</dict>
+</plist>

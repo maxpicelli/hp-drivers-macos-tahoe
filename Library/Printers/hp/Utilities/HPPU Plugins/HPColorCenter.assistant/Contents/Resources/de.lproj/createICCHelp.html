@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Hilfe zur Erstellung und Installation von ICC-Profilen</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>ICC-Profil erstellen und installieren</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step1"><strong><font color="#006699">Schritt 1 - Druckmedium und Vorgang auswählen</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step2"><strong><font color="#006699">Schritt 2 - Benutzerdefiniertes Druckmedium hinzufügen</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step3"><strong><font color="#006699">Schritt 3 - ICC-Profileinstellungen auswählen</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step4"><strong><font color="#006699">Schritt 4 - Drucker kalibrieren</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step5"><strong><font color="#006699">Schritt 5 - ICC-Profil erstellen</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Schritt 6 - ICC-Profil installieren</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step7"><strong><font color="#006699">Schritt 7 - Fertig stellen</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Schritt 1 - Druckmedium und Vorgang auswählen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Im Drucker müssen Daten darüber vorhanden sein, wie die Farbwerte der Bildschirmdarstellung oder des Anwendungsdokuments zur Reproduktion mit Druckertinte auf dem jeweiligen Druckmedium umzusetzen sind. Ein ICC-Profil (International Color Consortium) beschreibt eine spezifische Kombination aus Drucker, Tinte und Medium und enthält alle für die Farbtransformation benötigten Daten.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Hier können Sie ein benutzerdefiniertes ICC-Profil erstellen, um beim Drucken die bestmögliche Farbwiedergabe zu erreichen. Wenn bereits ein ICC-Profil für das betreffende Medium vorliegt (beispielsweise als Download aus dem Internet), können Sie auch dieses Profil verwenden. Extern erstellte ICC-Profile, beispielsweise solche aus dem Internet, liefern in der Regel brauchbare Ergebnisse. Die beste Qualität erreichen Sie jedoch immer mit einem selbst erstellten Profil.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Einige Unterschiede zwischen den beiden Arten von Profilen:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Benutzerdefinierte Farbprofile basieren auf Mess- und Zielwerten Ihres persönlichen Druckers sowie auf dem individuell verwendeten Papier und den spezifischen Eigenschaften der Systemumgebung. Da alles exakt auf Ihr System abgestimmt ist, erreichen Sie damit die beste Farbgenauigkeit.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generische (extern erstellte) Farbprofile sind zwar für Ihr Druckermodell und dessen Tinten sowie für den von Ihnen verwendeten Medientyp gemacht, jedoch nicht für Ihren persönlichen Drucker sowie die damit konkret verwendeten Tinten und Medien. Vielmehr basieren solche Profile auf "typischen", das heißt statistisch ermittelten Mess- und Zielwerten, die für ein virtuelles Referenzsystem gelten. Da kein reales System in allen Nuancen dieser Projektion entspricht, bleiben Abweichungen in solchen Profilen unberücksichtigt.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Benutzerdefinierte Farbprofile werden mit der integrierten Profil-Erstellungssoftware des Druckers oder mit einer separat erworbenen Software generiert. Solche Software liefert zwar hochwertige Ergebnisse, die jedoch zwangsläufig auf bestimmten Annahmen in Bezug auf die Profil-Erstellung basieren. Dies gilt insbesondere bei der Farbraumtransformation (Gamut-Mapping) für den wahrnehmungsorientierten (perzeptiven) Rendering Intent. Jedes Gerät, das Farbe darstellt oder reproduziert, besitzt einen eigenen charakteristischen Gamut, das heißt einen Gerätefarbraum, der einen mehr oder weniger großen Teil des gesamten Farbraums abdeckt. Eine Farbraumtransformation ist immer dann notwendig, wenn die Farbdaten eines bestimmten Geräts, beispielsweise einer Digitalkamera oder eines Computerbildschirms, in den Farbraum eines anderen Geräts, etwa eines Druckers, übertragen werden müssen. Die Farbraumtransformation ist eher eine Kunst als eine Wissenschaft, deshalb gibt es genau genommen keine richtigen oder falschen Lösungen, sondern eben nur unterschiedliche.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Generische Farbprofile, wie sie beispielsweise von Papierherstellern zur Verfügung gestellt werden, wurden möglicherweise mit anderer Profil-Erstellungssoftware generiert, wobei unterschiedliche Algorithmen der Farbraumtransformation zum Einsatz gekommen sein können. Wie gesagt, sind diese Prämissen nicht als schlechter oder besser zu bewerten als die, die in der Software Ihres Druckers gelten, es bestehen einfach Unterschiede.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Einige Anhaltspunkte zur Unterscheidung:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie Priorität auf die Farbtreue der Drucke legen, wie dies in der Regel bei Proofs der Fall ist, verwenden Sie den farbmetrischen Rendering Intent. Die Farben innerhalb des Drucker-Gamuts (Ziel-Gamuts) werden mit höchster Genauigkeit reproduziert. Farben außerhalb des Drucker-Gamuts, die natürlich auf die eine oder andere Art dennoch gedruckt werden müssen, werden auf die jeweils nächstliegende Farbe abgebildet, was möglicherweise zu Kontrastverlusten führt. Da die farbmetrische Reproduktion im Vergleich zur wahrnehmungsorientierten Reproduktion ein eher regelorientierter Vorgang ist, erzeugt verschiedene Profil-Erstellungssoftware kaum unterschiedliche Ergebnisse. Ein benutzerdefiniertes Profil eignet sich daher normalerweise am besten.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie Priorität auf die realistische, natürliche Wiedergabe von Fotos oder künstlerischen Elementen legen und eine möglichst große Übereinstimmung mit der Bildschirmdarstellung anstreben, wählen Sie den wahrnehmungsorientierten Rendering Intent. Benutzerdefinierte Profile sind hier ein guter Ansatzpunkt, da sie mit exzellenter Farbgenauigkeit erstellt wurden und sich gut in den wahrnehmungsorientierten Intent integrieren. Dennoch kann es sein, dass Sie mit einem extern erstellten Profil zufriedener sind.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Unabhängig davon, welchen Profiltyp Sie schließlich einsetzen, ist es immer möglich, die Farbwiedergabe in gewissen Grenzen mithilfe der Steuerelemente des Druckertreibers im Detail anzupassen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Die Erstellung und Installation eines benutzerdefinierten ICC-Profils verläuft in folgenden Schritten:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Wählen Sie den Druckmedientyp aus, für den das Profil erstellt werden soll, oder definieren Sie einen neuen Typ.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Benennen Sie das Profil, und legen Sie die erforderlichen Einstellungen fest.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Erstellen Sie das neue Profil. Hierzu wird eine Testgrafik gedruckt, die anschließend trocknen muss. Dann wird die Grafik vermessen. Aus den Messdaten wird das Profil berechnet. Diese Schritte erledigt der Drucker selbsttätig.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									4.	Installieren Sie das neue Profil, damit Ihre Anwendungen und Ihr Drucker darauf zugreifen können.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Für den ersten Schritt wählen Sie entweder einen Medientyp aus der Liste der bekannten Medien oder definieren einen neuen Typ und fügen diesen in die Liste ein.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Zur Erstellung eines Profils gibt es zwei Verfahren: Eine Variante besteht darin, alle notwendigen Vorgänge in einem Durchgang auszuführen. Die Alternative besteht darin, den Ablauf in Phasen zu zerlegen. Das bedeutet, dass Sie zuerst die Profil-Erstellungsgrafik drucken, diese zunächst beiseite legen und erst zu einem späteren Zeitpunkt in den Drucker einlegen, der die Grafik dann vermisst und das Profil erstellt. Für beide Varianten gibt es gute Gründe:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie mit vordefinierten Standardmedientypen und unter normalen Umgebungsbedingungen arbeiten, werden Sie den automatischen Ablauf in einem Durchgang bevorzugen. Der Vorgang dauert eine gewisse Zeit, dafür jedoch übernimmt der Drucker die gesamte Ablaufsteuerung. Dazu gehört auch die Unterbrechung während der Trocknungszeit. Sofern Sie den Prozess nicht beobachten möchten (was im Übrigen durchaus interessant ist), können Sie während dieser Zeit andere Aufgaben erledigen und brauchen sich um die Kalibrierung nicht weiter kümmern.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie keine Standardmedientypen nutzen oder unter außergewöhnlichen Umgebungsbedingungen arbeiten, kann es erforderlich sein, die Trocknungszeit über die vordefinierte Dauer hinaus zu verlängern, damit sich die aufgetragene Tinte vollständig stabilisiert. Da ein Farbprofil immer auf dem endgültigen Druckergebnis basieren muss, eignet sich in solchen Fällen der Ablauf mit separierten Phasen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Dasselbe gilt, falls Sie die Drucke regelmäßig nachbearbeiten und dabei die Farbwirkung verändern. Wenn Sie die Drucke beispielsweise laminieren oder mit einem Firnis überziehen, ist es sinnvoll, das Profil erst nach diesen Arbeitsgängen zu erstellen, um die Farbtreue zu optimieren. Ebenso können Sie die Ergebnisse vor und nach der Nachbearbeitung vergleichen, um zu beurteilen, ob die Unterschiede relevant sind.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn für Sie die Alterungsbeständigkeit bestimmter Medientypen relevant ist, können Sie eine vor längerer Zeit erstellte Testgrafik erneut vermessen und dadurch feststellen, ob sich signifikante Veränderungen zeigen. In diesem und im vorherigen Fall leistet die Softproofing-Funktion von Photoshop gute Dienste.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Wenn Sie den automatisierten Ablauf in einem Durchgang bevorzugen, übernehmen Sie die Standardeinstellungen der Optionen "ICC-Profilerstellungsseite drucken" und "ICC-Profilerstellungsseite scannen und ICC-Profil erstellen". Wenn Sie den Ablauf mit separierten Phasen nutzen möchten, bieten sich zwei Auswahlmöglichkeiten. Wenn Sie die Testgrafik drucken und für später aufbewahren möchten, wählen Sie nur "ICC-Profilerstellungsseite drucken". Wenn Sie eine früher erstellte Testgrafik vermessen möchten, wählen Sie nur "ICC-Profilerstellungsseite scannen und ICC-Profil erstellen".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Wie so oft gilt auch hier: Sie entscheiden, was am besten für Sie ist. Es lohnt sich immer, etwas zu experimentieren.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table5">
+							<tr>
+								<td>
+									<h2 id="Step2">Schritt 2 - Benutzerdefiniertes Druckmedium hinzufügen</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Schritt 3 - ICC-Profileinstellungen auswählen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Hier wählen Sie einen Namen für das zu erstellende Profil aus. Der Name wird für zwei ähnliche, aber dennoch verschiedene Zwecke verwendet:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Der Dateiname, der von den Dateiverwaltungsprogrammen des Betriebssystems (Windows Explorer) zur Identifizierung von ICC-Profildateien benötigt wird, entsteht ebenfalls aus dem Profilnamen. Der Profilname wird automatisch mit der Erweiterung ".icc" ergänzt, so dass die Datei für Sie als Benutzer und für die Anwendung als ICC-Profildatei zu identifizieren ist.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Aus dem Namen wird die interne Beschreibungszeichenkette des Profils abgeleitet. Jedes ICC-Profil ist mit einer solchen internen Kennung versehen, die von vielen ICC-fähigen Programmen zur Identifizierung des Profils oder zur Anzeige in einer Auswahlliste verwendet wird.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Je nach Konstellation sehen Sie entweder den Dateinamen oder den internen Deskriptor, deshalb empfiehlt es sich, in beiden Fällen dieselbe Benennung zu verwenden. Grundsätzlich können Sie den Namen frei wählen. Es ist jedoch ratsam, eine standardisierte Namenskonvention festzulegen und diese auch einzuhalten. Ein solches Benennungsschema könnte beispielsweise darin bestehen, verschiedene Komponenten zu kombinieren, die mit Leerzeichen, Unterstrichen oder einem anderen Zeichen Ihrer Wahl getrennt werden:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Druckertyp oder -name, beispielsweise "HP Designjet Z2100", wobei "HP" für den Hersteller Hewlett-Packard steht. "Designjet" bezeichnet die Modellreihe, und "Z2100" entspricht der Modellnummer des Druckers. Für den Dateinamen und den internen Deskriptor gelten Längenbeschränkungen. Deshalb kann es erforderlich sein, diese Informationen verkürzt darzustellen. Indem Sie das Druckermodell als ersten Teil des Profilnamens verwenden, stellen Sie sicher, dass alle Profile für Ihren Drucker in Dateiverwaltungsprogrammen und in Auswahllisten als zusammenhängender Block erscheinen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Medientyp oder Name, beispielsweise "HWT310" für Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Ebenso wie bei der Druckerbezeichnung können hier Abkürzungen erforderlich werden. Der Name bzw. die Abkürzung müssen eindeutig sein, damit sich die verschiedenen Profile unterscheiden lassen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Druckqualität und andere Einstellungen, die für den Druck der Testgrafik verwendet wurden, beispielsweise "B" für "Beste" Druckqualität oder "BHV" für "Beste" Druckqualität und "Hochglanzverstärker" (nur für Fotopapiere). Vereinfachen und verkürzen Sie so weit wie nötig, jedoch nicht mehr.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Die verwendete Testgrafik, z. B. "Klein" oder "Groß", oder der Name einer bestimmten Testgrafik, etwa "ECI2002", sofern diese Option zur Verfügung steht. Vereinfachen und verkürzen Sie nach Bedarf.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Mit diesem Schema ergeben sich beispielsweise Profilnamen wie "HP Designjet Z2100 HWT310" oder "HP Designjet Z2100, gestrichenes Papier". Die Dateinamen dazu würden lauten: "HP_Z2100_HWT310.icc" bzw. "HP_Z2100_gestrichenesPapier.icc".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Unabhängig davon, welche Benennungsmethode Sie schließlich verwenden, muss sichergestellt sein, dass sich die Profile für die verschiedenen Medientypen und Einstellungen zweifelsfrei unterscheiden lassen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Wie so oft gilt auch hier: Sie entscheiden, was am besten für Sie ist. Es lohnt sich immer, etwas zu experimentieren.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Bevor Sie mit dem Druck der Testgrafik fortfahren, vergewissern Sie sich, dass der richtige Medientyp in den Drucker eingelegt ist und dass der Drucker bereit ist.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table7">
+							<tr>
+								<td>
+									<h2 id="Step4">Schritt 4 - Drucker kalibrieren</h2>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table8">
+							<tr>
+								<td>
+									<h2 id="Step5">Schritt 5 - ICC-Profil erstellen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Nur Zieldokument drucken. ICC-Profil später erstellen.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Der Drucker erzeugt nun die Testgrafik für die Profil-Erstellung. Dabei gelten die von Ihnen im vorangegangenen Schritt festgelegten Vorgaben. Während dieses Vorgangs signalisiert eine Fortschrittsanzeige den Status. Einige Erläuterungen zu diesen Testgrafiken:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Testgrafiken für die Profilerstellung bestehen aus Feldern mit unterschiedlichem Tintenauftrag. Im Gegensatz zu den für die Linearisierung und Kalibrierung erstellten Grafiken enthalten die meisten Felder Kombinationen verschiedener Tintenfarben. Die Messung mit dem integrierten Spektrofotometer ermöglicht es dem Drucker, exakt zu bestimmen, welche Farben sich aus allen möglichen Kombinationen von Tinten ergeben. Dieses Schema wird als vorwärts gerichtetes Druckermodell bezeichnet, da es vom Tintenauftrag zur resultierenden Farbe orientiert ist. Ein Spektrofotometer ist ein Präzisionsgerät, das die exakte Zusammensetzung des von den Farbfeldern reflektierten Lichts bestimmen kann. Das reflektierte Licht wird in die einzelnen Wellenlängen zerlegt. Vielleicht ist Ihnen die von Newton erklärte Lichtbrechung am Prisma geläufig, die nach demselben Prinzip funktioniert. Die Intensität der einzelnen Farbanteile ("Regenbogenfarben") wird gemessen. Vorwärts gerichtete Druckermodelle werden oft für das Soft- oder Hardproofing eingesetzt, beispielsweise, um zu simulieren, wie ein Bild bei der Ausgabe auf einem bestimmten Drucker und einem bestimmten Medientyp wiedergegeben wird. Der Drucker invertiert dieses Modell mithilfe der integrierten Profil-Erstellungssoftware in ein rückwärts gerichtetes Druckermodell, das von der gewünschten Farbe zur dafür benötigten Tintenmenge der verschiedenen Farben orientiert ist. Der zuletzt genannte Vorgang wird bei der Transformation der Farbtöne im Anwendungsdokument bzw. auf dem Bildschirm in die unterschiedlichen Tintenmengen verwendet, mit denen der Drucker die betreffende Farbe auf dem Medium abbildet. ICC-(ColorSync-)Drucker und Medienprofile enthalten vorwärts und rückwärts gerichtete Modelle für zwei verschiedene Rendering Intents (Reproduktionsprioritäten): wahrnehmungsorientiert (zur Wiedergabe von Fotos) und farbmetrisch (zur möglichst exakten Wiedergabe von Schmuckfarben, z. B. in Logos).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Die Messungen und damit das ICC-Profil spiegeln exakt das wieder, was auf dem Medium zu "sehen" ist. Der optische Effekt wiederum hängt von einer ganzen Reihe von Faktoren ab. Dazu zählen Drucker, Tinten, Medium, Druckeinstellungen und Umgebungsbedingungen. Das erzeugte Profil kann daher immer nur so gut und repräsentativ sein wie die Bedingungen der Systemumgebung. Anders ausgedrückt: Die Testgrafik sollte möglichst unter den Bedingungen erstellt werden, unter denen später auch die endgültigen Drucke mit dem entstehenden Profil erstellt werden. Wenn Sie während des Grafikdrucks ungewöhnliche Merkmale an der Druckqualität, am Medium oder den Umgebungsbedingungen feststellen, brechen Sie den Vorgang ab und beginnen erneut. Andernfalls ist das entstehende Profil nicht repräsentativ und damit praktisch nutzlos.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<td>
+									<h3>ICC-Profil aus einem bereits gedruckten Zieldokument erstellen.</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Die Testgrafik wird mit dem integrierten Spektrofotometer des Druckers vermessen (gescannt). Die dabei gewonnenen Daten dienen zur Kalibrierung des Druckers und zur Erstellung des Profils. Ein Spektrofotometer ist ein Präzisionsgerät, das die exakte Zusammensetzung des von den Farbfeldern reflektierten Lichts bestimmen kann. Das reflektierte Licht wird in die einzelnen Wellenlängen zerlegt. Vielleicht ist Ihnen die von Newton erklärte Lichtbrechung am Prisma geläufig, die nach demselben Prinzip funktioniert. Die Intensität der einzelnen Farbanteile ("Regenbogenfarben") wird gemessen. Wie bei Präzisionsmessinstrumenten üblich, muss auch das Spektrofotometer selbst vor der Messung kalibriert und stabilisiert werden. Die Kalibrierung erfolgt automatisch mithilfe eines integrierten weißen Keramikstücks, das als Referenz dient. Die Stabilisierung wird dadurch erreicht, dass die integrierte Lichtquelle der Spektrofotometers nach dem Einschalten auf Temperatur gebracht wird, bevor die Messungen beginnen. Während dieses Vorgangs signalisiert eine Fortschrittsanzeige den Ablauf.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Zum Scannen der Testgrafik werden das Medium und das am Druckkopfwagen befestigte Spektrofotometer in Position gebracht, so dass die Farbfelder gescannt werden können. Obwohl die eigentliche Messung im Stillstand erfolgt (ohne dass sich Sensor oder Papier bewegen), ist der Zeitbedarf relativ gering. Pro Sekunde werden ca. fünf Messungen durchgeführt. Die Messungsdauer für die einzelnen Felder wird automatisch an die gemessene Farbe angepasst, da dunkle Farben eine längere Integrationszeit (Messperiode) erfordern als helle Farben. Während dieses Vorgangs signalisiert eine Fortschrittsanzeige den Ablauf.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Sobald die Grafik vollständig vermessen wurde, beginnt die Berechnung des Profils. Die Messungen ermöglichen es dem Drucker, exakt zu bestimmen, welche Farben sich aus allen möglichen Kombinationen von Tinten ergeben. Dieses Schema wird als vorwärts gerichtetes Druckermodell bezeichnet, da es vom Tintenauftrag zur resultierenden Farbe orientiert ist. Vorwärts gerichtete Druckermodelle werden oft für das Soft- oder Hardproofing eingesetzt, beispielsweise, um zu simulieren, wie ein Bild bei der Ausgabe auf einem bestimmten Drucker und einem bestimmten Medientyp wiedergegeben wird. Der Drucker invertiert dieses Modell mithilfe der integrierten Profil-Erstellungssoftware in ein rückwärts gerichtetes Druckermodell, das von der gewünschten Farbe zur dafür benötigten Tintenmenge der verschiedenen Farben orientiert ist. Der zuletzt genannte Vorgang wird bei der Transformation der Farbtöne im Anwendungsdokument bzw. auf dem Bildschirm in die unterschiedlichen Tintenmengen verwendet, mit denen der Drucker die betreffende Farbe auf dem Medium abbildet. ICC-(ColorSync-)Drucker und Medienprofile enthalten vorwärts und rückwärts gerichtete Modelle für zwei verschiedene Rendering Intents (Reproduktionsprioritäten): wahrnehmungsorientiert (zur Wiedergabe von Fotos) und farbmetrisch (zur möglichst exakten Wiedergabe von Schmuckfarben, z. B. in Logos). Während dieses Vorgangs signalisiert eine Fortschrittsanzeige den Ablauf.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table12">
+							<tr>
+								<td>
+									<h3>Zieldokument drucken und ICC-Profil erstellen.</h3>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step6">Schritt 6 - ICC-Profil installieren</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ein ICC-Profil hat nur dann einen Wert, wenn es auch tatsächlich verwendet wird. Diese Feststellung klingt zunächst banal (und ist es eigentlich auch), doch es verbirgt sich mehr dahinter, als man auf den ersten Blick vermutet. Zunächst muss das Profil in den richtigen Betriebssystemordner auf dem Computer kopiert werden, damit es von Anwendern und Benutzern gefunden werden kann. Diesen Schritt führt die Druckersoftware automatisch aus. Zweitens muss das Profil außerdem in die interne Profildatenbank des Druckers übertragen werden.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ob und wie Profile nach der Erstellung und Installation verwendet werden, hängt zum großen Teil von der Konfiguration der Anwendung(en) und des Druckertreibers ab. Die Umwandlung von Farben beim Übergang zwischen verschiedenen Anwendungen und Geräten mithilfe von Farbprofilen wird als Farbmanagement bezeichnet. Hier sind drei Varianten zu unterscheiden:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	Anwendungsfarbmanagement: Wie der Name bereits ausdrückt, sorgt hier die Anwendung für alle notwendigen Farbtransformationen, bevor das Dokument zum Drucker gesendet wird. In der Praxis bedeutet dies, dass die Anwendung dem Benutzer Möglichkeiten zur Auswahl von Drucker und Medienprofil bieten muss. Farbprofile werden von der Druckersoftware nach der Erstellung in einen bestimmten Betriebssystemordner kopiert. Damit alles wie gewünscht funktioniert, muss dem Drucker (genauer: dem Druckertreiber) signalisiert werden, dass dieser kein eigenes Farbmanagement mehr durchführen soll. Das Ergebnis einer solchen Duplizierung des Managements wäre bestenfalls mangelhaft. Der Druckertreiber bietet hierzu eine entsprechende Option.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	Druckerfarbmanagement mit ICC-Profilen: Wie zu erwarten, besteht das Gegenteil des Anwendungsfarbmanagements im druckergesteuerten Farbmanagement. In unserem Fall kommen dabei ICC-Profile (ColorSync) zum Einsatz. In dieser Konstellation überträgt die Anwendung die Dokumentfarben nicht in den Farbraum von Drucker und Papier, sondern überlässt diese Aufgabe dem Druckertreiber. Die Anwendung muss das Dokument unverändert an den Drucker übertragen, ohne Druckerfarbprofile auszuwählen oder umzusetzen. "Unverändert" bedeutet in diesem Zusammenhang, dass die Dokumente im Farbraum der Anwendung verbleiben, typischerweise im Farbraum sRGB (zumeist die Standardeinstellung) oder Adobe RGB (oft in Anwendungen für die Bearbeitung von Digitalfotos verwendet). Anschließend muss natürlich der Drucker das passende Farbprofil anwenden. Dieser Schritt geschieht automatisch, wenn Sie den Medientyp auswählen. Dies ist der Grund dafür, warum ein Profil nach seiner Erstellung mit einem bestimmten Medientyp verknüpft werden muss. Auch hierzu bietet der Druckertreiber eine entsprechende Option.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									3.	Druckerfarbmanagement mit proprietären Farbtabellen: Die Variante gleicht insofern der vorherigen, als dass der Druckertreiber und nicht die Anwendung das Farbmanagement übernimmt. Der Unterschied besteht in der Verwendung von proprietären Farbtabellen anstelle von Standard-ICC-Profilen. Obwohl sich die beiden Managementtypen in der Funktionalität weitgehend entsprechen, bestehen doch signifikante Unterschiede. ICC-Profile funktionieren bidirektional: von der gewünschten Farbe zur Tintenmenge und von der Tintenmenge zur gewünschten Farbe. Farbtabellen funktionieren nur unidirektional, also nur von der gewünschten Farbe zur Tintenmenge. Daraus ergeben sich einige Konsequenzen für das Proofing, wie wir später noch sehen werden. ICC-Profile werden immer paarweise verwendet: ein Profil für das Eingabegerät und eines für das Ausgabegerät. Farbtabellen dagegen werden immer nur einzeln verwendet und dienen zur direkten Umwandlung eines bestimmten Eingabefarbraums in den Farbraum von Drucker und Papier. Daraus ergibt sich, dass nur eine begrenzte Anzahl von Eingabefarbräumen unterstützt werden kann, normalerweise entweder sRGB oder Adobe RGB, jedoch nicht beide gleichzeitig. Nicht zufällig sind dies die gebräuchlichsten Anwendungsfarbräume, denn die Profilerstellungssoftware Ihres Druckers erstellt zwar ICC-Profile (ColorSync), derzeit jedoch noch keine Farbtabellen. Damit sind Farbtabellen nur für Standardmedientypen (bzw. Standarddruckbedingungen) verfügbar (siehe unten). Um einen Druckvorgang ausführen zu können, muss der Drucker eine geeignete Farbtabelle auswählen. Dies geschieht automatisch bei der Auswahl eines Standardmedientyps. Sie müssen das Farbmanagement der Anwendung deaktivieren (normalerweise über eine Einstellung wie "Druckerveraltete Farbe") und die Farbtabellen des Druckers aktivieren. Die Option "Druckerveraltete Farbe" finden Sie in der Farbsteuerung Ihres Druckertreibers.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Einige Überlegungen zur Auswahl der passenden Farbmanagementoption:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie eine Proofausgabe auf dem Bildschirm durchführen möchten (Softproofing), um das spätere Druckbild zu beurteilen, verwenden Sie das Anwendungsfarbmanagement mit ICC-Profilen. Profile funktionieren bidirektional und enthalten die benötigten Informationen zur Umwandlung der Anwendungsfarben in Druckerfarben (Rückwärtsrichtung) und zur Umwandlung von Druckerfarben in Anwendungsfarben (Vorwärtsrichtung).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn die von Ihnen verwendete Anwendung kein Softproofing unterstützt, Sie aber dennoch die Druckausgabe auf dem Bildschirm simulieren möchten, ist die Anwendung HP Druckvorschau interessant für Sie. Diese Anwendung wird über den Druckertreiber gestartet (unter Mac OS im PDF-Menü, unter Windows mit der Option zur Anzeige der Druckvorschau).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie eine Feinabstimmung der Farbwiedergabe vornehmen möchten, werden Sie sich eher für das Anwendungsfarbmanagement entscheiden. In Anwendungen wie Photoshop können Bilder aus dem ursprünglichen RGB-Format in drucker- und medientypspezifische Darstellungen konvertiert werden (RGB oder CMYK). Außerdem lässt sich die Druckausgabe auf dem Bildschirm simulieren (Softproofing). Eine Vielzahl von Bearbeitungswerkzeugen erlaubt die Veränderung der Gerätefarbwerte vor dem Drucken. Diese Eingriffsmöglichkeiten sind allerdings nicht unbedingt für Neulinge geeignet. Es erfordert schon eine gewisse Erfahrung, bis tatsächlich die gewünschten Effekte erzielt werden. Wenn Sie ohne großen Aufwand zu überzeugenden Ergebnissen gelangen möchten, verlassen Sie sich zunächst auf das Druckerfarbmanagement.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn der von Ihnen bevorzugte Arbeitsablauf auf ICC-Profilen basiert, ist das Anwendungsfarbmanagement mit Drucker-ICC-Profilen (ColorSync) für Sie geeignet. Wenn Sie mit dem Begriff ICC noch nichts anfangen können oder wenn Sie keine weitere Verwendung für ICC-Profile haben, sollten Sie das Druckerfarbmangement bevorzugen.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Wenn Sie keine Standardmedientypen nutzen oder unter außergewöhnlichen Umgebungsbedingungen arbeiten, sollten Sie mit dem Spektrofotometer des Druckers und der integrierten Profil-Erstellungssoftware ICC-Profile generieren. Da die Profil-Erstellungssoftware gegenwärtig nur ICC-Profile erzeugt, jedoch keine proprietären Farbtabellen, bietet sich das Anwendungsfarbmangement an.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Ganz gleich, für welche Option Sie sich letztlich entscheiden: Sie sollten wissen, wofür und warum Sie sich entschieden haben. Achten Sie außerdem darauf, dass der Druckertreiber und die Anwendung richtig konfiguriert sind. Die Konfiguration des Anwendungsfarbmanagements richtet sich nach der verwendeten Anwendung. Deshalb gibt es leider keine allgemein gültigen Patentrezepte. Das <a onmouseover="this.style.cursor='hand'" href="https://h41186.www4.hp.com/LFP/guides/guides.html?product=7&os=2"><strong><font color="#006699">HP Printing Knowledge Center</font></strong></a> kann hier Unterstützung leisten. Sie finden dort unter anderem detaillierte Informationen zur Konfiguration der gängigsten professionellen Grafikanwendungen sowie Hinweise zur Problembehebung.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table10">
+							<tr>
+								<td>
+									<h2 id="Step7">Schritt 7 - Fertig stellen</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Nach der Erstellung des Profils können Sie die Liste aller Druckmedien durchgehen, die der Drucker "kennt". Für jedes Druckmedium sind die Kategorie, der benutzerspezifische Name und der zugeordnete Profilname verzeichnet. Nun können Sie das benutzerdefinierte ICC-Profil (ColorSync) für die konfigurierte Kombination aus Drucker und Medium einsetzen. Weitere Informationen finden Sie im Abschnitt <a onmouseover="this.style.cursor='hand'" href="createICCHelp.html#Step6"><strong><font color="#006699">Schritt 6 - ICC-Profil installieren</font></strong></a> der Online-Hilfe.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

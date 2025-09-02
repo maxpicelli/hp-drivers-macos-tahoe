@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>安裝 ICC 設定檔說明</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>安裝 ICC 設定檔</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">步驟 1 – 選擇 ICC 設定檔</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">步驟 2 – 檢查 ICC 設定檔設定</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">步驟 3 - 安裝設定檔</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">步驟 4 – 完成</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">步驟 1 – 選擇 ICC 設定檔</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									如果您不是使用印表機內建設定軟體來取得 ICC 設定檔 (例如透過網際網路下載或協力廠商設定軟體套件)，仍然可以安裝該設定檔供您的印表機和紙張使用。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									由於印表機必須知道設定檔所對應的紙張類型，因此您必須先從它「已知」的紙張清單中選擇紙張類型。當選擇紙張類型時，請盡量選擇和實際紙張類型類似的類型。由於紙張類型會決定使用的墨水量和其他基本的列印參數，因此目前的選擇將對其後列印品質是否優良造成關鍵性的影響。如果沒有列出您目前使用的紙張，或是找不到類似的紙張類型，您可以定義新的類型。然後印表機會自我校準，以便搭配您的紙張使用，接著您就可以回到安裝 ICC 設定檔的程序。如果您發現無法達到滿意的列印效果，您可以嘗試為相同紙張建立新的紙張名稱並選擇不同的紙張類型，然後使用其中列印品質最佳的一種。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									在選擇紙張類型之後，請瀏覽至含有搭配您的印表機和紙張使用的 ICC 設定檔的檔案。一般而言，ICC 設定檔檔案名稱結尾的副檔名為「.icc」(代表 International Color Consortium) 或「.icm」(代表 Image Color Matching)。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									您可能會想要知道自訂產生的色彩設定檔和下載或「速成式」設定檔之間有何差別。以下是這兩種類型的設定檔之間的某些差異：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 自訂色彩設定檔是以您個別印表機的測試目標和測量值、使用您個別的墨水和紙張以及您個別的環境條件為基礎。原則上，這種設定檔會提供最佳的色彩準確度，因為所有的項目都是針對您的系統而個別自訂的。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 雖然一般或「速成式」色彩設定檔是針對您的印表機機型和墨水和使用的紙張類型所建立的，但是並非針對您個別的印表機、墨水和紙張所建立。它們是以代表「典型」或一般系統的「典型」或一般測試目標和測量值為基礎。雖然這可以為一般系統提供良好的成果，但是在您的系統和這些設定檔無法顧全的一般系統之間，可能會有些微的差異。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 自訂色彩設定檔是使用您印表機的內建設定軟體或您附帶購買的設定軟體建立的。雖然這種軟體可以提供絕佳的結果，但您必需決定幾個有關如何建立設定檔的特定選擇，特別是關於如何進行圖像視覺式演算上色法 (Perceptual Rendering Intent) 的色域對應。當具有指定色域 (裝置可以擷取或產生的所有色彩的範圍) 的裝置 (例如數位相機或電腦螢幕) 必須進行色彩轉譯或對應至具有不同大小或形狀色域的裝置 (例如印表機) 時，便會發生色域對應。色域對應比較像是一門藝術而非科學，因此並沒有對或錯，只有因人而異的分別。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 一般色彩設定檔 (例如紙張供應商所提供的色彩設定檔) 可能是使用不同的設定軟體建立的，所以對於色域對應和其他的設定檔內容會有不同的選擇。雖然這些選擇不一定會比您的印表機設定軟體所做的選擇更好或更差，但是可能會不太一樣。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									以下是一些幫助您選擇設定檔類型的準則：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 如果您很在意列印結果的色彩準確度，例如打樣列印的品質，您可能會使用色度式演算上色法 (Colorimetric Rendering Intent)。後者會嘗試以最高準確度，再現您印表機的色域內的色彩，但印表機色域以外的色彩可能不佳 (但還是必須以其中一種方式列印這些色彩)。由於色度式再現是比圖像視覺式再現更為客觀的工作，因此設定軟體之間的差別可能較小，而自訂設定檔通常是您的最佳選擇。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 如果您很在意列印結果的「外觀」以及與電腦螢幕顯示之間的良好一致性，例如相片和美術應用程式，那麼可能會使用圖像視覺式演算上色法。從自訂設定檔開始是一個很好的決定，因為自訂設定檔是以絕佳的色彩準確度和美觀的圖像視覺式上色法建立的，不過您可能會發現您比較喜歡某個協力廠商設定檔的外觀。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									您要堅持使用最適合的方式，因為那往往就是最好的方式。您可能必須做一些新的嘗試才能找出答案。
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">步驟 2 – 檢查 ICC 設定檔設定</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									您可以在這裡選擇將要安裝的 ICC 設定檔的名稱。此名稱有兩個相關但不同的用途：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	在您使用作業系統的檔案瀏覽器 (Microsoft Explorer) 來瀏覽含有 ICC 設定檔的檔案時，您會看到的檔案名稱。應用程式會在設定檔名稱中自動附加副檔名「.icc」，因此您和軟體便可以透過查看副檔名來辨識 ICC 設定檔。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	設定檔的內部描述字串。每個 ICC 設定檔都有內部描述字元，讓部分 (並非全部) ICC 感知軟體用於識別設定檔，或讓您從清單中選擇。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									視情況而定，您可能會看到檔名或內部描述元，這就是為什麼最好兩者均使用相同名稱的原因。雖然原則上，您可以選擇任何您喜歡的名稱，但是最佳作法是為設定檔定義標準的命名慣例，並嚴格遵守。例如，您可以使用下列名稱元件，以空格、底線或其他您選擇的符號來分隔：
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 印表機類型或名稱，例如「HP Designjet Z2100」，其中「HP」代表製造商 (Hewlett-Packard)，「Designjet」代表系列，而「Z2100」則對應至印表機的型號。由於檔案名稱和內部描述元的長度都有限制，因此您可能需要將上述所有資訊縮寫成字元數很少的單一字串。使用印表機機型做為設定檔名稱的第一個部分，可確保印表機的所有設定檔在檔案瀏覽器和應用程式設定檔清單中，都會顯示為單一連續群組。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 紙張類型或名稱，例如「HWT310」代表 Hahnemuhle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm。至於印表機類型或名稱，您可能必須縮寫紙張類型或名稱。請確定對您所使用的各種不同的紙張類型，使用唯一名稱或縮寫，讓您可以清楚區分不同的設定檔。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 列印品質和您用於列印測試圖表的其他設定，例如「B」代表「最佳 (Best)」列印品質，或「BGE」代表「最佳 (Best)」列印品質並啟用「光面增強器」（限相片類型紙張）。盡量簡化並縮寫。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- 使用過的測試圖表，例如「小 (Small)」或「大 (Large)」或特定的測試圖表名稱，例如「ECI2002」(如果有這些選項)。適當地簡化及縮寫。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									依照上述準則建立的設定檔名稱範例包括如「HP Designjet Z2100 HWT310」或「HP Designjet Z2100, Coated Paper」。對應的檔案名稱則為「HP_Z2100_HWT310.icc」或「HP_Z2100_CoatedPaper.icc」。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									不論您最後使用何種特定的命名方式，請確定您可以清楚地區分所有不同紙張類型的設定檔，以及您正在或將要使用的其他設定。
+								</td>
+							</tr>
+							<tr>
+								<td>
+									您要堅持使用最適合的方式，因為那往往就是最好的方式。您可能必須做一些新的嘗試才能找出答案。
+								</td>
+							</tr>
+						</table><table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">步驟 3 - 安裝設定檔</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									安裝程序可確保應用程式 (例如 Adobe Photoshop) 能夠使用 ICC 設定檔。
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">步驟 4 – 完成</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									一旦完成設定檔安裝程序，您就可以瀏覽您印表機「已知」的所有紙張的清單。對於每種紙張，會列出紙張類別或自訂紙張名稱，以及對應 (相關) 的設定檔名稱。您現在可以搭配使用您安裝的 ICC (ColorSync) 設定檔以及您的印表機和紙張了。如需有關使用 ICC 設定檔和其他色彩管理選項的不同方法的詳細資訊，請參閱 <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">步驟 3 – 安裝 ICC 設定檔</font></strong></a>。
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

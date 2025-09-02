@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDESimplifiedQualityController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.impala.PDESimplifiedQualityController</string>
+		<key>label</key>
+		<string>Simplified Quality</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPPrintQuality</string>
+			<string>HPPrintQualityPreset</string>
+			<string>HPMorePasses</string>
+			<string>HPMaximumDetail</string>
+			<string>HPGlossEnhancer</string>
+			<string>HPEconoMode</string>
+			<string>HPUnidirectional</string>
+			<string>HPPrintingResolution</string>
+		</array>
+		<key>qualityOptionsControllerAttrs</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>name</key>
+				<string>QualityOptions</string>
+				<key>humanReadableName</key>
+				<string>Quality Options</string>
+			</dict>
+			<key>values</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>Option</string>
+					<key>value</key>
+					<dict>
+						<key>attributes</key>
+						<dict>
+							<key>humanReadableName</key>
+							<string>Standard_quality</string>
+							<key>name</key>
+							<string>Standard</string>
+							<key>toolTip</key>
+							<string>simple_quality_preset_ht</string>
+						</dict>
+						<key>values</key>
+						<array>
+							<dict>
+								<key>type</key>
+								<string>SPSettingValue</string>
+								<key>value</key>
+								<string>Speed</string>
+							</dict>
+							<dict>
+								<key>type</key>
+								<string>SPSettingValue</string>
+								<key>value</key>
+								<string>speedMiddle</string>
+							</dict>
+							<dict>
+								<key>type</key>
+								<string>SPSettingValue</string>
+								<key>value</key>
+								<string>middle</string>
+							</dict>
+							<dict>
+								<key>type</key>
+								<string>SPSettingValue</string>
+								<key>value</key>
+								<string>Quality</string>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>SPSettingValue</string>
+					<key>value</key>
+					<string>Custom Options</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

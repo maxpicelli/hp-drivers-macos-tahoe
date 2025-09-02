@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+	<head>
+		<title>Ajuda para instalar o perfil ICC</title>
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link rel="StyleSheet" href="../help/css/default.css" type="text/css" />
+		<link rel="StyleSheet" href="../help/css/green_theme.css" type="text/css" />
+		<script type="text/javascript" src="../help/js/global.js"></script>
+		<script type="text/javascript" src="../help/js/buttonManager.js"></script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationMastheadSmall"
+			id="TableMasterHead">
+			<tr>
+				<td class="mastheadIcon"><img src="../help/images/themes/green/logo_hp_smallmasthead.gif" width="30" height="19" border="0" alt="HP"></img></td>
+				<td style="width:100%;height:57px;" class="mastheadTitle"><h1>Color Center</h1></td>
+				<!--<td><div class="mastheadPhoto" style="PADDING-RIGHT:0px"><img src="images/masthead.jpg" width="307" height="57" border="0" alt=""></img></div></td>-->
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="applicationPalette" ID="Table1">
+			<tr>
+				<td>
+					<div class="pad10">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table2">
+							<tr>
+								<td>
+									<h2>Instalar o perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step1"><strong><font color="#006699">Etapa 1 - Selecionar um perfil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step2"><strong><font color="#006699">Etapa 2 – Verificar as configurações de perfil ICC</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Etapa 3 - Instalar perfil</font></strong></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step4"><strong><font color="#006699">Etapa 4 – Concluir</font></strong></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pad10scroll" style="height: 250px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table4">
+							<tr>
+								<td>
+									<h2 id="Step1">Etapa 1 - Selecionar um perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Se você obteve um perfil ICC por outro meio senão pelo uso do software de criação de perfis integrado à impressora, por exemplo, por download da Internet ou por um pacote de software de criação de perfis de terceiros, ainda poderá instalá-lo para usá-lo com sua impressora e seu papel.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A impressora precisa saber a qual tipo de papel o perfil corresponde, portanto, você deve escolher primeiro um tipo de papel da lista de papéis que ela "reconhece". Quanto ao tipo de papel, procure escolher o mais parecido com o tipo real do papel. O tipo do papel determina a quantidade de tinta que será usada e outros parâmetros básicos de impressão, portanto, é fundamental fazer uma boa escolha para obter bons resultados posteriormente. Se o papel que você está usando não estiver na lista ou se você não encontrar um tipo bem parecido com o seu, poderá definir um novo tipo. A impressora, então, será calibrada para usar seu papel e, depois disso, você poderá voltar a instalar o perfil ICC. Se você não conseguir obter bons resultados com o perfil e o tipo de papel escolhidos, procure escolher outros tipos de papel para novos nomes que correspondam ao mesmo papel e use aquele que for melhor.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Depois de selecionar o tipo de papel, vá para o arquivo contendo o perfil ICC que será usado com sua impressora e seu papel. Em termos gerais, os nomes de arquivo de perfil ICC terminam com a extensão ".icc" (de International Color Consortium) ou "icm" (de Image Color Matching).
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Talvez você não saiba quais são as diferenças entre os perfis de cores personalizados e os perfis obtidos por download ou "enlatados". A seguir, são apresentadas algumas diferenças entre os dois tipos de perfis:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores personalizados têm como base padrões e medidas de teste da sua impressora particular, usando sua tinta e seu papel particulares e nas suas condições ambientais particulares. Teoricamente, você terá a maior precisão de cores possível já que tudo é personalizado para seu sistema.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores genéricos ou "enlatados" são feitos para o modelo da sua impressora e das suas tintas e para os tipos de papel que você usa, mas não para sua impressora, suas tintas e seu papel particulares. Eles se baseiam nos padrões e nas medidas de teste usuais, representando o sistema "típico" ou comum. Embora proporcionem bons resultados para um sistema comum, pode haver pequenos desvios entre o seu sistema e o comum que esses perfis não calculam.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores personalizados são feitos com o software de criação de perfis integrado à impressora ou com aquele que você adquiriu como acessório. Embora o software forneça excelentes resultados, é necessário fazer as escolhas certas sobre a forma como ele cria os perfis, especialmente sobre como faz o mapeamento de gamas para a tentativa de renderização Perceptiva. O mapeamento de gamas ocorre quando as cores de um dispositivo com uma determinada gama de cores (a variação de todas as cores que um dispositivo pode capturar ou produzir), como uma câmera digital ou um monitor de computador, deve ser traduzida ou mapeada para um dispositivo com uma gama de cores de tamanho ou forma diferente, como uma impressora. O mapeamento de gamas é mais uma arte do que uma ciência e, portanto, não existem respostas certas ou erradas, apenas diferentes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Os perfis de cores genéricos, por exemplo os fornecidos pelos fabricantes de papel, podem ter diferentes softwares de criação de perfis que fazem escolhas distintas sobre o mapeamento de gamas e outras propriedades de perfil. Embora essas escolhas não sejam necessariamente piores nem melhores que as do software de criação de perfis de sua impressora, provavelmente são diferentes.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									A seguir, são apresentadas algumas diretrizes para ajudá-lo a escolher os tipos de perfis:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você está mais interessado na precisão das cores das impressões, por exemplo para fazer impressões de prova, talvez seja melhor usar a tentativa de renderização Colorimétrica. Ela tenta reproduzir cores dentro da gama de sua impressora com a melhor precisão, possivelmente em detrimento das cores fora dessa gama (que, de alguma maneira, também devem ser impressas). Como a reprodução colorimétrica é uma tarefa mais objetiva que a reprodução perceptiva, a diferença entre os softwares de criação de perfis é a menor possível e um perfil personalizado pode ser a melhor opção.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- Se você está mais interessado na "aparência" das impressões e em uma boa correspondência com o monitor do computador, por exemplo para aplicações fotográficas e artísticas, provavelmente a melhor opção é usar a tentativa de renderização Perceptiva. Os perfis personalizados são ótimos pontos de partida já que são criados com excelente precisão de cores e uma boa tentativa Perceptiva, mas talvez você prefira a aparência de alguns perfis de terceiros.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Como sempre, é aconselhável optar pelo que funciona melhor no seu caso. Pode ser necessário fazer algumas experiências para descobrir.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step2">Etapa 2 – Verificar as configurações de perfil ICC</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Agora, você pode escolher um nome para o perfil ICC que será instalado. O nome será usado para dois propósitos diferentes, mas relacionados:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1.	O nome de arquivo que você verá ao usar o navegador de arquivos do sistema (o Explorer da Microsoft) para procurar aquele que contém o perfil ICC. A extensão do nome do arquivo ".icc" será anexada automaticamente ao nome do perfil pelo aplicativo, para que tanto você quanto o software possam reconhecer os perfis ICC quando a virem.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2.	A seqüência de descrição interna do perfil. Todo perfil ICC tem uma seqüência de descrição interna que é usada por alguns (mas não todos) softwares de reconhecimento de ICC a fim de identificar o perfil ou permitir que você o escolha de uma lista.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Dependendo das circunstâncias, você verá o nome do arquivo ou o descritor interno, por isso é aconselhável usar o mesmo para os dois. Embora, teoricamente, você possa escolher o nome que desejar, é uma boa prática definir uma convenção de nomeação padrão para os perfis e se ater a ela. Por exemplo, você pode usar os seguintes componentes de nome, separados por espaço, traço baixo ou outros símbolos de sua escolha:
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- O tipo ou nome da impressora, por exemplo, "HP Designjet Z2100", no qual "HP" representa o fabricante (Hewlett-Packard), "Designjet" representa a série e "Z2100" corresponde ao número do modelo da impressora. Como tanto o nome do arquivo quanto os descritores internos têm um comprimento limitado, talvez seja necessário abreviar todas essas informações em uma única seqüência com poucos caracteres. Você pode usar o modelo da impressora na primeira parte do nome do perfil para garantir que todos os perfis da impressora apareçam em um único grupo consecutivo nos navegadores de arquivos e nas listagens de perfis do aplicativo.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- O tipo ou nome do papel, por exemplo, "HWT310" para Hahnemühle Digital FineArt, ArtLine, Mould Made William Turner 310 gsm. Quanto ao tipo ou nome da impressora, talvez seja necessário abreviar o tipo ou nome do papel. Adote um único nome ou abreviação para cada tipo de papel diferente usado a fim facilitar a identificação dos diferentes perfis.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- A qualidade da impressão e as outras configurações que forem usadas para imprimir o gráfico de teste, por exemplo, "M" para qualidade de impressão "Melhor" ou "MIB" para qualidade de impressão "Melhor" e com a opção "Intensificador de brilho" habilitada (somente para papéis fotográficos). Simplifique e abrevie somente o necessário.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									- O gráfico de teste usado, por exemplo, "Pequeno" ou "Grande" ou um nome específico como "ECI2002" se/quando essas opções estiverem disponíveis Simplifique e abrevie conforme apropriado.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Alguns exemplos de nomes de perfis construídos segundo essas diretrizes seriam "HP Designjet Z2100 HWT310" ou "HP Designjet Z2100, Papel Revestido", por exemplo. Os nomes de arquivo correspondentes seriam "HP_Z2100_HWT310.icc" ou "HP_Z2100_PapelRevestido.icc".
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Independentemente do método de nomeação usado, procure distinguir de forma inequívoca os perfis para todos os diferentes tipos de papel e outras configurações que estão sendo ou serão usadas.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Como sempre, é aconselhável optar pelo que funciona melhor no seu caso. Pode ser necessário fazer algumas experiências para descobrir.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table6">
+							<tr>
+								<td>
+									<h2 id="Step3">Etapa 3 - Instalar perfil</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									O processo de instala&ccedil;&atilde;o garante que o perfil ICC estar&aacute; dispon&iacute;vel a aplicativos como Adobe Photoshop.
+								</td>
+							</tr>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" ID="Table9">
+							<tr>
+								<td>
+									<h2 id="Step4">Etapa 4 – Concluir</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Quando o processo de instalação de perfis for concluído, você poderá percorrer a lista de todos os papéis que sua impressora "reconhece". Para cada papel, ela lista uma categoria ou um nome de papel personalizado e o nome do perfil (associado) correspondente. Agora, você está pronto para usar o perfil ICC (ColorSync) instalado com sua impressora e seu papel. Consulte <a onmouseover="this.style.cursor='hand'" href="installICCHelp.html#Step3"><strong><font color="#006699">Etapa 3 - Instalar um perfil ICC</font></strong></a> para obter mais informações sobre as diferentes maneiras de usar os perfis ICC e outras opções de gerenciamento de cores.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

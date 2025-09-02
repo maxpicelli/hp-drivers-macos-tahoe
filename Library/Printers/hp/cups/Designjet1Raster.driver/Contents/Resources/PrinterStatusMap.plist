@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hp-internal-error-events</key>
+	<dict>
+		<key>kNoHPInternalError</key>
+		<dict>
+			<key>error-code</key>
+			<string>kNoError</string>
+			<key>event-type</key>
+			<string>kNormalEventType</string>
+			<key>message-text</key>
+			<string></string>
+		</dict>
+		<key>kCommunicationFailedError</key>
+		<dict>
+			<key>error-code</key>
+			<string>kWriteFailedError</string>
+			<key>event-type</key>
+			<string>kFatalEventType</string>
+			<key>message-text</key>
+			<string>Communication Failure: The computer is no longer able to communicate with your printer. Turn the printer off, check your printer connections and check for printer errors, and turn the printer back on.</string>
+			<key>standard-state</key>
+			<string>shutdown</string>
+		</dict>
+		<key>kOpenFailedError</key>
+		<dict>
+			<key>error-code</key>
+			<string>kHardError</string>
+			<key>event-type</key>
+			<string>kFatalEventType</string>
+			<key>message-text</key>
+			<string>Opening Printer Connection Failed: Unable to open the printer connection. Please check your printer connections and check for printer errors.</string>
+		</dict>
+		<key>kCustomMediaSizeNotSupportedError</key>
+		<dict>
+			<key>error-code</key>
+			<string>kMediaSizeError</string>
+			<key>event-type</key>
+			<string>kFatalEventType</string>
+			<key>message-text</key>
+			<string>Paper Size Error: Custom paper sizes are not supported in the selected tray.</string>
+		</dict>
+		<key>kBadCustomMediaSizeError</key>
+		<dict>
+			<key>error-code</key>
+			<string>kMediaSizeError</string>
+			<key>event-type</key>
+			<string>kFatalEventType</string>
+			<key>message-text</key>
+			<string>Paper Size Error: The specified custom paper size is not supported in the selected tray.</string>
+		</dict>
+		<key>kOpeningPrinterConnectionInternalError</key>
+		<dict>
+			<key>error-code</key>
+			<string>kNoError</string>
+			<key>event-type</key>
+			<string>kNormalEventType</string>
+			<key>message-text</key>
+			<string>Opening printer connection</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

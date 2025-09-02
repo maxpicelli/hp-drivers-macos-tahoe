@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>class-name</key>
+	<string>PDEViewController</string>
+	<key>keyed-values</key>
+	<dict>
+		<key>identifier</key>
+		<string>com.hp.ps_pde.PDEFinishingOfficejetController</string>
+		<key>label</key>
+		<string>Finishing</string>
+		<key>supportedSettingNames</key>
+		<array>
+			<string>HPStaplerOptions</string>
+			<string>OutputBin</string>
+		</array>
+		<key>supportedNibs</key>
+		<dict>
+			<key>Finishing001</key>
+			<array>
+				<string>OutputBin</string>
+			</array>
+			<key>Finishing051</key>
+			<array>
+				<string>OutputBin</string>
+				<string>HPStaplerOptions</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
