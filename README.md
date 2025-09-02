@@ -40,6 +40,14 @@ cd hp-drivers-macos-tahoe
 curl -sSL https://raw.githubusercontent.com/maxpicelli/hp-drivers-macos-tahoe/main/install.sh | bash
 ```
 
+#### Instalação manual com Git:
+```bash
+# Clone e instalação manual
+git clone https://github.com/maxpicelli/hp-drivers-macos-tahoe.git
+cd hp-drivers-macos-tahoe
+./HP_Drivers_Installer_Auto
+```
+
 **Características:**
 - ✅ Baixa automaticamente do GitHub
 - ✅ Executa instalação automática
@@ -47,37 +55,7 @@ curl -sSL https://raw.githubusercontent.com/maxpicelli/hp-drivers-macos-tahoe/ma
 - ✅ Verifica dependências
 - ✅ Instalação completa em um comando
 
-### Opção 2: Instalação via GitHub
-
-#### Baixar e instalar via Git:
-```bash
-# Clonar o repositório
-git clone https://github.com/maxpicelli/hp-drivers-macos-tahoe.git
-
-# Entrar no diretório
-cd hp-drivers-macos-tahoe
-
-# Executar o auto instalador (recomendado)
-./HP_Drivers_Installer_Auto
-```
-
-#### Baixar via Download direto:
-1. Acesse: https://github.com/maxpicelli/hp-drivers-macos-tahoe
-2. Clique em **"Code"** → **"Download ZIP"**
-3. Extraia o arquivo ZIP
-4. Execute: `./HP_Drivers_Installer_Auto`
-
-#### Atualizar instalação existente:
-```bash
-# Se você já tem o repositório clonado
-cd hp-drivers-macos-tahoe
-git pull origin main
-
-# Executar o instalador novamente
-./HP_Drivers_Installer_Auto
-```
-
-### Opção 3: Auto Executáveis
+### Opção 2: Auto Executáveis
 
 O projeto inclui executáveis automáticos que facilitam a instalação:
 
@@ -94,7 +72,7 @@ O projeto inclui executáveis automáticos que facilitam a instalação:
 
 
 
-### Opção 4: Instalação Manual (Avançado)
+### Opção 3: Instalação Manual (Avançado)
 
 **Nota:** Esta opção é para usuários avançados. Recomendamos usar os auto executáveis.
 
