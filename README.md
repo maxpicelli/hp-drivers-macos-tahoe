@@ -70,21 +70,7 @@ O projeto inclui executáveis automáticos que facilitam a instalação:
 - Interface amigável com feedback visual
 - Cria backups automáticos
 
-#### HP_Drivers_Installer_Smart
-```bash
-# Executável inteligente que procura drivers automaticamente
-sudo ./HP_Drivers_Installer_Smart
-```
-**Características:**
-- Procura drivers em locais comuns (Desktop, Downloads, etc.)
-- Verificação automática de arquivos
-- Instalação otimizada
 
-#### Executavel (Versão Básica)
-```bash
-# Versão básica do instalador
-sudo ./Executavel
-```
 
 ### Opção 2: Instalação Manual (Avançado)
 
@@ -159,16 +145,12 @@ O projeto inclui scripts para criar executáveis personalizados:
 | Executável | Sudo Automático | Busca Inteligente | Interface | Backup | Recomendado |
 |------------|----------------|-------------------|-----------|--------|-------------|
 | **HP_Drivers_Installer_Auto** | ✅ | ✅ | ✅ | ✅ | **Sim** |
-| **HP_Drivers_Installer_Smart** | ❌ | ✅ | ✅ | ✅ | Sim |
-| **Executavel** | ❌ | ❌ | ✅ | ✅ | Não |
-| **Manual** | ❌ | ❌ | ❌ | ✅ | Não |
+| **HP_Drivers_Uninstaller_Auto** | ✅ | ✅ | ✅ | ✅ | **Sim** |
 
 ### Quando usar cada executável:
 
-- **HP_Drivers_Installer_Auto**: Para usuários finais que querem facilidade máxima
-- **HP_Drivers_Installer_Smart**: Para usuários técnicos que preferem controle manual do sudo
-- **Executavel**: Para casos específicos onde os outros não funcionam
-- **Manual**: Para desenvolvedores ou troubleshooting avançado
+- **HP_Drivers_Installer_Auto**: Para instalação automática dos drivers HP
+- **HP_Drivers_Uninstaller_Auto**: Para desinstalação automática dos drivers HP
 
 ## 📦 Arquivos DMG Disponíveis
 
@@ -203,8 +185,6 @@ O projeto inclui dois arquivos DMG com drivers HP oficiais:
 │           └── backend/                     # Backends CUPS
 ├── HP_Drivers_Installer_Auto               # Auto executável com sudo
 ├── HP_Drivers_Uninstaller_Auto             # Auto desinstalador
-├── HP_Drivers_Installer_Smart              # Executável inteligente
-├── Executavel                              # Executável básico
 ├── create_auto_sudo_executable.sh          # Criador de auto executável
 ├── create_auto_sudo_uninstaller.sh         # Criador de auto desinstalador
 ├── HP DRIVER SONOMA HewlettPackardPrinterDrivers-Direto Apple.dmg    # Drivers HP diretos da Apple
