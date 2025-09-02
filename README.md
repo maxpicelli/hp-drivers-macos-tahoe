@@ -80,6 +80,42 @@ Após a instalação, reinicie o Mac para garantir que o kernel extension seja c
 3. Clique no **+** para adicionar impressora
 4. Selecione sua impressora HP da lista
 
+### 🔍 Se a impressora não aparece automaticamente:
+
+#### Opção 1: Instalar drivers via DMG
+```bash
+# Montar e instalar drivers HP diretos da Apple
+sudo hdiutil attach "HP DRIVER SONOMA HewlettPackardPrinterDrivers-Direto Apple.dmg"
+sudo installer -pkg "/Volumes/HP DRIVER SONOMA HewlettPackardPrinterDrivers-Direto Apple/HP Drivers.pkg" -target /
+sudo hdiutil detach "/Volumes/HP DRIVER SONOMA HewlettPackardPrinterDrivers-Direto Apple"
+```
+
+#### Opção 2: Instalar drivers multifuncional
+```bash
+# Para impressoras com scanner
+sudo hdiutil attach "HP 2 DRIVER SONOMA HewlettPackardPrinterDrivers-Multifuncional.dmg"
+sudo installer -pkg "/Volumes/HP 2 DRIVER SONOMA HewlettPackardPrinterDrivers-Multifuncional/HP Drivers.pkg" -target /
+sudo hdiutil detach "/Volumes/HP 2 DRIVER SONOMA HewlettPackardPrinterDrivers-Multifuncional"
+```
+
+#### Opção 3: Adicionar impressora manualmente
+1. Vá em **Preferências do Sistema** > **Impressoras e Scanners**
+2. Clique no **+** 
+3. Selecione **"Adicionar impressora ou scanner"**
+4. Escolha **"IP"** ou **"USB"** dependendo da conexão
+5. Digite o IP da impressora ou selecione via USB
+6. Escolha **"HP"** como fabricante
+7. Selecione o modelo da sua impressora
+
+#### Opção 4: Verificar conexão
+```bash
+# Verificar se a impressora está conectada via USB
+system_profiler SPUSBDataType | grep -i hp
+
+# Verificar se a impressora está na rede
+arp -a | grep -i hp
+```
+
 ## 🗑️ Desinstalação
 
 ### Auto Desinstalador (Recomendado)
