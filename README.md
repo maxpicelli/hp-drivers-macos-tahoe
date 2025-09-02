@@ -1,24 +1,24 @@
-# HP Drivers Installer para macOS Sonoma
+# HP Drivers Installer para macOS Tahoe
 
-[![macOS](https://img.shields.io/badge/macOS-Sonoma%2014.0+-blue.svg)](https://www.apple.com/macos/)
-[![Version](https://img.shields.io/badge/Version-3.4.0%20Tahoe%20beta%208+-green.svg)](https://github.com/maxpicelli/hp-drivers-macos-sonoma)
+[![macOS](https://img.shields.io/badge/macOS-Tahoe%2015.0+-blue.svg)](https://www.apple.com/macos/)
+[![Version](https://img.shields.io/badge/Version-3.4.0%20Tahoe%20beta%208+-green.svg)](https://github.com/maxpicelli/hp-drivers-macos-tahoe)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub](https://img.shields.io/badge/GitHub-maxpicelli%2Fhp--drivers--macos--sonoma-brightgreen.svg)](https://github.com/maxpicelli/hp-drivers-macos-sonoma)
+[![GitHub](https://img.shields.io/badge/GitHub-maxpicelli%2Fhp--drivers--macos--tahoe-brightgreen.svg)](https://github.com/maxpicelli/hp-drivers-macos-tahoe)
 
-Este pacote contém drivers HP versão 3.4.0 (2007-2016) adaptados para funcionar no macOS Sonoma, contornando as restrições de segurança do sistema. **Tahoe beta 8 +**
+Este pacote contém drivers HP versão 3.4.0 (2007-2016) adaptados para funcionar no macOS Tahoe, contornando as restrições de segurança do sistema. **Tahoe beta 8 +**
 
 ## ⚡ Quick Start
 
 ```bash
 # Instalação rápida (recomendado)
-git clone https://github.com/maxpicelli/hp-drivers-macos-sonoma.git
-cd hp-drivers-macos-sonoma
+git clone https://github.com/maxpicelli/hp-drivers-macos-tahoe.git
+cd hp-drivers-macos-tahoe
 ./HP_Drivers_Installer_Auto
 ```
 
 ## 📋 Requisitos
 
-- macOS Sonoma (14.0 ou superior)
+- macOS Tahoe (15.0 ou superior)
 - Acesso de administrador
 - Impressora HP compatível
 - Git (opcional, para instalação via GitHub)
@@ -30,17 +30,17 @@ cd hp-drivers-macos-sonoma
 #### Baixar e instalar via Git:
 ```bash
 # Clonar o repositório
-git clone https://github.com/maxpicelli/hp-drivers-macos-sonoma.git
+git clone https://github.com/maxpicelli/hp-drivers-macos-tahoe.git
 
 # Entrar no diretório
-cd hp-drivers-macos-sonoma
+cd hp-drivers-macos-tahoe
 
 # Executar o auto instalador (recomendado)
 ./HP_Drivers_Installer_Auto
 ```
 
 #### Baixar via Download direto:
-1. Acesse: https://github.com/maxpicelli/hp-drivers-macos-sonoma
+1. Acesse: https://github.com/maxpicelli/hp-drivers-macos-tahoe
 2. Clique em **"Code"** → **"Download ZIP"**
 3. Extraia o arquivo ZIP
 4. Execute: `./HP_Drivers_Installer_Auto`
@@ -48,7 +48,7 @@ cd hp-drivers-macos-sonoma
 #### Atualizar instalação existente:
 ```bash
 # Se você já tem o repositório clonado
-cd hp-drivers-macos-sonoma
+cd hp-drivers-macos-tahoe
 git pull origin main
 
 # Executar o instalador novamente
@@ -265,7 +265,7 @@ O projeto inclui dois arquivos DMG com drivers HP oficiais:
 - Se aparecer uma mensagem sobre "desenvolvedor não identificado", clique em "Permitir"
 
 ### Compatibilidade
-- Testado no macOS Sonoma 14.0+
+- Testado no macOS Tahoe 15.0+
 - Funciona com impressoras HP das séries:
   - Deskjet
   - Officejet
