@@ -9,15 +9,15 @@ Este pacote contém drivers HP versão 3.4.0 (2007-2016) adaptados para funciona
 
 ## ⚡ Quick Start
 
-### Opção 1: Instalação Automática Completa (Mais Fácil)
+### Instalação Super Fácil (Recomendado)
 ```bash
-# Baixa tudo e instala automaticamente
+# Um comando para baixar e instalar tudo
 curl -sSL https://raw.githubusercontent.com/maxpicelli/hp-drivers-macos-tahoe/main/install.sh | bash
 ```
 
-### Opção 2: Instalação Manual (Recomendado)
+### Instalação Manual
 ```bash
-# Instalação rápida (recomendado)
+# Clone e instalação manual
 git clone https://github.com/maxpicelli/hp-drivers-macos-tahoe.git
 cd hp-drivers-macos-tahoe
 ./HP_Drivers_Installer_Auto
@@ -32,7 +32,7 @@ cd hp-drivers-macos-tahoe
 
 ## 🚀 Instalação
 
-### Opção 0: Instalação Automática Completa (Mais Fácil)
+### Opção 1: Instalação Automática Completa (Recomendado)
 
 #### Instalação com um comando:
 ```bash
@@ -47,7 +47,7 @@ curl -sSL https://raw.githubusercontent.com/maxpicelli/hp-drivers-macos-tahoe/ma
 - ✅ Verifica dependências
 - ✅ Instalação completa em um comando
 
-### Opção 1: Instalação via GitHub (Recomendado)
+### Opção 2: Instalação via GitHub
 
 #### Baixar e instalar via Git:
 ```bash
@@ -77,7 +77,7 @@ git pull origin main
 ./HP_Drivers_Installer_Auto
 ```
 
-### Opção 1: Auto Executáveis (Recomendado)
+### Opção 3: Auto Executáveis
 
 O projeto inclui executáveis automáticos que facilitam a instalação:
 
@@ -94,7 +94,7 @@ O projeto inclui executáveis automáticos que facilitam a instalação:
 
 
 
-### Opção 2: Instalação Manual (Avançado)
+### Opção 4: Instalação Manual (Avançado)
 
 **Nota:** Esta opção é para usuários avançados. Recomendamos usar os auto executáveis.
 
