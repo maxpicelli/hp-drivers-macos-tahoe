@@ -9,6 +9,13 @@ Este pacote contém drivers HP versão 3.4.0 (2007-2016) adaptados para funciona
 
 ## ⚡ Quick Start
 
+### Opção 1: Instalação Automática Completa (Mais Fácil)
+```bash
+# Baixa tudo e instala automaticamente
+curl -sSL https://raw.githubusercontent.com/maxpicelli/hp-drivers-macos-tahoe/main/install.sh | bash
+```
+
+### Opção 2: Instalação Manual (Recomendado)
 ```bash
 # Instalação rápida (recomendado)
 git clone https://github.com/maxpicelli/hp-drivers-macos-tahoe.git
@@ -25,7 +32,22 @@ cd hp-drivers-macos-tahoe
 
 ## 🚀 Instalação
 
-### Opção 0: Instalação via GitHub (Recomendado)
+### Opção 0: Instalação Automática Completa (Mais Fácil)
+
+#### Instalação com um comando:
+```bash
+# Baixa tudo e instala automaticamente
+curl -sSL https://raw.githubusercontent.com/maxpicelli/hp-drivers-macos-tahoe/main/install.sh | bash
+```
+
+**Características:**
+- ✅ Baixa automaticamente do GitHub
+- ✅ Executa instalação automática
+- ✅ Atualiza se já existir
+- ✅ Verifica dependências
+- ✅ Instalação completa em um comando
+
+### Opção 1: Instalação via GitHub (Recomendado)
 
 #### Baixar e instalar via Git:
 ```bash
@@ -185,6 +207,7 @@ O projeto inclui dois arquivos DMG com drivers HP oficiais:
 │           └── backend/                     # Backends CUPS
 ├── HP_Drivers_Installer_Auto               # Auto executável com sudo
 ├── HP_Drivers_Uninstaller_Auto             # Auto desinstalador
+├── install.sh                              # Script de instalação completa
 ├── create_auto_sudo_executable.sh          # Criador de auto executável
 ├── create_auto_sudo_uninstaller.sh         # Criador de auto desinstalador
 ├── HP DRIVER SONOMA HewlettPackardPrinterDrivers-Direto Apple.dmg    # Drivers HP diretos da Apple
