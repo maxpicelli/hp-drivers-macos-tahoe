@@ -55,24 +55,7 @@ cd hp-drivers-macos-tahoe
 - ✅ Verifica dependências
 - ✅ Instalação completa em um comando
 
-### Opção 2: Auto Executáveis
-
-O projeto inclui executáveis automáticos que facilitam a instalação:
-
-#### HP_Drivers_Installer_Auto
-```bash
-# Executável que solicita automaticamente privilégios sudo
-./HP_Drivers_Installer_Auto
-```
-**Características:**
-- Solicita automaticamente senha de administrador
-- Procura drivers em múltiplos locais
-- Interface amigável com feedback visual
-- Cria backups automáticos
-
-
-
-### Opção 3: Instalação Manual (Avançado)
+### Opção 2: Instalação Manual (Avançado)
 
 **Nota:** Esta opção é para usuários avançados. Recomendamos usar os auto executáveis.
 
