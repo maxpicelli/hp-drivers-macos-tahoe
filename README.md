@@ -86,18 +86,20 @@ sudo ./HP_Drivers_Installer_Smart
 sudo ./Executavel
 ```
 
-### Opção 2: Instalação Manual
+### Opção 2: Instalação Manual (Avançado)
+
+**Nota:** Esta opção é para usuários avançados. Recomendamos usar os auto executáveis.
 
 #### Passo 1: Preparar o ambiente
 ```bash
 # Execute o script de configuração
-./setup.sh
+./create_auto_sudo_executable.sh
 ```
 
 #### Passo 2: Instalar os drivers
 ```bash
 # Execute o instalador como administrador
-sudo ./install_hp_drivers.sh
+sudo ./HP_Drivers_Installer_Auto
 ```
 
 #### Passo 3: Reiniciar o sistema
@@ -124,11 +126,11 @@ Após a instalação, reinicie o Mac para garantir que o kernel extension seja c
 - Opção de restaurar backups
 - Interface amigável
 
-### Desinstalação Manual
+### Desinstalação Manual (Avançado)
 
 Para remover os drivers HP:
 ```bash
-sudo ./uninstall_hp_drivers.sh
+sudo ./HP_Drivers_Uninstaller_Auto
 ```
 
 O script de desinstalação oferece opções para:
@@ -150,24 +152,6 @@ O projeto inclui scripts para criar executáveis personalizados:
 ```bash
 # Cria HP_Drivers_Uninstaller_Auto
 ./create_auto_sudo_uninstaller.sh
-```
-
-### Criar Executável Inteligente
-```bash
-# Cria HP_Drivers_Installer_Smart
-./create_smart_executable.sh
-```
-
-### Criar Executável Básico
-```bash
-# Cria Executavel
-./create_executable.sh
-```
-
-### Criar Desinstalador Básico
-```bash
-# Cria uninstaller básico
-./create_uninstaller.sh
 ```
 
 ## 📊 Comparação dos Executáveis
@@ -221,14 +205,8 @@ O projeto inclui dois arquivos DMG com drivers HP oficiais:
 ├── HP_Drivers_Uninstaller_Auto             # Auto desinstalador
 ├── HP_Drivers_Installer_Smart              # Executável inteligente
 ├── Executavel                              # Executável básico
-├── install_hp_drivers.sh                   # Script de instalação
-├── uninstall_hp_drivers.sh                 # Script de desinstalação
-├── setup.sh                                # Script de configuração
 ├── create_auto_sudo_executable.sh          # Criador de auto executável
 ├── create_auto_sudo_uninstaller.sh         # Criador de auto desinstalador
-├── create_smart_executable.sh              # Criador de executável inteligente
-├── create_executable.sh                    # Criador de executável básico
-├── create_uninstaller.sh                   # Criador de desinstalador
 ├── HP DRIVER SONOMA HewlettPackardPrinterDrivers-Direto Apple.dmg    # Drivers HP diretos da Apple
 ├── HP 2 DRIVER SONOMA HewlettPackardPrinterDrivers-Multifuncional.dmg # Drivers HP multifuncional
 └── README.md                               # Este arquivo
